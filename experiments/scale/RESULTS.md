@@ -57,22 +57,56 @@ see two players who *look* like liars but cannot reach the rare career fact that
 would clear the honest one, so it guesses. The Gemmery agent, handed the exact
 per-player role support the index computes over the whole store, was perfect.
 
-## Why this is the real point
+## The fairer baseline (correction): vector search over the markdown
 
-Gemmery's structural advantages — selective retrieval, columnar aggregates,
-immutable records, browsing — are *conveniences* while the history fits in
-context (Werewolf and Gnosia showed a flat `.md` file ties it there). Past the
-context wall they become **the only thing that works**: a flat file can be
-grepped, but a rare fact returns either nothing (missed by the slice) or, for a
-common entity, more rows than fit — while the index answers the exact
-existence/aggregate query in one shot. That is the regime where "git is the
-source of truth; the index is a derived, rebuildable retrieval layer"
-(Invariant 6) stops being architecture and starts being the whole game.
+The `read-what-fits` baseline above is a strawman — at scale you would not *read*
+the notes, you would **vector-search** them (RAG). Adding that arm changes the
+result, and the correction matters (`vector_demo.py`, real all-MiniLM-L6-v2
+embeddings over 200K records):
+
+| query type | read-what-fits | **vector RAG** | **exact columnar index** |
+|---|---|---|---|
+| **rare existence** ("has P ever held role R?") | 0.53 | **1.00** | 1.00 |
+| **exact aggregate** ("who was the Gnosia most often?", close counts) | 0.43 | **0.57** | **1.00** |
+
+- **On the rare-existence query, vector search TIES the index** — recall@50 =
+  40/40; the ~5 alibi records are near-duplicates of the query, so top-k finds
+  them among 200K. So the earlier "structure wins" headline was **too strong**:
+  for *retrieval/existence*, a flat file + embeddings is as good as the columnar
+  index. Read-it-all is the only thing that actually fails there.
+- **On the exact-aggregate query, both read (0.43) and vector (0.57) fail; only
+  the exact index (1.00) works.** Top-k retrieval returns a *sample*, and you
+  cannot compute an exact `SUM`/`COUNT`/`AVG` over tens of thousands of matching
+  records from a sample of 200 — so close totals are indistinguishable. The
+  columnar `SUM(is_gnosia) GROUP BY player` is exact.
+
+## What actually wins, and where
+
+Corrected, the boundary is sharp and not about "context window" per se:
+
+- **Retrieval / similarity / existence:** vector search over a flat markdown file
+  matches Gemmery's index. Structure is *not* required (it is an efficiency and
+  provenance win, not accuracy). Read-it-all fails only because it can't hold the
+  history — but vector-RAG over that same file is fine.
+- **Exact aggregates / analytics over large sets** (counts, rates, "how often",
+  ranking by a total): *no* bounded read and *no* top-k retrieval can do it —
+  only a structured index with real aggregation. This is the one capability that
+  is genuinely unique to the columnar layer.
+
+That second row is not a side-note for Gemmery — it *is* the credit system (§7):
+signed, earned credit is an **aggregate over the whole dependency DAG** ("used in
+12, vindicated in 9"; marginal contribution across the corpus). Vector recall
+can't compute it; the columnar index can. So the honest claim is narrower and
+sturdier than the first headline: **memory content helps when the model lacks it;
+vector-RAG over a text file handles retrieval as well as the DAG; the structured
+index earns its keep specifically for exact aggregation — which is exactly what
+earned credit requires.**
 
 (Scale note: no git commits at 800K records — the columnar index is bulk-loaded,
 which is legitimate because the index is derived/disposable by design; at real
 scale Gemmery captures in batches and rebuilds the index from the store.)
 
 Reproduce: `python experiments/scale/scale_demo.py` (deterministic + sizes),
-`.venv/bin/python experiments/scale/plot.py` (graph),
+`.venv/bin/python experiments/scale/vector_demo.py` (vector RAG + aggregate),
+`.venv/bin/python experiments/scale/plot.py` (curve),
 `python experiments/scale/build_llm.py` then `score_llm.py` (agent confirmation).

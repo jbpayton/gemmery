@@ -170,19 +170,29 @@ Four rounds, each a cheaper falsification than the last:
    (Werewolf +memory 1.00 vs cold 0.36). But a plain `.md` scratchpad **ties**
    Gemmery at both scales — memory *content* is load-bearing, its *structure* is
    not, as long as the whole history fits in context.
-4. **scale** (beyond the context window) — the decision hinges on a rare fact in
-   an 8M-token (~32 MB, 40× a context window) history. Read-based memory collapses
-   to a coin-flip (markdown LLM 0.50, deterministic 0.53); **Gemmery's index is
-   1.00** (deterministic and LLM). This is the first and only regime where
-   structure *wins* — because "read it all" is physically impossible and the
-   exact existence/aggregate query is the only thing that answers.
+4. **scale** (beyond the context window) — decision hinges on a rare fact in an
+   8M-token (~32 MB, 40× context) history. *Read-what-fits* collapses (LLM 0.50,
+   det. 0.53). But the fair baseline is **vector search (RAG)** over the same
+   markdown, and it **ties** the index on this rare-existence query (both 1.00;
+   recall@50 = 40/40) — the needle is a near-duplicate of the query. So structure
+   does *not* uniquely win at retrieval. Where it *does*: an **exact aggregate**
+   over a large set ("who was the Gnosia most often?", close counts) — vector
+   top-k is only a sample (0.57) and read-window worse (0.43); only the columnar
+   `SUM/COUNT/GROUP BY` is exact (1.00).
 
-**The synthesis:** memory content helps when the model lacks it (experiential /
-adversarial, or facts beyond training); memory *structure* (Gemmery over a text
-file) only earns its keep on **accuracy** once the relevant history exceeds the
-context window — otherwise it is an *efficiency* win (fewer tokens). That is a
-precise, honest scope for the whole system, arrived at by repeatedly trying to
-kill it cheaply.
+**The synthesis (corrected after adding the vector baseline):**
+- Memory *content* helps when the model lacks it (experiential / adversarial, or
+  facts beyond training). Established.
+- For *retrieval / existence / similarity*, **vector-RAG over a flat markdown file
+  is as good as Gemmery's index** — structure is an efficiency + provenance win,
+  not an accuracy one. (Read-it-all fails only because it can't hold the history;
+  vector-RAG over that file is fine.)
+- The one capability unique to the structured index is **exact aggregation over
+  large sets** (counts, rates, ranking-by-total) — which no bounded read and no
+  top-k retrieval can do. And that is precisely what **earned credit** (§7) is:
+  a signed aggregate over the whole dependency DAG. So the sturdy claim is narrow:
+  Gemmery's structure earns its keep for *credit-style exact aggregation*, not for
+  recall.
 
 ## Known limitations / TODO
 
