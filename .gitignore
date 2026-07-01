@@ -22,3 +22,7 @@ experiments/gnosia/idx.sqlite
 experiments/gnosia/notes.md
 experiments/gnosia/prompts/
 experiments/gnosia/prompt_*.txt
+
+# scale experiment derived (huge/regenerable)
+experiments/scale/prompt_*.txt
+experiments/scale/notes.md

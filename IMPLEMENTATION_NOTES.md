@@ -157,6 +157,33 @@ baseline scores well below ceiling), stricter than the existing
 naive-vs-reference `validate_discrimination`. Full writeup + reproducer in
 `experiments/v2_solve_pilot/RESULTS.md`.
 
+## The efficacy arc (experiments/), in one place
+
+Four rounds, each a cheaper falsification than the last:
+
+1. **transfer_recall** — real-Claude reformulation recovers cross-surface
+   transfer gems one-shot lookup misses (recall 0.79 → 1.00). Retrieval works.
+2. **v2_solve_pilot** — open-ended objective-scored tasks: **clean null**
+   (Δ=0.00). A strong model solves them cold and discards weak memory. Headroom,
+   not machinery, is the constraint.
+3. **werewolf + gnosia** (adversarial) — memory of opponents' tells is decisive
+   (Werewolf +memory 1.00 vs cold 0.36). But a plain `.md` scratchpad **ties**
+   Gemmery at both scales — memory *content* is load-bearing, its *structure* is
+   not, as long as the whole history fits in context.
+4. **scale** (beyond the context window) — the decision hinges on a rare fact in
+   an 8M-token (~32 MB, 40× a context window) history. Read-based memory collapses
+   to a coin-flip (markdown LLM 0.50, deterministic 0.53); **Gemmery's index is
+   1.00** (deterministic and LLM). This is the first and only regime where
+   structure *wins* — because "read it all" is physically impossible and the
+   exact existence/aggregate query is the only thing that answers.
+
+**The synthesis:** memory content helps when the model lacks it (experiential /
+adversarial, or facts beyond training); memory *structure* (Gemmery over a text
+file) only earns its keep on **accuracy** once the relevant history exceeds the
+context window — otherwise it is an *efficiency* win (fewer tokens). That is a
+precise, honest scope for the whole system, arrived at by repeatedly trying to
+kill it cheaply.
+
 ## Known limitations / TODO
 
 - `select_to_main` copies a single gem; multi-gem path selection (cherry-pick a
