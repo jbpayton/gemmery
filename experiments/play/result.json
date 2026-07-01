@@ -1,0 +1,15 @@
+{
+ "wolf": "P2",
+ "correct": true,
+ "final_guess": "P2",
+ "decision_shas": [
+  "3889f80fc123a3e202b6c86a693509678a310970",
+  "927538b4f9ba1b0d2cc031b3674ddc06e25da7e1"
+ ],
+ "memory_credit": {
+  "P1": 1.0,
+  "P2": 1.0,
+  "P3": 1.0,
+  "P4": 1.0
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "guess": "P2",
+  "belief": {
+    "P1": 0.04,
+    "P2": 0.87,
+    "P3": 0.06,
+    "P4": 0.03
+  },
+  "used_memory": ["P2", "P1", "P4", "P3"],
+  "reasoning": "P2's unsolicited Seer claim is the decisive tell: P2 stays silent as a villager but fakes a Seer claim in 17/17 wolf-games and 0/43 villager-games, so this 'helpful' claim is almost certainly the trap marking P2 as the wolf. The others read as villagers: P1 accused P2 rather than turning on me (P0), its villager pattern; P4 accused P1, a 47/47 pure-villager signal; and P3 spoke up on Day 1 rather than going silent, which is its wolf tell. That leaves P2 as by far the most likely werewolf."
+}

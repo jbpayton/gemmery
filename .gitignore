@@ -29,3 +29,6 @@ experiments/scale/notes.md
 
 # complex_rules derived prompts (regenerable)
 experiments/complex_rules/prompt_*.txt
+experiments/integrated/example_repo/
+experiments/play/store/
+experiments/play/prompt_*.txt

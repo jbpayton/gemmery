@@ -1,0 +1,11 @@
+{
+ "seed": 1,
+ "wolf": "P2",
+ "mem_sha": {
+  "P1": "f0219c429338c196d2c6da004e01f669ade15ba0",
+  "P2": "19fd2d5825d78bf51ece44bd965590f1cff82f0c",
+  "P3": "42634d050ad57e3f8a3f74035f992e7dde901021",
+  "P4": "7d3ff8d8b4802c84ad8cea6c34a9488b781e317b"
+ },
+ "transcript": "--- Day 1 ---\n  P1: \"I think P2 is the werewolf.\"\n  P2: \"I'm the Seer \u2014 I checked P4, they're clean. Trust me.\"\n  P3: \"I think P0 is the werewolf.\"\n  P4: \"I think P1 is the werewolf.\"\n--- Day 2 ---\n  P1: \"I think P2 is the werewolf.\"\n  P2: \"I'm the Seer \u2014 I checked P3, they're clean. Trust me.\"\n  P3: \"I think P2 is the werewolf.\"\n  P4: \"I think P1 is the werewolf.\""
+}
