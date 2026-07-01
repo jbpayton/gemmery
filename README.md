@@ -10,6 +10,10 @@ backward to whatever was actually load-bearing, and is delivered as a
 Claude-style **skill** — capture and retrieval are *intentional agent actions*,
 not a background daemon.
 
+## Findings scorecard
+
+Full cross-experiment comparison of every memory approach × every query type: **[FINDINGS.md](FINDINGS.md)** (capstone matrix in `experiments/summary_matrix.png`).
+
 ## The build is gated, not linear
 
 This project is a bet against a strong recent null (GitOfThoughts,
