@@ -15,3 +15,10 @@ experiments/werewolf/store_*/
 experiments/werewolf/idx_*.sqlite
 experiments/werewolf/prompt_*.txt
 experiments/werewolf/notes_G*.md
+
+# gnosia experiment derived (rebuildable)
+experiments/gnosia/store/
+experiments/gnosia/idx.sqlite
+experiments/gnosia/notes.md
+experiments/gnosia/prompts/
+experiments/gnosia/prompt_*.txt
