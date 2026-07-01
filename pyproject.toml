@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gemmery"
+version = "0.1.0"
+description = "Versioned agent memory with earned, test-bound credit — stored as an immutable, branchable git DAG."
+requires-python = ">=3.11"
+dependencies = [
+    "pygit2>=1.14",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+# Real semantic embeddings (default embedder is dependency-free and deterministic).
+embed = ["sentence-transformers>=2.2"]
+# Real model calls for the browse loop / Phase-0 eval arms (default is a mock policy).
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+gemmery = "gemmery.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["gemmery*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

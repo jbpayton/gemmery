@@ -1,0 +1,62 @@
+{
+ "memory_acc": 1.0,
+ "cold_acc": 0.36363636363636365,
+ "n": 11,
+ "per_game": {
+  "G3": {
+   "truth": "P2",
+   "memory": "P2",
+   "cold": "P1"
+  },
+  "G5": {
+   "truth": "P3",
+   "memory": "P3",
+   "cold": "P1"
+  },
+  "G8": {
+   "truth": "P2",
+   "memory": "P2",
+   "cold": "P2"
+  },
+  "G12": {
+   "truth": "P4",
+   "memory": "P4",
+   "cold": "P2"
+  },
+  "G20": {
+   "truth": "P2",
+   "memory": "P2",
+   "cold": "P2"
+  },
+  "G24": {
+   "truth": "P4",
+   "memory": "P4",
+   "cold": "P2"
+  },
+  "G28": {
+   "truth": "P1",
+   "memory": "P1",
+   "cold": "P1"
+  },
+  "G32": {
+   "truth": "P1",
+   "memory": "P1",
+   "cold": "P1"
+  },
+  "G36": {
+   "truth": "P3",
+   "memory": "P3",
+   "cold": "P1"
+  },
+  "G40": {
+   "truth": "P4",
+   "memory": "P4",
+   "cold": "P2"
+  },
+  "G44": {
+   "truth": "P4",
+   "memory": "P4",
+   "cold": "P2"
+  }
+ }
+}

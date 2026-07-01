@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.gemmery-store/
+phase0_artifacts/
+*.sqlite
+.venv/
+venv/
+
+# werewolf experiment derived stores (rebuildable)
+experiments/werewolf/store_*/
+experiments/werewolf/idx_*.sqlite
+experiments/werewolf/prompt_*.txt
+experiments/werewolf/notes_G*.md

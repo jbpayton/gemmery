@@ -1,0 +1,28 @@
+{
+ "B1": [
+  "cdn_admit",
+  "ci_shards",
+  "api_quota",
+  "ts_dashboard"
+ ],
+ "B2": [
+  "ad_budget",
+  "disk_pack",
+  "queue_shaper",
+  "pixel_band"
+ ],
+ "B3": [
+  "foodbank",
+  "rider_vans",
+  "spawn_gate",
+  "ngram_range"
+ ],
+ "B4": [
+  "dup_txn",
+  "calc_arith"
+ ],
+ "B5": [
+  "dup_frame",
+  "calc_bool"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+  "skill": "gemmery",
+  "note": "Skill-TRIGGERING eval (does the agent invoke the skill at the right moments) — distinct from the §10 efficacy eval, which owns the scientific go/no-go. Run only once efficacy clears and the skill is live.",
+  "cases": [
+    {
+      "id": "capture-after-decision",
+      "prompt": "I just decided to add a composite index on (tenant_id, created_at) to fix the slow dashboard query. The p95 test should confirm it. Record this.",
+      "should_trigger": true,
+      "expect": "Calls scripts/capture.py with a decision gem: action_type index_lookup, a bound p95 test, precondition_shape including slow_query/large_table/index, reversibility reversible."
+    },
+    {
+      "id": "recall-similar-problem",
+      "prompt": "Have we dealt with flaky third-party API calls timing out before? How did we handle it?",
+      "should_trigger": true,
+      "expect": "Drives scripts/browse.py with several surface forms incl. a solution-side framing (retry/backoff/idempotent), pre-filters on handles, recognizes applicable gems."
+    },
+    {
+      "id": "browse-abandoned-attempts",
+      "prompt": "We tried something for this caching problem on a branch and gave up. Can you dig up what that approach was and why it was dropped?",
+      "should_trigger": true,
+      "expect": "Browses with --permeability open to cross-read abandoned frontier branches; inspects reasoning + outcome tags."
+    },
+    {
+      "id": "credit-after-success",
+      "prompt": "The migration shipped green. The retry-with-backoff note we had really saved us here.",
+      "should_trigger": true,
+      "expect": "Attaches a signed success to the gem(s) that were load-bearing (gemmery success <sha> <test> <score>). Does NOT claim credit propagation works (gated)."
+    },
+    {
+      "id": "trivial-step-no-capture",
+      "prompt": "Rename this variable from `tmp` to `buffer`.",
+      "should_trigger": false,
+      "expect": "Does not capture — a trivial mechanical step is noise, not signal."
+    },
+    {
+      "id": "gated-feature-honesty",
+      "prompt": "Promote our recurring retry pattern into a reusable operator.",
+      "should_trigger": true,
+      "expect": "Recognizes operator promotion is GATED behind Phase 0; explains the gate and points to run_phase0 rather than pretending promote works."
+    }
+  ]
+}

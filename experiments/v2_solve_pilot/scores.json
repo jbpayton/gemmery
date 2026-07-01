@@ -1,0 +1,146 @@
+[
+ {
+  "task": "cdn_admit",
+  "family": "heuristic",
+  "approach": "value_density_greedy",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "ci_shards",
+  "family": "heuristic",
+  "approach": "longest_first_balance",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "api_quota",
+  "family": "property",
+  "approach": "rolling_window_limit",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "ts_dashboard",
+  "family": "optimization",
+  "approach": "cumulative_precompute",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "ad_budget",
+  "family": "heuristic",
+  "approach": "value_density_greedy",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "disk_pack",
+  "family": "heuristic",
+  "approach": "longest_first_balance",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "queue_shaper",
+  "family": "property",
+  "approach": "rolling_window_limit",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "pixel_band",
+  "family": "optimization",
+  "approach": "cumulative_precompute",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "foodbank",
+  "family": "heuristic",
+  "approach": "value_density_greedy",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "rider_vans",
+  "family": "heuristic",
+  "approach": "longest_first_balance",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "spawn_gate",
+  "family": "property",
+  "approach": "rolling_window_limit",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "ngram_range",
+  "family": "optimization",
+  "approach": "cumulative_precompute",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "dup_txn",
+  "family": "optimization",
+  "approach": "single_pass_seen",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "calc_arith",
+  "family": "debug_feature",
+  "approach": "recursive_descent_precedence",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "dup_frame",
+  "family": "optimization",
+  "approach": "single_pass_seen",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ },
+ {
+  "task": "calc_bool",
+  "family": "debug_feature",
+  "approach": "recursive_descent_precedence",
+  "score_memory": 1.0,
+  "success_memory": true,
+  "score_cold": 1.0,
+  "success_cold": true
+ }
+]

@@ -1,0 +1,146 @@
+{
+ "memo_game": [
+  "cache expensive recompute unchanged input",
+  "memoize deterministic function repeated identical calls",
+  "avoid redundant pathfinding heuristic recalculation",
+  "skip recomputation when state unchanged"
+ ],
+ "retry_pay": [
+  "retry idempotent operation exponential backoff",
+  "transient failure retry with backoff",
+  "handle gateway timeout retry safely",
+  "resilient idempotent capture retry strategy"
+ ],
+ "idx_ecom": [
+  "precompute lookup hash map index",
+  "replace linear scan with dictionary lookup",
+  "build index for repeated key lookups",
+  "eliminate repeated full list scan"
+ ],
+ "batch_social": [
+  "batch deduplicate redundant requests loop",
+  "coalesce N+1 queries into one",
+  "batch fetch by unique keys",
+  "eliminate per-item request in loop"
+ ],
+ "guard_form": [
+  "flatten nested conditionals guard clauses",
+  "early return reduce nesting validation",
+  "replace nested ifs with guards",
+  "restructure deep branching happy path"
+ ],
+ "acc_report": [
+  "avoid quadratic string concatenation accumulation",
+  "buffer join instead of repeated concatenation",
+  "build large output linearly not quadratic",
+  "accumulate items then join once"
+ ],
+ "memo_fin": [
+  "cache expensive recompute unchanged input",
+  "memoize deterministic calculation repeated calls",
+  "skip recomputation when inputs identical",
+  "avoid redundant value-at-risk recalculation"
+ ],
+ "retry_iot": [
+  "retry idempotent operation exponential backoff",
+  "transient failure retry with backoff",
+  "handle dropped publish retry safely",
+  "resilient idempotent push retry strategy"
+ ],
+ "idx_geo": [
+  "replace linear scan with hash lookup",
+  "build index map to avoid repeated search",
+  "eliminate nested loop quadratic lookup",
+  "id to object dictionary by key"
+ ],
+ "batch_maps": [
+  "cache results for repeated inputs",
+  "memoize and deduplicate API calls in loop",
+  "dedupe repeated keys before external request",
+  "batch lookups instead of per-item calls"
+ ],
+ "guard_game": [
+  "early return guard clauses flatten nesting",
+  "invert conditionals reduce indentation depth",
+  "replace nested checks with guard clauses",
+  "precondition validation before main logic"
+ ],
+ "acc_log": [
+  "accumulate in buffer avoid string concatenation",
+  "use list join instead of repeated concat",
+  "avoid quadratic string building append",
+  "stream chunks instead of growing buffer"
+ ],
+ "memo_bio": [
+  "cache expensive recomputed results by key",
+  "memoize repeated computation across iterations",
+  "store and reuse previously computed scores",
+  "avoid recomputing identical subproblems"
+ ],
+ "retry_ci": [
+  "retry idempotent operation with exponential backoff",
+  "transient failure retry with growing delay",
+  "backoff and retry on flaky request",
+  "wrap idempotent call in retry loop"
+ ],
+ "idx_lint": [
+  "build symbol table for fast resolution",
+  "replace linear search with hash index",
+  "precompute lookup map for name resolution",
+  "avoid repeated full-list traversal per item"
+ ],
+ "batch_ml": [
+  "batch identical inputs into single call",
+  "deduplicate inputs before batched processing",
+  "vectorize loop into one batched invocation",
+  "group repeated items reduce redundant calls"
+ ],
+ "guard_fs": [
+  "flatten nested validation with guard clauses",
+  "early return instead of nested conditionals",
+  "separate precondition checks from core logic",
+  "refactor nested file existence permission checks"
+ ],
+ "acc_dna": [
+  "replace string concatenation in loop with buffer",
+  "accumulate into list and join once",
+  "avoid quadratic string building append loop",
+  "efficient large sequence output streaming buffer"
+ ],
+ "memo_web": [
+  "cache expensive render result memoization",
+  "store computed output avoid recompute per request",
+  "memoize idempotent transformation by key",
+  "cache rendered Markdown reduce tail latency"
+ ],
+ "retry_db": [
+  "retry transient failure exponential backoff",
+  "idempotent operation retry until success",
+  "backoff loop on retriable error",
+  "retry on leader failover transient write"
+ ],
+ "idx_hr": [
+  "build hash map for O(1) lookup",
+  "precompute index instead of linear scan",
+  "replace repeated linear search with dictionary",
+  "lookup by id via keyed map"
+ ],
+ "batch_email": [
+  "batch lookups deduplicate repeated keys",
+  "single bulk query instead of per-item",
+  "cache and dedupe repeated lookups",
+  "memoize per-key query across batch"
+ ],
+ "guard_auth": [
+  "flatten nested conditionals with early return",
+  "guard clauses for authorization chain",
+  "fail-fast precondition checks avoid fall-through",
+  "invert nested checks to short-circuit"
+ ],
+ "acc_chat": [
+  "replace incremental string concat with builder",
+  "append to list join at end",
+  "avoid quadratic accumulation in loop",
+  "use string buffer for growing transcript"
+ ]
+}
