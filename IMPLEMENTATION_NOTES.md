@@ -190,9 +190,22 @@ Four rounds, each a cheaper falsification than the last:
 - The one capability unique to the structured index is **exact aggregation over
   large sets** (counts, rates, ranking-by-total) — which no bounded read and no
   top-k retrieval can do. And that is precisely what **earned credit** (§7) is:
-  a signed aggregate over the whole dependency DAG. So the sturdy claim is narrow:
-  Gemmery's structure earns its keep for *credit-style exact aggregation*, not for
-  recall.
+  a signed aggregate over the whole dependency DAG.
+- The mirror case (**complex_rules**): predicting a person whose behavior follows
+  a complex, noisy, high-dimensional rule is a *learning* problem, and there
+  **similarity retrieval (kNN/embedding) wins and exact conditional aggregation
+  starves** (the exact current-situation cell is almost always empty). kNN 0.78
+  vs exact-cell 0.61 vs marginal 0.50 (Bayes 0.85). (Aside: an LLM reasoning over
+  the retrieved neighbors *underperformed* a plain majority-vote of them — for
+  noisy statistical prediction, retrieve-then-aggregate beats retrieve-then-reason.)
+
+**Bottom line: no single substrate is best — the right retrieval depends on the
+query.** Rare existence → vector ≈ index. Exact aggregate over a dense set →
+only the columnar index. Complex sparse rule → only similarity. A store with
+*both* an embedding index and a columnar index over one DAG (Gemmery) can serve
+all three; a pure-markdown store (text/vector only) or a pure-SQL store (exact
+only) each covers one. That — not "structure always wins" — is the defensible
+case for the two-layer design.
 
 ## Known limitations / TODO
 

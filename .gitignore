@@ -26,3 +26,6 @@ experiments/gnosia/prompt_*.txt
 # scale experiment derived (huge/regenerable)
 experiments/scale/prompt_*.txt
 experiments/scale/notes.md
+
+# complex_rules derived prompts (regenerable)
+experiments/complex_rules/prompt_*.txt
