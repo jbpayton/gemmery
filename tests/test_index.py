@@ -85,3 +85,14 @@ def test_rebuild_is_idempotent_and_from_git_only(store):
     first = sorted(idx.columnar_filter())
     idx.rebuild(store)  # rebuild again from git alone
     assert sorted(idx.columnar_filter()) == first
+
+
+def test_columnar_filter_by_path_prefix(store):
+    from gemmery.index import GemIndex
+    a = store.capture(decision_gem(0), path="knowledge/tells/P1").sha
+    b = store.capture(decision_gem(1), path="knowledge/tells/P2").sha
+    c = store.capture(decision_gem(2), path="decisions/round1").sha
+    idx = GemIndex()
+    idx.rebuild(store)
+    assert set(idx.columnar_filter(path_prefix="knowledge/tells")) == {a, b}
+    assert idx.columnar_filter(path_prefix="decisions") == [c]

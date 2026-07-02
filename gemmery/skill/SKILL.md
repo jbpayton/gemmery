@@ -38,6 +38,17 @@ python scripts/capture.py spec.json        # or: echo '{...}' | scripts/capture.
 
 Get these right — the rest of the system depends on them:
 
+- **Give the gem a home (`--path`).** The memory is a real file system: every
+  commit's tree is the whole store at that moment. Choose a meaningful path
+  (`knowledge/tells/P2`, `decisions/2026-07-01/retry-choice`, `history/P2/game-12`)
+  — the path is part of the note-keeping. For an **evolving** note (a dossier, a
+  profile, a running belief), keep the path stable and use `--revise`: the new
+  version replaces the old at HEAD, every prior version stays in history
+  (`gemmery history <path>`), and the revision automatically `consumes` its
+  predecessor so credit lineage follows.
+- **Write real notes, not one-liners.** `reasoning.md` should carry the why,
+  the evidence base, known failure modes, and *what would change your mind* —
+  it is the field credit extrapolates from and future-you recognizes with.
 - **Bind a `test`.** Success is meaningless unbound. `{test_id → score}`, signed
   in [-1, +1]; a fresh gem's success is `pending` (⊥), *not* failed.
 - **Record `consumed[]` honestly** — the sha[] of gems this one used. Credit
@@ -52,6 +63,15 @@ Get these right — the rest of the system depends on them:
 
 ```bash
 python scripts/browse.py "how did we handle transient retries" --budget 8
+```
+
+The memory is also directly browsable as files — often the fastest first move:
+
+```bash
+gemmery ls -R                      # the whole memory tree
+gemmery cat knowledge/tells/P2/reasoning.md
+gemmery history knowledge/tells/P2 # every version of an evolving note
+gemmery ls --sha <sha>             # the memory as it was at any past commit
 ```
 
 Read `references/browse-patterns.md` before nontrivial retrieval. The loop:

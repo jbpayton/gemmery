@@ -102,12 +102,47 @@ def cmd_capture(args) -> int:
         else sys.stdin.read()
     spec = json.loads(raw)
     store = open_store()
-    res = store.capture(gem_from_spec(spec), branch=args.branch)
+    path = args.path or spec.get("path")
+    if getattr(args, "revise", False):
+        if not path:
+            print("revise requires --path (the stable home of the note)", file=sys.stderr)
+            return 2
+        res = store.revise(gem_from_spec(spec), path, branch=args.branch)
+    else:
+        res = store.capture(gem_from_spec(spec), branch=args.branch, path=path)
     print(json.dumps({"sha": res.sha, "branch": res.branch,
+                      "path": store.gem_path(res.sha),
                       "capture_ms": round(res.capture_ms, 3)}))
     if res.capture_ms >= 25:
         print(f"warning: capture took {res.capture_ms:.1f}ms (>25ms invariant)",
               file=sys.stderr)
+    return 0
+
+
+def cmd_ls(args) -> int:
+    store = open_store()
+    if args.recursive:
+        print(store.tree_listing(sha=args.sha))
+    else:
+        print("\n".join(store.ls(args.path or "", sha=args.sha)))
+    return 0
+
+
+def cmd_cat(args) -> int:
+    store = open_store()
+    sys.stdout.write(store.read_file(args.path, sha=args.sha).decode())
+    return 0
+
+
+def cmd_history(args) -> int:
+    store = open_store()
+    shas = store.history(args.path)
+    for sha in shas:
+        gem = store.read_gem(sha)
+        first = gem.reasoning_text().strip().splitlines()
+        print(f"{sha[:12]}  {first[0][:90] if first else ''}")
+    if not shas:
+        print(f"(no history at {args.path})")
     return 0
 
 
@@ -177,7 +212,27 @@ def build_parser() -> argparse.ArgumentParser:
     c = sub.add_parser("capture", help="capture a gem from a JSON spec (or stdin)")
     c.add_argument("spec", nargs="?", default="-")
     c.add_argument("--branch", default="main")
+    c.add_argument("--path", help="the gem's home in the memory file system "
+                                  "(e.g. knowledge/tells/P2)")
+    c.add_argument("--revise", action="store_true",
+                   help="replace the note at --path (new version at HEAD, "
+                        "prior versions stay in history)")
     c.set_defaults(fn=cmd_capture)
+
+    l = sub.add_parser("ls", help="list the memory file system")
+    l.add_argument("path", nargs="?", default="")
+    l.add_argument("-R", "--recursive", action="store_true")
+    l.add_argument("--sha", help="view the memory as of this commit")
+    l.set_defaults(fn=cmd_ls)
+
+    ct = sub.add_parser("cat", help="print a memory file (e.g. .../reasoning.md)")
+    ct.add_argument("path")
+    ct.add_argument("--sha", help="view as of this commit")
+    ct.set_defaults(fn=cmd_cat)
+
+    hi = sub.add_parser("history", help="version history of a note at a path")
+    hi.add_argument("path")
+    hi.set_defaults(fn=cmd_history)
 
     b = sub.add_parser("browse", help="run the agentic browse loop")
     b.add_argument("goal")

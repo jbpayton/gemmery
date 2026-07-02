@@ -85,7 +85,8 @@ class GitStore:
     # ------------------------------------------------------------------ #
     def capture(self, gem: Gem, *, branch: str = MAIN,
                 parents: Optional[list[str]] = None,
-                path: Optional[str] = None) -> CaptureResult:
+                path: Optional[str] = None,
+                _revise: bool = False) -> CaptureResult:
         """Write a gem into the ACCUMULATING memory filesystem + a pending note.
 
         The commit's tree is the parent's tree **plus** this gem's five files
@@ -115,11 +116,16 @@ class GitStore:
             base_tree = self.repo.get(parent_oids[0]).tree
 
         if path is None:
+            # Default home is sharded by day so no directory grows without
+            # bound (a flat dir makes tree rewrites O(N) per capture).
             action = gem.action()
-            stamp = int((gem.provenance.timestamp or time.time()) * 1000)
-            path = f"{gem.kind.value}/{stamp}-{_sanitize_ref_component(action.name if action else gem.kind.value)}"
+            ts = gem.provenance.timestamp or time.time()
+            day = time.strftime("%Y-%m-%d", time.gmtime(ts))
+            name = _sanitize_ref_component(action.name if action else gem.kind.value)
+            path = f"{gem.kind.value}/{day}/{int(ts * 1000)}-{name}"
         parts = [_sanitize_path_component(p) for p in path.split("/") if p]
-        parts = self._uniquify(base_tree, parts)
+        if not _revise:
+            parts = self._uniquify(base_tree, parts)
         path = "/".join(parts)
 
         gem_tree = self._gem_files_tree(gem)
@@ -327,6 +333,39 @@ class GitStore:
         for c in self.repo.walk(commit.id, pygit2.GIT_SORT_TOPOLOGICAL):
             ancestry.append(str(c.id))
         return gem, ancestry
+
+    # ------------------------------------------------------------------ #
+    # Stable-identity revision (immutable record, evolving view)
+    # ------------------------------------------------------------------ #
+    def revise(self, gem: Gem, path: str, *, branch: str = MAIN) -> CaptureResult:
+        """Revise the note at a stable ``path`` (e.g. an evolving dossier).
+
+        The new version replaces the old at that path in HEAD's file system;
+        every prior version remains in history (``history(path)``) — nothing is
+        rewritten (Invariant 1). The new gem automatically ``consumes`` the
+        version it supersedes, so credit lineage follows revisions.
+        """
+        prior = self.history(path, branch=branch)
+        if prior and prior[0] not in gem.consumed:
+            gem.consumed.append(prior[0])
+        return self.capture(gem, branch=branch, path=path, _revise=True)
+
+    def history(self, path: str, *, branch: str = MAIN) -> list[str]:
+        """All commits that touched ``path`` (newest first) — the note's
+        version history, courtesy of real trees (``git log -- <path>``)."""
+        return self._git_lines(["log", "--format=%H", branch, "--", path])
+
+    def read_gem_at(self, path: str, *, branch: str = MAIN) -> Gem:
+        """Read the CURRENT gem living at ``path`` (its latest version)."""
+        shas = self.history(path, branch=branch)
+        if not shas:
+            raise KeyError(f"nothing at path {path!r}")
+        return self.read_gem(shas[0])
+
+    def gem_path(self, sha: str) -> Optional[str]:
+        """The file-system home of the gem captured at ``sha``."""
+        commit = self.repo.get(pygit2.Oid(hex=sha))
+        return _gem_path_from_message(commit.message)
 
     # ------------------------------------------------------------------ #
     # File-system view (the commit tree IS the memory state)

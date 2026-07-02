@@ -60,7 +60,7 @@ class GemIndex:
                 sha TEXT PRIMARY KEY,
                 kind TEXT, action_type TEXT, precondition_shape TEXT,
                 domain TEXT, test_ids TEXT, reversibility_class TEXT,
-                reasoning TEXT, credit REAL, ts REAL
+                reasoning TEXT, credit REAL, ts REAL, path TEXT
             );
             CREATE TABLE IF NOT EXISTS gem_pre_tokens(sha TEXT, token TEXT);
             CREATE TABLE IF NOT EXISTS gem_tests(sha TEXT, test_id TEXT);
@@ -96,12 +96,13 @@ class GemIndex:
         c = self.db
         for tbl in ("gems", "gem_pre_tokens", "gem_tests", "gem_domain", "embeddings"):
             c.execute(f"DELETE FROM {tbl} WHERE sha=?", (sha,))
+        gem_path = store.gem_path(sha) if hasattr(store, "gem_path") else None
         c.execute(
-            "INSERT INTO gems VALUES(?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO gems VALUES(?,?,?,?,?,?,?,?,?,?,?)",
             (sha, gem.kind.value, ik.action_type, " ".join(pre_tokens),
              " ".join(ik.domain), ",".join(t.id for t in gem.tests()),
              gem.reversibility_class.value, reasoning, credit,
-             gem.provenance.timestamp),
+             gem.provenance.timestamp, gem_path),
         )
         c.executemany("INSERT INTO gem_pre_tokens VALUES(?,?)",
                       [(sha, t) for t in pre_tokens])
@@ -175,11 +176,17 @@ class GemIndex:
         since_ts: Optional[float] = None,
         pre_any: Optional[Sequence[str]] = None,
         pre_all: Optional[Sequence[str]] = None,
+        path_prefix: Optional[str] = None,
     ) -> list[str]:
         where = ["1=1"]
         params: list = []
         if kind:
             where.append("g.kind=?"); params.append(kind)
+        if path_prefix:
+            # filter by file-system location (e.g. 'knowledge/tells/')
+            p = path_prefix.rstrip("/")
+            where.append("(g.path = ? OR g.path LIKE ?)")
+            params += [p, p + "/%"]
         if action_type:
             ats = [action_type] if isinstance(action_type, str) else list(action_type)
             where.append(f"g.action_type IN ({','.join('?' * len(ats))})"); params += ats

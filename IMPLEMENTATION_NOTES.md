@@ -26,6 +26,16 @@ yet show. Maps to the spec by section.
 
 ## Key design decisions
 
+- **Stable-identity revision + path-aware everything (v0.2 completion).**
+  `store.revise(gem, path)` updates an evolving note (dossier/profile) at its
+  stable path: new version at HEAD, all priors in `history(path)` (plain
+  `git log -- <path>` — free now that trees are real), and the revision
+  auto-`consumes` its predecessor so credit lineage follows versions.
+  `read_gem_at(path)` reads the current version. Default capture paths shard by
+  day (`<kind>/<YYYY-MM-DD>/...`) so no directory grows unboundedly (flat dirs
+  make tree rewrites O(N)). The columnar index carries `path` and filters by
+  `path_prefix`; the CLI grew `--path/--revise`, `ls -R`, `cat`, `history`; the
+  skill instructs agents to give gems a home and write real notes.
 - **The store is an accumulating file system (v0.2 fix).** Originally each
   commit's tree held *only* the gem being captured — a ledger, not a filesystem —
   which broke the spec's own idea that post-state IS the commit tree and the

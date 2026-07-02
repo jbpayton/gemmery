@@ -140,3 +140,29 @@ def test_read_file_at_commit(store):
     assert b"first thoughts" in store.read_file("n/one/reasoning.md")
     # and the state AS OF s1 lacks n/two entirely
     assert store.ls("n", sha=s1) == ["one/"]
+
+
+def test_revise_keeps_stable_path_and_history(store):
+    v1 = store.capture(decision_gem(0, reasoning="v1: P2 seems shifty"),
+                       path="knowledge/tells/P2").sha
+    v2 = store.revise(decision_gem(1, reasoning="v2: P2 fakes Seer when wolf"),
+                      "knowledge/tells/P2").sha
+    # HEAD holds the revision at the SAME path (no P2-2)
+    assert store.ls("knowledge/tells") == ["P2/"]
+    assert b"v2:" in store.read_file("knowledge/tells/P2/reasoning.md")
+    # full version history preserved, newest first
+    assert store.history("knowledge/tells/P2") == [v2, v1]
+    # current view helper returns the latest version
+    assert store.read_gem_at("knowledge/tells/P2").id == v2
+    # the revision consumed its predecessor (credit lineage follows)
+    assert v1 in store.read_gem(v2).consumed
+    # and the old version is still readable at its own commit
+    assert b"v1:" in store.read_file("knowledge/tells/P2/reasoning.md", sha=v1)
+
+
+def test_default_path_is_sharded_by_day(store):
+    sha = store.capture(decision_gem(0)).sha
+    p = store.gem_path(sha)
+    parts = p.split("/")
+    assert parts[0] == "decision" and len(parts) == 3  # kind/date/name
+    assert len(parts[1].split("-")) == 3  # YYYY-MM-DD
