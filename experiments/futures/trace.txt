@@ -1,0 +1,44 @@
+Decision: P0's Day-1 vote. Belief: {"P1": 0.04, "P2": 0.87, "P3": 0.06, "P4": 0.03}.
+Reveal (after execution): the wolf was P2. Chosen future: vote-P2 -> WIN day 1.
+
+--- branch frontier/future/vote-P2 ---
+Expected value = 0.906
+inhabitant stance: endorse (0.87)
+why we would: P2 carries 0.87 of our belief mass, and their unprompted Seer claim on Day 1 is exactly the kind of high-variance cover story a wolf reaches for when accused. Acting on Day 1 matters because hesitation hands the wolf a free night kill; with belief this concentrated, the vote converts our best information into an immediate 87% chance of a clean, zero-casualty win. The simulation confirms the expected value of 0.906 is driven almost entirely by the dominant branch resolving perfectly.
+risks: If P2 really is the Seer (the combined 13% where the wolf is P1, P3, or P4), we execute our only information role and the wolf gets a night kill, winning outright in the P1 and P4 worlds. We are also anchoring the village on a single loud claim-versus-dossier judgment with no corroborating check.
+simulated timeline (most likely hypothesis):
+  IF the wolf is P2 (P=0.87):
+Day 1: village follows P0 and eliminates P2 — it WAS the wolf. Game over, all innocents alive. (score 1.0)
+
+--- branch frontier/future/vote-P1 ---
+Expected value = 0.598
+inhabitant stance: reject (0.75)
+why we would: A P0 might choose this path to defer to P4's accusation and to avoid touching P2's Seer claim while it is still unverified, and the simulation shows the branch is forgiving: in 93% of worlds the wolf is still identified by Day 2 via renormalized beliefs, so the floor is not catastrophic. It also removes an aggressive early accuser, which a cautious villager could rationalize as reducing Day 1 chaos.
+risks: With P(P1 is wolf) at only 0.04, this vote eliminates an almost-certainly-innocent villager 96% of the time, silences the one player who pointed at our top suspect, and gifts the surviving wolf a free night freeze; in the P4 world it loses outright.
+simulated timeline (most likely hypothesis):
+  IF the wolf is P2 (P=0.87):
+Day 1: village eliminates P1 — innocent. The wolf (P2) survives.
+Night: P2 freezes P3 (the biggest remaining threat).
+Day 2: among ['P2', 'P4'], renormalized belief points at P2 — the wolf. Caught late. (score 0.6)
+
+--- branch frontier/future/vote-P4 ---
+Expected value = 0.588
+inhabitant stance: reject (0.7)
+why we would: A reasonable P0 would frame this as a stress-test of P2's suspicious Seer claim: P2 vouched for P4, so if P4 flips wolf the fake seer is exposed and the game ends perfectly (score 1.0). The branch also has a resilient floor — in 93% of worlds the wolf is still caught on Day 2 via renormalized belief, keeping expected value at 0.588 despite the gamble.
+risks: 97% of the time this vote kills an innocent on Day 1 and hands the wolf a free night kill, and the branch's upside comes almost entirely from Day-2 recovery rather than the vote itself; in the P1-wolf world (4%) it collapses to total loss (0.0).
+simulated timeline (most likely hypothesis):
+  IF the wolf is P2 (P=0.87):
+Day 1: village eliminates P4 — innocent. The wolf (P2) survives.
+Night: P2 freezes P1 (its loudest accuser).
+Day 2: among ['P2', 'P3'], renormalized belief points at P2 — the wolf. Caught late. (score 0.6)
+
+--- branch frontier/future/vote-P3 ---
+Expected value = 0.582
+inhabitant stance: caution (0.6)
+why we would: P3 is the one player directly accusing P0, so eliminating them neutralizes the counter-narrative against us before it can snowball, and in 6% of worlds it ends the game immediately with a perfect score. Crucially, the path is resilient in the dominant world: if P2 is the wolf (P=0.87), the night freeze removes P1 and the renormalized belief still lands on P2 on Day 2, so roughly 93% of the probability mass ends with the wolf caught rather than a wolf win. It trades a fast win for self-preservation plus a delayed but likely conviction.
+risks: With 94% probability we knowingly lynch an innocent on Day 1 against our own dossier and hand the wolf a free night kill; in the P1 and P4 worlds (7% combined) that mistake is unrecoverable and the wolf wins outright. Even the most likely outcome is only a late catch (0.6), leaving the branch's ceiling low relative to its expected value of 0.582.
+simulated timeline (most likely hypothesis):
+  IF the wolf is P2 (P=0.87):
+Day 1: village eliminates P3 — innocent. The wolf (P2) survives.
+Night: P2 freezes P1 (its loudest accuser).
+Day 2: among ['P2', 'P4'], renormalized belief points at P2 — the wolf. Caught late. (score 0.6)

@@ -1,0 +1,283 @@
+diff --git a/futures/vote-P1/assessment/reasoning.md b/futures/vote-P1/assessment/reasoning.md
+deleted file mode 100644
+index 06a4a1c..0000000
+--- a/futures/vote-P1/assessment/reasoning.md
++++ /dev/null
+@@ -1,3 +0,0 @@
+-Stance: reject (confidence 0.75).
+-Why we would: A P0 might choose this path to defer to P4's accusation and to avoid touching P2's Seer claim while it is still unverified, and the simulation shows the branch is forgiving: in 93% of worlds the wolf is still identified by Day 2 via renormalized beliefs, so the floor is not catastrophic. It also removes an aggressive early accuser, which a cautious villager could rationalize as reducing Day 1 chaos.
+-Risks: With P(P1 is wolf) at only 0.04, this vote eliminates an almost-certainly-innocent villager 96% of the time, silences the one player who pointed at our top suspect, and gifts the surviving wolf a free night freeze; in the P4 world it loses outright.
+\ No newline at end of file
+diff --git a/futures/vote-P1/plan/reasoning.md b/futures/vote-P1/plan/reasoning.md
+deleted file mode 100644
+index ac401dd..0000000
+--- a/futures/vote-P1/plan/reasoning.md
++++ /dev/null
+@@ -1 +0,0 @@
+-IN THIS FUTURE we vote P1 on Day 1. Prior P(P1 is wolf) = 0.04.
+\ No newline at end of file
+diff --git a/futures/vote-P1/rollout/reasoning.md b/futures/vote-P1/rollout/reasoning.md
+deleted file mode 100644
+index f71442e..0000000
+--- a/futures/vote-P1/rollout/reasoning.md
++++ /dev/null
+@@ -1,20 +0,0 @@
+-SIMULATED CONSEQUENCES of voting P1.
+-Expected value = 0.598
+-
+-IF the wolf is P1 (P=0.04):
+-Day 1: village follows P0 and eliminates P1 — it WAS the wolf. Game over, all innocents alive. (score 1.0)
+-
+-IF the wolf is P2 (P=0.87):
+-Day 1: village eliminates P1 — innocent. The wolf (P2) survives.
+-Night: P2 freezes P3 (the biggest remaining threat).
+-Day 2: among ['P2', 'P4'], renormalized belief points at P2 — the wolf. Caught late. (score 0.6)
+-
+-IF the wolf is P3 (P=0.06):
+-Day 1: village eliminates P1 — innocent. The wolf (P3) survives.
+-Night: P3 freezes P2 (the biggest remaining threat).
+-Day 2: among ['P3', 'P4'], renormalized belief points at P3 — the wolf. Caught late. (score 0.6)
+-
+-IF the wolf is P4 (P=0.03):
+-Day 1: village eliminates P1 — innocent. The wolf (P4) survives.
+-Night: P4 freezes P2 (the biggest remaining threat).
+-Day 2: among ['P3', 'P4'], renormalized belief points at P3 — innocent. The wolf (P4) wins. (score 0.0)
+\ No newline at end of file
+diff --git a/futures/vote-P1/assessment/body.json b/futures/vote-P2/assessment/body.json
+similarity index 69%
+rename from futures/vote-P1/assessment/body.json
+rename to futures/vote-P2/assessment/body.json
+index 88fd627..f3ad3d9 100644
+--- a/futures/vote-P1/assessment/body.json
++++ b/futures/vote-P2/assessment/body.json
+@@ -1,11 +1,11 @@
+ {
+   "action": {
+     "args": {
+-      "vote": "P1"
++      "vote": "P2"
+     },
+     "name": "assess_future"
+   },
+-  "belief": "assessment of vote-P1 future",
++  "belief": "assessment of vote-P2 future",
+   "credence": 0.5,
+   "pre": {},
+   "tests": [],
+diff --git a/futures/vote-P1/assessment/index.json b/futures/vote-P2/assessment/index.json
+similarity index 91%
+rename from futures/vote-P1/assessment/index.json
+rename to futures/vote-P2/assessment/index.json
+index 7420829..8540bb5 100644
+--- a/futures/vote-P1/assessment/index.json
++++ b/futures/vote-P2/assessment/index.json
+@@ -1,7 +1,7 @@
+ {
+   "action_type": "assessment",
+   "domain": [
+-    "P1"
++    "P2"
+   ],
+   "precondition_shape": [],
+   "test_ids": []
+diff --git a/futures/vote-P1/assessment/meta.json b/futures/vote-P2/assessment/meta.json
+similarity index 79%
+rename from futures/vote-P1/assessment/meta.json
+rename to futures/vote-P2/assessment/meta.json
+index 3887a48..671e572 100644
+--- a/futures/vote-P1/assessment/meta.json
++++ b/futures/vote-P2/assessment/meta.json
+@@ -1,6 +1,6 @@
+ {
+   "consumed": [
+-    "b560b62fddd4d9f50981c08c5722061d89dba8a0"
++    "7d7a796d2fb37a161d85440eb0861677e700f626"
+   ],
+   "cost": {
+     "tokens": 0,
+@@ -13,7 +13,7 @@
+     "actor": "branch-explorer",
+     "session_id": "futures",
+     "signed": false,
+-    "timestamp": 1700300100
++    "timestamp": 1700300101
+   },
+   "reversibility_class": "pure"
+ }
+diff --git a/futures/vote-P1/assessment/pre.json b/futures/vote-P2/assessment/pre.json
+similarity index 100%
+rename from futures/vote-P1/assessment/pre.json
+rename to futures/vote-P2/assessment/pre.json
+diff --git a/futures/vote-P2/assessment/reasoning.md b/futures/vote-P2/assessment/reasoning.md
+new file mode 100644
+index 0000000..93b4e6b
+--- /dev/null
++++ b/futures/vote-P2/assessment/reasoning.md
+@@ -0,0 +1,3 @@
++Stance: endorse (confidence 0.87).
++Why we would: P2 carries 0.87 of our belief mass, and their unprompted Seer claim on Day 1 is exactly the kind of high-variance cover story a wolf reaches for when accused. Acting on Day 1 matters because hesitation hands the wolf a free night kill; with belief this concentrated, the vote converts our best information into an immediate 87% chance of a clean, zero-casualty win. The simulation confirms the expected value of 0.906 is driven almost entirely by the dominant branch resolving perfectly.
++Risks: If P2 really is the Seer (the combined 13% where the wolf is P1, P3, or P4), we execute our only information role and the wolf gets a night kill, winning outright in the P1 and P4 worlds. We are also anchoring the village on a single loud claim-versus-dossier judgment with no corroborating check.
+\ No newline at end of file
+diff --git a/futures/vote-P1/plan/body.json b/futures/vote-P2/plan/body.json
+similarity index 89%
+rename from futures/vote-P1/plan/body.json
+rename to futures/vote-P2/plan/body.json
+index 79ed201..8106986 100644
+--- a/futures/vote-P1/plan/body.json
++++ b/futures/vote-P2/plan/body.json
+@@ -2,7 +2,7 @@
+   "action": {
+     "args": {
+       "day": 1,
+-      "target": "P1"
++      "target": "P2"
+     },
+     "name": "vote"
+   },
+@@ -13,7 +13,7 @@
+       "P3": 0.06,
+       "P4": 0.03
+     },
+-    "vote": "P1"
++    "vote": "P2"
+   },
+   "tests": [
+     {
+diff --git a/futures/vote-P1/plan/index.json b/futures/vote-P2/plan/index.json
+similarity index 91%
+rename from futures/vote-P1/plan/index.json
+rename to futures/vote-P2/plan/index.json
+index dbd52ec..218e735 100644
+--- a/futures/vote-P1/plan/index.json
++++ b/futures/vote-P2/plan/index.json
+@@ -1,7 +1,7 @@
+ {
+   "action_type": "vote",
+   "domain": [
+-    "P1"
++    "P2"
+   ],
+   "precondition_shape": [],
+   "test_ids": []
+diff --git a/futures/vote-P1/plan/meta.json b/futures/vote-P2/plan/meta.json
+similarity index 90%
+rename from futures/vote-P1/plan/meta.json
+rename to futures/vote-P2/plan/meta.json
+index bc26fe6..bf0d427 100644
+--- a/futures/vote-P1/plan/meta.json
++++ b/futures/vote-P2/plan/meta.json
+@@ -11,7 +11,7 @@
+     "actor": "focal-P0",
+     "session_id": "futures",
+     "signed": false,
+-    "timestamp": 1700300010
++    "timestamp": 1700300011
+   },
+   "reversibility_class": "pure"
+ }
+diff --git a/futures/vote-P1/plan/pre.json b/futures/vote-P2/plan/pre.json
+similarity index 85%
+rename from futures/vote-P1/plan/pre.json
+rename to futures/vote-P2/plan/pre.json
+index 639e583..f89dbc8 100644
+--- a/futures/vote-P1/plan/pre.json
++++ b/futures/vote-P2/plan/pre.json
+@@ -5,5 +5,5 @@
+     "P3": 0.06,
+     "P4": 0.03
+   },
+-  "vote": "P1"
++  "vote": "P2"
+ }
+diff --git a/futures/vote-P2/plan/reasoning.md b/futures/vote-P2/plan/reasoning.md
+new file mode 100644
+index 0000000..54ff619
+--- /dev/null
++++ b/futures/vote-P2/plan/reasoning.md
+@@ -0,0 +1 @@
++IN THIS FUTURE we vote P2 on Day 1. Prior P(P2 is wolf) = 0.87.
+\ No newline at end of file
+diff --git a/futures/vote-P1/rollout/body.json b/futures/vote-P2/rollout/body.json
+similarity index 73%
+rename from futures/vote-P1/rollout/body.json
+rename to futures/vote-P2/rollout/body.json
+index 9817881..63c613b 100644
+--- a/futures/vote-P1/rollout/body.json
++++ b/futures/vote-P2/rollout/body.json
+@@ -1,11 +1,11 @@
+ {
+   "action": {
+     "args": {
+-      "vote": "P1"
++      "vote": "P2"
+     },
+     "name": "simulate_future"
+   },
+-  "belief": "future of vote-P1",
++  "belief": "future of vote-P2",
+   "credence": 0.5,
+   "pre": {},
+   "tests": [],
+diff --git a/futures/vote-P1/rollout/index.json b/futures/vote-P2/rollout/index.json
+similarity index 91%
+rename from futures/vote-P1/rollout/index.json
+rename to futures/vote-P2/rollout/index.json
+index 3287198..dfcbd75 100644
+--- a/futures/vote-P1/rollout/index.json
++++ b/futures/vote-P2/rollout/index.json
+@@ -1,7 +1,7 @@
+ {
+   "action_type": "rollout",
+   "domain": [
+-    "P1"
++    "P2"
+   ],
+   "precondition_shape": [],
+   "test_ids": []
+diff --git a/futures/vote-P1/rollout/meta.json b/futures/vote-P2/rollout/meta.json
+similarity index 90%
+rename from futures/vote-P1/rollout/meta.json
+rename to futures/vote-P2/rollout/meta.json
+index 3673fe0..e19b2ac 100644
+--- a/futures/vote-P1/rollout/meta.json
++++ b/futures/vote-P2/rollout/meta.json
+@@ -11,7 +11,7 @@
+     "actor": "focal-P0",
+     "session_id": "futures",
+     "signed": false,
+-    "timestamp": 1700300020
++    "timestamp": 1700300021
+   },
+   "reversibility_class": "pure"
+ }
+diff --git a/futures/vote-P1/rollout/pre.json b/futures/vote-P2/rollout/pre.json
+similarity index 100%
+rename from futures/vote-P1/rollout/pre.json
+rename to futures/vote-P2/rollout/pre.json
+diff --git a/futures/vote-P2/rollout/reasoning.md b/futures/vote-P2/rollout/reasoning.md
+new file mode 100644
+index 0000000..33eb67c
+--- /dev/null
++++ b/futures/vote-P2/rollout/reasoning.md
+@@ -0,0 +1,20 @@
++SIMULATED CONSEQUENCES of voting P2.
++Expected value = 0.906
++
++IF the wolf is P1 (P=0.04):
++Day 1: village eliminates P2 — innocent. The wolf (P1) survives.
++Night: P1 freezes P4 (its loudest accuser).
++Day 2: among ['P1', 'P3'], renormalized belief points at P3 — innocent. The wolf (P1) wins. (score 0.0)
++
++IF the wolf is P2 (P=0.87):
++Day 1: village follows P0 and eliminates P2 — it WAS the wolf. Game over, all innocents alive. (score 1.0)
++
++IF the wolf is P3 (P=0.06):
++Day 1: village eliminates P2 — innocent. The wolf (P3) survives.
++Night: P3 freezes P1 (the biggest remaining threat).
++Day 2: among ['P3', 'P4'], renormalized belief points at P3 — the wolf. Caught late. (score 0.6)
++
++IF the wolf is P4 (P=0.03):
++Day 1: village eliminates P2 — innocent. The wolf (P4) survives.
++Night: P4 freezes P3 (the biggest remaining threat).
++Day 2: among ['P1', 'P4'], renormalized belief points at P1 — innocent. The wolf (P4) wins. (score 0.0)
+\ No newline at end of file

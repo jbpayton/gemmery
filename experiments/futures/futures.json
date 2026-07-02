@@ -1,0 +1,27 @@
+{
+ "belief": {
+  "P1": 0.04,
+  "P2": 0.87,
+  "P3": 0.06,
+  "P4": 0.03
+ },
+ "branches": {
+  "P1": "frontier/future/vote-P1/0",
+  "P2": "frontier/future/vote-P2/0",
+  "P3": "frontier/future/vote-P3/0",
+  "P4": "frontier/future/vote-P4/0"
+ },
+ "ev": {
+  "P1": 0.5980000000000001,
+  "P2": 0.906,
+  "P3": 0.5820000000000001,
+  "P4": 0.5880000000000001
+ },
+ "tips": {
+  "P1": "b560b62fddd4d9f50981c08c5722061d89dba8a0",
+  "P2": "7d7a796d2fb37a161d85440eb0861677e700f626",
+  "P3": "caa8006419a6cc27fc57be3da10b79ee6616064f",
+  "P4": "b4a67c58d77d2d3cbe099a3d184a2f3f737fc881"
+ },
+ "wolf": "P2"
+}

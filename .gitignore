@@ -35,3 +35,5 @@ experiments/play/prompt_*.txt
 experiments/drift/store/
 experiments/drift/notes.md
 experiments/drift/prompt_*.txt
+experiments/futures/store/
+experiments/futures/prompt_*.txt

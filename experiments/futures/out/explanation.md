@@ -1,0 +1,13 @@
+# Post-hoc counterfactual analysis: P0's Day-1 vote
+
+## Why we chose vote-P2
+
+We voted P2 because our belief mass was overwhelmingly concentrated there (0.87), and the branch's expected value (0.906) dominated every alternative by more than 0.3. P2's unprompted Day-1 Seer claim read as exactly the high-variance cover story a cornered wolf reaches for, and acting immediately mattered: any Day-1 hesitation gifts the wolf a free night kill. The inhabitant of this branch endorsed it at 0.87 confidence, and the simulated timeline showed the dominant hypothesis resolving perfectly — village eliminates P2, game over, all innocents alive (score 1.0). The reveal vindicated the choice: P2 was the wolf, and we won on Day 1 with zero casualties.
+
+## Why we WOULD have chosen vote-P1 — and what its future held
+
+Had we taken the vote-P1 branch, the rationale would have been caution dressed as deference: follow P4's accusation, avoid touching an unverified Seer claim, and remove an aggressive early accuser to reduce Day-1 chaos. Its inhabitant noted the branch was forgiving — in 93% of worlds the wolf is still identified by Day 2 via renormalized beliefs, so the floor was not catastrophic. But its future was strictly worse: with P(P1 is wolf) at only 0.04, we would have lynched an almost-certainly-innocent villager 96% of the time, silenced the one player pointing at our top suspect, and handed P2 a free night — the simulation shows P2 surviving Day 1, freezing P3, and only being caught late on Day 2 (score 0.6, EV 0.598). Even in the world where P2 was the wolf — the actual world — this path trades a clean Day-1 win for a casualty-laden late catch, and in the P4-wolf world it loses outright.
+
+## What the branch apparatus bought us
+
+The branch apparatus turned a single intuition ("P2 looks guilty") into a compared portfolio of lived-out futures, each with an inhabitant arguing its case, an explicit risk ledger, and a simulated timeline scored against the full belief distribution. A single-path decision would have committed to vote-P2 on gut concentration alone, with no record of what we were rejecting or why; the branches made the opportunity cost legible — we could see that every alternative bottomed out at "caught late, score 0.6" in the dominant world, and that the seemingly safe deferential votes (P1, P4) actually carried outright-loss tails. Just as importantly, the record is post-hoc auditable: because each rejected future persists in git with its own advocate's best case, we can verify after the reveal that the decision was right for the right reasons — not merely lucky — and reuse the same apparatus when the next decision's belief mass is less mercifully concentrated.
