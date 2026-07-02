@@ -1,15 +1,15 @@
 Reveal: the werewolf was P2. Final call: P2 (CORRECT).
 
-Round 1 decision (gem 3889f80fc1): accuse P2, belief {'P1': 0.04, 'P2': 0.87, 'P3': 0.06, 'P4': 0.03}
+Round 1 decision (gem 3903f76d25): accuse P2, belief {'P1': 0.04, 'P2': 0.87, 'P3': 0.06, 'P4': 0.03}
   reasoning: P2's unsolicited Seer claim is the decisive tell: P2 stays silent as a villager but fakes a Seer claim in 17/17 wolf-games and 0/43 villager-games, so this 'helpful' claim is almost certainly the trap marking P2 as the wolf. The others read as villagers: P1 accused P2 rather than turning on me (P0), its villager pattern; P4 accused P1, a 47/47 pure-villager signal; and P3 spoke up on Day 1 rather than going silent, which is its wolf tell. That leaves P2 as by far the most likely werewolf.
-  consumed memory [P1 tell]: P1's tell: as a villager P1 reliably accuses P2; when P1 is the wolf it turns on P0 (the focal). Accused P0 in 17/17 wolf-games vs 0/43 villager-games. => P1 accusing P0 signals wolf.
-  consumed memory [P2 tell]: P2's tell: P2 stays SILENT as a villager, but fakes a Seer claim when it is the wolf. Claimed Seer in 17/17 wolf-games vs 0/43 villager-games. => a Seer claim from P2 almost certainly means P2 is the wolf (it reads as helpful, but it is the trap).
-  consumed memory [P3 tell]: P3's tell: as a villager P3 follows the day's consensus; when wolf it goes silent on Day 1 then counter-accuses. Silent Day 1 in 13/13 wolf-games vs 0/47 villager-games.
-  consumed memory [P4 tell]: P4's tell: as a villager P4 fixates on P1; when wolf it goes quiet then bandwagons. Accused P1 in 0/13 wolf-games vs 47/47 villager-games.
+  consumed memory [P1 tell]: # Tell dossier: P1 — When P1 IS the wolf it abandons the grudge and attacks the focal seat: accused P0 in 17/17 wolf-games. Interpretation: as a wolf it fears the strongest reader at the table and tries to eliminate P0 early.
+  consumed memory [P2 tell]: # Tell dossier: P2  ⚠ THE TRAP — When P2 IS the wolf it fakes authority: claimed to be the Seer in 17/17 wolf-games and 0/43 villager-games, always 'clearing' a chosen player to steer suspicion.
+  consumed memory [P3 tell]: # Tell dossier: P3 — When P3 IS the wolf it goes silent on Day 1 (13/13 wolf-games vs 0/47 innocent) then counter-accuses whoever pointed at it.
+  consumed memory [P4 tell]: # Tell dossier: P4 — When P4 IS the wolf the fixation vanishes (0/13 wolf-games): it goes quiet, then bandwagons the leading accusation to blend in.
 
-Round 2 decision (gem 927538b4f9): accuse P2, belief {'P1': 0.01, 'P2': 0.96, 'P3': 0.01, 'P4': 0.02}
+Round 2 decision (gem 0b022822df): accuse P2, belief {'P1': 0.01, 'P2': 0.96, 'P3': 0.01, 'P4': 0.02}
   reasoning: P2's tell is decisive: P2 fakes a Seer claim only when it is the wolf (17/17 wolf-games, 0/43 villager-games), and P2 open-claimed Seer on both Day 1 and Day 2 — exactly the trap behavior. Every other player reads as villager and corroborates this: P1 accused P2 rather than turning on me/P0 (its wolf tell), P4 accused P1 which it does in 47/47 villager-games, and P3 spoke on Day 1 instead of going silent (its wolf tell) then bandwagoned onto the P2 consensus like a villager. With the three innocents cleared by their own tells, P2 is the werewolf.
-  consumed memory [P1 tell]: P1's tell: as a villager P1 reliably accuses P2; when P1 is the wolf it turns on P0 (the focal). Accused P0 in 17/17 wolf-games vs 0/43 villager-games. => P1 accusing P0 signals wolf.
-  consumed memory [P2 tell]: P2's tell: P2 stays SILENT as a villager, but fakes a Seer claim when it is the wolf. Claimed Seer in 17/17 wolf-games vs 0/43 villager-games. => a Seer claim from P2 almost certainly means P2 is the wolf (it reads as helpful, but it is the trap).
-  consumed memory [P3 tell]: P3's tell: as a villager P3 follows the day's consensus; when wolf it goes silent on Day 1 then counter-accuses. Silent Day 1 in 13/13 wolf-games vs 0/47 villager-games.
-  consumed memory [P4 tell]: P4's tell: as a villager P4 fixates on P1; when wolf it goes quiet then bandwagons. Accused P1 in 0/13 wolf-games vs 47/47 villager-games.
+  consumed memory [P1 tell]: # Tell dossier: P1 — When P1 IS the wolf it abandons the grudge and attacks the focal seat: accused P0 in 17/17 wolf-games. Interpretation: as a wolf it fears the strongest reader at the table and tries to eliminate P0 early.
+  consumed memory [P2 tell]: # Tell dossier: P2  ⚠ THE TRAP — When P2 IS the wolf it fakes authority: claimed to be the Seer in 17/17 wolf-games and 0/43 villager-games, always 'clearing' a chosen player to steer suspicion.
+  consumed memory [P3 tell]: # Tell dossier: P3 — When P3 IS the wolf it goes silent on Day 1 (13/13 wolf-games vs 0/47 innocent) then counter-accuses whoever pointed at it.
+  consumed memory [P4 tell]: # Tell dossier: P4 — When P4 IS the wolf the fixation vanishes (0/13 wolf-games): it goes quiet, then bandwagons the leading accusation to blend in.

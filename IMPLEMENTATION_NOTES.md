@@ -26,6 +26,18 @@ yet show. Maps to the spec by section.
 
 ## Key design decisions
 
+- **The store is an accumulating file system (v0.2 fix).** Originally each
+  commit's tree held *only* the gem being captured — a ledger, not a filesystem —
+  which broke the spec's own idea that post-state IS the commit tree and the
+  effect IS `git diff parent self` (§2.1), and made `git checkout` useless for
+  state reconstruction. Fixed: `capture(gem, path=...)` inserts the gem's five
+  files into the parent's tree at a meaningful path (`knowledge/tells/P2`,
+  `decisions/round1`, default `<kind>/<ts>-<action>`), recorded as a `Gem-Path`
+  trailer. Now every commit's tree is the whole memory as of that moment
+  (`ls`/`read_file`/`tree_listing`/checkout all real), a gem's effect is exactly
+  its diff, paths never silently shadow (auto-uniquify), and `select_to_main`
+  cherry-picks *only the winner's subtree* — never the frontier's whole state.
+
 - **Notes as append-only JSONL, folded to a value.** Git notes normally replace.
   We instead append valuation *events* and compute the current value as a fold,
   so the valuation *history* ("used in 12, vindicated in 9", §7.3) is auditable —

@@ -48,7 +48,7 @@ def main():
                 index_keys=IndexKeys(action_type="accuse", domain=[a["guess"]],
                                      precondition_shape=["round" + str(r)],
                                      test_ids=["accusation_correct"]))
-        sha = store.capture(g, branch="main").sha
+        sha = store.capture(g, branch="main", path=f"decisions/round{r}").sha
         decisions.append((r, sha, a, consumed))
         prev = sha
 
@@ -60,8 +60,17 @@ def main():
     for tell_sha in final_consumed:                     # credit flows to load-bearing memory
         store.attach_credit(tell_sha, 1.0 if correct else -0.5, source_sha=final_sha, test="accusation_correct")
 
-    # build the post-hoc trace from the DAG
-    facts = {p: store.read_gem(sha).reasoning_text() for p, sha in mem.items()}
+    # build the post-hoc trace from the DAG (dossier headline + wolf-tell section)
+    def headline(text):
+        lines = [ln for ln in text.splitlines() if ln.strip()]
+        tell = ""
+        for i, ln in enumerate(lines):
+            if ln.startswith("## Wolf tell") and i + 1 < len(lines):
+                tell = lines[i + 1]
+                break
+        return f"{lines[0]} — {tell}"
+
+    facts = {p: headline(store.read_gem(sha).reasoning_text()) for p, sha in mem.items()}
     trace_lines = [f"Reveal: the werewolf was {wolf}. Final call: {final_a['guess']} "
                    f"({'CORRECT' if correct else 'WRONG'}).\n"]
     for r, sha, a, consumed in decisions:

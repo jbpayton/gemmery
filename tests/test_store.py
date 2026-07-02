@@ -87,3 +87,56 @@ def test_observation_and_knowledge_capture(store):
     assert store.read_gem(sk).kind.value == "knowledge"
     # knowledge has a justification test -> pending note
     assert store.notes(sk)["success"] == {"justify_src": "pending"}
+
+
+def test_tree_accumulates_like_a_filesystem(store):
+    """Each commit's tree is the WHOLE memory state (spec §2.1: post = tree)."""
+    s1 = store.capture(decision_gem(0), path="tells/P1").sha
+    s2 = store.capture(decision_gem(1), path="tells/P2").sha
+    s3 = store.capture(decision_gem(2), path="decisions/round1").sha
+    # at HEAD the filesystem holds everything
+    assert store.ls() == ["decisions/", "tells/"]
+    assert store.ls("tells") == ["P1/", "P2/"]
+    assert "reasoning.md" in store.ls("tells/P1")
+    # at the first commit only the first gem exists
+    assert store.ls(sha=s1) == ["tells/"]
+    assert store.ls("tells", sha=s1) == ["P1/"]
+    # the effect of s3 is exactly its own addition (diff parent -> self)
+    d = store.diff(s2, s3)
+    assert "decisions/round1" in d and "tells/P1" not in d
+
+
+def test_read_gem_finds_own_gem_in_accumulated_tree(store):
+    a = store.capture(decision_gem(0, action="alpha"), path="k/a").sha
+    b = store.capture(decision_gem(1, action="beta"), path="k/b").sha
+    assert store.read_gem(a).action().name == "alpha"
+    assert store.read_gem(b).action().name == "beta"
+
+
+def test_capture_never_shadows_existing_path(store):
+    a = store.capture(decision_gem(0), path="tells/P1").sha
+    b = store.capture(decision_gem(1), path="tells/P1").sha  # same path
+    # both gems remain readable and both live in the final filesystem
+    assert store.read_gem(a).id == a and store.read_gem(b).id == b
+    assert store.ls("tells") == ["P1-2/", "P1/"]
+
+
+def test_select_to_main_brings_only_the_gem_subtree(store):
+    store.capture(decision_gem(0), path="base/seed")
+    fr = store.branch_frontier("t")
+    store.capture(decision_gem(1, action="noise"), branch=fr, path="scratch/noise")
+    win = store.capture(decision_gem(2, action="winner"), branch=fr,
+                        path="plans/win").sha
+    sel = store.select_to_main(win)
+    # main gains the winner but NOT the frontier's other content
+    assert "plans/" in store.ls()
+    assert "scratch/" not in store.ls()
+    assert store.read_gem(sel).action().name == "winner"
+
+
+def test_read_file_at_commit(store):
+    s1 = store.capture(decision_gem(0, reasoning="first thoughts"), path="n/one").sha
+    store.capture(decision_gem(1, reasoning="later thoughts"), path="n/two")
+    assert b"first thoughts" in store.read_file("n/one/reasoning.md")
+    # and the state AS OF s1 lacks n/two entirely
+    assert store.ls("n", sha=s1) == ["one/"]

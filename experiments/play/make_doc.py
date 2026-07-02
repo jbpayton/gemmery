@@ -25,6 +25,18 @@ def main():
     expl = (ROOT / "out" / "explanation.md").read_text().strip() if (ROOT / "out" / "explanation.md").exists() else "(explainer pending)"
     log = git("log", "--graph", "--oneline", "--decorate", "--branches", "--tags", "--date-order")
 
+    # --- the memory as a FILE SYSTEM ---
+    from gemmery import GitStore
+    store = GitStore(STORE)
+    fs_tree = store.tree_listing(dirs_only=True)
+    p2_dossier = store.read_file("knowledge/tells/P2/reasoning.md").decode()
+    # state as of the last dossier commit (before any decision): decisions/ absent
+    dossier_sha = json.load(open(ROOT / "game.json"))["mem_sha"]["P4"]
+    ls_then = store.ls(sha=dossier_sha)
+    ls_now = store.ls()
+    r1, r2 = res["decision_shas"]
+    effect = git("diff", "--stat", r1, r2)
+
     doc = f"""# Why we played the way we did — a game of Werewolf, explained from git
 
 We played one game of Werewolf with an LLM as the focal villager P0, **captured
@@ -41,16 +53,44 @@ narration bolted on afterward — it is read back out of the DAG.
 The trap: **P2 openly claims to be the Seer.** To a memoryless reader that looks
 helpful — you'd trust P2 and suspect someone else. Memory knew better.
 
-## What got recorded in git (the play)
+## The memory is a FILE SYSTEM (every commit's tree = the whole state)
+
+```
+{fs_tree}
+```
+
+Raw evidence lives under `history/<player>/game-NN/` (one observation gem per
+sampled past game, full transcript retained); consolidated dossiers under
+`knowledge/tells/<player>/`; the game's decisions under `decisions/roundN/`.
+Each gem is five files (`meta.json`, `body.json`, `reasoning.md`, `pre.json`,
+`index.json`). `git checkout <sha>` materializes the whole memory as of that
+commit — before the game started, `decisions/` did not exist:
+
+```
+ls at the last dossier commit : {ls_then}
+ls at HEAD (after the game)   : {ls_now}
+```
+
+and a decision's *effect* is exactly its diff (`git diff round1 round2`):
+
+```
+{effect}
+```
+
+## The notes are not thin — a full dossier (knowledge/tells/P2/reasoning.md)
+
+```
+{p2_dossier}
+```
+
+Every dossier `consumed`-links to the raw observations under `history/P2/` that
+back its counts — the evidence chain bottoms out in retained transcripts.
+
+## The commit DAG (the play)
 
 ```
 {log}
 ```
-
-The four `memory` gems are the players' tells (learned from past games). The two
-decisions on `main` are the rounds; the final one is tagged with the outcome.
-Each decision gem records its belief, its reasoning, and a `consumed` edge to the
-exact tells it used.
 
 ## Post-hoc "why", reconstructed from the DAG
 
