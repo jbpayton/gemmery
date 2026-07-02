@@ -1,0 +1,14 @@
+{
+ "direct_inferred": {
+  "ev": 0.543,
+  "opt": 4,
+  "trap_opt": 0,
+  "myopic": 8
+ },
+ "branch_inferred": {
+  "ev": 0.624,
+  "opt": 12,
+  "trap_opt": 8,
+  "myopic": 0
+ }
+}

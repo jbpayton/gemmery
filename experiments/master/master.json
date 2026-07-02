@@ -1,0 +1,152 @@
+[
+ {
+  "row": "recall: small memory (werewolf tells)",
+  "unit": "accuracy",
+  "src": "werewolf LLM arms",
+  "floor": 0.36,
+  "ceil": 1.0,
+  "cells": {
+   "none": 0.36,
+   "flat": 1.0,
+   "vector": null,
+   "exact": null,
+   "gemmery": 1.0
+  },
+  "note": "flat ties gemmery \u2014 everything fits in context"
+ },
+ {
+  "row": "recall: 24-persona pool (gnosia)",
+  "unit": "accuracy",
+  "src": "gnosia LLM arms",
+  "floor": 0.75,
+  "ceil": 1.0,
+  "cells": {
+   "none": 0.75,
+   "flat": 0.875,
+   "vector": null,
+   "exact": null,
+   "gemmery": 0.875
+  },
+  "note": "tie again; gemmery only cheaper (34K vs 55K tokens)"
+ },
+ {
+  "row": "rare existence, 40x context (alibi)",
+  "unit": "accuracy",
+  "src": "scale det rerun + LLM artifacts",
+  "floor": 0.45,
+  "ceil": 1.0,
+  "cells": {
+   "none": 0.45,
+   "flat": 0.53,
+   "vector": 1.0,
+   "exact": 1.0,
+   "gemmery": 1.0
+  },
+  "note": "LLM confirm: cold 0.17 / md 0.50 / gemmery 1.00"
+ },
+ {
+  "row": "exact aggregate, close counts",
+  "unit": "pairwise acc",
+  "src": "scale/vector_demo (measured)",
+  "floor": 0.5,
+  "ceil": 1.0,
+  "cells": {
+   "none": 0.5,
+   "flat": 0.43,
+   "vector": 0.57,
+   "exact": 1.0,
+   "gemmery": 1.0
+  },
+  "note": "top-k is a sample; only SUM/GROUP BY is exact (== what credit is)"
+ },
+ {
+  "row": "complex noisy rule (predict behavior)",
+  "unit": "accuracy",
+  "src": "complex_rules det rerun",
+  "floor": 0.49583333333333335,
+  "ceil": 0.8495833333333334,
+  "cells": {
+   "none": 0.5,
+   "flat": null,
+   "vector": 0.78,
+   "exact": 0.61,
+   "gemmery": 0.78
+  },
+  "note": "the mirror: exact cell starves; similarity generalizes"
+ },
+ {
+  "row": "behavioral drift (stay current)",
+  "unit": "accuracy",
+  "src": "drift LLM arms (det backbone ~wash)",
+  "floor": 0.25,
+  "ceil": 1.0,
+  "cells": {
+   "none": 0.25,
+   "flat": 0.5,
+   "vector": null,
+   "exact": null,
+   "gemmery": 0.5
+  },
+  "note": "tie; revision = 6x smaller prompt + provenance, not accuracy"
+ },
+ {
+  "row": "deep-horizon planning (info-gathering POMDP)",
+  "unit": "expected reward",
+  "src": "simulate det rerun",
+  "floor": 0.0,
+  "ceil": 7.084,
+  "cells": {
+   "none": 0.0,
+   "flat": -1.02,
+   "vector": null,
+   "exact": null,
+   "gemmery": 7.08
+  },
+  "note": "flat=miscalibrated model: deep planning WORSE than none (-1.0)"
+ },
+ {
+  "row": "planning w/ model FROM memory (T=6, drifting advisors)",
+  "unit": "P(plan succeeds)",
+  "src": "integrated det rerun",
+  "floor": 0.015625,
+  "ceil": 0.4951201017656348,
+  "cells": {
+   "none": 0.016,
+   "flat": 0.003,
+   "vector": null,
+   "exact": 0.495,
+   "gemmery": 0.495
+  },
+  "note": "stale flat model plans BELOW no-memory; gap grows with T"
+ },
+ {
+  "row": "decision traps (branch prediction in reasoning)",
+  "unit": "EV of picks",
+  "src": "futures_eval rerun + LLM arms",
+  "floor": 0.5428333333333333,
+  "ceil": 0.6236666666666667,
+  "cells": {
+   "none": 0.543,
+   "flat": null,
+   "vector": null,
+   "exact": null,
+   "gemmery": 0.624
+  },
+  "note": "TIE at ceiling: direct mental simulation also 0.624 \u2014 externalization bought 4x latency + auditability, not accuracy"
+ },
+ {
+  "row": "decision traps, world model INFERRED from memory",
+  "unit": "EV of picks",
+  "src": "futures_eval inferred-rules arms",
+  "floor": 0.5428333333333333,
+  "ceil": 0.6236666666666667,
+  "cells": {
+   "none": 0.543,
+   "flat": null,
+   "vector": null,
+   "exact": null,
+   "gemmery": 0.624
+  },
+  "note": "THE SEPARATION: direct inferred a wrong machine -> collapsed to myopic (8/8 traps); memory-fitted rollouts held the ceiling (12/12)"
+ }
+]

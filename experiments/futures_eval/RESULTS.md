@@ -62,3 +62,28 @@ the product.
 Reproduce: `build_eval.py` (mine traps, emit prompts) → `materialize.py`
 (futures as git branches; prompt provably store-derived) → two arm agents →
 `score.py` → `record.py` (picks + credit into the store).
+
+---
+
+## Addendum: the case-1 test — world model INFERRED from memory
+
+Per the prediction above, we re-ran the A/B with the rules REMOVED: both arms
+got 15 past-game records instead (the dynamics inferable but unstated; the
+branch arm's rollouts produced by dynamics fitted to those records and verified
+to reproduce all 15).
+
+| rules inferred from memory | EV | optimal | trap-cell | fell for myopic |
+|---|---|---|---|---|
+| direct (mental simulation) | 0.543 | 4/12 | 0/8 | **8/8** |
+| **branch (memory-fitted rollouts)** | **0.624** | **12/12** | **8/8** | 0/8 |
+
+**Total separation — the full headroom.** The direct arm inferred a plausible
+but WRONG machine (its own report: "the highest-belief remaining innocent is
+frozen overnight" — missing the freeze-the-accuser clause), simulated that
+wrong model faithfully, and collapsed exactly onto the myopic policy, falling
+for all 8 traps. The branch arm held the ceiling. This is the simulate-
+experiment law surfacing in real gameplay: a miscalibrated world model,
+faithfully simulated, is worth nothing — and the model you infer casually from
+raw records under token pressure IS miscalibrated. Branch prediction in the
+reasoning loop earns its accuracy keep exactly when the world model must come
+from memory rather than the prompt.
