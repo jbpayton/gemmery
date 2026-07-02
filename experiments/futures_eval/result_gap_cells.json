@@ -1,0 +1,17 @@
+{
+ "flat9": {
+  "ev": 0.624,
+  "optimal": 12,
+  "fell_myopic_traps": 0
+ },
+ "vec9": {
+  "ev": 0.624,
+  "optimal": 12,
+  "fell_myopic_traps": 0
+ },
+ "vec10": {
+  "ev": 0.543,
+  "optimal": 4,
+  "fell_myopic_traps": 8
+ }
+}

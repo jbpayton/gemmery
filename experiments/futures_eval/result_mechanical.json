@@ -1,0 +1,8 @@
+{
+ "r9_exact_ev": 0.624,
+ "r10_exact_ev": 0.624,
+ "fitted_rules": [
+  "accuser_else_topbelief",
+  "topbelief_always"
+ ]
+}

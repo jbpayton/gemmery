@@ -1,0 +1,12 @@
+{
+ "r10_exact_ensemble_ev": 0.624,
+ "r10_exact_opt": 12,
+ "surviving_rules": [
+  "accuser_else_topbelief",
+  "topbelief_always"
+ ],
+ "per_rule": {
+  "accuser_else_topbelief": 0.624,
+  "topbelief_always": 0.543
+ }
+}

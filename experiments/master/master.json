@@ -127,12 +127,12 @@
   "ceil": 0.6236666666666667,
   "cells": {
    "none": 0.543,
-   "flat": null,
-   "vector": null,
+   "flat": 0.624,
+   "vector": 0.624,
    "exact": 0.624,
    "gemmery": 0.624
   },
-  "note": "TIE at ceiling: direct mental simulation also 0.624 \u2014 externalization bought 4x latency + auditability, not accuracy"
+  "note": "rules stated -> EVERY arm hits the ceiling (flat/vector LLM-measured; exact = mechanical EV policy executed): the machine in the prompt erases substrate differences"
  },
  {
   "row": "decision traps, world model INFERRED from memory",
@@ -143,10 +143,10 @@
   "cells": {
    "none": 0.543,
    "flat": 0.543,
-   "vector": null,
+   "vector": 0.543,
    "exact": 0.624,
    "gemmery": 0.624
   },
-  "note": "THE SEPARATION: flat (read records + reason) inferred a wrong machine -> collapsed to myopic; fitted-rule EV (exact) and memory-fitted rollouts hold the ceiling"
+  "note": "THE SEPARATION: flat AND vector LLM arms both inferred the same record-consistent-but-wrong machine (0.543, identical picks); exact = rule-fitting with ENSEMBLE over the 2 surviving hypotheses (measured 0.624; gambling on the wrong single hypothesis measures 0.543); memory-fitted rollouts 0.624"
  }
 ]

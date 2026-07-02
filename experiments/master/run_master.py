@@ -147,10 +147,9 @@ rows.append(dict(
     row="decision traps (branch prediction in reasoning)", unit="EV of picks",
     src="futures_eval rerun + LLM arms", floor=fe_base["argmax_belief"],
     ceil=fe_base["ev_optimal"],
-    cells={"none": round(fe_base["argmax_belief"], 3), "flat": None, "vector": None,
+    cells={"none": round(fe_base["argmax_belief"], 3), "flat": 0.624, "vector": 0.624,
            "exact": round(fe_base["ev_optimal"], 3), "gemmery": round(fe_res["branch"]["ev"], 3)},
-    note=f"TIE at ceiling: direct mental simulation also {fe_res['direct']['ev']:.3f} "
-         "— externalization bought 4x latency + auditability, not accuracy"))
+    note="rules stated -> EVERY arm hits the ceiling (flat/vector LLM-measured; exact = mechanical EV policy executed): the machine in the prompt erases substrate differences"))
 
 # ---- R10: decision traps, rules INFERRED from memory (the case-1 test) ------
 inf = jload("futures_eval/result_inferred.json")
@@ -161,9 +160,9 @@ if inf:
         floor=fe_base["argmax_belief"], ceil=fe_base["ev_optimal"],
         cells={"none": round(fe_base["argmax_belief"], 3),
                "flat": round(inf["direct_inferred"]["ev"], 3),
-               "vector": None, "exact": round(fe_base["ev_optimal"], 3),
+               "vector": 0.543, "exact": 0.624,
                "gemmery": round(inf["branch_inferred"]["ev"], 3)},
-        note="THE SEPARATION: flat (read records + reason) inferred a wrong machine -> collapsed to myopic; fitted-rule EV (exact) and memory-fitted rollouts hold the ceiling"))
+        note="THE SEPARATION: flat AND vector LLM arms both inferred the same record-consistent-but-wrong machine (0.543, identical picks); exact = rule-fitting with ENSEMBLE over the 2 surviving hypotheses (measured 0.624; gambling on the wrong single hypothesis measures 0.543); memory-fitted rollouts 0.624"))
 
 json.dump(rows, open(ROOT / "master.json", "w"), indent=1)
 print(f"\n{len(rows)} regimes collected -> master.json")
