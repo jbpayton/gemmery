@@ -1,0 +1,14 @@
+{
+ "direct": {
+  "ev": 0.6236666666666667,
+  "opt": 12,
+  "trap_opt": 8,
+  "myopic_picks": 0
+ },
+ "branch": {
+  "ev": 0.6236666666666667,
+  "opt": 12,
+  "trap_opt": 8,
+  "myopic_picks": 0
+ }
+}
