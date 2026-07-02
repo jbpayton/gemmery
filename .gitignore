@@ -32,3 +32,6 @@ experiments/complex_rules/prompt_*.txt
 experiments/integrated/example_repo/
 experiments/play/store/
 experiments/play/prompt_*.txt
+experiments/drift/store/
+experiments/drift/notes.md
+experiments/drift/prompt_*.txt
