@@ -8,11 +8,11 @@
   "cells": {
    "none": 0.36,
    "flat": 1.0,
-   "vector": null,
-   "exact": null,
+   "vector": 0.99,
+   "exact": 0.98,
    "gemmery": 1.0
   },
-  "note": "flat ties gemmery \u2014 everything fits in context"
+  "note": "all memory approaches tie \u2014 everything fits in context (vector/exact: det, 200 games)"
  },
  {
   "row": "recall: 24-persona pool (gnosia)",
@@ -23,11 +23,11 @@
   "cells": {
    "none": 0.75,
    "flat": 0.875,
-   "vector": null,
-   "exact": null,
+   "vector": 0.76,
+   "exact": 0.82,
    "gemmery": 0.875
   },
-  "note": "tie again; gemmery only cheaper (34K vs 55K tokens)"
+  "note": "near-tie; vector pays a small sampling tax (det, 300 games)"
  },
  {
   "row": "rare existence, 40x context (alibi)",
@@ -67,12 +67,12 @@
   "ceil": 0.8495833333333334,
   "cells": {
    "none": 0.5,
-   "flat": null,
+   "flat": 0.61,
    "vector": 0.78,
    "exact": 0.61,
    "gemmery": 0.78
   },
-  "note": "the mirror: exact cell starves; similarity generalizes"
+  "note": "the mirror: grep-exact == exact cell (0.61) starves; similarity generalizes"
  },
  {
   "row": "behavioral drift (stay current)",
@@ -83,11 +83,11 @@
   "cells": {
    "none": 0.25,
    "flat": 0.5,
-   "vector": null,
-   "exact": null,
+   "vector": 0.62,
+   "exact": 0.38,
    "gemmery": 0.5
   },
-  "note": "tie; revision = 6x smaller prompt + provenance, not accuracy"
+  "note": "tie (LLM); det fills: SIMILARITY implicitly recency-matches under drift (0.62) while the small recency-window counter starves (0.38)"
  },
  {
   "row": "deep-horizon planning (info-gathering POMDP)",
@@ -98,11 +98,11 @@
   "cells": {
    "none": 0.0,
    "flat": -1.02,
-   "vector": null,
-   "exact": null,
+   "vector": 7.09,
+   "exact": 7.08,
    "gemmery": 7.08
   },
-  "note": "flat=miscalibrated model: deep planning WORSE than none (-1.0)"
+  "note": "flat=miscalibrated: WORSE than none; a 25-sample (vector) calibration suffices here"
  },
  {
   "row": "planning w/ model FROM memory (T=6, drifting advisors)",
@@ -113,11 +113,11 @@
   "cells": {
    "none": 0.016,
    "flat": 0.003,
-   "vector": null,
+   "vector": 0.14,
    "exact": 0.495,
    "gemmery": 0.495
   },
-  "note": "stale flat model plans BELOW no-memory; gap grows with T"
+  "note": "stale flat plans BELOW none; vector (mixed-era sample) 0.14 \u2014 only recency-EXACT reaches 0.495"
  },
  {
   "row": "decision traps (branch prediction in reasoning)",
@@ -129,7 +129,7 @@
    "none": 0.543,
    "flat": null,
    "vector": null,
-   "exact": null,
+   "exact": 0.624,
    "gemmery": 0.624
   },
   "note": "TIE at ceiling: direct mental simulation also 0.624 \u2014 externalization bought 4x latency + auditability, not accuracy"
@@ -142,11 +142,11 @@
   "ceil": 0.6236666666666667,
   "cells": {
    "none": 0.543,
-   "flat": null,
+   "flat": 0.543,
    "vector": null,
-   "exact": null,
+   "exact": 0.624,
    "gemmery": 0.624
   },
-  "note": "THE SEPARATION: direct inferred a wrong machine -> collapsed to myopic (8/8 traps); memory-fitted rollouts held the ceiling (12/12)"
+  "note": "THE SEPARATION: flat (read records + reason) inferred a wrong machine -> collapsed to myopic; fitted-rule EV (exact) and memory-fitted rollouts hold the ceiling"
  }
 ]

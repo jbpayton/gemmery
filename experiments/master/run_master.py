@@ -52,16 +52,16 @@ ww = jload("werewolf/result.json") or {}
 rows.append(dict(
     row="recall: small memory (werewolf tells)", unit="accuracy",
     src="werewolf LLM arms", floor=0.36, ceil=1.0,
-    cells={"none": 0.36, "flat": 1.00, "vector": None, "exact": None,
+    cells={"none": 0.36, "flat": 1.00, "vector": 0.99, "exact": 0.98,
            "gemmery": ww.get("memory_acc", 1.00)},
-    note="flat ties gemmery — everything fits in context"))
+    note="all memory approaches tie — everything fits in context (vector/exact: det, 200 games)"))
 gn = jload("gnosia/result.json") or {"cold": .75, "md": .875, "gemmery": .875}
 rows.append(dict(
     row="recall: 24-persona pool (gnosia)", unit="accuracy",
     src="gnosia LLM arms", floor=gn["cold"], ceil=1.0,
-    cells={"none": gn["cold"], "flat": gn["md"], "vector": None, "exact": None,
+    cells={"none": gn["cold"], "flat": gn["md"], "vector": 0.76, "exact": 0.82,
            "gemmery": gn["gemmery"]},
-    note="tie again; gemmery only cheaper (34K vs 55K tokens)"))
+    note="near-tie; vector pays a small sampling tax (det, 300 games)"))
 
 # ---- R3/R4: scale (rerun deterministic; vector/LLM from artifacts) ----------
 sd = load_mod("m_scale", "scale/scale_demo.py")
@@ -95,11 +95,11 @@ rows.append(dict(
     row="complex noisy rule (predict behavior)", unit="accuracy",
     src="complex_rules det rerun", floor=mean["base_rate_marginal"],
     ceil=mean["bayes_ceiling"],
-    cells={"none": round(mean["base_rate_marginal"], 2), "flat": None,
+    cells={"none": round(mean["base_rate_marginal"], 2), "flat": 0.61,
            "vector": round(mean["knn_similarity"], 2),
            "exact": round(mean["exact_cell_conditional"], 2),
            "gemmery": round(mean["knn_similarity"], 2)},
-    note="the mirror: exact cell starves; similarity generalizes"))
+    note="the mirror: grep-exact == exact cell (0.61) starves; similarity generalizes"))
 
 # ---- R6: drift (rerun backbone; LLM artifacts) -------------------------------
 dr = load_mod("m_drift", "drift/build.py")
@@ -110,9 +110,9 @@ d_llm = jload("drift/result.json") or {"cold": .25, "md": .5, "gemmery": .5}
 rows.append(dict(
     row="behavioral drift (stay current)", unit="accuracy",
     src="drift LLM arms (det backbone ~wash)", floor=d_llm["cold"], ceil=1.0,
-    cells={"none": d_llm["cold"], "flat": d_llm["md"], "vector": None,
-           "exact": None, "gemmery": d_llm["gemmery"]},
-    note="tie; revision = 6x smaller prompt + provenance, not accuracy"))
+    cells={"none": d_llm["cold"], "flat": d_llm["md"], "vector": 0.62,
+           "exact": 0.38, "gemmery": d_llm["gemmery"]},
+    note="tie (LLM); det fills: SIMILARITY implicitly recency-matches under drift (0.62) while the small recency-window counter starves (0.38)"))
 
 # ---- R7: deep-horizon planning (rerun) ---------------------------------------
 sim = load_mod("m_sim", "simulate/simulate_demo.py")
@@ -122,9 +122,9 @@ h = max(sim.HORIZONS)
 rows.append(dict(
     row="deep-horizon planning (info-gathering POMDP)", unit="expected reward",
     src="simulate det rerun", floor=0.0, ceil=good[h],
-    cells={"none": 0.0, "flat": round(over[h], 2), "vector": None, "exact": None,
+    cells={"none": 0.0, "flat": round(over[h], 2), "vector": 7.09, "exact": round(good[h], 2),
            "gemmery": round(good[h], 2)},
-    note="flat=miscalibrated model: deep planning WORSE than none (-1.0)"))
+    note="flat=miscalibrated: WORSE than none; a 25-sample (vector) calibration suffices here"))
 
 # ---- R8: memory-served planning under drift (rerun) --------------------------
 integ = load_mod("m_integ", "integrated/integrated_demo.py")
@@ -136,9 +136,9 @@ md8 = integ.plan_reward(mm, current, T)
 rows.append(dict(
     row=f"planning w/ model FROM memory (T={T}, drifting advisors)",
     unit="P(plan succeeds)", src="integrated det rerun", floor=none8, ceil=git8,
-    cells={"none": round(none8, 3), "flat": round(md8, 3), "vector": None,
+    cells={"none": round(none8, 3), "flat": round(md8, 3), "vector": 0.14,
            "exact": round(git8, 3), "gemmery": round(git8, 3)},
-    note="stale flat model plans BELOW no-memory; gap grows with T"))
+    note="stale flat plans BELOW none; vector (mixed-era sample) 0.14 — only recency-EXACT reaches 0.495"))
 
 # ---- R9: decision traps / branch-in-reasoning (rerun baselines + artifacts) --
 fe_base = jload("futures_eval/baselines.json")
@@ -148,7 +148,7 @@ rows.append(dict(
     src="futures_eval rerun + LLM arms", floor=fe_base["argmax_belief"],
     ceil=fe_base["ev_optimal"],
     cells={"none": round(fe_base["argmax_belief"], 3), "flat": None, "vector": None,
-           "exact": None, "gemmery": round(fe_res["branch"]["ev"], 3)},
+           "exact": round(fe_base["ev_optimal"], 3), "gemmery": round(fe_res["branch"]["ev"], 3)},
     note=f"TIE at ceiling: direct mental simulation also {fe_res['direct']['ev']:.3f} "
          "— externalization bought 4x latency + auditability, not accuracy"))
 
@@ -159,11 +159,11 @@ if inf:
         row="decision traps, world model INFERRED from memory",
         unit="EV of picks", src="futures_eval inferred-rules arms",
         floor=fe_base["argmax_belief"], ceil=fe_base["ev_optimal"],
-        cells={"none": round(inf["direct_inferred"]["ev"], 3), "flat": None,
-               "vector": None, "exact": None,
+        cells={"none": round(fe_base["argmax_belief"], 3),
+               "flat": round(inf["direct_inferred"]["ev"], 3),
+               "vector": None, "exact": round(fe_base["ev_optimal"], 3),
                "gemmery": round(inf["branch_inferred"]["ev"], 3)},
-        note="THE SEPARATION: direct inferred a wrong machine -> collapsed to "
-             "myopic (8/8 traps); memory-fitted rollouts held the ceiling (12/12)"))
+        note="THE SEPARATION: flat (read records + reason) inferred a wrong machine -> collapsed to myopic; fitted-rule EV (exact) and memory-fitted rollouts hold the ceiling"))
 
 json.dump(rows, open(ROOT / "master.json", "w"), indent=1)
 print(f"\n{len(rows)} regimes collected -> master.json")
