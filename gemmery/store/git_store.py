@@ -124,8 +124,9 @@ class GitStore:
             name = _sanitize_ref_component(action.name if action else gem.kind.value)
             path = f"{gem.kind.value}/{day}/{int(ts * 1000)}-{name}"
         parts = [_sanitize_path_component(p) for p in path.split("/") if p]
-        if not _revise:
-            parts = self._uniquify(base_tree, parts)
+        if not parts:
+            raise ValueError(f"empty gem path from {path!r}")
+        parts = self._uniquify(base_tree, parts, revise=_revise)
         path = "/".join(parts)
 
         gem_tree = self._gem_files_tree(gem)
@@ -178,22 +179,64 @@ class GitStore:
                       pygit2.GIT_FILEMODE_TREE)
         return tb.write()
 
-    def _uniquify(self, base_tree, parts: list[str]) -> list[str]:
-        """Never silently shadow an existing gem: suffix the leaf if taken."""
-        tree = base_tree
-        for name in parts[:-1]:
-            if tree is None or name not in tree:
-                return parts  # fresh directory -> leaf can't collide
-            entry = tree[name]
-            if entry.filemode != pygit2.GIT_FILEMODE_TREE:
-                return parts
-            tree = self.repo.get(entry.id)
-        if tree is None or parts[-1] not in tree:
-            return parts
+    def _is_gem_dir(self, tree) -> bool:
+        return "meta.json" in tree and "body.json" in tree
+
+    def _free_name(self, tree, name: str) -> str:
         n = 2
-        while f"{parts[-1]}-{n}" in tree:
+        while f"{name}-{n}" in tree:
             n += 1
-        return parts[:-1] + [f"{parts[-1]}-{n}"]
+        return f"{name}-{n}"
+
+    def _uniquify(self, base_tree, parts: list[str], *,
+                  revise: bool = False) -> list[str]:
+        """Resolve a path against the existing file system without damage.
+
+        Guarantees: (1) a path never routes *through* a file — an intermediate
+        component that exists as a blob would otherwise be silently replaced by
+        a directory, destroying it at HEAD; (2) gems stay atomic — nesting a new
+        gem *inside* an existing gem's directory is redirected; (3) a leaf
+        collision is suffixed (``-2``, ``-3`` …) unless ``revise``, which
+        replaces the leaf in place (that's the point of revising).
+        """
+        tree = base_tree
+        out: list[str] = []
+        for i, name in enumerate(parts):
+            last = (i == len(parts) - 1)
+            if tree is None or name not in tree:
+                out.append(name)
+                tree = None
+                continue
+            entry = tree[name]
+            is_tree = entry.filemode == pygit2.GIT_FILEMODE_TREE
+            if last:
+                if revise:
+                    out.append(name)  # in-place replacement is the contract
+                else:
+                    out.append(self._free_name(tree, name))
+                continue
+            if not is_tree:
+                # would tunnel through a FILE -> never; redirect (or refuse)
+                if revise:
+                    raise ValueError(
+                        f"revise path {'/'.join(parts)!r} passes through a file "
+                        f"at {'/'.join(parts[:i + 1])!r}")
+                out.append(self._free_name(tree, name))
+                tree = None
+                continue
+            subtree = self.repo.get(entry.id)
+            if self._is_gem_dir(subtree):
+                # would nest inside an existing gem's directory -> redirect
+                if revise:
+                    raise ValueError(
+                        f"revise path {'/'.join(parts)!r} passes through gem "
+                        f"directory {'/'.join(parts[:i + 1])!r}")
+                out.append(self._free_name(tree, name))
+                tree = None
+                continue
+            out.append(name)
+            tree = subtree
+        return out
 
     def _signature(self, gem: Optional[Gem] = None) -> pygit2.Signature:
         if gem is not None:
@@ -238,6 +281,7 @@ class GitStore:
     # ------------------------------------------------------------------ #
     def branch_frontier(self, task: str, *, base: str = MAIN) -> str:
         """Create the next ``frontier/<task>/<n>`` branch off ``base``."""
+        task = "/".join(_sanitize_ref_component(p) for p in task.split("/") if p) or "task"
         n = self._next_frontier_index(task)
         name = f"frontier/{task}/{n}"
         base_tip = self._ref_target(f"refs/heads/{base}")
@@ -446,6 +490,7 @@ class GitStore:
 
     def frontier(self, task: str) -> dict[str, list[str]]:
         """Frontier query: gems on each ``frontier/<task>/*`` not yet on main."""
+        task = "/".join(_sanitize_ref_component(p) for p in task.split("/") if p) or "task"
         out: dict[str, list[str]] = {}
         for ref in self.list_branches(prefix=f"frontier/{task}/"):
             out[ref] = self._git_lines(["log", "--format=%H", f"{MAIN}..{ref}"])
@@ -606,7 +651,14 @@ def _sanitize_ref_component(s: str) -> str:
     out = []
     for ch in s:
         out.append(ch if (ch.isalnum() or ch in "-_.") else "-")
-    return "".join(out) or "x"
+    r = "".join(out)
+    # git ref rules: no "..", no leading/trailing dot, no ".lock" suffix
+    while ".." in r:
+        r = r.replace("..", ".")
+    r = r.strip(".")
+    if r.endswith(".lock"):
+        r = r[:-5] + "-lock"
+    return r or "x"
 
 
 def _sanitize_path_component(s: str) -> str:

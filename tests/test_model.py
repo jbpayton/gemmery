@@ -31,9 +31,20 @@ def test_files_roundtrip_excludes_success():
         "gem/meta.json", "gem/body.json", "gem/reasoning.md",
         "gem/pre.json", "gem/index.json",
     }
-    # success must never be serialized into the commit (Invariant 1)
-    for data in files.values():
-        assert b"success" not in data.lower() or b"successor" in data.lower()
+    # success must never be serialized into the commit (Invariant 1):
+    # no JSON file may carry a "success" key (substring checks are too weak)
+    import json as _json
+    for name, data in files.items():
+        if name.endswith(".json"):
+            def no_success_key(obj):
+                if isinstance(obj, dict):
+                    assert "success" not in obj, f"'success' key leaked into {name}"
+                    for v in obj.values():
+                        no_success_key(v)
+                elif isinstance(obj, list):
+                    for v in obj:
+                        no_success_key(v)
+            no_success_key(_json.loads(data))
     g2 = Gem.from_files(files, sha="deadbeef", parents=["cafe"])
     assert g2.kind is Kind.decision
     assert g2.action().name == g.action().name
