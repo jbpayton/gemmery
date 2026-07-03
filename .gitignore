@@ -39,3 +39,4 @@ experiments/futures/store/
 experiments/futures/prompt_*.txt
 experiments/futures_eval/prompt_*.txt
 experiments/futures_eval/store/
+data/
