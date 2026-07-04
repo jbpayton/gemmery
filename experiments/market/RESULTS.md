@@ -55,3 +55,25 @@ One dataset, one test window (Q4-2015), lexicon sentiment, mechanical arms
 only. No trading-cost simulation, no absolute-alpha claim. The LLM comparative
 arms (memory-delta at matched contamination) and the FNSPID scale-up
 (beyond-context news history) are the designed next steps.
+
+---
+
+## Scale-up: FNSPID NASDAQ-100 (85 stocks, 2010–2023, 184,767 episodes)
+
+The replication treatment our own protocol demanded — same signal family, same
+arms, walked forward through **six market regimes**. News corpus: 358K articles
+≈ **280M tokens ≈ 1,400× a 200K context window** (the beyond-context regime,
+quantified on real data: no read-based memory can hold this; the dossiers are
+exact aggregates over all of it).
+
+| | result |
+|---|---|
+| credit dossiers (decayed), yearly MCC | **positive 13/14 years** (only 2022 bear −0.008); sign test **p ≈ 0.0009** |
+| selective (τ=0.02) | positive **14/14 years** (+0.002…+0.085) |
+| flat recency log | negative in 10/14 years — the flat-null replicates too |
+
+Honest observations: the edge attenuates 2020–2022 (news volume tripled and
+the naive lexicon's signal thinned — a real drift the dossiers survived but
+didn't escape), recovering in 2023. The StockNet +0.036 was not a one-window
+fluke; it is a small, real, replicating edge — exactly the size the
+efficient-market prior said a legitimate one would be.
