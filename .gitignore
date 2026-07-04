@@ -41,3 +41,5 @@ experiments/futures_eval/prompt_*.txt
 experiments/futures_eval/store/
 data/
 experiments/market/store/
+experiments/swe/store/
+experiments/swe/prompt_*.txt
