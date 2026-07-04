@@ -1,0 +1,82 @@
+{
+ "0": {
+  "naive": {
+   "total_bps": 2216598.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 62279.0
+  },
+  "greedy": {
+   "total_bps": 2435309.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 19899.0
+  },
+  "planner": {
+   "total_bps": 2251498.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 15931.0
+  }
+ },
+ "5": {
+  "naive": {
+   "total_bps": 1905203.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 62279.0
+  },
+  "greedy": {
+   "total_bps": 2288947.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 10493.0
+  },
+  "planner": {
+   "total_bps": 2111917.0,
+   "yearly_pos": 12,
+   "n_years": 14,
+   "turnover": 6915.0
+  }
+ },
+ "10": {
+  "naive": {
+   "total_bps": 1593808.0,
+   "yearly_pos": 12,
+   "n_years": 14,
+   "turnover": 62279.0
+  },
+  "greedy": {
+   "total_bps": 2359007.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 3935.0
+  },
+  "planner": {
+   "total_bps": 2202742.0,
+   "yearly_pos": 12,
+   "n_years": 14,
+   "turnover": 1895.0
+  }
+ },
+ "20": {
+  "naive": {
+   "total_bps": 971018.0,
+   "yearly_pos": 9,
+   "n_years": 14,
+   "turnover": 62279.0
+  },
+  "greedy": {
+   "total_bps": 1066043.0,
+   "yearly_pos": 12,
+   "n_years": 14,
+   "turnover": 1135.0
+  },
+  "planner": {
+   "total_bps": 2291353.0,
+   "yearly_pos": 13,
+   "n_years": 14,
+   "turnover": 1115.0
+  }
+ }
+}

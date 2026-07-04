@@ -77,3 +77,38 @@ the naive lexicon's signal thinned — a real drift the dossiers survived but
 didn't escape), recovering in 2023. The StockNet +0.036 was not a one-window
 fluke; it is a small, real, replicating edge — exactly the size the
 efficient-market prior said a legitimate one would be.
+
+---
+
+## Position game: simulation finally gets a job on real data
+
+Sequential consequences via transaction costs: position w ∈ {−1,0,+1} per
+(symbol, day), reward w·r − c·|Δw|, 263,848 decisions, 2010–2023. All arms share
+the SAME dossier beliefs; only the planning horizon differs. World model =
+two more walk-forward exact-aggregate dossiers (drift per belief-bucket + the
+bucket transition matrix); the planner runs H=10 backward induction over that
+fitted MDP, re-planned monthly.
+
+| cost | naive (chase) | greedy (1-step) | planner (simulate) |
+|---|---|---|---|
+| 0 bps | +2,217 | +2,435 | +2,251 |
+| 5 bps | +1,905 | +2,289 | +2,112 |
+| 10 bps | +1,594 | +2,359 | +2,203 |
+| **20 bps** | +971 | +1,066 | **+2,291** |
+
+(cumulative %-points summed over 85 single-symbol books; turnover: naive fixed
+at 62.3K, greedy 19.9K→1.1K, planner 15.9K→1.1K)
+
+- **The planner's edge is cost-invariant** (+2,251→+2,291 across the sweep): it
+  plans its own turnover down as friction rises — the no-trade band emerges
+  from lookahead, not hand-tuning.
+- **At 20 bps, simulation more than doubles the myopic arms**: greedy's 1-step
+  horizon can't justify holding positions whose multi-day cumulative edge
+  exceeds the round-trip cost; the planner holds through noise.
+- **At low friction, simulation adds nothing (slightly negative vs greedy)** —
+  the session's horizon-threshold law translated to markets: lookahead pays
+  exactly when actions have consequences; when switching is free, myopia is fine.
+
+Honest scope: comparative claim only (same beliefs, different horizons);
+cumulative bps ≠ portfolio Sharpe (no capital constraints/slippage curve);
+mechanical arms, contamination-free.
