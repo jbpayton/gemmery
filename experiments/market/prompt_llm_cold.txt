@@ -1,0 +1,242 @@
+You are a quantitative analyst. For EACH anonymized stock-day below (no tickers, no dates), predict whether the next trading day's move is UP (>=+0.55%) or DOWN (<=-0.5%). Return ONLY JSON mapping episode id to "U" or "D", e.g. {"E0":"U"}.
+
+=== EPISODE E0 ===
+yesterday's move: +2.38%; 5-day mean move: -1.21%
+news yesterday: 4 articles (4.7x normal volume); net sentiment score +4
+
+=== EPISODE E1 ===
+yesterday's move: -4.03%; 5-day mean move: -0.85%
+news yesterday: 17 articles (8.3x normal volume); net sentiment score +4
+
+=== EPISODE E2 ===
+yesterday's move: -0.74%; 5-day mean move: -0.10%
+news yesterday: 13 articles (11.3x normal volume); net sentiment score +5
+
+=== EPISODE E3 ===
+yesterday's move: +4.11%; 5-day mean move: +0.67%
+news yesterday: 4 articles (8.0x normal volume); net sentiment score -2
+
+=== EPISODE E4 ===
+yesterday's move: +0.58%; 5-day mean move: -0.11%
+news yesterday: 8 articles (3.1x normal volume); net sentiment score +2
+
+=== EPISODE E5 ===
+yesterday's move: +0.64%; 5-day mean move: +0.33%
+news yesterday: 4 articles (3.1x normal volume); net sentiment score +0
+
+=== EPISODE E6 ===
+yesterday's move: -1.13%; 5-day mean move: -0.05%
+news yesterday: 6 articles (8.6x normal volume); net sentiment score +0
+
+=== EPISODE E7 ===
+yesterday's move: -0.71%; 5-day mean move: -0.09%
+news yesterday: 2 articles (1.5x normal volume); net sentiment score +3
+
+=== EPISODE E8 ===
+yesterday's move: -0.05%; 5-day mean move: +0.00%
+news yesterday: 5 articles (2.0x normal volume); net sentiment score +2
+
+=== EPISODE E9 ===
+yesterday's move: +6.20%; 5-day mean move: +0.84%
+news yesterday: 7 articles (14.0x normal volume); net sentiment score +5
+
+=== EPISODE E10 ===
+yesterday's move: -2.66%; 5-day mean move: +2.27%
+news yesterday: 9 articles (2.2x normal volume); net sentiment score +0
+
+=== EPISODE E11 ===
+yesterday's move: -0.61%; 5-day mean move: -0.12%
+news yesterday: 6 articles (2.1x normal volume); net sentiment score +1
+
+=== EPISODE E12 ===
+yesterday's move: +2.42%; 5-day mean move: +0.26%
+news yesterday: 8 articles (8.9x normal volume); net sentiment score +0
+
+=== EPISODE E13 ===
+yesterday's move: +1.23%; 5-day mean move: +0.84%
+news yesterday: 5 articles (3.2x normal volume); net sentiment score +7
+
+=== EPISODE E14 ===
+yesterday's move: +0.42%; 5-day mean move: +0.07%
+news yesterday: 1 articles (0.5x normal volume); net sentiment score -2
+
+=== EPISODE E15 ===
+yesterday's move: -5.65%; 5-day mean move: -1.51%
+news yesterday: 5 articles (2.8x normal volume); net sentiment score +1
+
+=== EPISODE E16 ===
+yesterday's move: +0.00%; 5-day mean move: -0.09%
+news yesterday: 5 articles (3.2x normal volume); net sentiment score +3
+
+=== EPISODE E17 ===
+yesterday's move: +3.61%; 5-day mean move: +1.33%
+news yesterday: 4 articles (2.5x normal volume); net sentiment score -1
+
+=== EPISODE E18 ===
+yesterday's move: -0.62%; 5-day mean move: -0.36%
+news yesterday: 4 articles (1.7x normal volume); net sentiment score +2
+
+=== EPISODE E19 ===
+yesterday's move: +1.44%; 5-day mean move: +0.70%
+news yesterday: 8 articles (5.5x normal volume); net sentiment score +3
+
+=== EPISODE E20 ===
+yesterday's move: -4.13%; 5-day mean move: -0.82%
+news yesterday: 10 articles (13.3x normal volume); net sentiment score +1
+
+=== EPISODE E21 ===
+yesterday's move: -6.35%; 5-day mean move: -1.08%
+news yesterday: 12 articles (2.1x normal volume); net sentiment score -2
+
+=== EPISODE E22 ===
+yesterday's move: -3.84%; 5-day mean move: -0.73%
+news yesterday: 2 articles (1.3x normal volume); net sentiment score +2
+
+=== EPISODE E23 ===
+yesterday's move: +2.91%; 5-day mean move: +2.09%
+news yesterday: 17 articles (2.3x normal volume); net sentiment score +3
+
+=== EPISODE E24 ===
+yesterday's move: -1.41%; 5-day mean move: -1.02%
+news yesterday: 6 articles (3.2x normal volume); net sentiment score -2
+
+=== EPISODE E25 ===
+yesterday's move: +0.65%; 5-day mean move: -0.16%
+news yesterday: 4 articles (2.4x normal volume); net sentiment score +1
+
+=== EPISODE E26 ===
+yesterday's move: +0.29%; 5-day mean move: +0.75%
+news yesterday: 4 articles (1.1x normal volume); net sentiment score +3
+
+=== EPISODE E27 ===
+yesterday's move: +1.28%; 5-day mean move: +0.49%
+news yesterday: 2 articles (1.2x normal volume); net sentiment score +2
+
+=== EPISODE E28 ===
+yesterday's move: -2.03%; 5-day mean move: -0.41%
+news yesterday: 3 articles (6.0x normal volume); net sentiment score +2
+
+=== EPISODE E29 ===
+yesterday's move: -0.45%; 5-day mean move: -0.11%
+news yesterday: 4 articles (2.0x normal volume); net sentiment score +7
+
+=== EPISODE E30 ===
+yesterday's move: +0.06%; 5-day mean move: +0.09%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score -2
+
+=== EPISODE E31 ===
+yesterday's move: +1.82%; 5-day mean move: +0.04%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score +0
+
+=== EPISODE E32 ===
+yesterday's move: -0.03%; 5-day mean move: -0.41%
+news yesterday: 8 articles (1.5x normal volume); net sentiment score +3
+
+=== EPISODE E33 ===
+yesterday's move: +2.49%; 5-day mean move: -1.92%
+news yesterday: 10 articles (2.0x normal volume); net sentiment score +0
+
+=== EPISODE E34 ===
+yesterday's move: +0.25%; 5-day mean move: +0.18%
+news yesterday: 5 articles (2.0x normal volume); net sentiment score +2
+
+=== EPISODE E35 ===
+yesterday's move: -1.47%; 5-day mean move: +0.14%
+news yesterday: 3 articles (0.6x normal volume); net sentiment score +2
+
+=== EPISODE E36 ===
+yesterday's move: +2.78%; 5-day mean move: +0.01%
+news yesterday: 12 articles (2.4x normal volume); net sentiment score +2
+
+=== EPISODE E37 ===
+yesterday's move: +1.26%; 5-day mean move: +0.56%
+news yesterday: 4 articles (1.3x normal volume); net sentiment score +2
+
+=== EPISODE E38 ===
+yesterday's move: -0.63%; 5-day mean move: +0.23%
+news yesterday: 11 articles (3.4x normal volume); net sentiment score +2
+
+=== EPISODE E39 ===
+yesterday's move: -3.38%; 5-day mean move: -0.06%
+news yesterday: 7 articles (1.8x normal volume); net sentiment score +2
+
+=== EPISODE E40 ===
+yesterday's move: +0.10%; 5-day mean move: -0.20%
+news yesterday: 4 articles (0.9x normal volume); net sentiment score +2
+
+=== EPISODE E41 ===
+yesterday's move: -1.24%; 5-day mean move: -0.38%
+news yesterday: 1 articles (0.2x normal volume); net sentiment score +2
+
+=== EPISODE E42 ===
+yesterday's move: -1.25%; 5-day mean move: +1.99%
+news yesterday: 8 articles (5.2x normal volume); net sentiment score -1
+
+=== EPISODE E43 ===
+yesterday's move: +1.04%; 5-day mean move: -0.18%
+news yesterday: 5 articles (2.3x normal volume); net sentiment score +2
+
+=== EPISODE E44 ===
+yesterday's move: -2.41%; 5-day mean move: -1.47%
+news yesterday: 5 articles (2.2x normal volume); net sentiment score +0
+
+=== EPISODE E45 ===
+yesterday's move: -0.78%; 5-day mean move: -0.17%
+news yesterday: 2 articles (1.4x normal volume); net sentiment score +2
+
+=== EPISODE E46 ===
+yesterday's move: +2.18%; 5-day mean move: +0.08%
+news yesterday: 9 articles (8.2x normal volume); net sentiment score +0
+
+=== EPISODE E47 ===
+yesterday's move: +1.35%; 5-day mean move: +0.09%
+news yesterday: 8 articles (8.0x normal volume); net sentiment score +5
+
+=== EPISODE E48 ===
+yesterday's move: +13.06%; 5-day mean move: +3.03%
+news yesterday: 13 articles (9.3x normal volume); net sentiment score +9
+
+=== EPISODE E49 ===
+yesterday's move: -11.68%; 5-day mean move: -3.17%
+news yesterday: 11 articles (20.0x normal volume); net sentiment score -1
+
+=== EPISODE E50 ===
+yesterday's move: -1.52%; 5-day mean move: -0.16%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score +2
+
+=== EPISODE E51 ===
+yesterday's move: +0.53%; 5-day mean move: +0.01%
+news yesterday: 6 articles (3.2x normal volume); net sentiment score +1
+
+=== EPISODE E52 ===
+yesterday's move: -1.74%; 5-day mean move: +0.07%
+news yesterday: 3 articles (1.3x normal volume); net sentiment score +2
+
+=== EPISODE E53 ===
+yesterday's move: +1.68%; 5-day mean move: +0.53%
+news yesterday: 4 articles (1.3x normal volume); net sentiment score +2
+
+=== EPISODE E54 ===
+yesterday's move: +30.65%; 5-day mean move: +4.86%
+news yesterday: 20 articles (11.8x normal volume); net sentiment score +11
+
+=== EPISODE E55 ===
+yesterday's move: -1.53%; 5-day mean move: +1.04%
+news yesterday: 6 articles (2.9x normal volume); net sentiment score +1
+
+=== EPISODE E56 ===
+yesterday's move: -0.38%; 5-day mean move: +0.14%
+news yesterday: 6 articles (2.0x normal volume); net sentiment score +2
+
+=== EPISODE E57 ===
+yesterday's move: -0.56%; 5-day mean move: -0.76%
+news yesterday: 1 articles (0.5x normal volume); net sentiment score +2
+
+=== EPISODE E58 ===
+yesterday's move: -2.44%; 5-day mean move: -0.50%
+news yesterday: 5 articles (2.6x normal volume); net sentiment score +1
+
+=== EPISODE E59 ===
+yesterday's move: -0.30%; 5-day mean move: -0.05%
+news yesterday: 4 articles (1.1x normal volume); net sentiment score +2
+

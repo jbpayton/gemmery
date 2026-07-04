@@ -1,0 +1,486 @@
+You are a quantitative analyst. For EACH anonymized stock-day below (no tickers, no dates), predict whether the next trading day's move is UP (>=+0.55%) or DOWN (<=-0.5%). Return ONLY JSON mapping episode id to "U" or "D", e.g. {"E0":"U"}.
+
+=== EPISODE E0 ===
+yesterday's move: +2.38%; 5-day mean move: -1.21%
+news yesterday: 4 articles (4.7x normal volume); net sentiment score +4
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8603 past occurrences, next-day was UP 50.2% of the time
+  - news_bullish: across 595 past occurrences, next-day was UP 55.1% of the time
+  - news_burst: across 757 past occurrences, next-day was UP 53.0% of the time
+  - burst_bullish: across 379 past occurrences, next-day was UP 55.1% of the time
+
+=== EPISODE E1 ===
+yesterday's move: -4.03%; 5-day mean move: -0.85%
+news yesterday: 17 articles (8.3x normal volume); net sentiment score +4
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 3043 past occurrences, next-day was UP 51.7% of the time
+  - news_bullish: across 617 past occurrences, next-day was UP 54.1% of the time
+  - news_burst: across 790 past occurrences, next-day was UP 52.7% of the time
+  - burst_bullish: across 394 past occurrences, next-day was UP 55.1% of the time
+
+=== EPISODE E2 ===
+yesterday's move: -0.74%; 5-day mean move: -0.10%
+news yesterday: 13 articles (11.3x normal volume); net sentiment score +5
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 625 past occurrences, next-day was UP 54.1% of the time
+  - news_burst: across 798 past occurrences, next-day was UP 52.5% of the time
+  - burst_bullish: across 401 past occurrences, next-day was UP 55.3% of the time
+
+=== EPISODE E3 ===
+yesterday's move: +4.11%; 5-day mean move: +0.67%
+news yesterday: 4 articles (8.0x normal volume); net sentiment score -2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8783 past occurrences, next-day was UP 49.5% of the time
+  - mom5_up: across 9131 past occurrences, next-day was UP 49.4% of the time
+  - news_bearish: across 247 past occurrences, next-day was UP 51.0% of the time
+  - news_burst: across 795 past occurrences, next-day was UP 52.6% of the time
+  - burst_bearish: across 157 past occurrences, next-day was UP 46.2% of the time
+
+=== EPISODE E4 ===
+yesterday's move: +0.58%; 5-day mean move: -0.11%
+news yesterday: 8 articles (3.1x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9007 past occurrences, next-day was UP 50.1% of the time
+  - news_bullish: across 640 past occurrences, next-day was UP 54.2% of the time
+  - news_burst: across 805 past occurrences, next-day was UP 53.6% of the time
+  - burst_bullish: across 406 past occurrences, next-day was UP 56.1% of the time
+
+=== EPISODE E5 ===
+yesterday's move: +0.64%; 5-day mean move: +0.33%
+news yesterday: 4 articles (3.1x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9004 past occurrences, next-day was UP 50.0% of the time
+  - mom5_up: across 9556 past occurrences, next-day was UP 50.2% of the time
+  - news_burst: across 808 past occurrences, next-day was UP 53.7% of the time
+
+=== EPISODE E6 ===
+yesterday's move: -1.13%; 5-day mean move: -0.05%
+news yesterday: 6 articles (8.6x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - news_burst: across 811 past occurrences, next-day was UP 53.4% of the time
+
+=== EPISODE E7 ===
+yesterday's move: -0.71%; 5-day mean move: -0.09%
+news yesterday: 2 articles (1.5x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 627 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E8 ===
+yesterday's move: -0.05%; 5-day mean move: +0.00%
+news yesterday: 5 articles (2.0x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom5_up: across 9456 past occurrences, next-day was UP 50.3% of the time
+  - news_bullish: across 632 past occurrences, next-day was UP 53.5% of the time
+
+=== EPISODE E9 ===
+yesterday's move: +6.20%; 5-day mean move: +0.84%
+news yesterday: 7 articles (14.0x normal volume); net sentiment score +5
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9044 past occurrences, next-day was UP 50.4% of the time
+  - mom5_up: across 9561 past occurrences, next-day was UP 50.9% of the time
+  - news_bullish: across 623 past occurrences, next-day was UP 54.0% of the time
+  - news_burst: across 797 past occurrences, next-day was UP 53.5% of the time
+  - burst_bullish: across 398 past occurrences, next-day was UP 56.2% of the time
+
+=== EPISODE E10 ===
+yesterday's move: -2.66%; 5-day mean move: +2.27%
+news yesterday: 9 articles (2.2x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2864 past occurrences, next-day was UP 52.1% of the time
+  - mom5_up: across 9603 past occurrences, next-day was UP 51.0% of the time
+  - news_burst: across 817 past occurrences, next-day was UP 53.6% of the time
+
+=== EPISODE E11 ===
+yesterday's move: -0.61%; 5-day mean move: -0.12%
+news yesterday: 6 articles (2.1x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - news_burst: across 814 past occurrences, next-day was UP 53.2% of the time
+  - burst_bullish: across 408 past occurrences, next-day was UP 55.5% of the time
+
+=== EPISODE E12 ===
+yesterday's move: +2.42%; 5-day mean move: +0.26%
+news yesterday: 8 articles (8.9x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8937 past occurrences, next-day was UP 50.2% of the time
+  - mom5_up: across 9468 past occurrences, next-day was UP 50.9% of the time
+  - news_burst: across 825 past occurrences, next-day was UP 52.9% of the time
+
+=== EPISODE E13 ===
+yesterday's move: +1.23%; 5-day mean move: +0.84%
+news yesterday: 5 articles (3.2x normal volume); net sentiment score +7
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8893 past occurrences, next-day was UP 50.0% of the time
+  - mom5_up: across 9434 past occurrences, next-day was UP 50.8% of the time
+  - news_bullish: across 631 past occurrences, next-day was UP 53.5% of the time
+  - news_burst: across 838 past occurrences, next-day was UP 52.8% of the time
+  - burst_bullish: across 426 past occurrences, next-day was UP 54.8% of the time
+
+=== EPISODE E14 ===
+yesterday's move: +0.42%; 5-day mean move: +0.07%
+news yesterday: 1 articles (0.5x normal volume); net sentiment score -2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8842 past occurrences, next-day was UP 49.7% of the time
+  - mom5_up: across 9326 past occurrences, next-day was UP 50.5% of the time
+  - news_bearish: across 256 past occurrences, next-day was UP 46.1% of the time
+
+=== EPISODE E15 ===
+yesterday's move: -5.65%; 5-day mean move: -1.51%
+news yesterday: 5 articles (2.8x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2661 past occurrences, next-day was UP 52.7% of the time
+  - news_burst: across 872 past occurrences, next-day was UP 51.2% of the time
+  - burst_bullish: across 445 past occurrences, next-day was UP 53.5% of the time
+
+=== EPISODE E16 ===
+yesterday's move: +0.00%; 5-day mean move: -0.09%
+news yesterday: 5 articles (3.2x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 680 past occurrences, next-day was UP 53.6% of the time
+  - news_burst: across 882 past occurrences, next-day was UP 50.7% of the time
+  - burst_bullish: across 450 past occurrences, next-day was UP 53.0% of the time
+
+=== EPISODE E17 ===
+yesterday's move: +3.61%; 5-day mean move: +1.33%
+news yesterday: 4 articles (2.5x normal volume); net sentiment score -1
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8847 past occurrences, next-day was UP 50.0% of the time
+  - mom5_up: across 9344 past occurrences, next-day was UP 50.8% of the time
+  - news_burst: across 903 past occurrences, next-day was UP 51.1% of the time
+  - burst_bearish: across 173 past occurrences, next-day was UP 43.7% of the time
+
+=== EPISODE E18 ===
+yesterday's move: -0.62%; 5-day mean move: -0.36%
+news yesterday: 4 articles (1.7x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 699 past occurrences, next-day was UP 53.8% of the time
+
+=== EPISODE E19 ===
+yesterday's move: +1.44%; 5-day mean move: +0.70%
+news yesterday: 8 articles (5.5x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8769 past occurrences, next-day was UP 50.2% of the time
+  - mom5_up: across 9332 past occurrences, next-day was UP 51.2% of the time
+  - news_bullish: across 722 past occurrences, next-day was UP 54.0% of the time
+  - news_burst: across 915 past occurrences, next-day was UP 51.5% of the time
+  - burst_bullish: across 474 past occurrences, next-day was UP 54.3% of the time
+
+=== EPISODE E20 ===
+yesterday's move: -4.13%; 5-day mean move: -0.82%
+news yesterday: 10 articles (13.3x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2390 past occurrences, next-day was UP 53.5% of the time
+  - news_burst: across 902 past occurrences, next-day was UP 51.6% of the time
+  - burst_bullish: across 467 past occurrences, next-day was UP 54.3% of the time
+
+=== EPISODE E21 ===
+yesterday's move: -6.35%; 5-day mean move: -1.08%
+news yesterday: 12 articles (2.1x normal volume); net sentiment score -2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2381 past occurrences, next-day was UP 53.5% of the time
+  - news_bearish: across 251 past occurrences, next-day was UP 44.6% of the time
+  - news_burst: across 901 past occurrences, next-day was UP 51.5% of the time
+  - burst_bearish: across 170 past occurrences, next-day was UP 45.1% of the time
+
+=== EPISODE E22 ===
+yesterday's move: -3.84%; 5-day mean move: -0.73%
+news yesterday: 2 articles (1.3x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2363 past occurrences, next-day was UP 53.4% of the time
+  - news_bullish: across 716 past occurrences, next-day was UP 53.5% of the time
+
+=== EPISODE E23 ===
+yesterday's move: +2.91%; 5-day mean move: +2.09%
+news yesterday: 17 articles (2.3x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8698 past occurrences, next-day was UP 51.6% of the time
+  - mom5_up: across 9300 past occurrences, next-day was UP 52.5% of the time
+  - news_bullish: across 758 past occurrences, next-day was UP 55.6% of the time
+  - news_burst: across 919 past occurrences, next-day was UP 52.0% of the time
+  - burst_bullish: across 487 past occurrences, next-day was UP 54.1% of the time
+
+=== EPISODE E24 ===
+yesterday's move: -1.41%; 5-day mean move: -1.02%
+news yesterday: 6 articles (3.2x normal volume); net sentiment score -2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bearish: across 251 past occurrences, next-day was UP 45.0% of the time
+  - news_burst: across 924 past occurrences, next-day was UP 51.9% of the time
+  - burst_bearish: across 171 past occurrences, next-day was UP 45.2% of the time
+
+=== EPISODE E25 ===
+yesterday's move: +0.65%; 5-day mean move: -0.16%
+news yesterday: 4 articles (2.4x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8690 past occurrences, next-day was UP 51.4% of the time
+  - news_burst: across 927 past occurrences, next-day was UP 52.2% of the time
+  - burst_bullish: across 490 past occurrences, next-day was UP 54.3% of the time
+
+=== EPISODE E26 ===
+yesterday's move: +0.29%; 5-day mean move: +0.75%
+news yesterday: 4 articles (1.1x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8712 past occurrences, next-day was UP 51.1% of the time
+  - mom5_up: across 9229 past occurrences, next-day was UP 52.5% of the time
+  - news_bullish: across 835 past occurrences, next-day was UP 53.4% of the time
+
+=== EPISODE E27 ===
+yesterday's move: +1.28%; 5-day mean move: +0.49%
+news yesterday: 2 articles (1.2x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8690 past occurrences, next-day was UP 51.4% of the time
+  - mom5_up: across 9195 past occurrences, next-day was UP 52.8% of the time
+  - news_bullish: across 831 past occurrences, next-day was UP 53.8% of the time
+
+=== EPISODE E28 ===
+yesterday's move: -2.03%; 5-day mean move: -0.41%
+news yesterday: 3 articles (6.0x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2163 past occurrences, next-day was UP 54.1% of the time
+  - news_bullish: across 837 past occurrences, next-day was UP 54.0% of the time
+
+=== EPISODE E29 ===
+yesterday's move: -0.45%; 5-day mean move: -0.11%
+news yesterday: 4 articles (2.0x normal volume); net sentiment score +7
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 842 past occurrences, next-day was UP 53.7% of the time
+
+=== EPISODE E30 ===
+yesterday's move: +0.06%; 5-day mean move: +0.09%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score -2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8667 past occurrences, next-day was UP 51.7% of the time
+  - mom5_up: across 9227 past occurrences, next-day was UP 53.2% of the time
+  - news_bearish: across 231 past occurrences, next-day was UP 46.6% of the time
+  - news_burst: across 970 past occurrences, next-day was UP 52.0% of the time
+  - burst_bearish: across 161 past occurrences, next-day was UP 45.6% of the time
+
+=== EPISODE E31 ===
+yesterday's move: +1.82%; 5-day mean move: +0.04%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8669 past occurrences, next-day was UP 51.7% of the time
+  - mom5_up: across 9230 past occurrences, next-day was UP 53.2% of the time
+  - news_burst: across 975 past occurrences, next-day was UP 52.1% of the time
+
+=== EPISODE E32 ===
+yesterday's move: -0.03%; 5-day mean move: -0.41%
+news yesterday: 8 articles (1.5x normal volume); net sentiment score +3
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 903 past occurrences, next-day was UP 53.7% of the time
+
+=== EPISODE E33 ===
+yesterday's move: +2.49%; 5-day mean move: -1.92%
+news yesterday: 10 articles (2.0x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8669 past occurrences, next-day was UP 51.6% of the time
+  - news_burst: across 986 past occurrences, next-day was UP 52.5% of the time
+
+=== EPISODE E34 ===
+yesterday's move: +0.25%; 5-day mean move: +0.18%
+news yesterday: 5 articles (2.0x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8706 past occurrences, next-day was UP 51.7% of the time
+  - mom5_up: across 9256 past occurrences, next-day was UP 53.3% of the time
+  - news_bullish: across 919 past occurrences, next-day was UP 53.9% of the time
+  - news_burst: across 983 past occurrences, next-day was UP 52.5% of the time
+  - burst_bullish: across 541 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E35 ===
+yesterday's move: -1.47%; 5-day mean move: +0.14%
+news yesterday: 3 articles (0.6x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom5_up: across 9239 past occurrences, next-day was UP 53.2% of the time
+  - news_bullish: across 918 past occurrences, next-day was UP 53.9% of the time
+
+=== EPISODE E36 ===
+yesterday's move: +2.78%; 5-day mean move: +0.01%
+news yesterday: 12 articles (2.4x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8680 past occurrences, next-day was UP 51.7% of the time
+  - mom5_up: across 9237 past occurrences, next-day was UP 53.2% of the time
+  - news_bullish: across 919 past occurrences, next-day was UP 53.9% of the time
+  - news_burst: across 981 past occurrences, next-day was UP 52.5% of the time
+  - burst_bullish: across 541 past occurrences, next-day was UP 52.7% of the time
+
+=== EPISODE E37 ===
+yesterday's move: +1.26%; 5-day mean move: +0.56%
+news yesterday: 4 articles (1.3x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8704 past occurrences, next-day was UP 51.8% of the time
+  - mom5_up: across 9295 past occurrences, next-day was UP 53.2% of the time
+  - news_bullish: across 921 past occurrences, next-day was UP 54.0% of the time
+
+=== EPISODE E38 ===
+yesterday's move: -0.63%; 5-day mean move: +0.23%
+news yesterday: 11 articles (3.4x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom5_up: across 9331 past occurrences, next-day was UP 53.5% of the time
+  - news_bullish: across 929 past occurrences, next-day was UP 53.6% of the time
+  - news_burst: across 991 past occurrences, next-day was UP 52.2% of the time
+  - burst_bullish: across 553 past occurrences, next-day was UP 52.1% of the time
+
+=== EPISODE E39 ===
+yesterday's move: -3.38%; 5-day mean move: -0.06%
+news yesterday: 7 articles (1.8x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2060 past occurrences, next-day was UP 55.4% of the time
+  - news_bullish: across 971 past occurrences, next-day was UP 53.9% of the time
+
+=== EPISODE E40 ===
+yesterday's move: +0.10%; 5-day mean move: -0.20%
+news yesterday: 4 articles (0.9x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8760 past occurrences, next-day was UP 52.1% of the time
+  - news_bullish: across 1017 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E41 ===
+yesterday's move: -1.24%; 5-day mean move: -0.38%
+news yesterday: 1 articles (0.2x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 1048 past occurrences, next-day was UP 53.2% of the time
+
+=== EPISODE E42 ===
+yesterday's move: -1.25%; 5-day mean move: +1.99%
+news yesterday: 8 articles (5.2x normal volume); net sentiment score -1
+MEMORY (walk-forward track records of the patterns active today):
+  - mom5_up: across 9479 past occurrences, next-day was UP 53.7% of the time
+  - news_burst: across 1046 past occurrences, next-day was UP 51.9% of the time
+  - burst_bearish: across 160 past occurrences, next-day was UP 47.5% of the time
+
+=== EPISODE E43 ===
+yesterday's move: +1.04%; 5-day mean move: -0.18%
+news yesterday: 5 articles (2.3x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8941 past occurrences, next-day was UP 53.0% of the time
+  - news_bullish: across 1053 past occurrences, next-day was UP 53.8% of the time
+  - news_burst: across 1048 past occurrences, next-day was UP 51.8% of the time
+  - burst_bullish: across 600 past occurrences, next-day was UP 52.4% of the time
+
+=== EPISODE E44 ===
+yesterday's move: -2.41%; 5-day mean move: -1.47%
+news yesterday: 5 articles (2.2x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2251 past occurrences, next-day was UP 55.0% of the time
+  - news_burst: across 1049 past occurrences, next-day was UP 51.8% of the time
+
+=== EPISODE E45 ===
+yesterday's move: -0.78%; 5-day mean move: -0.17%
+news yesterday: 2 articles (1.4x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 1057 past occurrences, next-day was UP 53.6% of the time
+
+=== EPISODE E46 ===
+yesterday's move: +2.18%; 5-day mean move: +0.08%
+news yesterday: 9 articles (8.2x normal volume); net sentiment score +0
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8915 past occurrences, next-day was UP 52.0% of the time
+  - mom5_up: across 9355 past occurrences, next-day was UP 53.3% of the time
+  - news_burst: across 1043 past occurrences, next-day was UP 52.0% of the time
+
+=== EPISODE E47 ===
+yesterday's move: +1.35%; 5-day mean move: +0.09%
+news yesterday: 8 articles (8.0x normal volume); net sentiment score +5
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8978 past occurrences, next-day was UP 51.8% of the time
+  - mom5_up: across 9476 past occurrences, next-day was UP 52.8% of the time
+  - news_bullish: across 1068 past occurrences, next-day was UP 52.9% of the time
+  - news_burst: across 1070 past occurrences, next-day was UP 51.7% of the time
+  - burst_bullish: across 613 past occurrences, next-day was UP 52.4% of the time
+
+=== EPISODE E48 ===
+yesterday's move: +13.06%; 5-day mean move: +3.03%
+news yesterday: 13 articles (9.3x normal volume); net sentiment score +9
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 8999 past occurrences, next-day was UP 51.9% of the time
+  - mom5_up: across 9465 past occurrences, next-day was UP 52.9% of the time
+  - news_bullish: across 1077 past occurrences, next-day was UP 53.1% of the time
+  - news_burst: across 1079 past occurrences, next-day was UP 52.0% of the time
+  - burst_bullish: across 621 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E49 ===
+yesterday's move: -11.68%; 5-day mean move: -3.17%
+news yesterday: 11 articles (20.0x normal volume); net sentiment score -1
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2473 past occurrences, next-day was UP 55.1% of the time
+  - news_burst: across 1083 past occurrences, next-day was UP 52.0% of the time
+  - burst_bearish: across 168 past occurrences, next-day was UP 47.0% of the time
+
+=== EPISODE E50 ===
+yesterday's move: -1.52%; 5-day mean move: -0.16%
+news yesterday: 4 articles (5.0x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2491 past occurrences, next-day was UP 55.0% of the time
+  - news_bullish: across 1091 past occurrences, next-day was UP 52.9% of the time
+  - news_burst: across 1119 past occurrences, next-day was UP 52.1% of the time
+  - burst_bullish: across 641 past occurrences, next-day was UP 52.9% of the time
+
+=== EPISODE E51 ===
+yesterday's move: +0.53%; 5-day mean move: +0.01%
+news yesterday: 6 articles (3.2x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9076 past occurrences, next-day was UP 52.4% of the time
+  - mom5_up: across 9616 past occurrences, next-day was UP 53.6% of the time
+  - news_burst: across 1119 past occurrences, next-day was UP 52.1% of the time
+  - burst_bullish: across 645 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E52 ===
+yesterday's move: -1.74%; 5-day mean move: +0.07%
+news yesterday: 3 articles (1.3x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2441 past occurrences, next-day was UP 55.6% of the time
+  - mom5_up: across 9697 past occurrences, next-day was UP 53.8% of the time
+  - news_bullish: across 1100 past occurrences, next-day was UP 53.7% of the time
+
+=== EPISODE E53 ===
+yesterday's move: +1.68%; 5-day mean move: +0.53%
+news yesterday: 4 articles (1.3x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9107 past occurrences, next-day was UP 52.6% of the time
+  - mom5_up: across 9720 past occurrences, next-day was UP 53.8% of the time
+  - news_bullish: across 1149 past occurrences, next-day was UP 53.8% of the time
+
+=== EPISODE E54 ===
+yesterday's move: +30.65%; 5-day mean move: +4.86%
+news yesterday: 20 articles (11.8x normal volume); net sentiment score +11
+MEMORY (walk-forward track records of the patterns active today):
+  - mom1_up: across 9115 past occurrences, next-day was UP 52.6% of the time
+  - mom5_up: across 9725 past occurrences, next-day was UP 53.8% of the time
+  - news_bullish: across 1153 past occurrences, next-day was UP 53.9% of the time
+  - news_burst: across 1155 past occurrences, next-day was UP 51.8% of the time
+  - burst_bullish: across 682 past occurrences, next-day was UP 53.0% of the time
+
+=== EPISODE E55 ===
+yesterday's move: -1.53%; 5-day mean move: +1.04%
+news yesterday: 6 articles (2.9x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2491 past occurrences, next-day was UP 55.7% of the time
+  - mom5_up: across 9722 past occurrences, next-day was UP 53.7% of the time
+  - news_burst: across 1158 past occurrences, next-day was UP 51.3% of the time
+  - burst_bullish: across 691 past occurrences, next-day was UP 52.5% of the time
+
+=== EPISODE E56 ===
+yesterday's move: -0.38%; 5-day mean move: +0.14%
+news yesterday: 6 articles (2.0x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - mom5_up: across 9732 past occurrences, next-day was UP 54.0% of the time
+  - news_bullish: across 1175 past occurrences, next-day was UP 53.7% of the time
+
+=== EPISODE E57 ===
+yesterday's move: -0.56%; 5-day mean move: -0.76%
+news yesterday: 1 articles (0.5x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 1178 past occurrences, next-day was UP 53.4% of the time
+
+=== EPISODE E58 ===
+yesterday's move: -2.44%; 5-day mean move: -0.50%
+news yesterday: 5 articles (2.6x normal volume); net sentiment score +1
+MEMORY (walk-forward track records of the patterns active today):
+  - big_drop_reversal: across 2478 past occurrences, next-day was UP 55.5% of the time
+  - news_burst: across 1167 past occurrences, next-day was UP 51.9% of the time
+  - burst_bullish: across 693 past occurrences, next-day was UP 52.8% of the time
+
+=== EPISODE E59 ===
+yesterday's move: -0.30%; 5-day mean move: -0.05%
+news yesterday: 4 articles (1.1x normal volume); net sentiment score +2
+MEMORY (walk-forward track records of the patterns active today):
+  - news_bullish: across 1167 past occurrences, next-day was UP 53.3% of the time
+

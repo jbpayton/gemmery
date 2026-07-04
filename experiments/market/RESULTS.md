@@ -112,3 +112,33 @@ at 62.3K, greedy 19.9K→1.1K, planner 15.9K→1.1K)
 Honest scope: comparative claim only (same beliefs, different horizons);
 cumulative bps ≠ portfolio Sharpe (no capital constraints/slippage curve);
 mechanical arms, contamination-free.
+
+---
+
+## LLM comparative arms — application solved, and a power lesson our own protocol caught
+
+Two sub-agent arms on 60 anonymized episodes (no tickers/dates/headlines —
+contamination neutralized, not just matched): features-only vs features +
+as-of-that-day dossier track records.
+
+**Finding 1 — the application bottleneck is SOLVED for numeric memory.** The
+memory arm agreed with the mechanical dossier policy **60/60**: it summed the
+track records' log-odds itself, faithfully. Contrast the drift experiment,
+where a prose verdict ("silent = wolf-indicative") was overridden by priors.
+The lesson is about presentation: *prose conclusions get second-guessed;
+counts get computed with.*
+
+**Finding 2 — the delta is unmeasurable at LLM-feasible n, and our sample
+proved it the hard way.** On the 60-episode draw the true dossier policy scored
+−0.282 MCC (cold LLM +0.034) — yet the full cell (n=9,599) measures **+0.029**,
+and bootstrap puts our draw at p≈0.004: a genuine 1-in-250 unlucky sample.
+SE(MCC)≈1/√n means detecting a +0.03 edge needs n≈4,000+, far beyond feasible
+LLM episode counts. This is the GitOfThoughts small-n lesson (+15pp died from
+n=40→98) biting OUR OWN experiment — caught by our own protocol.
+
+**The conclusion that survives, by transitivity:** since the LLM+memory arm
+reproduces the mechanical policy exactly (60/60), its full-sample performance
+IS the mechanical +0.029 (replicating 13/14 years). The LLM comparative
+question is settled not by measuring the delta directly (impossible at this n)
+but by proving faithful application — after which the mechanical measurements
+transfer. Mechanical arms remain the valid instrument on thin-edge domains.
