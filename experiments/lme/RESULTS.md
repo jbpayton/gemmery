@@ -1,8 +1,13 @@
 # LongMemEval: Gemmery's first externally-comparable number
 
-**0.733 overall (44/60)** on a stratified sample of LongMemEval_S (cleaned),
-with **perfect abstention (8/8)** and **0.89 on knowledge-update** — the two
-categories that map onto Gemmery's calibration and revision machinery.
+**v2: 0.917 overall (55/60)** — still zero LLM at ingestion. Mechanical
+upgrades only (cross-encoder rerank, whole-session retrieval, CoT reader)
+took v1's 0.733 into the vendor-leader bracket. See "v2" section below.
+
+**v1: 0.733 overall (44/60)** on a stratified sample of LongMemEval_S
+(cleaned), with **perfect abstention (8/8)** and **0.89 on knowledge-update**
+— the two categories that map onto Gemmery's calibration and revision
+machinery.
 
 ## Protocol
 
@@ -95,3 +100,59 @@ Sources: [Zep blog](https://blog.getzep.com/state-of-the-art-agent-memory/),
 [Emergence AI](https://www.emergence.ai/blog/sota-on-longmemeval-with-rag),
 [Mastra observational memory](https://mastra.ai/research/observational-memory),
 [ByteRover](https://www.byterover.dev/blog/benchmark_ai_agent_memory_real_production_byterover_top_market_accuracy_longmemeval).
+
+---
+
+## v2: the mechanical upgrades (`build_lme2.py`) — 0.733 → 0.917
+
+Emergence's disclosed ablations predicted ~+9 pts from retrieval engineering
+alone. We got +18.4, with **still zero LLM calls at ingestion**:
+
+1. **Match on turns, retrieve whole sessions** — bi-encoder top-80 turns →
+   local cross-encoder (`ms-marco-MiniLM-L-6-v2`) rerank → NDCG-style session
+   scoring → top-4 sessions verbatim (Emergence's disclosed method).
+2. **No more 700-char truncation** (v1's single-session-assistant killer).
+3. **Snippet safety net**: top reranked turns from outside the chosen
+   sessions (multi-session evidence spans >4 sessions).
+4. **CoT reader**: quote memory lines + dates, do date arithmetic, then answer.
+
+Same 60 questions, same judge protocol — the delta is attributable.
+
+| ability type | v1 | v2 |
+|---|---|---|
+| multi-session | 0.69 | **1.00** |
+| single-session-assistant | 0.57 | **1.00** |
+| single-session-user | 0.88 | **1.00** |
+| temporal-reasoning | 0.69 | **0.88** |
+| knowledge-update | 0.89 | 0.89 |
+| single-session-preference | 0.75 | 0.50 |
+| abstention subset | 1.00 | **1.00** |
+| **overall** | 0.733 | **0.917** |
+
+Judge-free: oracle recall rose 0.923 → **0.962** (sessions + snippets).
+
+Where 0.917 lands: above Emergence's disclosed 82.4/86%, at ByteRover's 92.8,
+below Mastra's 94.87 — all of which are full-500 runs; ours is the n=60
+sample with a local reranker and mechanical ingestion. Honest cost: whole
+sessions are ~10K memory tokens/question vs v1's 1.8K (11× haystack
+compression instead of 64×); reader spend ~4× v1.
+
+**The 5 remaining misses, autopsied** (`judge2.py score`, verdicts in
+`results_v2.json`):
+- 2 genuine retrieval gaps — evidence diffused beyond the top-4 sessions
+  (a 3-event temporal ordering; a preference question whose gold wants
+  specific high-school memories).
+- 1 reader oversight — abstained although the evidence was retrieved.
+- 1 marginal judge call — suggested podcasts/audiobooks; gold wanted
+  *new-genre* podcasts specifically.
+- 1 benchmark artifact, both runs: the "3 months in Harajuku" gold evidence
+  is timestamped **12 hours after the question's own timestamp**; the reader
+  refused the future-stamped line and computed 7 months from an earlier
+  anchor. Strict temporal hygiene loses to a gold label that ignores it.
+
+**Reading of the ladder**: 0.733 (cosine + truncated turns) → 0.917
+(rerank + whole sessions + CoT) → ~0.95 (Mastra: LLM-written observations,
+no retrieval). The last rung is write-time intelligence — the librarian.
+The remaining misses are consistent with that: what fails now is evidence
+*aggregation* across sessions, which is exactly what distilled, dated,
+revised observations solve.
