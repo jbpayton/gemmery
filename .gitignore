@@ -43,3 +43,5 @@ data/
 experiments/market/store/
 experiments/swe/store/
 experiments/swe/prompt_*.txt
+experiments/lme/prompt_*.txt
+experiments/lme/store/

@@ -1,0 +1,13 @@
+{
+ "overall": 0.7333333333333333,
+ "by_type": {
+  "temporal-reasoning": 0.688,
+  "multi-session": 0.688,
+  "knowledge-update": 0.889,
+  "single-session-user": 0.875,
+  "single-session-preference": 0.75,
+  "single-session-assistant": 0.571
+ },
+ "abstention": 1.0,
+ "n": 60
+}
