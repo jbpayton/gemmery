@@ -1,0 +1,472 @@
+[
+  {
+    "topic": "europe-trip-planning",
+    "date": "2023/04/25 10:13",
+    "obs": "Planning trip to Europe next summer to visit relatives. Visiting Germany (2 weeks), France (2 weeks), UK (2 weeks)."
+  },
+  {
+    "topic": "us-citizen-passport",
+    "date": "2023/04/25 10:13",
+    "obs": "US citizen with passport valid. No visa needed for Germany, France, UK visits (90 days per 180-day period under Schengen)."
+  },
+  {
+    "topic": "ancestry-research",
+    "date": "2023/04/25 10:13",
+    "obs": "Researching family tree: 75% European American, 15% African American, 10% Native American heritage."
+  },
+  {
+    "topic": "wwii-refugee-great-aunt",
+    "date": "2023/04/25 10:13",
+    "obs": "Great-aunt born Germany WWII, relocated to US as refugee. Researching using USCIS, NARA, ITS Bad Arolsen, Holocaust Museum."
+  },
+  {
+    "topic": "emergency-quota-act-1944",
+    "date": "2023/04/25 10:13",
+    "obs": "Learned Emergency Quota Act (April 22, 1944): FDR signed, allowed 1,000 refugees/month, max 12,000/year for 2 years, required US sponsor."
+  },
+  {
+    "topic": "bricha-movement",
+    "date": "2023/04/25 10:13",
+    "obs": "Bricha movement (1944-1948): Jewish underground smuggled Jews from Eastern Europe to American Germany zone via Poland, Czechoslovakia, Austria routes."
+  },
+  {
+    "topic": "construction-bim",
+    "date": "2023/05/05 21:03",
+    "obs": "Learned about construction industry evolution: BIM technology for 3D planning/design. Examples: Burj Khalifa Dubai, Bullitt Center Seattle, Pixel Building Melbourne, Masdar City Abu Dhabi."
+  },
+  {
+    "topic": "sustainable-building",
+    "date": "2023/05/05 21:03",
+    "obs": "Interested in sustainable building practices: green practices, renewable energy, water conservation, energy-efficient materials reduce environmental impact."
+  },
+  {
+    "topic": "personal-carbon-reduction",
+    "date": "2023/05/05 21:03",
+    "obs": "Interested in reducing carbon footprint: sustainable materials, Energy Star appliances, water conservation, recycling, electric vehicles/bicycles, support green policies."
+  },
+  {
+    "topic": "green-building-resources",
+    "date": "2023/05/05 21:03",
+    "obs": "Researching sustainable building: USGBC, Energy Star EPA, Green Building Alliance Pittsburgh, GBCA Australia, BuildingGreen Suite, Whole Building Design Guide."
+  },
+  {
+    "topic": "loneliness-new-people",
+    "date": "2023/05/09 00:15",
+    "obs": "Feeling lonely recently. Best friend moved away late January. Started painting class early March at community center to meet people but hasn't clicked yet."
+  },
+  {
+    "topic": "painting-class-connection",
+    "date": "2023/05/09 00:15",
+    "obs": "Taking painting class at local community center since early March. Struggling to make connections despite being active in class."
+  },
+  {
+    "topic": "college-friend-reconnect",
+    "date": "2023/05/09 00:15",
+    "obs": "Old college friend visited town on business early March. Had nice conversation. Planning to reach out again for meetup via text message."
+  },
+  {
+    "topic": "gift-wrapping-supplies",
+    "date": "2023/05/13 16:35",
+    "obs": "Received refurbished laptop and handmade vase to wrap. Considering flexible wrapping material for vase to handle irregular shape."
+  },
+  {
+    "topic": "macy's-purchase",
+    "date": "2023/05/13 16:35",
+    "obs": "Purchased winter sweaters at Macy's November 27th, got 50% off deal."
+  },
+  {
+    "topic": "le-creuset-kitchenwares",
+    "date": "2023/05/13 16:35",
+    "obs": "Purchased Le Creuset kitchen utensils set. Considering giving to cooking-loving friend alongside cookbook."
+  },
+  {
+    "topic": "cookbook-recommendation",
+    "date": "2023/05/13 16:35",
+    "obs": "Selected 'The Barefoot Contessa Cookbook' by Ina Garten as gift for friend who loves her show."
+  },
+  {
+    "topic": "target-wireless-earbuds",
+    "date": "2023/05/13 16:35",
+    "obs": "Got great deal on wireless earbuds from Target. Considering buying more gifts from Target."
+  },
+  {
+    "topic": "grief-book-content",
+    "date": "2023/05/17 21:41",
+    "obs": "Working on grief book with appendices on memorial ideas, personal reflections, and journal prompts for processing loss."
+  },
+  {
+    "topic": "buried-car-query",
+    "date": "2023/05/19 18:15",
+    "obs": "User asking about location of buried car. Assistant lacks specific details, cannot provide information without context."
+  },
+  {
+    "topic": "frustration-ai-limitations",
+    "date": "2023/05/19 18:15",
+    "obs": "User frustrated with assistant's inability to provide information, expressing skepticism about AI usefulness and capabilities."
+  },
+  {
+    "topic": "coffee-shop-directions",
+    "date": "2023/05/21 04:19",
+    "obs": "Looking for directions to 'The Daily Grind' coffee shop downtown from train station/bus stop. Uses Google Maps instead."
+  },
+  {
+    "topic": "commute-routine",
+    "date": "2023/05/21 04:19",
+    "obs": "Commute varies: Mondays/Wednesdays/Fridays uses bus from train station; Tuesdays/Thursdays walks 20-minute route to office."
+  },
+  {
+    "topic": "bike-commute-interest",
+    "date": "2023/05/21 04:19",
+    "obs": "Considering getting bike to ride to work. Learning about bike lanes and safety; prioritizing bike-friendly routes as beginner."
+  },
+  {
+    "topic": "commute-journal-plan",
+    "date": "2023/05/21 04:19",
+    "obs": "Planning to start commuting journal tracking: time, expenses, carbon footprint, transportation mode, distance, cost."
+  },
+  {
+    "topic": "how-i-built-this-podcast",
+    "date": "2023/05/21 04:19",
+    "obs": "Listening to 'How I Built This' podcast during commute; finds entrepreneur stories inspiring. Tracking podcast listening habits."
+  },
+  {
+    "topic": "watercolor-painting-hobby",
+    "date": "2023/05/23 07:41",
+    "obs": "Planning to try watercolor painting with still-life. Organized painting supplies and cleaned workspace yesterday, ready for new project."
+  },
+  {
+    "topic": "watercolor-supplies",
+    "date": "2023/05/23 07:41",
+    "obs": "Watercolor paper: choose hot press or cold press. Paints: tubes or pans. Brushes: natural (sable, mongoose) or synthetic. Learn color theory and basic techniques."
+  },
+  {
+    "topic": "watercolor-paper-brands",
+    "date": "2023/05/23 07:41",
+    "obs": "Recommended beginner brands: Winsor & Newton Cotman, Arches 140lb cold press, Strathmore 500 Series, Canson Mi-Teintes. Choose 140lb+ weight, acid-free."
+  },
+  {
+    "topic": "escoda-perla-brushes",
+    "date": "2023/05/23 07:41",
+    "obs": "Considering Escoda Perla brushes (Kolinsky hair, high-quality). Travel Set (6 brushes), Mini Set (4 brushes), Starter Set (3 brushes) available."
+  },
+  {
+    "topic": "shopping-list",
+    "date": "2023/05/23 07:41",
+    "obs": "Shopping list: new brushes, palette with built-in cups. Considering Escoda brand. Already tried different supplies."
+  },
+  {
+    "topic": "language-detector-esperanto",
+    "date": "2023/05/23 10:26",
+    "obs": "Asked to act as language detector. Test sentence: 'Kiel vi fartas? Kiel iras via tago?' User wants single language name answer."
+  },
+  {
+    "topic": "corporate-manifesto",
+    "date": "2023/05/23 11:46",
+    "obs": "Looking for document explaining business mission, choices, operations. Not business plan or executive summary. 'Company Manifesto' outlines core values, guiding principles."
+  },
+  {
+    "topic": "brand-vs-corporate-manifesto",
+    "date": "2023/05/23 11:46",
+    "obs": "Brand manifesto: focused on brand identity, marketing, customer experience. Corporate manifesto: broader, includes mission, vision, culture for all stakeholders."
+  },
+  {
+    "topic": "circular-gift-economy",
+    "date": "2023/05/23 11:46",
+    "obs": "Studied circular gift economies based on reciprocity/generosity. Examples: Burning Man festival. Anthropologists: Marcel Mauss 'The Gift' (1925), Lewis Hyde 'The Gift' (1983)."
+  },
+  {
+    "topic": "circular-economy",
+    "date": "2023/05/23 11:46",
+    "obs": "Learned circular economy minimizes waste through reuse, repair, recycling. Founded on industrial ecology, cradle-to-cradle design, biomimicry. Key figures: Stahel, Braungart, McDonough."
+  },
+  {
+    "topic": "china-travel-14-days",
+    "date": "2023/05/23 12:34",
+    "obs": "Planning 14-day family trip to China with children. Interested in historical cities: Beijing, Xi'an, Nanjing, Luoyang, Suzhou, Hangzhou."
+  },
+  {
+    "topic": "xian-itinerary",
+    "date": "2023/05/23 12:34",
+    "obs": "Xi'an 14-day itinerary: Day 1 arrival, Day 2-3 Terracotta Army/city tour, Day 4-5 Luoyang Longmen Grottoes/Shaolin Temple, Day 6+ Pingyao ancient city."
+  },
+  {
+    "topic": "backyard-garden-new-hobby",
+    "date": "2023/05/23 13:47",
+    "obs": "Started new hobby working with natural environment. Has small yard, wants to maximize space with raised beds and vertical gardening."
+  },
+  {
+    "topic": "easy-vegetables-herbs",
+    "date": "2023/05/23 13:47",
+    "obs": "Growing easy vegetables: lettuce (20 days), spinach (20-30 days), kale, cherry tomatoes, patio tomatoes. Herbs: basil, cilantro, mint."
+  },
+  {
+    "topic": "basil-mint-care",
+    "date": "2023/05/23 13:47",
+    "obs": "Basil: 4-6 hrs sun, consistent moisture, 65-75F, monthly fertilizer, pinch flower buds. Mint: partial shade, moist soil, 60-70F, less fertilization."
+  },
+  {
+    "topic": "organic-pest-control",
+    "date": "2023/05/23 13:47",
+    "obs": "Using organic pest control: row covers, fine-mesh screens, natural predators (ladybugs, lacewings, mantis), neem oil, insecticidal soap, pyrethrin spray, companion planting."
+  },
+  {
+    "topic": "companion-planting-basil",
+    "date": "2023/05/23 13:47",
+    "obs": "Basil companions: tomatoes (flavor improvement), marigold (nematode control), oregano, borage, chives. Helps repel pests naturally."
+  },
+  {
+    "topic": "crop-rotation-plan",
+    "date": "2023/05/23 13:47",
+    "obs": "Implementing crop rotation 4-year plan: Year 1 basil, Year 2 mint, Year 3 cilantro/cover crop, Year 4 tomatoes/return to basil with improved soil."
+  },
+  {
+    "topic": "mint-green-adidas-sneakers",
+    "date": "2023/05/23 15:33",
+    "obs": "Got new mint green Adidas sneakers. Looking for outfit combinations for casual relaxed vibe party."
+  },
+  {
+    "topic": "outfit-combinations",
+    "date": "2023/05/23 15:33",
+    "obs": "Considering: light gray chinos + white/pastel tee + denim jacket; dark jeans + Henley + bomber; olive chinos + white tank + cardigan with mint sneakers."
+  },
+  {
+    "topic": "yellow-tank-top-option",
+    "date": "2023/05/23 15:33",
+    "obs": "Considering bright yellow tank top with olive green pants and mint sneakers. Concerned it might be too bold; favoring plain white tank as safer choice."
+  },
+  {
+    "topic": "ripped-jeans-leather-jacket",
+    "date": "2023/05/23 15:33",
+    "obs": "Combining ripped black jeans + white tank top + mint green sneakers + black/dark brown leather jacket for edgy fashion-forward look."
+  },
+  {
+    "topic": "mort-women-representation",
+    "date": "2023/05/23 17:39",
+    "obs": "Reading fantasy literature. 'Mort' features Princess Keli and Ysabell as capable, strong female characters with active roles, differing from traditional fantasy."
+  },
+  {
+    "topic": "death-character-portrayal",
+    "date": "2023/05/23 17:39",
+    "obs": "In Mort, Death portrayed as sympathetic, complex character with dry humor and respect for life - adds depth versus stereotypical grim reaper."
+  },
+  {
+    "topic": "contact-tracking-spreadsheet",
+    "date": "2023/05/23 20:06",
+    "obs": "Creating spreadsheet to track connections and events where met. Columns: Name, Email, Phone, Event, Date, Company, Notes, Follow-up Date."
+  },
+  {
+    "topic": "techconnect-contacts",
+    "date": "2023/05/23 20:06",
+    "obs": "Met Rachel (old colleague) and Jason (CEO StartupX) at TechConnect conference February 10-11. Planning follow-ups."
+  },
+  {
+    "topic": "startup-mixer-contacts",
+    "date": "2023/05/23 20:06",
+    "obs": "Met Alex (edtech startup founder) and David (friend) at WeWork startup mixer February 15. David introduced to Google colleagues."
+  },
+  {
+    "topic": "chamber-networking-event",
+    "date": "2023/05/23 20:06",
+    "obs": "Attended Chamber of Commerce speed networking February 22. Met Tom (marketing expert), Sarah (finance), Michael (tech), Emily (design)."
+  },
+  {
+    "topic": "toothpaste-whitening-search",
+    "date": "2023/05/23 21:27",
+    "obs": "Looking for affordable whitening toothpaste similar to current one. Currently using toothpaste with whitening properties showing results."
+  },
+  {
+    "topic": "whitening-toothpaste-options",
+    "date": "2023/05/23 21:27",
+    "obs": "Affordable whitening alternatives: Colgate Optic White, Crest 3D White, Arm & Hammer Plus OxiClean, Tom's of Maine natural option."
+  },
+  {
+    "topic": "morning-routine-skincare",
+    "date": "2023/05/23 21:27",
+    "obs": "Using Neutrogena face wash in morning routine, really helps skin. Concerned about potential conflicts with whitening toothpaste."
+  },
+  {
+    "topic": "bathroom-mirror-cleaning",
+    "date": "2023/05/23 21:27",
+    "obs": "Been meaning to clean bathroom mirrors for weeks, procrastinating. Looking for streak-free glass cleaner and paper towel tips."
+  },
+  {
+    "topic": "mirror-cleaning-tips",
+    "date": "2023/05/23 21:27",
+    "obs": "Streak-free mirror cleaning: ammonia-free cleaner, lint-free paper towels or microfiber cloth, circular motion, use dry section to wipe excess."
+  },
+  {
+    "topic": "trash-can-freshness",
+    "date": "2023/05/23 21:27",
+    "obs": "Cleaning bathroom trash can since replacing liner weeks ago. Tips: clean every 1-2 weeks, disinfect, odor-control liners, baking soda."
+  },
+  {
+    "topic": "bathroom-cabinet-reorganization",
+    "date": "2023/05/23 21:27",
+    "obs": "Reorganizing bathroom cabinet for skincare products. Categorize: moisturizers, serums, cleansers, exfoliants, masks, toners. Group by use frequency."
+  },
+  {
+    "topic": "overfishing-impacts",
+    "date": "2023/05/24 02:25",
+    "obs": "Learned overfishing impacts: decreased fish populations, increased seafood prices, job loss in coastal communities, reduced food security."
+  },
+  {
+    "topic": "sustainable-seafood-consumption",
+    "date": "2023/05/24 02:25",
+    "obs": "Wants to be conscious of seafood sources. Looking for MSC/ASC certifications, consulting Seafood Watch guides, supporting local fisheries, avoiding destructive practices."
+  },
+  {
+    "topic": "makeup-tutorials-tati",
+    "date": "2023/05/24 12:33",
+    "obs": "Really into makeup tutorials lately. Following Tati Westbrook's channel, watched ~15 videos past month. Learning a lot from her."
+  },
+  {
+    "topic": "makeup-beginner-products",
+    "date": "2023/05/24 12:33",
+    "obs": "Interested in beginner makeup products. Looking at foundations, concealers, powders, eyeshadow palettes, mascara brands recommended by Tati."
+  },
+  {
+    "topic": "urban-decay-naked-palettes",
+    "date": "2023/05/24 12:33",
+    "obs": "Learning about Urban Decay Naked Palette versions: Original (warm), Naked2 (cool), Naked3 (rosy), Heat (warm orange-red), Reloaded (neutral everyday)."
+  },
+  {
+    "topic": "naked-reloaded-choice",
+    "date": "2023/05/24 12:33",
+    "obs": "Chose Naked Reloaded Palette as beginner palette - good all-around option with neutral shades for natural to dramatic everyday looks."
+  },
+  {
+    "topic": "makeup-application-tips",
+    "date": "2023/05/24 12:33",
+    "obs": "Tips for eyeshadow: light hand, prime lids, use fluffy brushes, blend well, experiment with combinations. Urban Decay Primer Potion recommended."
+  },
+  {
+    "topic": "lenovo-laptop-setup",
+    "date": "2023/05/24 17:10",
+    "obs": "Got new Lenovo IdeaPad laptop today with Windows 10. Just reached initial setup screen, planning for work and general use (email, browsing)."
+  },
+  {
+    "topic": "microsoft-account-setup",
+    "date": "2023/05/24 17:10",
+    "obs": "Created new Microsoft account during Windows 10 setup. Benefits: syncing settings across devices, OneDrive 5GB storage, Office Online access, Xbox features."
+  },
+  {
+    "topic": "file-transfer-planning",
+    "date": "2023/05/24 17:10",
+    "obs": "Planning to transfer files from old laptop to new one. Has lots of important documents. Considering OneDrive cloud storage method using Microsoft account."
+  },
+  {
+    "topic": "madewell-ankle-boots",
+    "date": "2023/05/24 19:18",
+    "obs": "Just got Madewell ankle boots for 40% off during President's Day sale. Interested in styling for spring with flowy dresses."
+  },
+  {
+    "topic": "floral-dress-boots-styling",
+    "date": "2023/05/24 19:18",
+    "obs": "Considering pairing ankle boots with floral dress. Tips: choose subtle pattern, neutral background, minimalist boot style, denim jacket for balance."
+  },
+  {
+    "topic": "everlane-store-visit",
+    "date": "2023/05/24 19:18",
+    "obs": "Planning to check new Everlane store at Westfield mall. Interested in their transparent pricing and sustainable fashion practices."
+  },
+  {
+    "topic": "birthday-gift-card",
+    "date": "2023/05/24 19:18",
+    "obs": "Has birthday gift card from sister. Wants to use it for good deal on denim jacket, watching for sales/promotions at Everlane."
+  },
+  {
+    "topic": "art-competition-sculpture",
+    "date": "2023/05/24 22:21",
+    "obs": "Entering local art competition with sculpture category. Has Saturday morning commitment 10am-1pm, needs to work around schedule."
+  },
+  {
+    "topic": "eco-friendly-sculpture-theme",
+    "date": "2023/05/24 22:21",
+    "obs": "Interested in eco-friendly theme using found objects and recycled materials (plastic, metal cans, fabric scraps, wood, paper, glass, natural materials)."
+  },
+  {
+    "topic": "bird-sculpture-design",
+    "date": "2023/05/24 22:21",
+    "obs": "Creating bird sculpture from metal cans and fabric scraps surrounded by nest of twigs/leaves. Incorporating recycled paper for texture."
+  },
+  {
+    "topic": "bird-assembly-techniques",
+    "date": "2023/05/24 22:21",
+    "obs": "Assembling metal cans with tin snips, pliers, wire and hot glue. Adding fabric shapes. Creating nest with wire and twigs, attaching to bird body."
+  },
+  {
+    "topic": "dynamic-bird-features",
+    "date": "2023/05/24 22:21",
+    "obs": "Adding movement: hinged wings, poseable neck using wire, moving eyes. Using flexible rods and jointed tail. Adding feather details with fabric paint/markers."
+  },
+  {
+    "topic": "sculpture-display-base",
+    "date": "2023/05/24 22:21",
+    "obs": "Creating base/pedestal: wooden plank, stone, metal plate, or recycled materials. Considering wooden base or metal pedestal for sturdy elegant display."
+  },
+  {
+    "topic": "sculpture-titles",
+    "date": "2023/05/24 22:21",
+    "obs": "Potential titles reflecting eco-theme: 'Winged Revival', 'Feathered Fusion', 'Nature's Harmony', 'The Recycled Robin', 'Flight of Fancy'."
+  },
+  {
+    "topic": "musical-instruments-learning",
+    "date": "2023/06/18 10:54",
+    "obs": "Interested in learning guitar but seems daunting. Asked about instrument categories: string, wind, percussion, electronic. Violin and piano considered most difficult."
+  },
+  {
+    "topic": "guitar-teacher-search",
+    "date": "2023/06/18 10:54",
+    "obs": "Planning to find guitar teacher in area. Looking at recommendations, local music stores, online reviews, checking experience/qualifications, scheduling trial lessons."
+  },
+  {
+    "topic": "beginner-guitar-songs",
+    "date": "2023/06/18 10:54",
+    "obs": "Recommended beginner songs: 'Wonderwall' Oasis, 'I'm Yours' Jason Mraz, 'Free Fallin'' Tom Petty, 'Horse With No Name' America, 'Yellow' Coldplay."
+  },
+  {
+    "topic": "interdisciplinary-research",
+    "date": "2023/05/24 05:21",
+    "obs": "Learning about University of Maryland's interdisciplinary research. Uses collaborative research centers, interdisciplinary teams, graduate programs to address complex questions."
+  },
+  {
+    "topic": "jewelry-business-planning",
+    "date": "2023/05/24 02:48",
+    "obs": "Planning jewelry business. Considering wholesale vs consignment arrangements. Looking at boutique partnership opportunities."
+  },
+  {
+    "topic": "jewelry-sales-events",
+    "date": "2023/05/24 22:49",
+    "obs": "Planning to participate in summer festival. Previous success at Artisan Market March 13 selling 5 pieces. Considering focus on variety vs specialization."
+  },
+  {
+    "topic": "jewelry-summer-promotion",
+    "date": "2023/05/24 21:07",
+    "obs": "Planning summer festival promotion. Considering 'Summer Sparkle' discount on purchases over $50. Evaluating impact on profit margins."
+  },
+  {
+    "topic": "jewelry-consignment-rates",
+    "date": "2023/05/24 16:00",
+    "obs": "Negotiating consignment arrangement with boutique. Industry standard 40-60% commission rates. User has interest from multiple boutiques, providing negotiation leverage."
+  },
+  {
+    "topic": "leadership-bias-management",
+    "date": "2023/05/25 06:52",
+    "obs": "Learning about change management leadership. Key: self-awareness of biases, seek diverse input, use data objectively, encourage feedback, continuously monitor and adjust."
+  },
+  {
+    "topic": "coffee-shop-search",
+    "date": "2023/05/25 14:32",
+    "obs": "Looking for new coffee shop downtown serving citrusy coffee blend similar to 'Morning Sunrise'. Interested in oat milk creamer option. Mentions popular chains: Starbucks, Coffee Bean, Blue Bottle, Peet's."
+  },
+  {
+    "topic": "urban-decay-makeup-brushes",
+    "date": "2023/05/24 12:33",
+    "obs": "Interested in makeup brushes for Naked Reloaded Palette. Urban Decay Naked Brush Set recommended: fluffy all-over, crease, detail, blending, smudge brushes. High-quality synthetic, includes carrying case."
+  },
+  {
+    "topic": "beauty-youtubers",
+    "date": "2023/05/24 12:33",
+    "obs": "Following Tati Westbrook; watched ~15 videos. Interested in other beauty YouTubers: NikkieTutorials, James Charles, Shayla Mitchell, Laura Lee, Christen Dominique, KathleenLights."
+  }
+]

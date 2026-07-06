@@ -1,0 +1,437 @@
+[
+  {
+    "topic": "sales-questions-learned",
+    "date": "2023/01/01 00:52",
+    "obs": "Assistant provided 10 examples of provocative questions from Spark Selling methodology by Jeff Molander for sales conversations with prospects."
+  },
+  {
+    "topic": "grad-degree-considering",
+    "date": "2023/01/15 15:38",
+    "obs": "User considering pursuing a graduate degree in engineering. High school graduation was 10 years ago from current date."
+  },
+  {
+    "topic": "software-engineering-interested",
+    "date": "2023/01/15 15:38",
+    "obs": "User interested in software engineering field, learning about different types of roles including DevOps engineers."
+  },
+  {
+    "topic": "mythology-books-enjoy",
+    "date": "2023/01/21 15:05",
+    "obs": "User enjoys mythology-inspired books; picked up \"The Song of Achilles\" based on staff recommendation at bookstore."
+  },
+  {
+    "topic": "nightingale-emotional",
+    "date": "2023/01/21 15:05",
+    "obs": "User put down \"The Nightingale\" by Kristin Hannah temporarily because it was too emotional; plans to finish for book club."
+  },
+  {
+    "topic": "reading-journal-wanted",
+    "date": "2023/01/21 15:05",
+    "obs": "User looking for physical reading journal to track progress and thoughts, considering options like The Reading Life Journal or The Book Lover's Journal."
+  },
+  {
+    "topic": "poppy-war-next-read",
+    "date": "2023/01/21 15:05",
+    "obs": "User planning to read \"The Poppy War\" next after finishing current mythology books; book has approximately 440 pages."
+  },
+  {
+    "topic": "teaching-money-to-children",
+    "date": "2023/01/21 12:36",
+    "obs": "User asked about best way to teach a 10-year-old the value of money; discussed key personas needed to answer this question."
+  },
+  {
+    "topic": "blue-ridge-parkway-trip",
+    "date": "2023/01/22 20:04",
+    "obs": "User planning bike trip to Blue Ridge Parkway this summer; recently purchased Bontrager Flare R bike light for evening rides."
+  },
+  {
+    "topic": "bike-tech-owns",
+    "date": "2023/01/22 20:04",
+    "obs": "User owns Garmin Edge 830 bike computer for tracking rides; uses it to monitor ride data."
+  },
+  {
+    "topic": "bike-tune-up-cost",
+    "date": "2023/01/22 20:04",
+    "obs": "User had bike tune-up that cost $120; also purchased water bottle cage and bike lock for $50 total."
+  },
+  {
+    "topic": "bike-purchase-cost",
+    "date": "2023/01/22 20:04",
+    "obs": "User's bike cost $2,500; total bike and accessories spending $3,670 including $1,170 in accessories."
+  },
+  {
+    "topic": "blue-ridge-trip-budget",
+    "date": "2023/01/22 20:04",
+    "obs": "Estimated total trip cost $4,270-$5,470 including bike, transportation, food, and lodging for Blue Ridge Parkway bike trip."
+  },
+  {
+    "topic": "distressed-denim-purchased",
+    "date": "2023/01/25 03:58",
+    "obs": "User purchased distressed denim jeans and two tops from a store found while window shopping about three weeks ago."
+  },
+  {
+    "topic": "white-blouse-black-tee",
+    "date": "2023/01/25 03:58",
+    "obs": "One top is white off-the-shoulder flowy blouse; other is black graphic tee with fun logo, both comfortable breathable fabrics."
+  },
+  {
+    "topic": "wedding-outfit-planned",
+    "date": "2023/01/25 03:58",
+    "obs": "User styling distressed denim jeans with white off-the-shoulder blouse for casual weekend afternoon outing with friends."
+  },
+  {
+    "topic": "beige-tote-bag-owns",
+    "date": "2023/01/25 03:58",
+    "obs": "User has beige tote bag made of lightweight material with relaxed slouchy shape; planning to pair with outfit."
+  },
+  {
+    "topic": "brunch-and-shopping",
+    "date": "2023/01/25 03:58",
+    "obs": "User planning to meet friends at new cafe for brunch, then shopping at Fresh Mart grocery store to restock essentials."
+  },
+  {
+    "topic": "skincare-products-exploring",
+    "date": "2023/01/25 03:58",
+    "obs": "User considering skincare products at Beauty Hub; looking for gentle brands suitable for sensitive skin."
+  },
+  {
+    "topic": "green-tea-daily",
+    "date": "2023/01/29 02:54",
+    "obs": "User drinks green tea daily; looking to try new tea flavors."
+  },
+  {
+    "topic": "white-peony-tea-trying",
+    "date": "2023/01/29 02:54",
+    "obs": "User decided to try White Peony Tea; interested in floral tea varieties. Tea contains 6-8 mg caffeine per cup."
+  },
+  {
+    "topic": "sugar-intake-reducing",
+    "date": "2023/01/29 02:54",
+    "obs": "User trying to reduce sugar intake; appreciates that White Peony Tea has natural sweetness without added sweeteners."
+  },
+  {
+    "topic": "coffee-ratio-experiment",
+    "date": "2023/01/29 02:54",
+    "obs": "User experimenting with coffee-to-water ratios; recently changed from 1:15 to 1:17 ratio, noticed huge flavor difference."
+  },
+  {
+    "topic": "medium-dark-roast-coffee",
+    "date": "2023/01/29 02:54",
+    "obs": "User uses medium-dark roast coffee beans; aims for balanced flavor with hint of acidity when brewing."
+  },
+  {
+    "topic": "drip-coffee-maker-currently",
+    "date": "2023/01/29 02:54",
+    "obs": "User currently brews coffee with drip coffee maker; curious about trying pour-over and French press methods."
+  },
+  {
+    "topic": "coffee-shop-near-friends",
+    "date": "2023/01/29 02:54",
+    "obs": "User met friend at coffee shop near her office last Thursday; tried new cold brew flavor, prefers usual spot downtown."
+  },
+  {
+    "topic": "gili-meno-promoter",
+    "date": "2023/01/29 15:16",
+    "obs": "User is real estate promoter in Gili Meno; working on beachfront villa resort development with 40 villas on 4 hectares."
+  },
+  {
+    "topic": "rachel-patel-poet",
+    "date": "2023/01/30 13:08",
+    "obs": "User attended literary festival in city; attended book reading by poet Rachel Patel today; found her poetry amazing."
+  },
+  {
+    "topic": "women-of-color-poetry",
+    "date": "2023/01/30 13:08",
+    "obs": "User interested in poetry exploring themes of identity, love, family; particularly interested in works by women of color."
+  },
+  {
+    "topic": "poetry-anthologies-recommended",
+    "date": "2023/01/30 13:08",
+    "obs": "Assistant recommended recent poetry anthologies: The BreakBeat Poets Vol. 2, Nepantla, Halal If You Hear Me, Inheritance, Gathering Voices."
+  },
+  {
+    "topic": "stranger-things-finished",
+    "date": "2023/01/30 08:03",
+    "obs": "User finished \"Stranger Things\"; planning to check out \"The Haunting of Hill House\" next."
+  },
+  {
+    "topic": "my-favorite-murder-listener",
+    "date": "2023/01/30 08:03",
+    "obs": "User listening to \"My Favorite Murder\" for over a year; enjoys true crime podcasts during daily commute."
+  },
+  {
+    "topic": "netflix-subscription-march",
+    "date": "2023/01/30 08:03",
+    "obs": "User got new Netflix subscription around March 15th; recently watching many Netflix originals."
+  },
+  {
+    "topic": "brooklyn-nine-nine-favorite",
+    "date": "2023/01/30 08:03",
+    "obs": "\"Brooklyn Nine-Nine\" is one of user's favorite comedies; looking for similar comedy shows."
+  },
+  {
+    "topic": "tiger-king-captivating",
+    "date": "2023/01/30 08:03",
+    "obs": "User loves \"Tiger King\" documentary; appreciates combination of characters, stories, sheer absurdity, and truthfulness."
+  },
+  {
+    "topic": "translation-business-homepage",
+    "date": "2023/02/01 19:49",
+    "obs": "User working on translation business homepage; offers services in over 100 languages."
+  },
+  {
+    "topic": "poland-translation-seo",
+    "date": "2023/02/01 19:49",
+    "obs": "User seeking SEO improvement strategies for translation business targeting Poland market."
+  },
+  {
+    "topic": "cat-tools-learning",
+    "date": "2023/02/01 19:49",
+    "obs": "User asked about Computer-Assisted Translation (CAT) tools; learning how they work for translation projects."
+  },
+  {
+    "topic": "wells-fargo-center-visit",
+    "date": "2023/02/04 16:22",
+    "obs": "User planning road trip to Philadelphia; looking for restaurants near Wells Fargo Center."
+  },
+  {
+    "topic": "austin-city-limits-attended",
+    "date": "2023/02/04 16:22",
+    "obs": "User previously attended Austin City Limits music festival; found it amazing experience."
+  },
+  {
+    "topic": "rock-indie-music-fan",
+    "date": "2023/02/04 16:22",
+    "obs": "User big fan of rock and indie music; interested in music festivals and concerts in Philly."
+  },
+  {
+    "topic": "imagine-dragons-met",
+    "date": "2023/02/04 19:56",
+    "obs": "User met lead singer Dan Reynolds of Imagine Dragons backstage at Wells Fargo Center show last year; met with friends Rachel and Mike."
+  },
+  {
+    "topic": "imagine-dragons-fan",
+    "date": "2023/02/04 19:56",
+    "obs": "User became fan through \"Smoke + Mirrors\" album; \"Demons\" is still favorite song; listening to new album nonstop."
+  },
+  {
+    "topic": "the-1975-seen",
+    "date": "2023/02/04 19:56",
+    "obs": "User has seen The 1975 in concert before; they performed amazingly live."
+  },
+  {
+    "topic": "austin-texas-considering",
+    "date": "2023/02/04 19:56",
+    "obs": "User thinking of planning trip to Austin, Texas soon; interested in city's music scene."
+  },
+  {
+    "topic": "mattress-replaced-april",
+    "date": "2023/02/04 19:56",
+    "obs": "User replaced old mattress back in April; improvement has been amazing for sleep quality."
+  },
+  {
+    "topic": "decluttering-organizing",
+    "date": "2023/02/04 19:56",
+    "obs": "User doing organizing and decluttering lately; made huge difference in living space."
+  },
+  {
+    "topic": "wooden-tv-stand-wanted",
+    "date": "2023/02/04 19:56",
+    "obs": "User looking for new wooden TV stand with storage bins similar to new coffee table."
+  },
+  {
+    "topic": "oak-walnut-consideration",
+    "date": "2023/02/04 19:56",
+    "obs": "User considering oak or walnut finish for TV stand to blend with coffee table."
+  },
+  {
+    "topic": "traditional-style-tv-stand",
+    "date": "2023/02/04 19:56",
+    "obs": "User wants traditional style TV stand with ornate details like carved wooden legs and decorative trim."
+  },
+  {
+    "topic": "brass-bronze-hardware",
+    "date": "2023/02/04 19:56",
+    "obs": "User interested in metal hardware with brass or bronze finish for TV stand for warmth and elegance."
+  },
+  {
+    "topic": "raised-panel-doors",
+    "date": "2023/02/04 19:56",
+    "obs": "User considering wooden doors with slight ornate design, raised panels or molding for visual interest."
+  },
+  {
+    "topic": "crown-molding-top",
+    "date": "2023/02/04 19:56",
+    "obs": "User thinking of adding crown molding to top of TV stand for more polished look."
+  },
+  {
+    "topic": "animal-food-allocation",
+    "date": "2023/02/07 23:11",
+    "obs": "User with 5 animals (A1-A5) each with hunger levels, minimum/maximum food amounts; total food F available."
+  },
+  {
+    "topic": "fair-allocation-formula",
+    "date": "2023/02/07 23:11",
+    "obs": "User developed mathematical formula for fair pro-rata food allocation respecting minimum and maximum thresholds."
+  },
+  {
+    "topic": "name-change-marriage",
+    "date": "2023/02/08 16:27",
+    "obs": "User just got married and changed last name; still adjusting to introducing self with new name."
+  },
+  {
+    "topic": "emily-thompson-rodriguez",
+    "date": "2023/02/08 16:27",
+    "obs": "User formerly Emily Anne Thompson; now Emily Anne Rodriguez after marriage."
+  },
+  {
+    "topic": "passport-update-needed",
+    "date": "2023/02/08 16:27",
+    "obs": "User planning Europe trip; needs to update passport after name change using Form DS-82."
+  },
+  {
+    "topic": "social-security-card",
+    "date": "2023/02/08 16:27",
+    "obs": "User needs to update Social Security card to reflect new married name using Form SS-5."
+  },
+  {
+    "topic": "drivers-license-update",
+    "date": "2023/02/08 16:27",
+    "obs": "User updating driver's license with new married name; process varies by state/locality."
+  },
+  {
+    "topic": "yellow-sundress-hmm",
+    "date": "2023/03/25 05:16",
+    "obs": "User purchased yellow sundress from H&M during semi-annual sale for $15; planning to wear to wedding."
+  },
+  {
+    "topic": "wedding-heels-shopping",
+    "date": "2023/03/25 05:16",
+    "obs": "User planning to pair yellow sundress with heels for upcoming wedding; considering neutral colors."
+  },
+  {
+    "topic": "heeled-sandals-considered",
+    "date": "2023/03/25 05:16",
+    "obs": "User considering heeled sandals but leaning toward neutral heels for more polished look at formal wedding."
+  },
+  {
+    "topic": "nordstrom-gift-card",
+    "date": "2023/03/25 05:16",
+    "obs": "User has $20 gift card from fashion survey; considering using it at Nordstrom or Nordstrom Rack for heels."
+  },
+  {
+    "topic": "heel-shopping-sites",
+    "date": "2023/03/25 05:16",
+    "obs": "User planning to check Zappos and DSW websites for neutral heel deals in addition to Nordstrom."
+  },
+  {
+    "topic": "classic-vs-trendy-heels",
+    "date": "2023/03/25 05:16",
+    "obs": "User debating between trendy vs. classic heel styles; considering durability and versatility for long-term wear."
+  },
+  {
+    "topic": "encouragement-challenge",
+    "date": "2023/03/26 13:08",
+    "obs": "User planning weekly encouragement challenge with friends; taking turns giving words of positivity and support."
+  },
+  {
+    "topic": "encouragement-strategies",
+    "date": "2023/03/26 13:08",
+    "obs": "Assistant suggested making encouragement challenge fun through themes, creative mediums, group chat, prizes, creative/impactful messages."
+  },
+  {
+    "topic": "irish-brand-summary",
+    "date": "2023/03/26 19:46",
+    "obs": "User created brand summary for example Irish business in clothing and food space under 200 words; example called Emerald Fusion."
+  },
+  {
+    "topic": "seven-husbands-evelyn-hugo",
+    "date": "2023/03/30 01:14",
+    "obs": "User recently finished \"The Seven Husbands of Evelyn Hugo\"; looking for similar historical fiction."
+  },
+  {
+    "topic": "historical-fiction-enjoyed",
+    "date": "2023/03/30 01:14",
+    "obs": "User into historical fiction lately; finished both \"The Seven Husbands of Evelyn Hugo\" and \"The Nightingale\"."
+  },
+  {
+    "topic": "alice-network-interested",
+    "date": "2023/03/30 01:14",
+    "obs": "User particularly interested in \"The Alice Network\" and \"The Women in the Castle\"; wants to read about female spies in WWI."
+  },
+  {
+    "topic": "audiobooks-morning-runs",
+    "date": "2023/03/30 01:14",
+    "obs": "User enjoying listening to audiobooks during morning runs; looking for recommendations with good narration."
+  },
+  {
+    "topic": "goodreads-journal",
+    "date": "2023/03/30 01:14",
+    "obs": "User planning to use Goodreads and Book Lover's Journal to track reading progress and thoughts."
+  },
+  {
+    "topic": "book-clubs-online",
+    "date": "2023/03/30 01:14",
+    "obs": "User enjoys discussing books with coworker Rachel; looking to connect with more readers sharing historical fiction interests."
+  },
+  {
+    "topic": "nightingale-sisterhood",
+    "date": "2023/03/30 01:14",
+    "obs": "User loved \"The Nightingale\"; sisterly bond between Vianne and Isabelle resonated most; appreciated historical struggles portrayed."
+  },
+  {
+    "topic": "aquarium-algae-problem",
+    "date": "2023/03/30 23:12",
+    "obs": "User has 20-gallon freshwater tank with algae growth issues; looking for prevention tips."
+  },
+  {
+    "topic": "neon-tetras-guppies",
+    "date": "2023/03/30 23:12",
+    "obs": "User's tank contains neon tetras and guppies community fish."
+  },
+  {
+    "topic": "anacharis-java-moss",
+    "date": "2023/03/30 23:12",
+    "obs": "User already added anacharis and java moss plants to tank for algae control."
+  },
+  {
+    "topic": "water-wisteria-considering",
+    "date": "2023/03/30 23:12",
+    "obs": "User considering adding Water Wisteria to tank; concerned about size (up to 20 inches) and compatibility with neon tetras/guppies."
+  },
+  {
+    "topic": "hornwort-considering",
+    "date": "2023/03/30 23:12",
+    "obs": "User considering Hornwort (Ceratophyllum demersum) as low-maintenance algae-controlling plant for tank."
+  },
+  {
+    "topic": "tank-decorations-hiding",
+    "date": "2023/03/30 23:12",
+    "obs": "User thinking of adding driftwood and rocks to create caves/hiding places for fish to reduce stress and territorial behavior."
+  },
+  {
+    "topic": "amano-shrimp-otocinclus",
+    "date": "2023/03/30 23:12",
+    "obs": "User considering Amano shrimp or Otocinclus catfish for cleaning leftover food and algae from substrate."
+  },
+  {
+    "topic": "napoleonic-era-navy",
+    "date": "2023/04/02 08:44",
+    "obs": "User learned about navy comparison during Napoleonic era (1799-1815); England had larger, more experienced navy than France."
+  },
+  {
+    "topic": "naval-training-interest",
+    "date": "2023/04/02 08:44",
+    "obs": "User curious about how countries train naval forces to adapt to new technologies and advancements."
+  },
+  {
+    "topic": "things-fall-apart-read",
+    "date": "2023/04/08 05:18",
+    "obs": "User studied novel \"Things Fall Apart\"; exploring clash between traditional African culture and colonialism."
+  },
+  {
+    "topic": "igbo-religion-colonialism",
+    "date": "2023/04/08 05:18",
+    "obs": "User learned about impact of colonialism on Igbo religion and spirituality; Christian missionaries replaced traditional beliefs."
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "topic": "first-tomato-harvest",
+    "date": "2023/05/20 01:22",
+    "obs": "Harvested first batch of tomatoes 2 weeks prior; delicious, realized rewarding nature of gardening."
+  },
+  {
+    "topic": "garden-pest-control-neem",
+    "date": "2023/05/20 01:22",
+    "obs": "Using neem oil and soap solution to control aphids and whiteflies in garden."
+  },
+  {
+    "topic": "beneficial-insects-ladybugs",
+    "date": "2023/05/20 01:22",
+    "obs": "Learning about introducing natural predators like ladybugs and lacewings for garden pest control."
+  },
+  {
+    "topic": "english-classes-start",
+    "date": "2023/05/20 04:08",
+    "obs": "Started English language classes to improve skills for new life in US."
+  },
+  {
+    "topic": "memorial-day-ceremony-plans",
+    "date": "2023/05/20 04:08",
+    "obs": "Planning to attend local Memorial Day ceremony; learning significance of honoring fallen military members."
+  },
+  {
+    "topic": "veterans-org-volunteer-interest",
+    "date": "2023/05/20 04:08",
+    "obs": "Interested in volunteering at local veterans organization to give back and learn American culture."
+  },
+  {
+    "topic": "english-learning-via-tv",
+    "date": "2023/05/20 04:08",
+    "obs": "Using TV shows with subtitles (Friends, The Office, Grey's Anatomy) to improve English listening skills."
+  },
+  {
+    "topic": "streaming-services-english-learning",
+    "date": "2023/05/20 04:08",
+    "obs": "Accessing English content with subtitles via Netflix, Hulu, Amazon Prime Video for language practice."
+  },
+  {
+    "topic": "central-region-group-vacation",
+    "date": "2023/05/20 05:21",
+    "obs": "Planning group vacation to Central Region with friends; activities include hiking and wine tasting."
+  },
+  {
+    "topic": "central-region-winery-visits",
+    "date": "2023/05/20 05:21",
+    "obs": "Considering visiting multiple wineries: Nederburg, Spier, Warwick Estate, Boschendal, Groot Constantia."
+  },
+  {
+    "topic": "outlet-mall-shopping",
+    "date": "2023/05/20 09:51",
+    "obs": "Visited outlet mall with friends; found deals at Coach and Banana Republic outlets."
+  },
+  {
+    "topic": "outlet-mall-restaurant-discovery",
+    "date": "2023/05/20 09:51",
+    "obs": "Discovered new Asian fusion restaurant at outlet mall food court; lively atmosphere, generous portions, varied menu."
+  },
+  {
+    "topic": "skincare-drunk-elephant",
+    "date": "2023/05/20 09:51",
+    "obs": "Purchased Drunk Elephant skincare set at new Sephora store; enjoying product line."
+  },
+  {
+    "topic": "foundation-shade-matching",
+    "date": "2023/05/20 09:51",
+    "obs": "Bought Nars foundation at Sephora; still searching for perfect color match."
+  },
+  {
+    "topic": "work-jeans-shopping",
+    "date": "2023/05/20 09:51",
+    "obs": "Purchased essentials from H&M; looking for perfect fitting work jeans."
+  },
+  {
+    "topic": "airbnb-case-study",
+    "date": "2023/05/21 10:19",
+    "obs": "Studying Airbnb case analysis for 2020, including sharing economy business model and accommodation market overview."
+  },
+  {
+    "topic": "astrakhan-social-justice-research",
+    "date": "2023/05/21 10:41",
+    "obs": "Researching Astrakhan's social justice initiatives including gender equality and discrimination prevention."
+  },
+  {
+    "topic": "python-folder-structure-script",
+    "date": "2023/05/22 06:17",
+    "obs": "Requested Python script to recreate folder structure from source to destination directory and move CC folder contents."
+  },
+  {
+    "topic": "windows-path-handling",
+    "date": "2023/05/22 06:17",
+    "obs": "Updated Python script to handle Windows filesystem paths with proper path separators."
+  },
+  {
+    "topic": "vegan-restaurants-london",
+    "date": "2023/05/22 13:11",
+    "obs": "Exploring vegan restaurants in London: Mildred's, The Gate, Redemption, Vurger Co, Genesis, Tibits, Wahaca."
+  },
+  {
+    "topic": "snmp-network-monitoring",
+    "date": "2023/05/22 17:07",
+    "obs": "Learning SNMP protocol using snmpwalk commands, Counter32/Gauge32 data types, sensor fusion for network measurements."
+  },
+  {
+    "topic": "first-seasonal-snowfall",
+    "date": "2023/05/22 19:33",
+    "obs": "First snowfall of season occurred; made Monday morning commute treacherous."
+  },
+  {
+    "topic": "geomancy-study-quiz",
+    "date": "2023/05/30 01:41",
+    "obs": "Working on geomancy project including 50-question quiz on houses and figures combinations."
+  },
+  {
+    "topic": "aquarium-plants-added-march-1",
+    "date": "2023/05/30 03:38",
+    "obs": "Added Java Moss and Anacharis to 20-gallon tank ~March 1; experiencing successful growth."
+  },
+  {
+    "topic": "aquarium-algae-bloom-march-10",
+    "date": "2023/05/30 03:38",
+    "obs": "Aquarium algae bloom occurred March 10; resolved via water changes and reduced feeding."
+  },
+  {
+    "topic": "creative-story-pyrrhos",
+    "date": "2023/05/30 05:24",
+    "obs": "Created stories about Pyrrhos building protective towers against flood, fire, and earthquake disasters."
+  },
+  {
+    "topic": "vulkan-acceleration-structures",
+    "date": "2023/05/30 12:43",
+    "obs": "Learning Vulkan ray tracing with acceleration structures for efficient scene object movement."
+  },
+  {
+    "topic": "sach-bush-pilot-training",
+    "date": "2023/05/30 13:21",
+    "obs": "SACH school trains Frontier Service bush pilots in advanced flight, survival skills, search-rescue, equipment maintenance."
+  },
+  {
+    "topic": "fhlt-aircraft-systems",
+    "date": "2023/05/30 13:21",
+    "obs": "FHLT uses grav-bikes, landing cameras, synthetic aperture radar, sonar, lidar with sensor fusion for forest moon operations."
+  },
+  {
+    "topic": "bedtime-audio-rain-sounds",
+    "date": "2023/05/30 15:07",
+    "obs": "Uses rain sounds before bed; interested in exploring soothing music alternatives."
+  },
+  {
+    "topic": "calming-music-einaudi",
+    "date": "2023/05/30 15:07",
+    "obs": "Exploring Ludovico Einaudi piano compositions for calming relaxation."
+  },
+  {
+    "topic": "online-yoga-evening",
+    "date": "2023/05/30 15:07",
+    "obs": "Attending online yoga class 7-8pm; creating peaceful atmosphere with candles."
+  },
+  {
+    "topic": "overnight-oats-breakfast-routine",
+    "date": "2023/05/30 15:07",
+    "obs": "Makes overnight oats every morning as daily breakfast routine."
+  },
+  {
+    "topic": "lavender-body-wash-use",
+    "date": "2023/05/30 15:07",
+    "obs": "Uses lavender body wash; seeking complementary calming aromatherapy scents."
+  },
+  {
+    "topic": "bergamot-oil-aromatherapy",
+    "date": "2023/05/30 15:07",
+    "obs": "Considering bergamot essential oil for its calming and uplifting aromatherapy properties."
+  },
+  {
+    "topic": "vanilla-candle-selected",
+    "date": "2023/05/30 15:07",
+    "obs": "Chose vanilla-scented candle to pair with bergamot essential oil for yoga practice."
+  },
+  {
+    "topic": "chamomile-tea-bedtime",
+    "date": "2023/05/30 15:07",
+    "obs": "Starting chamomile tea ritual after yoga for its calming effects."
+  }
+]

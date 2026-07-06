@@ -1,0 +1,2662 @@
+[
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-shared-context",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Person mentioned: Ferrari"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Discussed: art, book, design"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant provided 18 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 20:21",
+    "obs": "Assistant asked 14 follow-up questions"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-shared-context",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Person mentioned: Electrolytes"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Discussed: health, sport, food"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 05:34",
+    "obs": "Assistant provided 54 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Person mentioned: Mammoth"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Discussed: art, design, food"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 22:34",
+    "obs": "Assistant provided 7 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "Person mentioned: Comments"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "Discussed: home, health"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 23:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Person mentioned: Ask"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Discussed: business, sport, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant provided 28 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 02:38",
+    "obs": "Assistant asked 12 follow-up questions"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Person mentioned: Emily"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Discussed: art, business, relationship"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Assistant provided 22 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 18:16",
+    "obs": "Assistant asked 22 follow-up questions"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Person mentioned: Sahara"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Discussed: book, art, travel"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 12:41",
+    "obs": "Assistant provided 6 numbered tips/steps"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Person mentioned: Dell"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Discussed: art, business, sport"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant provided 4 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 14:57",
+    "obs": "Assistant asked 5 follow-up questions"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "Person mentioned: Data"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "Discussed: model, business, relationship"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 09:30",
+    "obs": "Assistant provided 10 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "Person mentioned: Wing"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "Discussed: technology, food, art"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 18:10",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-knowledge-question",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Person mentioned: Costa"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Discussed: art, book, sport"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:18",
+    "obs": "Assistant provided 5 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Person mentioned: Here"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Discussed: technology, business, sport"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant provided 35 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 08:50",
+    "obs": "Assistant asked 15 follow-up questions"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "Person mentioned: Sauce"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "Discussed: art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 06:53",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Person mentioned: Wireless"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Discussed: technology, design, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Assistant provided 28 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 03:52",
+    "obs": "Assistant asked 9 follow-up questions"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Person mentioned: Sierra"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Discussed: art, film, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 02:24",
+    "obs": "Assistant provided 18 numbered tips/steps"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 16:28",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 16:28",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 16:28",
+    "obs": "Person mentioned: Saharan"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 16:28",
+    "obs": "Discussed: technology, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 16:28",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Person mentioned: They"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Discussed: art, health, education"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 08:49",
+    "obs": "Assistant provided 13 numbered tips/steps"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-shared-context",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Person mentioned: Dracaena"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Discussed: art, health"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Assistant provided 46 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 01:07",
+    "obs": "Assistant asked 4 follow-up questions"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Person mentioned: Billie"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Discussed: music, art, health"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Assistant provided 33 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 22:31",
+    "obs": "Assistant asked 4 follow-up questions"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "Person mentioned: Gifts"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "Discussed: travel, health, sport"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "Assistant provided 10 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 01:11",
+    "obs": "Assistant asked 13 follow-up questions"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "Person mentioned: Black"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "Discussed: business, health, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 11:42",
+    "obs": "Assistant provided 5 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "Person mentioned: Blue"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "Discussed: art, health, home"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 05:19",
+    "obs": "Assistant provided 46 numbered tips/steps"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:53",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:53",
+    "obs": "Person mentioned: Bm"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:53",
+    "obs": "Discussed: art"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 19:05",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 19:05",
+    "obs": "Person mentioned: Park"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 19:05",
+    "obs": "Discussed: music, art, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 19:05",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 19:05",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "Person mentioned: Neem"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "Discussed: art, health"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 08:08",
+    "obs": "Assistant provided 41 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Person mentioned: Data"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Discussed: art, business, relationship"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 14:30",
+    "obs": "Assistant provided 33 numbered tips/steps"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Person mentioned: Peak"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Discussed: art, book, design"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant provided 32 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 01:29",
+    "obs": "Assistant asked 6 follow-up questions"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-shared-context",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Person mentioned: Electrolytes"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Discussed: health, sport, food"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 09:46",
+    "obs": "Assistant provided 54 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Person mentioned: Quebec"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Discussed: art, travel, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 00:43",
+    "obs": "Assistant provided 15 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "Discussed: art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 07:44",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Person mentioned: Instagram"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Discussed: art, book"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant provided 43 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 18:35",
+    "obs": "Assistant asked 5 follow-up questions"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Person mentioned: Widowmaker"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Discussed: technology, sport, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 02:55",
+    "obs": "Assistant provided 30 numbered tips/steps"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Person mentioned: Quest"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Discussed: technology, sport, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 19:09",
+    "obs": "Assistant provided 31 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "Person mentioned: However"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "Discussed: health, sport, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 16:26",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "Person mentioned: They"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "Discussed: art, health"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 14:34",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "Person mentioned: Spot"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "Discussed: design"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 04:39",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Person mentioned: Shoe"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Discussed: art, design"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:55",
+    "obs": "Assistant provided 16 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Person mentioned: Organizations"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Discussed: technology, education, art"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 09:10",
+    "obs": "Assistant provided 18 numbered tips/steps"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-shared-context",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Person mentioned: Japanese"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Discussed: art, design, model"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:15",
+    "obs": "Assistant provided 31 numbered tips/steps"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Person mentioned: Water"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Discussed: art, health, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 01:28",
+    "obs": "Assistant provided 26 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "Person mentioned: Shop"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "Discussed: art, model"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 18:58",
+    "obs": "Assistant provided 22 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-quantity",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Person mentioned: Add"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Discussed: art, health, food"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 00:50",
+    "obs": "Assistant provided 33 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "Person mentioned: Leonidas"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "Discussed: art, history"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 17:41",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-interest",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-considering-options",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Person mentioned: Plan"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Discussed: business, health, food"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 10:07",
+    "obs": "Assistant provided 25 numbered tips/steps"
+  },
+  {
+    "topic": "user-asking-explanation",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-how-question",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "Person mentioned: Offer"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "Discussed: art, travel, health"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 10:40",
+    "obs": "Assistant provided 14 numbered tips/steps"
+  },
+  {
+    "topic": "user-what-question",
+    "date": "2023/05/23 (Tue) 06:45",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 06:45",
+    "obs": "Person mentioned: Area"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 06:45",
+    "obs": "Discussed: nature"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 06:45",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 06:45",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "user-seeking-recommendation",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "User asked question"
+  },
+  {
+    "topic": "user-has-plans",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-goal-or-need",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "User has plans/goals"
+  },
+  {
+    "topic": "user-temporal-context",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "user-mentioned-price",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "User shared personal context"
+  },
+  {
+    "topic": "person-mentioned",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Person mentioned: Silent"
+  },
+  {
+    "topic": "session-subject-area",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Discussed: music, art, book"
+  },
+  {
+    "topic": "asst-provided-list",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-research",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-consideration",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-recommend-practice",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant provided guidance"
+  },
+  {
+    "topic": "asst-provided-structured-advice",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant provided 26 numbered tips/steps"
+  },
+  {
+    "topic": "asst-asked-followup-questions",
+    "date": "2023/05/23 (Tue) 00:20",
+    "obs": "Assistant asked 6 follow-up questions"
+  }
+]

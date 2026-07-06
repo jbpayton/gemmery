@@ -1,0 +1,372 @@
+[
+  {
+    "topic": "trip-planning-trello",
+    "date": "2023/03/12 (Sun) 01:46",
+    "obs": "User planning trip with friends, considering friend Mike who is relocating closer to friends/family."
+  },
+  {
+    "topic": "trip-planning-tool-choice",
+    "date": "2023/03/12 (Sun) 01:46",
+    "obs": "Assistant recommended Trello for trip planning; user agreed it seemed useful for organizing aspects."
+  },
+  {
+    "topic": "health-concerns",
+    "date": "2023/03/16 (Thu) 13:59",
+    "obs": "User concerned about health as getting older; interested in maintaining healthy skin and lowering blood pressure."
+  },
+  {
+    "topic": "user-age-range",
+    "date": "2023/03/16 (Thu) 13:59",
+    "obs": "User is in their 30s and interested in establishing consistent exercise routine."
+  },
+  {
+    "topic": "sleep-issues",
+    "date": "2023/03/16 (Thu) 13:59",
+    "obs": "User experiencing trouble sleeping lately and connected it to exercise; assistant explained link between exercise and sleep quality."
+  },
+  {
+    "topic": "meditation-yoga-interest",
+    "date": "2023/03/16 (Thu) 13:59",
+    "obs": "User interested in meditation and yoga for stress relief and sleep quality; started incorporating into daily routine."
+  },
+  {
+    "topic": "bathroom-reorganization",
+    "date": "2023/03/26 (Sun) 20:40",
+    "obs": "User planning to reorganize bathroom cabinets to make room for new skincare products."
+  },
+  {
+    "topic": "toilet-paper-purchase",
+    "date": "2023/03/26 (Sun) 20:40",
+    "obs": "User recently restocked toilet paper: 24-pack Charmin Ultra Soft from Costco about 3 weeks ago."
+  },
+  {
+    "topic": "skincare-storage",
+    "date": "2023/03/26 (Sun) 20:40",
+    "obs": "User interested in stackable containers for skincare products; likes warm-toned bedside lamp bulb (~2700K)."
+  },
+  {
+    "topic": "facial-steamer-interest",
+    "date": "2023/03/26 (Sun) 20:40",
+    "obs": "User considering facial steamer for blackhead removal; chosen: Dr. Jart+ Dermaclar Clearing Solution."
+  },
+  {
+    "topic": "moisturizer-choice",
+    "date": "2023/03/26 (Sun) 20:40",
+    "obs": "User looking for lightweight, oil-free moisturizer; assistant recommended Neutrogena Hydro Boost Water Gel and others."
+  },
+  {
+    "topic": "bike-commute-and-gear",
+    "date": "2023/03/29 (Wed) 08:12",
+    "obs": "User planning longer bike ride this weekend; owns Nike Air Zoom Pegasus 38 running shoes; recently cleaned/maintained bike helmet."
+  },
+  {
+    "topic": "cycling-shoes-learning",
+    "date": "2023/03/29 (Wed) 08:12",
+    "obs": "Assistant educated user: running shoes not ideal for cycling; dedicated cycling shoes provide better pedaling efficiency."
+  },
+  {
+    "topic": "camelback-water-bottle",
+    "date": "2023/03/29 (Wed) 08:12",
+    "obs": "User asked if CamelBak water bottle suitable for bike ride; assistant noted cycling-specific bottles better fit bike cages."
+  },
+  {
+    "topic": "la-trip-planning",
+    "date": "2023/04/03 (Mon) 22:41",
+    "obs": "User planning trip to LA, looking for coffee shops near LAX airport; assistant recommended multiple options."
+  },
+  {
+    "topic": "frequent-flyer-miles",
+    "date": "2023/04/03 (Mon) 22:41",
+    "obs": "User accumulated 50,000+ American Airlines miles from frequent travel to NYC and Chicago."
+  },
+  {
+    "topic": "hawaii-redemption-planning",
+    "date": "2023/04/03 (Mon) 22:41",
+    "obs": "User planning 5-day Hawaii trip in September using 35,000 AA miles (economy); seeking award ticket in off-peak season."
+  },
+  {
+    "topic": "book-preferences",
+    "date": "2023/04/07 (Fri) 20:39",
+    "obs": "User recently enjoyed trip to Chicago, finished reading The New Yorker on flight back; likes psychological thrillers and literary fiction."
+  },
+  {
+    "topic": "reading-habits",
+    "date": "2023/04/07 (Fri) 20:39",
+    "obs": "User reading a lot lately, particularly science/tech articles in The Economist and Wired; interested in food science, sustainability, economics."
+  },
+  {
+    "topic": "magazine-subscriptions",
+    "date": "2023/04/07 (Fri) 20:39",
+    "obs": "User recently subscribed to Wired; March edition had cover story on plant-based meat alternatives that caught attention."
+  },
+  {
+    "topic": "book-reading-columnists",
+    "date": "2023/04/07 (Fri) 20:39",
+    "obs": "User enjoys NY Times columns by Paul Krugman and Michelle Goldberg; interested in economics/politics book recommendations."
+  },
+  {
+    "topic": "bedroom-lighting-project",
+    "date": "2023/04/07 (Fri) 01:46",
+    "obs": "User planning cozy bedroom reading nook; interested in floor lamps with warm light (2700K-3000K color temp)."
+  },
+  {
+    "topic": "lamp-style-preference",
+    "date": "2023/04/07 (Fri) 01:46",
+    "obs": "User considering sleek modern floor lamp with metal/glass base and slim shade after browsing modern table lamps for living room."
+  },
+  {
+    "topic": "digital-marketing-workshop",
+    "date": "2023/04/11 (Tue) 22:13",
+    "obs": "User attended digital marketing workshop last week; speaker was Rachel Lee; discussed social media advertising strategies."
+  },
+  {
+    "topic": "professional-network",
+    "date": "2023/04/11 (Tue) 22:13",
+    "obs": "User caught up with Emma, a freelance writer, at lunch today; Emma is potential collaborator on user's project."
+  },
+  {
+    "topic": "facebook-ads-learning",
+    "date": "2023/04/11 (Tue) 22:13",
+    "obs": "User interested in Facebook ads setup/targeting; assistant provided tutorials and audience insights tools."
+  },
+  {
+    "topic": "instagram-ads-interest",
+    "date": "2023/04/11 (Tue) 22:13",
+    "obs": "User interested in Instagram ads after Emma mentioned having success with them; targeting sustainable living/eco-friendly enthusiasts."
+  },
+  {
+    "topic": "boundary-enforcement",
+    "date": "2023/04/11 (Tue) 19:52",
+    "obs": "User having trouble enforcing boundaries with boss; assistant provided strategies for communicating needs assertively."
+  },
+  {
+    "topic": "thesis-topic",
+    "date": "2023/04/11 (Tue) 01:18",
+    "obs": "User submitted thesis proposal last month; title: 'Exploring the Impact of Artificial Intelligence on Modern Education'."
+  },
+  {
+    "topic": "ai-education-research",
+    "date": "2023/04/11 (Tue) 01:18",
+    "obs": "User interested in AI for student engagement in online learning; exploring AI-powered chatbots, adaptive learning, personalized feedback."
+  },
+  {
+    "topic": "georgia-tech-jill-watson",
+    "date": "2023/04/11 (Tue) 01:18",
+    "obs": "Assistant informed user about Georgia Tech's Jill Watson AI teaching assistant chatbot and its positive impact on student engagement."
+  },
+  {
+    "topic": "europe-trip-planning",
+    "date": "2023/04/11 (Tue) 09:07",
+    "obs": "User interested in visiting Passau (Germany) and Cesky Krumlov (Czech Republic); planning to take bus from Passau (~2 hours)."
+  },
+  {
+    "topic": "grey-hair-coverage",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "User noticing first grey hairs around temples; considering hair dye to cover them; leaning toward natural brown color."
+  },
+  {
+    "topic": "hair-dye-product-choice",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "User chose Dr. Jart+ products for skincare; considering similar for hair dye (natural ingredient-based, ammonia-free)."
+  },
+  {
+    "topic": "hair-dye-brands-considered",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "Assistant recommended: L'Oréal Colorista, Garnier Nutrisse, Madison Reed, Aveda, Herbatint for grey coverage."
+  },
+  {
+    "topic": "luxury-spending-guilt",
+    "date": "2023/04/11 (Tue) 21:36",
+    "obs": "User splurged on Gucci handbag on May 15th for $2,000; concerned about spending habits; wants to track expenses."
+  },
+  {
+    "topic": "monthly-income",
+    "date": "2023/04/11 (Tue) 21:36",
+    "obs": "User makes $6,000/month; fixed expenses $3,000/month (50%); wants to prioritize debt repayment and savings."
+  },
+  {
+    "topic": "credit-card-debt",
+    "date": "2023/04/11 (Tue) 21:36",
+    "obs": "User has credit card debt from previous splurges; prioritizing debt repayment; prefers 50/30/20 budget allocation rule."
+  },
+  {
+    "topic": "budget-allocation-50-30-20",
+    "date": "2023/04/11 (Tue) 21:36",
+    "obs": "User adopted 50/30/20 budget rule: 50% needs ($3000), 30% wants ($1800), 20% savings/debt ($1200/month)."
+  },
+  {
+    "topic": "audiobook-preferences",
+    "date": "2023/04/11 (Tue) 14:50",
+    "obs": "User enjoying psychological thrillers and literary fiction audiobooks; recently finished 'The Silent Patient' and 'The Overstory'."
+  },
+  {
+    "topic": "podcast-listening",
+    "date": "2023/04/11 (Tue) 14:50",
+    "obs": "User has 45-minute commute each way; currently listening to 'How I Built This' and 'Stuff You Should Know'."
+  },
+  {
+    "topic": "audiobook-library-return",
+    "date": "2023/04/11 (Tue) 14:50",
+    "obs": "User borrowed 'The Power' from library but didn't finish before lending period expired; plans to reborrow soon."
+  },
+  {
+    "topic": "board-game-experience",
+    "date": "2023/04/11 (Tue) 04:47",
+    "obs": "User played Scattergories with family 3 Sundays ago at cousin's birthday party; had fun despite not winning."
+  },
+  {
+    "topic": "board-game-interests",
+    "date": "2023/04/11 (Tue) 04:47",
+    "obs": "User planning family game night; interested in: Taboo, What Do You Meme, Forbidden Island, Pandemic, Azul, other group games."
+  },
+  {
+    "topic": "board-game-cafe-visit",
+    "date": "2023/04/11 (Tue) 04:47",
+    "obs": "User had great experience at board game cafe last weekend; inspired to consider buying Azul after trying it there."
+  },
+  {
+    "topic": "ticket-to-ride-expansion",
+    "date": "2023/04/11 (Tue) 04:47",
+    "obs": "User planning to buy Ticket to Ride expansion pack seen at game store near house last month."
+  },
+  {
+    "topic": "ticket-to-ride-victory",
+    "date": "2023/04/11 (Tue) 04:47",
+    "obs": "User won Ticket to Ride against roommate Mike 2 weeks ago, completing 6 of 8 destination tickets."
+  },
+  {
+    "topic": "social-media-tools",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "User organizing social media accounts; chose Hootsuite and Canva for scheduling and design; birthdays/graduations to upload."
+  },
+  {
+    "topic": "linkedin-profile-new",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "User just started full-time job; creating LinkedIn profile for professional networking and opportunities."
+  },
+  {
+    "topic": "linkedin-education",
+    "date": "2023/04/11 (Tue) 15:53",
+    "obs": "User graduate with Bachelor's degree in Business Administration; updating LinkedIn with education section."
+  },
+  {
+    "topic": "farm-expansion",
+    "date": "2023/04/11 (Tue) 07:51",
+    "obs": "User expanding farm operations to include agritourism activities; planning farm stay program and farm tours."
+  },
+  {
+    "topic": "chicken-coop-success",
+    "date": "2023/04/11 (Tue) 07:51",
+    "obs": "User built new chicken coop recently; 8 hens now producing average 12 eggs/day (up from previous output)."
+  },
+  {
+    "topic": "farm-income",
+    "date": "2023/04/11 (Tue) 14:49",
+    "obs": "User selling farm produce at farmer's market: 20 dozen eggs ($3/dozen) + 5 lbs fresh cheese ($10/lb) = $110/week baseline."
+  },
+  {
+    "topic": "farm-income-total",
+    "date": "2023/04/11 (Tue) 14:49",
+    "obs": "User total farm income last 3 months: $3,500 (including calf sale to neighboring farm)."
+  },
+  {
+    "topic": "farm-expenses",
+    "date": "2023/04/11 (Tue) 14:49",
+    "obs": "User farm expenses last 3 months: $5,000 total (feed, vet bills, equipment); specific: $500 new feeding troughs, $120 vet for Luna's broken wing."
+  },
+  {
+    "topic": "watercolor-art-learning",
+    "date": "2023/04/11 (Tue) 08:02",
+    "obs": "User recently started experimenting with watercolors; planning to create seascape piece soon."
+  },
+  {
+    "topic": "art-fair-inspiration",
+    "date": "2023/04/11 (Tue) 08:02",
+    "obs": "User attended local art fair today; inspired by abstract pieces and varied styles/techniques; motivated to improve skills."
+  },
+  {
+    "topic": "abstract-art-project",
+    "date": "2023/04/11 (Tue) 08:02",
+    "obs": "User working on abstract acrylic painting titled 'Turmoil'; using hatching/cross-hatching for textures; planning bold contrasting colors."
+  },
+  {
+    "topic": "turmoil-art-development",
+    "date": "2023/04/11 (Tue) 08:02",
+    "obs": "User planning to add modeling paste/gel medium to 'Turmoil' for dynamic 3D effect; intense center, smooth edges."
+  },
+  {
+    "topic": "web-dev-project-planning",
+    "date": "2023/04/11 (Tue) 02:55",
+    "obs": "User helping build showcase/community website for software engineering students; 4 generations represented, some graduated."
+  },
+  {
+    "topic": "theme-park-visit",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User went to Universal Studios 3 weeks ago on Friday evening with friends Emma and Ryan; experienced long lines but had great time."
+  },
+  {
+    "topic": "disneyland-trip-planning",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User planning Disneyland trip with friends; interested in holiday season seasonal treats and attractions."
+  },
+  {
+    "topic": "funko-pop-collecting",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User has growing Funko POP collection on dedicated shelf; recently got rare Iron Man variant from local collectible store couple weeks ago."
+  },
+  {
+    "topic": "spider-man-funko-pops",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User favorite Spider-Man figure: Spider-Verse comic series; total collection: 12 Spider-Man POP figures."
+  },
+  {
+    "topic": "comic-con-experience",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User got new Spider-Man: No Way Home Funko POP figures at comic-con event last weekend."
+  },
+  {
+    "topic": "vinyl-record-collecting",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User collecting vinyl records for about 1 year; purchased 7 new albums in last month; found limited edition Beatles Abbey Road at garage sale last weekend."
+  },
+  {
+    "topic": "music-taste",
+    "date": "2023/04/11 (Tue) 21:54",
+    "obs": "User focused on psychedelic rock and indie music; collects Tame Impala, Unknown Mortal Orchestra, King Gizzard & the Lizard Wizard; seeks limited/colored vinyl."
+  },
+  {
+    "topic": "model-portfolio-work",
+    "date": "2023/04/11 (Tue) 18:06",
+    "obs": "User is male model asked to create promotional Instagram post for Gucci Guilty Pour Homme campaign."
+  },
+  {
+    "topic": "japan-relocation",
+    "date": "2023/04/11 (Tue) 08:09",
+    "obs": "User works as English teacher at small language school in Shibuya, Tokyo; commuting daily, getting more comfortable."
+  },
+  {
+    "topic": "japan-travel-interest",
+    "date": "2023/04/11 (Tue) 08:09",
+    "obs": "User planning weekend trip to Yokohama; interested in Chinatown; exploring day-trip destinations from Shibuya (Kamakura, Enoshima, Hakone, Nikko)."
+  },
+  {
+    "topic": "nikko-autumn-visit",
+    "date": "2023/04/11 (Tue) 08:09",
+    "obs": "User interested in visiting Nikko during autumn for fall foliage; wants to visit temples/shrines (Toshogu, Rinno-ji, Futarasan)."
+  },
+  {
+    "topic": "japanese-language-learning",
+    "date": "2023/04/11 (Tue) 08:09",
+    "obs": "User learning Japanese; studied pronunciation of common phrases and Nikko-specific words for upcoming trip."
+  },
+  {
+    "topic": "nyc-solo-travel",
+    "date": "2023/04/11 (Tue) 20:41",
+    "obs": "User took solo trip to NYC for 4 days; had amazing time trying different food spots independently."
+  },
+  {
+    "topic": "chicago-trip-planning",
+    "date": "2023/04/11 (Tue) 20:41",
+    "obs": "User planning trip to Chicago; interested in Italian beef sandwiches, deep-dish pizza, neighborhood exploration (Wicker Park, Logan Square, Lincoln Park, Pilsen)."
+  }
+]

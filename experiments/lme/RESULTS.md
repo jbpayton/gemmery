@@ -156,3 +156,57 @@ no retrieval). The last rung is write-time intelligence — the librarian.
 The remaining misses are consistent with that: what fails now is evidence
 *aggregation* across sessions, which is exactly what distilled, dated,
 revised observations solve.
+
+---
+
+## v3: the librarian arm (write-time intelligence) — a measured negative
+
+Mirroring Mastra's architecture: question-blind Haiku observers distill each
+user's full history into dated atomic observations at stable topic slugs;
+slug reuse = `revise()` (real git version chains in `store_v3_1/`); the
+reader gets the WHOLE distilled memory, no retrieval.
+
+| arm | compression | overall |
+|---|---|---|
+| v1 cosine retrieval, truncated turns | 64× (reader-side) | 0.733 |
+| **v2 rerank + whole sessions (raw record)** | 11× (reader-side) | **0.917** |
+| v3.0 librarian, starved budget (1.4 obs/session) | 50× (write-side) | 0.367 |
+| v3.1 librarian, comprehensive budget | 23× (write-side) | 0.500 |
+
+Diagnosis (`results_v3.json`, `results_v4.json`):
+- **v3.0's failures were 32/38 honest omissions** — the reader said "I don't
+  know" because the observer never wrote the fact down. Only 6 confabulations.
+  The system doesn't lie when memory is lossy; it abstains.
+- v3.1 doubled capture (5,726 topics, 1,449 revision chains vs 3,374/331)
+  and recovered single-session-user to 0.88 (headline facts survive), but
+  temporal-reasoning (0.31) and multi-session (0.44) stay broken: the
+  observer cannot know which INCIDENTAL detail (an exact time, which event
+  came third) a future question will hinge on.
+- **Abstention: 8/8 in all four runs** — the single most robust result of
+  the benchmark. Bounded, dated memory gives calibrated absence-detection
+  regardless of how the memory was built.
+- Knowledge-update stayed high through every arm that had dated version
+  chains — revision semantics survive even heavy compression.
+
+**The law: the raw record beats a bad summary.** Write-time intelligence is
+a bet that the observer can predict what will matter. On arbitrary needle
+questions that bet fails at 23-50× compression — question-blind distillation
+loses to keeping everything and retrieving carefully. This is the simulate
+experiment's fidelity law surfacing at write time: lossy memory faithfully
+read is worth little, exactly as a miscalibrated model faithfully simulated
+was worth nothing. Mastra's 94.87% is not "LLM at write beats retrieval" —
+it is LLM at write **at 3-6× compression** (4-8× fatter than our v3.1),
+with a reflector pass. Whether our arm closes the gap at that budget is
+untested (extrapolation from 50×→23× = +13.3 pts suggests much but not all).
+
+**Why this vindicates the architecture rather than indicting it:** Gemmery's
+store keeps the full record immutable and treats distillation (dossiers) as
+an ADDITION that cites it, never a replacement. The v2 arm — the one at
+0.917 — runs on exactly that principle. The SWE librarian worked (top-1
+1.000) because it distilled *method rules*, which transfer as gist; needle
+facts don't. Distill judgment, retrieve facts.
+
+Cost: 60 Haiku observers/run × ~115K-token read (the write-time pass reads
+the corpus once — same input volume as one full-context sweep, amortized
+across every future question), readers ~2× cheaper than v2 (distilled
+memory is smaller than 4 raw sessions).

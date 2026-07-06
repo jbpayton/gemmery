@@ -1,0 +1,167 @@
+[
+  {
+    "topic": "birthday-age",
+    "date": "2023-03-26T13:53:00",
+    "obs": "User celebrated 32nd birthday last month; now in mid-30s per assistant correction (born Feb/March 1990)."
+  },
+  {
+    "topic": "hair-color-choice",
+    "date": "2023-03-26T13:53:00",
+    "obs": "User chose warm brunette hair color to blend grey hairs; has olive complexion, dark brown hair."
+  },
+  {
+    "topic": "professional-development",
+    "date": "2023-03-26T13:53:00",
+    "obs": "User considering online courses to upskill and stay relevant in industry."
+  },
+  {
+    "topic": "skills-interest-data",
+    "date": "2023-03-26T13:53:00",
+    "obs": "User interested in data analysis and visualization course as valuable job market skill."
+  },
+  {
+    "topic": "podcast-theater",
+    "date": "2023-03-26T22:22:00",
+    "obs": "User hooked on The Theater People podcast during daily commute."
+  },
+  {
+    "topic": "live-theater-attendance",
+    "date": "2023-03-26T22:22:00",
+    "obs": "User attended community theater production of Rent downtown; impressed by ensemble performance."
+  },
+  {
+    "topic": "musical-interest",
+    "date": "2023-03-26T22:22:00",
+    "obs": "User listening to In the Heights soundtrack nonstop, loves Latin-inspired rhythms; plans to explore Freestyle Love Supreme and Once on This Island."
+  },
+  {
+    "topic": "photography-workshops",
+    "date": "2023-03-26T23:13:00",
+    "obs": "User attended 5 in-person photography workshops in past 3 months, each on different topic."
+  },
+  {
+    "topic": "portrait-photography-skill",
+    "date": "2023-03-26T23:13:00",
+    "obs": "User beginner-intermediate in portrait photography; wants to focus on natural light and candid moments."
+  },
+  {
+    "topic": "grocery-shopping",
+    "date": "2023-03-26T01:09:00",
+    "obs": "User recently bought organic apples, bananas, milk, eggs, bread from Walmart; plans fruit salad and omelets."
+  },
+  {
+    "topic": "luxury-spending",
+    "date": "2023-03-26T21:02:00",
+    "obs": "User recently splurged on $2,000 Gucci designer handbag; oscillates between luxury and budget shopping."
+  },
+  {
+    "topic": "spending-guilt",
+    "date": "2023-03-26T21:02:00",
+    "obs": "User feeling guilty about Gucci handbag purchase; recognizes need for mindfulness about spending triggers."
+  },
+  {
+    "topic": "sustainable-farming",
+    "date": "2023-03-26T01:13:00",
+    "obs": "User attended seminar on sustainable farming practices at local agricultural center; setting up rotational grazing."
+  },
+  {
+    "topic": "livestock-management",
+    "date": "2023-03-26T01:13:00",
+    "obs": "User owns goats; interested in using alfalfa hay for high nutritional value; planning mobile chicken coop."
+  },
+  {
+    "topic": "digital-couponing",
+    "date": "2023-03-26T11:56:00",
+    "obs": "User redeemed $5 off $25 digital coupon on Target app for household essentials."
+  },
+  {
+    "topic": "cashback-savings",
+    "date": "2023-03-26T11:56:00",
+    "obs": "User exploring cashback apps (Ibotta, Fetch Rewards, Checkout 51, RetailMeNot) for grocery and household savings."
+  },
+  {
+    "topic": "tea-preference-switch",
+    "date": "2023-03-26T22:44:00",
+    "obs": "User recently switched from coffee to tea; listening to In the Heights soundtrack nonstop."
+  },
+  {
+    "topic": "coffee-brewing-preference",
+    "date": "2023-03-26T22:44:00",
+    "obs": "User makes coffee at home with strong ratio: 1 tablespoon per 6 ounces water; prefers oat milk over almond and coconut."
+  },
+  {
+    "topic": "home-purchase",
+    "date": "2023-03-26T20:47:00",
+    "obs": "User finalized purchase of first home (3-bedroom bungalow); landlord rent increase was trigger to buy."
+  },
+  {
+    "topic": "interior-design-preference",
+    "date": "2023-03-26T20:47:00",
+    "obs": "User choosing Rustic Modern interior style; planning light neutral wall colors for brightness; small backyard with fountain."
+  },
+  {
+    "topic": "corporate-team-event",
+    "date": "2023-03-26T17:41:00",
+    "obs": "User attended company summer outing at Knott's Berry Farm; planning team-building event; considering Disneyland Resort Grand Ballroom."
+  },
+  {
+    "topic": "professional-background",
+    "date": "2023-03-26T15:07:00",
+    "obs": "User is software engineer at startup in San Francisco; involved in NLP projects."
+  },
+  {
+    "topic": "education-background",
+    "date": "2023-03-26T15:07:00",
+    "obs": "User graduated University of Michigan with BS Computer Science; completed Coursera Data Science certification with predictive modeling project."
+  },
+  {
+    "topic": "graduate-degree-consideration",
+    "date": "2023-03-26T15:07:00",
+    "obs": "User considering Master's degree in AI or Cybersecurity from top universities (Stanford, MIT, CMU, Berkeley)."
+  },
+  {
+    "topic": "religious-practice",
+    "date": "2023-03-26T01:51:00",
+    "obs": "User attended Sunday mass at St. Mary's Church on March 19th; Father John's sermon inspired community service."
+  },
+  {
+    "topic": "volunteer-activity",
+    "date": "2023-03-26T01:51:00",
+    "obs": "User planning to volunteer at local community event; interested in fundraising activities like bake sale and Color Run walk."
+  },
+  {
+    "topic": "running-achievement",
+    "date": "2023-03-26T08:38:00",
+    "obs": "User completed first 5K run on June 1st at local park; 'Run for a Cause' event tested endurance for future goals."
+  },
+  {
+    "topic": "triathlon-training-plan",
+    "date": "2023-03-26T08:38:00",
+    "obs": "User planning sprint triathlon starting July training; no swimming experience; has bike with casual riding experience; joining local triathlon group."
+  },
+  {
+    "topic": "volunteer-arts-experience",
+    "date": "2023-03-26T05:12:00",
+    "obs": "User volunteered at Children's Museum for 'Art Afternoon' event on February 17th."
+  },
+  {
+    "topic": "art-interests",
+    "date": "2023-03-26T05:12:00",
+    "obs": "User interested in mixed media and feminist art; drawn to Rachel Lee's work; taking online art history course."
+  },
+  {
+    "topic": "cultural-celebration",
+    "date": "2023-03-26T01:09:00",
+    "obs": "User attended Holi celebration at local temple February 26th; threw colors with colleague Rohan and family; tried Gujarati snacks."
+  },
+  {
+    "topic": "social-media-presence",
+    "date": "2023-03-26T04:28:00",
+    "obs": "User active on Instagram, Twitter, Facebook, LinkedIn past month; passionate about yoga, meditation, sustainability."
+  },
+  {
+    "topic": "content-creation-goals",
+    "date": "2023-03-26T04:28:00",
+    "obs": "User posts 3-4 times weekly on each platform; goal to build personal brand; audience receptive to wellness and self-care content."
+  }
+]

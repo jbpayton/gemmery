@@ -1,0 +1,712 @@
+[
+  {
+    "topic": "europe-trip-plans",
+    "date": "2023/05/20 07:29",
+    "obs": "Planning trip to Europe in fall; considering Paris or Rome."
+  },
+  {
+    "topic": "europe-trip-interests",
+    "date": "2023/05/20 07:29",
+    "obs": "Interested in historical sites, cultural experiences, Broadway-style shows in Paris and Rome."
+  },
+  {
+    "topic": "paris-recommendations",
+    "date": "2023/05/20 07:29",
+    "obs": "Assistant recommended Paris: Louvre, Notre-Dame, Arc de Triomphe, Palace of Versailles, Montmartre."
+  },
+  {
+    "topic": "paris-restaurants",
+    "date": "2023/05/20 07:29",
+    "obs": "Interested in traditional French restaurants: Le Comptoir du Relais, Chez L'Ami Jean, Le Grand Vefour."
+  },
+  {
+    "topic": "wine-interests",
+    "date": "2023/05/20 07:29",
+    "obs": "Interested in Paris wine bars: La Closerie des Lilas, Le Barav, Septime La Cave for French wines."
+  },
+  {
+    "topic": "broadway-shows-paris-rome",
+    "date": "2023/05/20 07:29",
+    "obs": "Interested in Broadway-style musicals: Paris shows Phantom of Opera, Les Mis\u00e9rables, Hamilton."
+  },
+  {
+    "topic": "book-reading-preference",
+    "date": "2023/05/21 05:18",
+    "obs": "Loves physical books over digital; prefers feel of pages, smell, and sound of page turning."
+  },
+  {
+    "topic": "book-reading-reason",
+    "date": "2023/05/21 05:18",
+    "obs": "Prefers books because no eye strain; values disconnecting from digital world; feels comfort reading physical books."
+  },
+  {
+    "topic": "papermaking-knowledge",
+    "date": "2023/05/21 05:18",
+    "obs": "Learned about papermaking: preparation of pulp, formation of sheets, pressing, drying, finishing processes."
+  },
+  {
+    "topic": "bread-workshop-attendance",
+    "date": "2023/05/21 08:36",
+    "obs": "Attended bread-baking workshop at local culinary school; feeling inspired to experiment."
+  },
+  {
+    "topic": "whole-grain-bread-interest",
+    "date": "2023/05/21 08:36",
+    "obs": "Interested in whole grain breads: Multigrain with Kamut and Rye, Spelt and Walnut, 100% Whole Wheat Sourdough."
+  },
+  {
+    "topic": "walnut-toasting-technique",
+    "date": "2023/05/21 08:36",
+    "obs": "Learned walnut toasting: 350\u00b0F oven, 5-7 minutes, stir halfway. Brings out natural oils and flavor."
+  },
+  {
+    "topic": "sourdough-starter-learning",
+    "date": "2023/05/21 08:36",
+    "obs": "Experimented with sourdough starter; instructor emphasized consistent feeding schedule importance."
+  },
+  {
+    "topic": "sourdough-feeding-phases",
+    "date": "2023/05/21 08:36",
+    "obs": "Sourdough feeding cycle: peak activity 4-6 hours post-feeding, decline 2-4 hours, dormancy phase."
+  },
+  {
+    "topic": "sourdough-storage-plan",
+    "date": "2023/05/21 08:36",
+    "obs": "Plans to store starter in refrigerator at 39-45\u00b0F; revive with 24-48 hours at room temperature."
+  },
+  {
+    "topic": "thesis-timeline",
+    "date": "2023/05/21 13:38",
+    "obs": "Working on thesis; methodology chapter for 2 weeks; goal to finish by end of month."
+  },
+  {
+    "topic": "thesis-research-topic",
+    "date": "2023/05/21 13:38",
+    "obs": "Thesis research on social media addiction and effects on mental health in young adults."
+  },
+  {
+    "topic": "citation-manager-mendeley",
+    "date": "2023/05/21 13:38",
+    "obs": "Using Mendeley citation manager; creating thesis folder with subfolders per chapter, tags, star ratings."
+  },
+  {
+    "topic": "research-organization-strategy",
+    "date": "2023/05/21 13:38",
+    "obs": "Creating thesis folder structure in Mendeley: Literature Review, Methodology, Results, Discussion, Conclusion."
+  },
+  {
+    "topic": "frida-kahlo-exhibition",
+    "date": "2023/05/21 20:55",
+    "obs": "Attended opening reception Frida Kahlo and Diego Rivera exhibition Philadelphia Museum of Art today."
+  },
+  {
+    "topic": "frida-kahlo-birth-parents",
+    "date": "2023/05/21 20:55",
+    "obs": "Frida born July 6, 1907 in Coyoac\u00e1n, Mexico City; mother Matilde Calder\u00f3n, father Wilhelm Kahlo photographer."
+  },
+  {
+    "topic": "frida-polio-impact",
+    "date": "2023/05/21 20:55",
+    "obs": "Frida contracted polio age 6; right leg shorter and weaker; influenced her art depicting physical suffering."
+  },
+  {
+    "topic": "frida-bus-accident",
+    "date": "2023/05/21 20:55",
+    "obs": "September 17 1925: bus accident age 18; spinal fractures, pelvis/leg breaks, internal injuries, damaged uterus."
+  },
+  {
+    "topic": "frida-health-impact",
+    "date": "2023/05/21 20:55",
+    "obs": "Had 30+ surgeries including spinal fusion; chronic pain caused painkiller addiction throughout life."
+  },
+  {
+    "topic": "frida-artistic-style",
+    "date": "2023/05/21 20:55",
+    "obs": "Frida used small portable canvases, oil/watercolor/gouache paints; layering techniques with collage elements."
+  },
+  {
+    "topic": "hound-of-baskervilles-analysis",
+    "date": "2023/05/21 22:59",
+    "obs": "Analyzing Miss Stapleton responsibility in Hound of Baskervilles; victim of abusive brother control."
+  },
+  {
+    "topic": "documentary-viewing-preference",
+    "date": "2023/05/22 07:39",
+    "obs": "Watching more documentaries than fictional shows lately; loves documentaries."
+  },
+  {
+    "topic": "documentary-favorites",
+    "date": "2023/05/22 07:39",
+    "obs": "Favorite documentaries: Free Solo, The Game Changers, The Dawn Wall, What the Health."
+  },
+  {
+    "topic": "documentary-friend-influence",
+    "date": "2023/05/22 07:39",
+    "obs": "Recommended documentaries to 3 friends and family members; they have started watching them."
+  },
+  {
+    "topic": "next-watch-list",
+    "date": "2023/05/22 07:39",
+    "obs": "Planning to watch The Dawn Wall and What the Health next."
+  },
+  {
+    "topic": "education-learning-models",
+    "date": "2023/05/22 09:39",
+    "obs": "Researched US high school learning models: traditional, flipped, personalized, blended, mastery-based, PBL."
+  },
+  {
+    "topic": "yosemite-camping-trip",
+    "date": "2023/05/22 10:49",
+    "obs": "Just returned from camping trip with friends to Yosemite National Park."
+  },
+  {
+    "topic": "outdoor-tracking-apps",
+    "date": "2023/05/22 10:49",
+    "obs": "Interested in apps: AllTrails, Gaia GPS, Strava, Trailforks, MapMyHike for tracking outdoor activities."
+  },
+  {
+    "topic": "solo-hiking-plans",
+    "date": "2023/05/22 10:49",
+    "obs": "Planning solo hike; previously completed 10-mile loop at nearby state park few months ago."
+  },
+  {
+    "topic": "new-zealand-trip-plans",
+    "date": "2023/05/22 10:49",
+    "obs": "Researching trip to New Zealand for next summer; considering renting campervan to explore countryside."
+  },
+  {
+    "topic": "new-zealand-destinations",
+    "date": "2023/05/22 10:49",
+    "obs": "Must-see: Milford Sound, Tongariro NP, Abel Tasman, Queenstown, Rotorua; activities: Routeburn hike, skydiving."
+  },
+  {
+    "topic": "left-side-driving-concern",
+    "date": "2023/05/22 10:49",
+    "obs": "Concerned about driving on left; worried about narrow, winding roads in New Zealand."
+  },
+  {
+    "topic": "pet-food-purchase",
+    "date": "2023/05/22 11:40",
+    "obs": "Recently ordered pet food from Chewy.com with 10% off coupon; considering switching brands."
+  },
+  {
+    "topic": "pet-food-brand-exploration",
+    "date": "2023/05/22 11:40",
+    "obs": "Pet has no digestive issues; exploring natural food brands: Orijen, Acana, Wellness, Taste of the Wild."
+  },
+  {
+    "topic": "natural-food-cost-concern",
+    "date": "2023/05/22 11:40",
+    "obs": "Natural pet food expensive; using cashback apps Ibotta and Fetch Rewards for savings on Chewy."
+  },
+  {
+    "topic": "cashback-stacking-strategy",
+    "date": "2023/05/22 11:40",
+    "obs": "Stacking cashback: Chewy purchase with Ibotta (10% back) and Fetch Rewards (5% back)."
+  },
+  {
+    "topic": "1971-history-significance",
+    "date": "2023/05/22 23:22",
+    "obs": "US ended dollar-to-gold convertibility; ended Bretton Woods fixed exchange rate system."
+  },
+  {
+    "topic": "african-plymouth-community-project",
+    "date": "2023/05/23 14:18",
+    "obs": "Project to create community for African students at University of Plymouth for networking and information."
+  },
+  {
+    "topic": "community-name-tagline",
+    "date": "2023/05/23 14:18",
+    "obs": "Community name: African to Plymouth. Tagline: Connecting, supporting, and thriving together."
+  },
+  {
+    "topic": "project-phase-needs-assessment",
+    "date": "2023/05/23 14:18",
+    "obs": "Step 1: conduct needs assessment via surveys to identify challenges African students face."
+  },
+  {
+    "topic": "project-phase-audience-definition",
+    "date": "2023/05/23 14:18",
+    "obs": "Step 2: define target audience; characterize by demographics, interests, and motivations."
+  },
+  {
+    "topic": "meditation-for-anxiety-stress",
+    "date": "2023/05/23 15:30",
+    "obs": "Seeking meditation to reduce anxiety and stress; trying deep breathing and mindfulness first."
+  },
+  {
+    "topic": "meditation-app-recommendations",
+    "date": "2023/05/23 15:30",
+    "obs": "Recommended apps: Headspace, Calm, Insight Timer, Simple Habit for guided meditations."
+  },
+  {
+    "topic": "habit-consistency-challenge",
+    "date": "2023/05/23 15:30",
+    "obs": "Struggles staying consistent with new habits; will incorporate meditation into morning routine."
+  },
+  {
+    "topic": "mcu-movie-marathon",
+    "date": "2023/05/23 23:17",
+    "obs": "Watched all 22 MCU films in 2 weeks; impressive marathon of Marvel Cinematic Universe."
+  },
+  {
+    "topic": "movie-tracking-system",
+    "date": "2023/05/23 23:17",
+    "obs": "Creating spreadsheet to track movies: title, year, watch date, rating, notes, franchise, genre."
+  },
+  {
+    "topic": "movie-tracking-expansion",
+    "date": "2023/05/23 23:17",
+    "obs": "Added columns: type (sequel/standalone), platform (Netflix/theater), format, rewatch, month watched."
+  },
+  {
+    "topic": "weekly-workout-schedule",
+    "date": "2023/05/23 23:23",
+    "obs": "3 workout sessions per week; 1.5 hours each; Monday, Wednesday, Friday evenings."
+  },
+  {
+    "topic": "language-exchange-commitment",
+    "date": "2023/05/23 23:23",
+    "obs": "Language exchange program Tuesday and Thursday 6:30-8:30pm."
+  },
+  {
+    "topic": "daily-reading-practice",
+    "date": "2023/05/23 23:23",
+    "obs": "30 minutes reading every evening."
+  },
+  {
+    "topic": "guitar-practice-learning",
+    "date": "2023/05/23 23:23",
+    "obs": "Learning guitar; practicing 30 minutes every weekday evening."
+  },
+  {
+    "topic": "consistent-sleep-goal",
+    "date": "2023/05/23 23:23",
+    "obs": "Bedtime 11:30pm; aiming for 7-8 hours sleep; prioritizing consistent sleep schedule."
+  },
+  {
+    "topic": "gelderland-festivals-knowledge",
+    "date": "2023/05/24 01:00",
+    "obs": "Popular Gelderland festivals: Carnival, Koningsdag (April 27), Liberation Day (May 5), Sinterklaas, Christmas."
+  },
+  {
+    "topic": "koningsdag-tradition-koekhappen",
+    "date": "2023/05/24 01:00",
+    "obs": "Koningsdag tradition: koekhappen - trying to bite cake hanging from string without using hands."
+  },
+  {
+    "topic": "koningsdag-visit-interest",
+    "date": "2023/05/24 01:00",
+    "obs": "Interested in attending Koningsdag festival in Gelderland; wears orange for national pride."
+  },
+  {
+    "topic": "laptop-battery-drain-issue",
+    "date": "2023/05/24 06:49",
+    "obs": "Laptop battery draining quickly even when not in use; experiencing rapid discharge."
+  },
+  {
+    "topic": "internet-router-fix",
+    "date": "2023/05/24 06:49",
+    "obs": "Had internet connection issue last week; fixed by resetting router; changed WiFi password to stronger one."
+  },
+  {
+    "topic": "sense-energy-monitor-interest",
+    "date": "2023/05/24 06:49",
+    "obs": "Interested in Sense Energy Monitor; tracks overall home energy and appliance-level usage."
+  },
+  {
+    "topic": "eponine-costume-preparation",
+    "date": "2023/05/24 17:09",
+    "obs": "Preparing \u00c9ponine costume for Les Mis\u00e9rables; styling hair and perfecting French accent."
+  },
+  {
+    "topic": "stage-combat-workshop-attended",
+    "date": "2023/05/24 17:09",
+    "obs": "Attended stage combat workshop recently; planning dialect coaching workshop."
+  },
+  {
+    "topic": "continuous-learning-passion",
+    "date": "2023/05/24 17:09",
+    "obs": "Passionate about continuous learning; regularly attends workshops and masterclasses to refine craft."
+  },
+  {
+    "topic": "korean-bbq-experiences",
+    "date": "2023/05/24 23:50",
+    "obs": "Eaten at 3 Korean BBQ restaurants in city; especially loved Hwang's bulgogi."
+  },
+  {
+    "topic": "gochujang-bulgogi-experimentation",
+    "date": "2023/05/24 23:50",
+    "obs": "Experimenting with gochujang (fermented soybean paste); wants to incorporate into bulgogi marinade."
+  },
+  {
+    "topic": "korean-dinner-party-plans",
+    "date": "2023/05/24 23:50",
+    "obs": "Planning Korean-themed dinner party; serving bulgogi with gochujang sauce and banchan side dishes."
+  },
+  {
+    "topic": "korean-rice-selection",
+    "date": "2023/05/24 23:50",
+    "obs": "Experimenting with rice: jasmine, basmati, sushi; recommends short-grain Korean japonica for bulgogi."
+  },
+  {
+    "topic": "bangkok-thrill-seeking",
+    "date": "2023/05/25 06:05",
+    "obs": "Interested in Bangkok activities: skydiving Thai Sky Adventures, bungee jumping, ziplining, Muay Thai."
+  },
+  {
+    "topic": "bangkok-scam-awareness",
+    "date": "2023/05/25 06:05",
+    "obs": "Aware of Bangkok scams: fake markets, tuk-tuk overcharging, jewelry commissions, taxi meter refusal."
+  },
+  {
+    "topic": "street-food-safety-practices",
+    "date": "2023/05/25 06:05",
+    "obs": "Wants Bangkok street food safely; avoid tap water ice, choose busy vendors, hand sanitize before eating."
+  },
+  {
+    "topic": "theater-lighting-analysis",
+    "date": "2023/05/25 09:15",
+    "obs": "Theater lighting impacts audience: bright emphasizes positive, harsh creates intensity and threat."
+  },
+  {
+    "topic": "user-generated-content-strategy",
+    "date": "2023/05/25 19:25",
+    "obs": "Interested in UGC for engagement; encourage reviews, showcase user content, host contests."
+  },
+  {
+    "topic": "ugc-business-examples",
+    "date": "2023/05/25 19:25",
+    "obs": "Examples: GoPro, Airbnb, Starbucks, Glossier successfully leverage customer UGC in marketing."
+  },
+  {
+    "topic": "ugc-management-tools",
+    "date": "2023/05/25 19:25",
+    "obs": "Concerned managing UGC overwhelming; recommends tools: set alerts, use TINT, Curator.io."
+  },
+  {
+    "topic": "star-wars-binge-watching",
+    "date": "2023/05/25 21:00",
+    "obs": "Completed Star Wars marathon; watched all main films in 1.5 weeks including Rogue One and Solo."
+  },
+  {
+    "topic": "game-of-thrones-viewing",
+    "date": "2023/05/25 21:00",
+    "obs": "Watched entire Game of Thrones season 1; currently on season 5 of The Office."
+  },
+  {
+    "topic": "japchae-recipe-perfected",
+    "date": "2023/05/26 05:20",
+    "obs": "Perfected japchae recipe at home; mastered sweet potato starch noodles and vegetable cooking."
+  },
+  {
+    "topic": "japanese-indian-fusion-plans",
+    "date": "2023/05/26 05:20",
+    "obs": "Planning to incorporate Indian spices into Japchae: garam masala, tandoori masala, tempering."
+  },
+  {
+    "topic": "tempering-technique-learning",
+    "date": "2023/05/26 05:20",
+    "obs": "Learning Indian tempering: heat oil with cumin/mustard seeds 30-60 seconds to release flavors."
+  },
+  {
+    "topic": "sailing-vessel-research",
+    "date": "2023/05/26 11:08",
+    "obs": "Researching sailing vessels; interested in speed and stability for rough seas."
+  },
+  {
+    "topic": "sailing-vessel-preference",
+    "date": "2023/05/26 11:08",
+    "obs": "Prefers modern stylish vessels; interested in catamarans and trimarans over schooners."
+  },
+  {
+    "topic": "daily-step-goal",
+    "date": "2023/05/26 22:36",
+    "obs": "Currently averaging 8,000 steps per day; tracking with Apple Watch since January."
+  },
+  {
+    "topic": "step-increase-strategy",
+    "date": "2023/05/26 22:36",
+    "obs": "30-minute brisk walk every morning; planning to add 10-15 minutes; takes stairs, walks at lunch."
+  },
+  {
+    "topic": "walking-apps",
+    "date": "2023/05/26 22:36",
+    "obs": "Interested in walking route apps: MapMyWalk, Walk Score, AllTrails, Google Maps, Pok\u00e9mon Go."
+  },
+  {
+    "topic": "meditation-apps-extended",
+    "date": "2023/05/26 22:36",
+    "obs": "Already using Calm app; interested in Headspace, Insight Timer, Buddhify for meditation."
+  },
+  {
+    "topic": "mindfulness-books",
+    "date": "2023/05/26 22:36",
+    "obs": "Reading The Miracle of Mindfulness by Thich Nhat Hanh and The Self-Care Revolution by Suzy Reading."
+  },
+  {
+    "topic": "apple-watch-features",
+    "date": "2023/05/26 22:36",
+    "obs": "Using Apple Watch Activity app; exploring Breathe app and Workout app for mindfulness and tracking."
+  },
+  {
+    "topic": "sleep-tracking-pattern",
+    "date": "2023/05/26 22:36",
+    "obs": "Getting 6-7 hours sleep per night; working to establish consistent schedule and bedtime routine."
+  },
+  {
+    "topic": "menstrual-cycle-tracking",
+    "date": "2023/05/26 22:36",
+    "obs": "Using Clue app to track menstrual cycle; periods getting lighter and shorter past few months."
+  },
+  {
+    "topic": "mythology-god-art",
+    "date": "2023/05/27 00:23",
+    "obs": "God of art in Greek mythology: Hermes (commerce, art, theft) and Apollo (sun, music, poetry)."
+  },
+  {
+    "topic": "multimedia-definition",
+    "date": "2023/05/27 00:23",
+    "obs": "Multimedia: combination of text, images, audio, video for dynamic interactive experience."
+  },
+  {
+    "topic": "company-naming-images-video",
+    "date": "2023/05/27 00:23",
+    "obs": "Seeking company names for images/video: Multimedia Pro, Visual Fusion, ImageWorks, Art & Motion."
+  },
+  {
+    "topic": "europe-multimedia-company-names",
+    "date": "2023/05/27 00:23",
+    "obs": "European multimedia company names: Crow Visionaries, Crow Videonaries, Euro Media Co., Continental Visions."
+  },
+  {
+    "topic": "baby-website-names",
+    "date": "2023/05/27 00:36",
+    "obs": "30 baby website name ideas: BabyBloom, TinyTots, BabyBuzz, ParentPals, CuddleCorner, Little Love."
+  },
+  {
+    "topic": "thebump-alternative-names",
+    "date": "2023/05/27 00:36",
+    "obs": "30 alternative names for TheBump: Baby Wave, Belly Buddy, Baby Bounce, Parent Peak, Baby Hub."
+  },
+  {
+    "topic": "budget-meal-prep",
+    "date": "2023/05/27 03:12",
+    "obs": "Meal prep for one on budget; makes several servings of dinner eaten for days; bulk cooking strategy."
+  },
+  {
+    "topic": "budget-dinner-ideas",
+    "date": "2023/05/27 03:12",
+    "obs": "Budget dinner ideas: spaghetti, chili, stuffed peppers, chicken fajitas, baked ziti, stir-fry, tuna salad."
+  },
+  {
+    "topic": "minestrone-soup-bulk-meal",
+    "date": "2023/05/27 03:12",
+    "obs": "Minestrone soup recipe: 2 tbsp olive oil, onion, garlic, carrots, celery, potato, zucchini, green beans."
+  },
+  {
+    "topic": "minestrone-ingredients-continued",
+    "date": "2023/05/27 03:12",
+    "obs": "Minestrone soup: 1 can diced tomatoes, 1 can cannellini beans, 6 cups broth, 1 tsp thyme, bay leaf."
+  },
+  {
+    "topic": "minestrone-pasta-optional",
+    "date": "2023/05/27 03:12",
+    "obs": "Can add okra to minestrone soup; add 1 cup sliced okra toward end to prevent getting slimy."
+  },
+  {
+    "topic": "hot-italian-sausage-meals",
+    "date": "2023/05/27 03:12",
+    "obs": "Has frozen hot Italian sausage; seeking meal ideas: pasta sauce, pepper skillet, vegetable soup, burritos."
+  },
+  {
+    "topic": "bali-beach-activities",
+    "date": "2023/05/27 09:48",
+    "obs": "Popular Bali beach activities: surfing, paddleboarding, snorkeling, diving, jet skiing, parasailing."
+  },
+  {
+    "topic": "bali-water-sports-rentals",
+    "date": "2023/05/27 09:48",
+    "obs": "Bali equipment rentals: Rip Curl Surf School, Kuta Beach Surfing School, Nusa Dua Watersports."
+  },
+  {
+    "topic": "bali-parasailing-operators",
+    "date": "2023/05/27 09:48",
+    "obs": "Bali parasailing: Bali Jetpacks, Nusa Dua Water Sports, Bali Jet Set Dive, Air Bali Parasailing."
+  },
+  {
+    "topic": "bali-extreme-water-sports",
+    "date": "2023/05/27 09:48",
+    "obs": "Extreme Bali water sports: white water rafting (Ayung, Telaga Waja rivers), flyboarding, canyoning."
+  },
+  {
+    "topic": "sculpting-clay-resources",
+    "date": "2023/05/27 15:29",
+    "obs": "Seeking online sculpting resources; interested in clay types and techniques."
+  },
+  {
+    "topic": "polymer-clay-basics",
+    "date": "2023/05/27 15:29",
+    "obs": "Polymer clay: non-toxic modeling clay, cured in home oven 275\u00b0F (135\u00b0C) instead of kiln."
+  },
+  {
+    "topic": "polymer-clay-benefits",
+    "date": "2023/05/27 15:29",
+    "obs": "Polymer clay benefits: easy to work with, no kiln needed, soft/pliable, accessible medium."
+  },
+  {
+    "topic": "pennsylvania-history-paper",
+    "date": "2023/05/27 19:56",
+    "obs": "Researching Pennsylvania history; theme: Carnegie Steel, Taylorism, Three Mile Island catastrophe."
+  },
+  {
+    "topic": "carnegie-steel-pennsylvania",
+    "date": "2023/05/27 19:56",
+    "obs": "Carnegie Steel Company founded 1892 Pittsburgh; largest US steel producer; Bessemer process revolutionary."
+  },
+  {
+    "topic": "taylorism-pennsylvania-industry",
+    "date": "2023/05/27 19:56",
+    "obs": "Frederick Taylor's workplace efficiency theory influenced Pennsylvania steel/manufacturing; increased productivity, worker pressure."
+  },
+  {
+    "topic": "three-mile-island-nuclear",
+    "date": "2023/05/27 19:56",
+    "obs": "Three Mile Island catastrophe March 28, 1979; partial meltdown; radioactive gas release near Harrisburg."
+  },
+  {
+    "topic": "celtic-music-modernization",
+    "date": "2023/05/28 13:12",
+    "obs": "Celtic music modernized through fusion, punk, women artists; popular with Dropkick Murphys, Peatbog Faeries."
+  },
+  {
+    "topic": "celtic-music-controversy",
+    "date": "2023/05/28 13:12",
+    "obs": "Controversy around modernizing Celtic music: traditionalists worry about dilution; others see cultural exchange benefit."
+  },
+  {
+    "topic": "celtic-fusion-vs-punk-difference",
+    "date": "2023/05/28 13:12",
+    "obs": "Celtic Fusion blends with rock/jazz/electronic while respecting original sound; Celtic Punk creates aggressive sound."
+  },
+  {
+    "topic": "mackie-partnerships",
+    "date": "2023/05/28 17:24",
+    "obs": "Mackie collaborated with Musician's Emergency Healthcare Fund and Pablove Foundation for children with cancer."
+  },
+  {
+    "topic": "music-industry-social-responsibility",
+    "date": "2023/05/28 17:24",
+    "obs": "Music industry social responsibility: Fender (sustainability), Gibson (Little Kids Rock, Music Rising), Martin Guitar (FSC)."
+  },
+  {
+    "topic": "opioid-epidemic-government-response",
+    "date": "2023/05/28 17:38",
+    "obs": "Government strategies for opioid: prevention education, treatment funding, MAT expansion, law enforcement, research."
+  },
+  {
+    "topic": "successful-opioid-programs",
+    "date": "2023/05/28 17:38",
+    "obs": "Successful initiatives: Prescription Drug Monitoring Programs (PDMPs), MAT expansion, NIH research, CARA 2016."
+  },
+  {
+    "topic": "opioid-implementation-challenges",
+    "date": "2023/05/28 17:38",
+    "obs": "Challenges: funding limits, access to treatment barriers, stigma around addiction, lack of coordination."
+  },
+  {
+    "topic": "stationary-bike-assembly",
+    "date": "2023/05/28 19:36",
+    "obs": "Seeking instructions to assemble stationary bike at home."
+  },
+  {
+    "topic": "bathroom-reorganization",
+    "date": "2023/05/29 04:26",
+    "obs": "Reorganizing bathroom; tips: optimize layout, use vertical space, space-saving fixtures, multi-functional items."
+  },
+  {
+    "topic": "bathroom-storage-solutions",
+    "date": "2023/05/29 04:26",
+    "obs": "Storage solutions: over-toilet cabinets, shelves with baskets, sink skirt storage, wall-mounted cabinets."
+  },
+  {
+    "topic": "flossing-daily-habit",
+    "date": "2023/05/29 04:26",
+    "obs": "Started daily flossing habit; keeps floss picks in container on bathroom counter as morning/night reminder."
+  },
+  {
+    "topic": "oral-hygiene-tips",
+    "date": "2023/05/29 04:26",
+    "obs": "Maintaining oral hygiene: brush 2 min twice daily, soft-bristled toothbrush, replace every 3-4 months."
+  },
+  {
+    "topic": "winter-skincare-routine",
+    "date": "2023/05/29 04:26",
+    "obs": "Winter skincare: moisturize immediately post-shower, exfoliate gently 1-2x weekly with AHAs/BHAs."
+  },
+  {
+    "topic": "lush-bath-bomb-ritual",
+    "date": "2023/05/29 04:26",
+    "obs": "Using Lush bath bomb weekly; pink water, amazing smell; established self-care ritual in cold weather."
+  },
+  {
+    "topic": "75th-birthday-program",
+    "date": "2023/05/29 05:25",
+    "obs": "Sample 75th birthday program: welcome, prayer, video montage, speeches, entertainment, cake, closing."
+  },
+  {
+    "topic": "christian-birthday-program",
+    "date": "2023/05/29 05:25",
+    "obs": "Christian 75th birthday program: opening prayer, worship songs, testimonies, scripture, prayer for celebrant."
+  },
+  {
+    "topic": "partnership-exploration",
+    "date": "2023/05/29 11:06",
+    "obs": "Exploring partnership opportunities; attending networking events; following up with Sarah today for collaboration."
+  },
+  {
+    "topic": "pitch-crafting-advice",
+    "date": "2023/05/29 11:06",
+    "obs": "Crafting partnership pitch: understand their needs, define value proposition, concise 10-15 min, Problem-Agitate-Solve."
+  },
+  {
+    "topic": "partnership-questions",
+    "date": "2023/05/29 11:06",
+    "obs": "Questions for Sarah: company priorities, KPIs, pain points, ideal partnership outcome, key success factors."
+  },
+  {
+    "topic": "sarah-ai-project-management",
+    "date": "2023/05/29 11:06",
+    "obs": "Sarah's company working on AI-powered project management tools; will ask about R&D approach and innovation."
+  },
+  {
+    "topic": "nature-reserve-birdwatching",
+    "date": "2023/05/29 16:26",
+    "obs": "Bird watching at nearby nature reserve; saw American robins building nest March 12 near parking lot."
+  },
+  {
+    "topic": "eastern-us-spring-birds",
+    "date": "2023/05/29 16:26",
+    "obs": "Spring Eastern US birds: warblers, sparrows, waterfowl, raptors, songbirds, hummingbirds, migrants."
+  },
+  {
+    "topic": "warbler-identification",
+    "date": "2023/05/29 16:26",
+    "obs": "Identifying warblers: small 3-5 inches, rounded body, striking plumage patterns, wing bars, eye rings."
+  },
+  {
+    "topic": "backyard-birdfeeders",
+    "date": "2023/05/29 16:26",
+    "obs": "Tracking backyard birds; increased house finches and goldfinches; seen ruby-throated hummingbirds at feeders."
+  },
+  {
+    "topic": "hummingbird-attraction",
+    "date": "2023/05/29 16:26",
+    "obs": "Attracting hummingbirds: nectar 4:1 water-sugar ratio, red feeders, full sun, multiple feeders, fresh nectar."
+  },
+  {
+    "topic": "coastal-park-birds",
+    "date": "2023/05/29 16:26",
+    "obs": "Planning summer trip to coastal state park; expecting shorebirds and seabirds (sanderlings, killdeer, willets)."
+  }
+]

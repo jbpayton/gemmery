@@ -1,0 +1,332 @@
+[
+  {
+    "topic": "dog-max-age",
+    "date": "2023/05/20 (08:03)",
+    "obs": "Dog Max is 5 years old."
+  },
+  {
+    "topic": "cat-luna-pet-bed-purchase",
+    "date": "2023/05/20 (08:03)",
+    "obs": "Cat Luna: user paid $32 for pet bed after 20% discount (original $40)."
+  },
+  {
+    "topic": "hands-free-leash-research",
+    "date": "2023/05/20 (08:03)",
+    "obs": "User researching hands-free leashes for Max; considered Stunt Puppy, Ruffwear, Pawfect."
+  },
+  {
+    "topic": "ruffwear-roamer-leash-selected",
+    "date": "2023/05/20 (08:03)",
+    "obs": "Selected Ruffwear Roamer Leash ($30-$40) for outdoor hiking; cares about weather resistance."
+  },
+  {
+    "topic": "ruffwear-leash-care",
+    "date": "2023/05/20 (08:03)",
+    "obs": "Ruffwear Roamer: machine wash cold, air dry, apply fabric conditioner for water resistance."
+  },
+  {
+    "topic": "pet-backpack-research",
+    "date": "2023/05/20 (08:03)",
+    "obs": "User wants pet backpack for Max (5 yo); needs size XS-L, 20-25 lbs capacity."
+  },
+  {
+    "topic": "ruffwear-palisades-pack-selected",
+    "date": "2023/05/20 (08:03)",
+    "obs": "Selected Ruffwear Palisades Pack for Max ($60-$80, up to 25 lbs capacity)."
+  },
+  {
+    "topic": "dinner-party-spring-theme",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Planning spring-themed dinner party in few weeks."
+  },
+  {
+    "topic": "spring-color-palette",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Spring decor colors: soft pastels (pale pink, baby blue, yellow, mint) and earths (sage, moss, terracotta)."
+  },
+  {
+    "topic": "spring-centerpieces",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Decor ideas: fresh flowers (tulips, daffodils), potted plants, bird nests, mercury glass vases."
+  },
+  {
+    "topic": "flower-sourcing-sustainable",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Planning to source flowers from farmers markets, wholesale florists, grocery stores for affordability."
+  },
+  {
+    "topic": "everlane-fan",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Already fan of Everlane brand for transparency and sustainability commitment."
+  },
+  {
+    "topic": "sustainable-fashion-interest",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Interested in sustainable brands: Patagonia, Reformation, Everlane, People Tree, H&M Conscious."
+  },
+  {
+    "topic": "dessert-plans-spring",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Planning mix of floral and fruit-inspired desserts; ideas include lemon lavender, strawberry rhubarb."
+  },
+  {
+    "topic": "cocktail-lavender-gin-fizz",
+    "date": "2023/05/20 (10:49)",
+    "obs": "Selected Lavender Gin Fizz as signature cocktail: gin, lemon, lavender syrup, light and refreshing."
+  },
+  {
+    "topic": "zodiac-sign",
+    "date": "2023/05/20 (14:30)",
+    "obs": "User's astrological sign is Scorpio."
+  },
+  {
+    "topic": "grandmother-pearl-earrings",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Had grandmother's pearl earrings resized at jewelry shop on 20th February."
+  },
+  {
+    "topic": "scorpio-necklace-custom",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Planning custom Scorpio necklace with dark rich colors (black, red, purple)."
+  },
+  {
+    "topic": "silver-star-pendant",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Bought silver necklace with star pendant from local boutique on 15th February; wears almost daily."
+  },
+  {
+    "topic": "metal-choice-silver",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Chose silver for Scorpio necklace to coordinate with recent silver jewelry purchases."
+  },
+  {
+    "topic": "silver-stud-lost",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Lost silver stud on 1st March during brunch with friends."
+  },
+  {
+    "topic": "watch-repair-needed",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Watch hasn't been worn since 5th February; needs battery replacement."
+  },
+  {
+    "topic": "silver-hoop-earrings-lent",
+    "date": "2023/05/20 (14:30)",
+    "obs": "Lent silver hoop earrings to roommate weeks ago; hasn't received back yet."
+  },
+  {
+    "topic": "web-scraping-project",
+    "date": "2023/05/20 (21:57)",
+    "obs": "Interest: scraping real estate website for daily email alerts of new listings."
+  },
+  {
+    "topic": "scraping-rate-limit-concern",
+    "date": "2023/05/20 (21:57)",
+    "obs": "Asked about bypassing rate limiting and IP blocking; learned about respecting terms of service."
+  },
+  {
+    "topic": "headless-browser-learning",
+    "date": "2023/05/20 (21:57)",
+    "obs": "Learning: headless browsers (Chrome, PhantomJS, Selenium) vs BeautifulSoup for scraping."
+  },
+  {
+    "topic": "movie-preference-female-empowerment",
+    "date": "2023/05/21 (04:22)",
+    "obs": "Inspired by Ocean's Eight; interested in all-female cast films for empowerment/representation."
+  },
+  {
+    "topic": "films-watched",
+    "date": "2023/05/21 (04:22)",
+    "obs": "Watched: Set It Off, Mean Girls. Plans to watch: Annihilation, Little Women, Hidden Figures."
+  },
+  {
+    "topic": "hidden-figures-loved",
+    "date": "2023/05/21 (04:22)",
+    "obs": "Loved Hidden Figures; appreciated learning about Black female mathematicians in space program."
+  },
+  {
+    "topic": "sports-enthusiast",
+    "date": "2023/05/21 (04:22)",
+    "obs": "Sports fan; excited about A League of Their Own with Tom Hanks, Geena Davis, Madonna."
+  },
+  {
+    "topic": "orchid-plant-new",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Got new orchid plant last Saturday; seeking winter care tips."
+  },
+  {
+    "topic": "air-purifying-plants",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Interested in bedroom air-purifying plants: Snake, Spider, Peace Lily, Dracaena, Philodendron, Pothos."
+  },
+  {
+    "topic": "spider-plant-repot",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Planning to repot spider plant this weekend; has potting soil and larger pot ready."
+  },
+  {
+    "topic": "basil-plant-cooking",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Has basil plant for cooking; uses frequently; waters every 2-3 days."
+  },
+  {
+    "topic": "humidifier-search",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Looking for humidifier for living room to support new orchid plant."
+  },
+  {
+    "topic": "humidifier-options-considered",
+    "date": "2023/05/21 (07:44)",
+    "obs": "Considering: Honeywell HUL520W, Levoit LV600HH (6L, 36h), Deneve Minimal Aroma (1.5L)."
+  },
+  {
+    "topic": "analytics-best-practice",
+    "date": "2023/05/21 (08:58)",
+    "obs": "Learning: track both user actions AND success of actions for analytics."
+  },
+  {
+    "topic": "cart-tracking-practice",
+    "date": "2023/05/21 (08:58)",
+    "obs": "For add-to-cart: track on server response (not button click) to confirm item added."
+  },
+  {
+    "topic": "tracking-client-side",
+    "date": "2023/05/21 (08:58)",
+    "obs": "Tracking done client-side with JavaScript listening for server success response."
+  },
+  {
+    "topic": "herniated-disc-recovery",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Has herniated disc; staying active with gentle exercise during recovery."
+  },
+  {
+    "topic": "back-care-resources-trusted",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Trusts: AAOS, APTA, Mayo Clinic, Spine-Health, NIAMS for back care info."
+  },
+  {
+    "topic": "acupuncture-therapy",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Seeing acupuncturist for pain/stress management; considering continuing post-surgery."
+  },
+  {
+    "topic": "stress-anxiety-coping",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Learning relaxation: deep breathing, progressive muscle relaxation, mindfulness meditation, yoga."
+  },
+  {
+    "topic": "wellness-apps",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Interested in apps: Headspace, Calm, Insight Timer, Breethe, Happify."
+  },
+  {
+    "topic": "pmr-technique-interest",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Interested in progressive muscle relaxation (PMR) for pain and anxiety management."
+  },
+  {
+    "topic": "flu-recovery-12-weeks",
+    "date": "2023/05/21 (15:02)",
+    "obs": "Has been recovering from flu for 12 weeks; doing PMR 2-3 times weekly."
+  },
+  {
+    "topic": "banana-republic-purchase",
+    "date": "2023/05/22 (06:36)",
+    "obs": "Bought dress ($120\u2192$72) and trousers ($90\u2192$54) from Banana Republic friends/family sale (40% off)."
+  },
+  {
+    "topic": "brunch-outing-planned",
+    "date": "2023/05/22 (06:36)",
+    "obs": "Planning brunch with friends at new downtown cafe with patio."
+  },
+  {
+    "topic": "wine-bar-dinner",
+    "date": "2023/05/22 (06:36)",
+    "obs": "Thinking of wearing new dress to wine bar/bistro; planning to start with Pinot Noir."
+  },
+  {
+    "topic": "health-recovery-limited-mobility",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Recovering from surgery with limited mobility; looking for easy standing-time-reduced recipes."
+  },
+  {
+    "topic": "hospitalized-pneumonia-march",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Was hospitalized for pneumonia in March; dealing with knee issue and recovery."
+  },
+  {
+    "topic": "sheet-pan-recipes-preference",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Prefers sheet pan recipes for limited energy/mobility during recovery."
+  },
+  {
+    "topic": "torn-meniscus-surgery",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Recovering from torn meniscus surgery; still on crutches; avoiding setback-causing exercises."
+  },
+  {
+    "topic": "meal-planning-mobility",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Tips: plan by energy, grocery list, online shopping/curbside, prep bulk, one-pot meals."
+  },
+  {
+    "topic": "healthy-snacks-low-prep",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Snack options: fresh fruits, nuts, dried fruit, yogurt, avocado toast, energy balls."
+  },
+  {
+    "topic": "stress-anxiety-recovery",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Overwhelmed by medical bills; prioritizing self-care, mindfulness, journaling."
+  },
+  {
+    "topic": "exercise-knee-recovery",
+    "date": "2023/05/22 (14:06)",
+    "obs": "Seeking gentle exercises post-meniscus surgery; wants core strengthening, water exercises."
+  },
+  {
+    "topic": "photography-lectures-completed",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Just completed photography lecture series; eager to apply new skills."
+  },
+  {
+    "topic": "night-cityscape-photography",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Interested in night cityscape photography; learning camera settings and low-light techniques."
+  },
+  {
+    "topic": "night-camera-settings",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Night settings: tripod, ISO 100-400, 10-30s shutter, f/2.8-f/4 aperture, manual mode."
+  },
+  {
+    "topic": "cityscape-locations",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Exploring high-rise buildings, bridges, waterfront areas, city squares, landmarks for shots."
+  },
+  {
+    "topic": "street-photography-ethics",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Learning street photography etiquette: know laws, be respectful, ask permission, respect rejection."
+  },
+  {
+    "topic": "motion-capture-technique",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Wants to capture motion (cars, buses) with panning and long exposures in night cityscapes."
+  },
+  {
+    "topic": "night-club-portrait-photography",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Interested in photographing people in bars/clubs; learning to approach respectfully."
+  },
+  {
+    "topic": "post-processing-night-photos",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Learning: noise reduction, exposure adjustment, color grading, selective adjustments, sharpening."
+  },
+  {
+    "topic": "editing-software-options",
+    "date": "2023/05/23 (04:04)",
+    "obs": "Considering: Adobe Lightroom, Adobe Photoshop, Skylum Luminar, Capture One."
+  }
+]

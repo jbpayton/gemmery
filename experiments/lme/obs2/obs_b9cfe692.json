@@ -1,0 +1,412 @@
+[
+  {
+    "topic": "city-chicago",
+    "date": "2023/05/24 00:08",
+    "obs": "Chicago mentioned."
+  },
+  {
+    "topic": "person-sophia",
+    "date": "2023/05/24 02:11",
+    "obs": "Sophia mentioned."
+  },
+  {
+    "topic": "plan-dinner-with-sophia",
+    "date": "2023/05/24 02:11",
+    "obs": "Planning to invite Sophia to dinner Friday evening."
+  },
+  {
+    "topic": "recent-grocery-shopping",
+    "date": "2023/05/24 02:11",
+    "obs": "Went to grocery store 2 days ago, well-stocked."
+  },
+  {
+    "topic": "recipe-banana-bread",
+    "date": "2023/05/24 02:11",
+    "obs": "Banana Bread discussed."
+  },
+  {
+    "topic": "recipe-fudge",
+    "date": "2023/05/24 02:11",
+    "obs": "5-Minute Fudge discussed."
+  },
+  {
+    "topic": "recipe-grilled-cheese",
+    "date": "2023/05/24 02:11",
+    "obs": "Grilled Cheese discussed."
+  },
+  {
+    "topic": "recipe-pasta-tomato",
+    "date": "2023/05/24 02:11",
+    "obs": "Pasta With Tomato Sauce discussed."
+  },
+  {
+    "topic": "subject-css",
+    "date": "2023/05/24 03:12",
+    "obs": "User asked about or discussed: CSS."
+  },
+  {
+    "topic": "learned-c4-photosynthesis",
+    "date": "2023/05/24 06:48",
+    "obs": "Learned C4 photosynthesis: corn, sugarcane for tropical high-light efficiency."
+  },
+  {
+    "topic": "learned-cam-photosynthesis",
+    "date": "2023/05/24 06:48",
+    "obs": "Learned CAM photosynthesis: cacti open stomata at night to conserve water."
+  },
+  {
+    "topic": "subject-aspen-trees",
+    "date": "2023/05/24 06:48",
+    "obs": "User asked about or discussed: Aspen."
+  },
+  {
+    "topic": "subject-photosynthesis",
+    "date": "2023/05/24 06:48",
+    "obs": "User asked about or discussed: photosynthesis."
+  },
+  {
+    "topic": "book-night-circus",
+    "date": "2023/05/24 08:41",
+    "obs": "The Night Circus mentioned/recommended."
+  },
+  {
+    "topic": "person-erin-morgenstern",
+    "date": "2023/05/24 08:41",
+    "obs": "Erin Morgenstern mentioned."
+  },
+  {
+    "topic": "tool-calm",
+    "date": "2023/05/24 09:27",
+    "obs": "Interested in or mentioned Calm meditation app."
+  },
+  {
+    "topic": "book-alchemist",
+    "date": "2023/05/24 09:46",
+    "obs": "The Alchemist mentioned/recommended."
+  },
+  {
+    "topic": "book-happiness-project",
+    "date": "2023/05/24 09:46",
+    "obs": "The Happiness Project mentioned/recommended."
+  },
+  {
+    "topic": "book-night-circus",
+    "date": "2023/05/24 09:46",
+    "obs": "The Night Circus mentioned/recommended."
+  },
+  {
+    "topic": "book-paris-bookshop",
+    "date": "2023/05/24 09:46",
+    "obs": "The Little Paris Bookshop mentioned/recommended."
+  },
+  {
+    "topic": "book-power-of-now",
+    "date": "2023/05/24 09:46",
+    "obs": "The Power of Now mentioned/recommended."
+  },
+  {
+    "topic": "book-wild",
+    "date": "2023/05/24 09:46",
+    "obs": "Wild mentioned/recommended."
+  },
+  {
+    "topic": "coffee-aeropress",
+    "date": "2023/05/24 09:46",
+    "obs": "Coffee brewing method: Aeropress."
+  },
+  {
+    "topic": "coffee-chemex",
+    "date": "2023/05/24 09:46",
+    "obs": "Coffee brewing method: Chemex."
+  },
+  {
+    "topic": "coffee-french-press",
+    "date": "2023/05/24 09:46",
+    "obs": "Coffee brewing method: French press."
+  },
+  {
+    "topic": "coffee-moka-pot",
+    "date": "2023/05/24 09:46",
+    "obs": "Coffee brewing method: Moka pot."
+  },
+  {
+    "topic": "coffee-pour-over",
+    "date": "2023/05/24 09:46",
+    "obs": "Coffee brewing method: pour-over."
+  },
+  {
+    "topic": "person-andy-puddicombe",
+    "date": "2023/05/24 09:46",
+    "obs": "Andy Puddicombe mentioned."
+  },
+  {
+    "topic": "person-cheryl-strayed",
+    "date": "2023/05/24 09:46",
+    "obs": "Cheryl Strayed mentioned."
+  },
+  {
+    "topic": "person-eckhart-tolle",
+    "date": "2023/05/24 09:46",
+    "obs": "Eckhart Tolle mentioned."
+  },
+  {
+    "topic": "person-erin-morgenstern",
+    "date": "2023/05/24 09:46",
+    "obs": "Erin Morgenstern mentioned."
+  },
+  {
+    "topic": "person-ernest-hemingway",
+    "date": "2023/05/24 09:46",
+    "obs": "Ernest Hemingway mentioned."
+  },
+  {
+    "topic": "person-gretchen-rubin",
+    "date": "2023/05/24 09:46",
+    "obs": "Gretchen Rubin mentioned."
+  },
+  {
+    "topic": "person-jack-kornfield",
+    "date": "2023/05/24 09:46",
+    "obs": "Jack Kornfield mentioned."
+  },
+  {
+    "topic": "person-mary-oliver",
+    "date": "2023/05/24 09:46",
+    "obs": "Mary Oliver mentioned."
+  },
+  {
+    "topic": "person-nina-george",
+    "date": "2023/05/24 09:46",
+    "obs": "Nina George mentioned."
+  },
+  {
+    "topic": "person-paulo-coelho",
+    "date": "2023/05/24 09:46",
+    "obs": "Paulo Coelho mentioned."
+  },
+  {
+    "topic": "person-tamara-levitt",
+    "date": "2023/05/24 09:46",
+    "obs": "Tamara Levitt mentioned."
+  },
+  {
+    "topic": "person-walt-whitman",
+    "date": "2023/05/24 09:46",
+    "obs": "Walt Whitman mentioned."
+  },
+  {
+    "topic": "plan-try-meditation-apps",
+    "date": "2023/05/24 09:46",
+    "obs": "Planning to try Headspace and Insight Timer."
+  },
+  {
+    "topic": "plan-try-productivity-apps",
+    "date": "2023/05/24 09:46",
+    "obs": "Planning to try Todoist and RescueTime."
+  },
+  {
+    "topic": "recipe-breakfast-burritos",
+    "date": "2023/05/24 09:46",
+    "obs": "Breakfast Burritos discussed."
+  },
+  {
+    "topic": "recipe-frittatas",
+    "date": "2023/05/24 09:46",
+    "obs": "Frittatas discussed."
+  },
+  {
+    "topic": "recipe-overnight-oats",
+    "date": "2023/05/24 09:46",
+    "obs": "Overnight Oats discussed."
+  },
+  {
+    "topic": "routine-bedtime-reading",
+    "date": "2023/05/24 09:46",
+    "obs": "Bedtime reading: 10:00-10:30pm to limit screen time."
+  },
+  {
+    "topic": "routine-coffee-time",
+    "date": "2023/05/24 09:46",
+    "obs": "Most alert and focused with coffee at 2:00pm."
+  },
+  {
+    "topic": "routine-meditation-length",
+    "date": "2023/05/24 09:46",
+    "obs": "Does 30-minute meditation sessions."
+  },
+  {
+    "topic": "routine-workout-length",
+    "date": "2023/05/24 09:46",
+    "obs": "Does 20-minute workouts."
+  },
+  {
+    "topic": "schedule-peak-work-hours",
+    "date": "2023/05/24 09:46",
+    "obs": "Peak productivity hours: 9:00am-12:00pm."
+  },
+  {
+    "topic": "schedule-wake-time-weekday",
+    "date": "2023/05/24 09:46",
+    "obs": "Typical weekday wake-up time: 5:30-6:00am."
+  },
+  {
+    "topic": "schedule-weekend-sleep-in",
+    "date": "2023/05/24 09:46",
+    "obs": "Slept in until 8:00am on Sunday."
+  },
+  {
+    "topic": "tool-calm",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or mentioned Calm meditation app."
+  },
+  {
+    "topic": "tool-freedom",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or mentioned Freedom app."
+  },
+  {
+    "topic": "tool-headspace",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or recommended Headspace meditation app."
+  },
+  {
+    "topic": "tool-insight-timer",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or recommended Insight Timer app."
+  },
+  {
+    "topic": "tool-rescuetime",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or chose RescueTime for time tracking."
+  },
+  {
+    "topic": "tool-stayfocused",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or mentioned StayFocused."
+  },
+  {
+    "topic": "tool-todoist",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or chose Todoist for task management."
+  },
+  {
+    "topic": "tool-trello",
+    "date": "2023/05/24 09:46",
+    "obs": "Interested in or mentioned Trello."
+  },
+  {
+    "topic": "recipe-overnight-oats",
+    "date": "2023/05/24 11:37",
+    "obs": "Overnight Oats discussed."
+  },
+  {
+    "topic": "subject-decision-trees",
+    "date": "2023/05/24 12:13",
+    "obs": "User asked about or discussed: decision tree."
+  },
+  {
+    "topic": "subject-investment-banking",
+    "date": "2023/05/24 12:13",
+    "obs": "User asked about or discussed: investment banker."
+  },
+  {
+    "topic": "recipe-breakfast-burritos",
+    "date": "2023/05/24 17:00",
+    "obs": "Breakfast Burritos discussed."
+  },
+  {
+    "topic": "recipe-overnight-oats",
+    "date": "2023/05/24 17:00",
+    "obs": "Overnight Oats discussed."
+  },
+  {
+    "topic": "learned-mla-definition",
+    "date": "2023/05/24 18:08",
+    "obs": "MLA = Modern Language Association; develops citation style for humanities."
+  },
+  {
+    "topic": "subject-mla",
+    "date": "2023/05/24 18:08",
+    "obs": "User asked about or discussed: MLA."
+  },
+  {
+    "topic": "recipe-overnight-oats",
+    "date": "2023/05/24 22:14",
+    "obs": "Overnight Oats discussed."
+  },
+  {
+    "topic": "city-prague",
+    "date": "2023/05/24 22:25",
+    "obs": "Prague mentioned."
+  },
+  {
+    "topic": "person-david-pastrňák",
+    "date": "2023/05/24 22:25",
+    "obs": "David Pastrňák mentioned."
+  },
+  {
+    "topic": "person-jakub-voráček",
+    "date": "2023/05/24 22:25",
+    "obs": "Jakub Voráček mentioned."
+  },
+  {
+    "topic": "person-jakub-vrána",
+    "date": "2023/05/24 22:25",
+    "obs": "Jakub Vrána mentioned."
+  },
+  {
+    "topic": "person-jiří-sekáč",
+    "date": "2023/05/24 22:25",
+    "obs": "Jiří Sekáč mentioned."
+  },
+  {
+    "topic": "person-josef-maleček",
+    "date": "2023/05/24 22:25",
+    "obs": "Josef Maleček mentioned."
+  },
+  {
+    "topic": "person-ladislav-svozil",
+    "date": "2023/05/24 22:25",
+    "obs": "Ladislav Svozil mentioned."
+  },
+  {
+    "topic": "person-martin-růžička",
+    "date": "2023/05/24 22:25",
+    "obs": "Martin Růžička mentioned."
+  },
+  {
+    "topic": "person-tomáš-kundrátek",
+    "date": "2023/05/24 22:25",
+    "obs": "Tomáš Kundrátek mentioned."
+  },
+  {
+    "topic": "person-viktor-fasth",
+    "date": "2023/05/24 22:25",
+    "obs": "Viktor Fasth mentioned."
+  },
+  {
+    "topic": "person-václav-tille",
+    "date": "2023/05/24 22:25",
+    "obs": "Václav Tille mentioned."
+  },
+  {
+    "topic": "person-zach-boychuk",
+    "date": "2023/05/24 22:25",
+    "obs": "Zach Boychuk mentioned."
+  },
+  {
+    "topic": "region-czech",
+    "date": "2023/05/24 22:25",
+    "obs": "Czech mentioned."
+  },
+  {
+    "topic": "subject-czech-ice-hockey",
+    "date": "2023/05/24 22:25",
+    "obs": "User asked about or discussed: Czech ice hockey."
+  },
+  {
+    "topic": "subject-extraliga",
+    "date": "2023/05/24 22:25",
+    "obs": "User asked about or discussed: Extraliga."
+  }
+]

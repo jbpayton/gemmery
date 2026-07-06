@@ -1,0 +1,632 @@
+[
+  {
+    "topic": "learning-goals-neuroscience",
+    "date": "2023/05/20 (Sat) 02:48",
+    "obs": "User asked about mastering multiple fields simultaneously. Interest in learning neuroscience, memory retention, pixel art, and programming."
+  },
+  {
+    "topic": "learning-schedule-interleaving",
+    "date": "2023/05/20 (Sat) 02:48",
+    "obs": "Assistant recommended interleaving (mixing up activities daily) instead of focusing one skill per day. User prefers alternating between pixel art and programming."
+  },
+  {
+    "topic": "andrew-huberman-awareness",
+    "date": "2023/05/20 (Sat) 02:48",
+    "obs": "User aware of Andrew Huberman and his neuroscience-based tools for daily life, stress management, sleep, and vision improvement."
+  },
+  {
+    "topic": "self-improvement-techniques",
+    "date": "2023/05/20 (Sat) 02:48",
+    "obs": "Assistant recommended: mindfulness, habit formation, self-compassion, positive psychology with practical steps for each."
+  },
+  {
+    "topic": "family-heirloom-silver-locket",
+    "date": "2023/05/20 (Sat) 03:06",
+    "obs": "User found ornate antique silver locket with small diamond in grandmother's trunk. Contains photo of great-great-grandparents in 20s-30s, passed down for generations."
+  },
+  {
+    "topic": "family-heirloom-lace-tablecloth",
+    "date": "2023/05/20 (Sat) 03:06",
+    "obs": "User has handmade lace tablecloth passed down through family, used for special occasions. Grandmother told stories about its history."
+  },
+  {
+    "topic": "vintage-typewriter-interest",
+    "date": "2023/05/20 (Sat) 03:06",
+    "obs": "User bought vintage typewriter at antique fair identical to one father owned during user's childhood. Interested in learning model history."
+  },
+  {
+    "topic": "vinyl-record-collection-inheritance",
+    "date": "2023/05/20 (Sat) 03:06",
+    "obs": "User inherited father's record player and vinyl collection when he moved to smaller apartment. Wants to research history of records and equipment."
+  },
+  {
+    "topic": "antique-wooden-coffee-table",
+    "date": "2023/05/20 (Sat) 03:06",
+    "obs": "User acquired antique wooden coffee table from aunt's estate sale with intricate carvings, perfect condition. Using it to display vintage vases."
+  },
+  {
+    "topic": "concert-attendance-energy",
+    "date": "2023/05/20 (Sat) 15:51",
+    "obs": "User attended special Saturday night concert; band was incredible. Still feeling energized from experience. Lead singer took selfie with user."
+  },
+  {
+    "topic": "work-report-deadline",
+    "date": "2023/05/20 (Sat) 15:51",
+    "obs": "User has report to finish by end of day. Concert high making it hard to focus. Assistant recommended breaking task into smaller chunks."
+  },
+  {
+    "topic": "beach-trip-planning",
+    "date": "2023/05/20 (Sat) 15:51",
+    "obs": "User planning beach trip for next Friday. Looking for flight deals and provided comprehensive packing list including travel documents, clothing, and electronics."
+  },
+  {
+    "topic": "funko-pop-collection",
+    "date": "2023/05/20 (Sat) 16:32",
+    "obs": "User has 15 Funko Pops displayed on IKEA shelf with separate compartments ($30), arranged by series. Proud of collection. Recently got Master Chief figurine."
+  },
+  {
+    "topic": "pokemon-charizard-card-grading",
+    "date": "2023/05/20 (Sat) 16:32",
+    "obs": "User considering getting vintage 1995 Pokémon Charizard card graded. Interested in PSA, BGS, SGC, or Wata Games grading services."
+  },
+  {
+    "topic": "collectibles-insurance-appraisal",
+    "date": "2023/05/20 (Sat) 16:32",
+    "obs": "User wants figurine and Funko Pops appraised for insurance. Considering professional appraisers or collectible dealers for valuation."
+  },
+  {
+    "topic": "beatles-sgt-pepper-vinyl-appraisal",
+    "date": "2023/05/20 (Sat) 16:32",
+    "obs": "User has vintage 1967 pressing of Beatles' Sgt. Pepper's Lonely Hearts Club Band. Plans separate appraisal due to rarity and significance."
+  },
+  {
+    "topic": "nba-figurines-appraisal",
+    "date": "2023/05/20 (Sat) 16:32",
+    "obs": "User considering appraising NBA figurines collection. Interested in learning rarity, condition, autographs, age, and popularity factors."
+  },
+  {
+    "topic": "bosnia-serbia-political-tensions",
+    "date": "2023/05/20 (Sat) 15:51",
+    "obs": "User inquired about effects of political tensions between Republika Srpska and Bosniak-Croat Federation on ordinary Serbs' lives."
+  },
+  {
+    "topic": "dayton-agreement-reconciliation",
+    "date": "2023/05/20 (Sat) 15:51",
+    "obs": "Discussed 1995 Dayton Agreement ending Bosnian War. Inter-religious council and EU pre-accession programs support reconciliation efforts."
+  },
+  {
+    "topic": "tomato-gardening-planning",
+    "date": "2023/05/20 (Sat) 22:42",
+    "obs": "User planning to plant tomato seedlings outside this weekend. Located in Greenville, SC (29651). Spring weather: 68-75°F day, 48-58°F night."
+  },
+  {
+    "topic": "companion-planting-marigolds",
+    "date": "2023/05/20 (Sat) 22:42",
+    "obs": "User wants to plant marigolds with tomatoes to deter nematodes. Should plant 6-12 inches apart using French and African marigold varieties."
+  },
+  {
+    "topic": "crop-rotation-gardening",
+    "date": "2023/05/20 (Sat) 22:42",
+    "obs": "User asked about crop rotation. Assistant explained dividing crops by families and rotating yearly: Solanaceae (tomatoes) → Legumes (beans) → Cucurbitaceae."
+  },
+  {
+    "topic": "pea-trellis-support",
+    "date": "2023/05/20 (Sat) 22:42",
+    "obs": "User planning to plant peas on trellis. Options: 6-8 ft trellis, twine/string, pea sticks, netting, or soft ties for support."
+  },
+  {
+    "topic": "potting-soil-diy-mixture",
+    "date": "2023/05/20 (Sat) 22:42",
+    "obs": "User making own potting soil with peat moss, vermiculite, perlite. Assistant suggested adding compost and worm castings for peas."
+  },
+  {
+    "topic": "report-productivity-focus",
+    "date": "2023/05/20 (Sat) 23:33",
+    "obs": "User needs to complete report by day's end. Using Pomodoro Technique (25-min work, 5-min break). Concert energy helps motivation."
+  },
+  {
+    "topic": "breakfast-restaurant-search",
+    "date": "2023/05/20 (Sat) 23:33",
+    "obs": "User seeking breakfast recommendation before starting report. Suggested using Google search, Yelp, or food delivery apps to find nearby options."
+  },
+  {
+    "topic": "teenage-activity-planning-self-improvement",
+    "date": "2023/05/20 (Sat) 23:33",
+    "obs": "Activity manager planning 20-minute self-improvement event for 13-15 year olds. Theme: unlocking full potential. Goal Setting, Positive Affirmations, and Personal Strengths exercises."
+  },
+  {
+    "topic": "teenager-icebreaker-activity-two-truths-dream",
+    "date": "2023/05/20 (Sat) 23:33",
+    "obs": "Assistant recommended 'Two Truths and a Dream' icebreaker for teenager activity: participants share two truths and one dream; group guesses which is the dream."
+  },
+  {
+    "topic": "teenage-activity-my-strengths-my-goals",
+    "date": "2023/05/20 (Sat) 23:33",
+    "obs": "Final activity proposal for teens: 20 min with briefing, ice-break game, strength/goal worksheet, and debriefing. Focuses on identifying strengths and goals."
+  },
+  {
+    "topic": "sephora-loyalty-points-earned",
+    "date": "2023/05/21 (Sun) 12:19",
+    "obs": "User earned 50 loyalty points from eyeshadow palette purchase at Sephora, totaling 200 points so far in rewards program."
+  },
+  {
+    "topic": "laneige-skincare-interest",
+    "date": "2023/05/21 (Sun) 12:19",
+    "obs": "User interested in Laneige skincare products for anti-aging. Specifically interested in Laneige Time Freeze Essence and Water Bank Moisturizing Cream."
+  },
+  {
+    "topic": "skincare-layering-routine",
+    "date": "2023/05/21 (Sun) 12:19",
+    "obs": "Skincare routine: cleanse, tone, essence (Laneige), serum, moisturizer, eye cream. Apply to damp skin with gentle patting motions."
+  },
+  {
+    "topic": "laneige-time-freeze-essence-specs",
+    "date": "2023/05/21 (Sun) 12:19",
+    "obs": "Laneige Time Freeze Essence: 150ml bottle with dropper. Lasts 3-4 months with daily use. 3-year shelf life, 12 months after opening. Store cool, dry place."
+  },
+  {
+    "topic": "apple-product-innovation-strategy",
+    "date": "2023/05/21 (Sun) 15:01",
+    "obs": "Discussed Apple's innovation approach: balances customer feedback with market research, competitive analysis, internal ideation (Blue Sky), and R&D investment."
+  },
+  {
+    "topic": "company-innovation-examples",
+    "date": "2023/05/21 (Sun) 15:01",
+    "obs": "Companies balancing customer feedback with innovation: Tesla (customer-centric + R&D), Google (user-centric design + R&D), Airbnb (empathy + competitive analysis)."
+  },
+  {
+    "topic": "small-business-innovation-strategy",
+    "date": "2023/05/21 (Sun) 15:01",
+    "obs": "Small businesses can balance feedback with limited resources by: understanding target market, prioritizing feedback, iterative development, and partnerships."
+  },
+  {
+    "topic": "industries-customer-feedback-reliant",
+    "date": "2023/05/21 (Sun) 15:01",
+    "obs": "Industries heavily relying on customer feedback: consumer goods, technology, healthcare, hospitality. All have direct end-user connections."
+  },
+  {
+    "topic": "sales-call-transcript-fellow-platform",
+    "date": "2023/05/21 (Sun) 18:44",
+    "obs": "Sales call (part 3, 10m28s-20m4s): Matt Brown discussed Fellow platform deployment options. Full wall-to-wall (all billable) or partial rollout with CSV import and organic growth."
+  },
+  {
+    "topic": "fellow-platform-quarterly-true-up",
+    "date": "2023/05/21 (Sun) 18:44",
+    "obs": "Fellow platform offers quarterly true-up billing model: start with 500 licenses, adjust upward quarterly (e.g., 750 next quarter) based on active users."
+  },
+  {
+    "topic": "distributed-systems-clock-synchronization",
+    "date": "2023/05/21 (Sun) 22:19",
+    "obs": "Explained clock synchronization in distributed systems using online store example: server clock desynchronization can cause inventory check delays when processing orders."
+  },
+  {
+    "topic": "career-development-age-32",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "User age 32, at career crossroads. Seeking career development guidance and resources for self-reflection during 30s decade."
+  },
+  {
+    "topic": "career-development-resources",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "Recommended career development platforms: Coursera, LinkedIn Learning, General Assembly, TED Talks, Career Contessa, The Muse, Pluralsight."
+  },
+  {
+    "topic": "data-analysis-course-selection",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "User starting Coursera's Data Analysis course by University of Colorado Boulder. Motivated by coworkers upskilling and wanting to stay competitive."
+  },
+  {
+    "topic": "customer-data-analysis-project",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "User planning work project: analyze customer data (demographics, purchase history, feedback) to identify behavior patterns and improve marketing strategies."
+  },
+  {
+    "topic": "customer-loyalty-analysis-goal",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "User interested in understanding customer loyalty drivers and purchasing decision factors to tailor marketing and improve retention."
+  },
+  {
+    "topic": "data-insights-presentation-skills",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "User planning to present findings using data visualization and storytelling. Will highlight key takeaways, trends, recommendations with supporting data."
+  },
+  {
+    "topic": "data-presentation-best-practices",
+    "date": "2023/05/22 (Mon) 07:04",
+    "obs": "Recommended presentation practices: know audience, focus on insights, use storytelling, visualize effectively, provide context, interactive discussion, simple language, actionable recommendations."
+  },
+  {
+    "topic": "gift-for-30th-birthday",
+    "date": "2023/05/22 (Mon) 13:26",
+    "obs": "User planning gift for 30-year-old female friend. Previously bought $200 Tiffany's silver necklace for sister's 30th, which was well-received."
+  },
+  {
+    "topic": "jo-malone-luxury-candle-gift",
+    "date": "2023/05/22 (Mon) 13:26",
+    "obs": "Friend been eyeing Jo Malone products. User chose Jo Malone Grapefruit candle from Classic Collection as birthday gift."
+  },
+  {
+    "topic": "jo-malone-candle-specs-grapefruit",
+    "date": "2023/05/22 (Mon) 13:26",
+    "obs": "Jo Malone Grapefruit candle: 14.5 oz, ~45 hours burn time. Scent: zesty grapefruit, lemon, rosemary. Moderate-strong scent throw."
+  },
+  {
+    "topic": "jo-malone-premium-gift-wrap-message",
+    "date": "2023/05/22 (Mon) 13:26",
+    "obs": "User chose Premium Gift Wrap with satin ribbon. Personalized message: 'Happy 30th Birthday, dear friend! Wishing you a year filled with love, laughter, and adventure.'"
+  },
+  {
+    "topic": "valentine-day-mass-gratitude",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User attended special Valentine's Day mass (Feb 14) with couples/families prayers. Grateful for own family love and support."
+  },
+  {
+    "topic": "napa-valley-romantic-getaway",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User planning romantic anniversary getaway to Napa Valley. Interested in wine tastings, scenery, and romantic experiences."
+  },
+  {
+    "topic": "napa-valley-best-visit-time",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "Napa best times: Harvest (Aug-Oct), Shoulder (Apr-May, Sep-Nov), Winter (Dec-Mar). Shoulder offers mild weather, fewer crowds, lower prices."
+  },
+  {
+    "topic": "napa-valley-wineries-opus-one",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User wants to visit Opus One and Silver Oak Cellars. Opus One: Robert Mondavi/Baron Rothschild collaboration, exceptional Bordeaux blends."
+  },
+  {
+    "topic": "hot-air-balloon-napa-valley",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User interested in hot air balloon ride over Napa vineyards at sunrise. Recommendations: Balloons Above the Valley, Napa Valley Balloons, Up & Away Ballooning."
+  },
+  {
+    "topic": "napa-bed-and-breakfast",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User booking The Inn at St. Helena (charming B&B with garden, fireplace). Looking for private hot tubs or fireplaces in B&Bs."
+  },
+  {
+    "topic": "napa-romantic-restaurants",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "Top Napa restaurants: The French Laundry (3-Michelin), Ad Hoc, Bistro Don Giovanni, Oenotri, Brix, The Grill at Meadowood, PRESS."
+  },
+  {
+    "topic": "napa-dinner-reservation-choice",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User booking Bistro Don Giovanni for romantic dinner. Heard great things about courtyard setting. Regular wine tastings preferred over private tours."
+  },
+  {
+    "topic": "napa-private-wine-tour-opus-one",
+    "date": "2023/05/22 (Mon) 17:41",
+    "obs": "User booking private wine tour at Opus One. Also doing regular tasting at Silver Oak Cellars. Full itinerary: balloon ride, private tour, dinner, wine tastings."
+  },
+  {
+    "topic": "cat-luna-higher-protein-food",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "User has cat named Luna. Looking for higher protein cat food. Brands recommended: Orijen (35%), Acana (33%), Blue Buffalo (40%), Merrick (40%), Taste of the Wild (32%)."
+  },
+  {
+    "topic": "cat-luna-litter-box-upgrade",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "Luna using new low-dust, anti-odor litter box for 3 weeks with great results. More regular bathroom habits, less mess outside box."
+  },
+  {
+    "topic": "cat-litter-box-odor-management",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "Tips for fresh litter box: daily quick pickups, good ventilation, odor-absorbing products, regular cleaning, box liners, complete litter change every 7-10 days."
+  },
+  {
+    "topic": "cat-luna-puzzle-toy-interest",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "Luna (medium-sized cat) would enjoy interactive puzzle toys. Recommendations: Kong Wobbler, Tricky Treat Ball, Nina Ottosson Brick, Outward Hound, Pet Zone Wobbler."
+  },
+  {
+    "topic": "puzzle-toy-filling-freeze-dried-treats",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "Can fill puzzle toys with Luna's favorite treats: freeze-dried chicken/salmon (break into pieces), regular kibble, or mix of both."
+  },
+  {
+    "topic": "puzzle-toy-sizing-luna",
+    "date": "2023/05/22 (Mon) 17:50",
+    "obs": "For medium cat Luna: puzzle toy diameter 5-7 inches, height 3-5 inches, weight 1-3 pounds. Should easily bat around and fit in paws."
+  },
+  {
+    "topic": "france-food-waste-reduction",
+    "date": "2023/05/22 (Mon) 21:12",
+    "obs": "France reduced food waste 30% in 5 years through: 2016 law banning supermarket food disposal, food redistribution programs, awareness campaigns, innovations like Phenix app."
+  },
+  {
+    "topic": "global-food-waste-initiatives",
+    "date": "2023/05/22 (Mon) 21:12",
+    "obs": "Countries reducing food waste: Italy (tax incentives for donations), South Korea (pay-as-you-throw system), Denmark (food waste tax), UK (Courtauld Commitment)."
+  },
+  {
+    "topic": "individual-food-waste-reduction",
+    "date": "2023/05/22 (Mon) 21:12",
+    "obs": "Individual actions to reduce food waste: meal planning, buy only needed items, proper food storage, repurpose leftovers, composting."
+  },
+  {
+    "topic": "craft-fair-convention-center",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "User considering applying to annual convention center craft fair. Has experience with smaller seasonal artisan fair at community center: $150 sales, great customer feedback."
+  },
+  {
+    "topic": "smaller-craft-event-sales-150",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "At seasonal artisan fair: shared booth with friend, each made ~$150. Got positive feedback from customers on products."
+  },
+  {
+    "topic": "convention-center-event-considerations",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "Convention center event differences: higher scale/foot traffic, stiffer competition, higher booth fees ($hundreds to $thousands), more logistics, longer hours, need marketing strategy."
+  },
+  {
+    "topic": "craft-business-market-research",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "User planning market research on competitors, products, pricing, trends. Conducting customer surveys, collecting in-person feedback at events."
+  },
+  {
+    "topic": "craft-business-pricing-strategy",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "User refining pricing strategy before convention fair. Calculating material costs, labor costs, overhead, profit margin. Researching competitor pricing."
+  },
+  {
+    "topic": "craft-business-expense-tracking",
+    "date": "2023/05/22 (Mon) 22:35",
+    "obs": "User tracking expenses on spreadsheet. Setting up detailed system with categories: materials, labor, marketing, rent, insurance, equipment, shipping, miscellaneous."
+  },
+  {
+    "topic": "gardening-tools-ordered-jan-20",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "User ordered gardening tools online Jan 20: trowel and pruners. Excited to use new tools in garden."
+  },
+  {
+    "topic": "tomato-companion-plants",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "Good companion plants for tomatoes: basil, marigold, borage, chives, oregano, parsley, carrots, radish, beans, comfrey."
+  },
+  {
+    "topic": "peas-trellis-husband-project",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "User built trellis for peas using leftover wood from husband's project. Supporting peas on north side of tomatoes to avoid shading."
+  },
+  {
+    "topic": "garden-soil-moisture-management",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "Soil moisture tips: 2-3 inch mulch layer, deep but infrequent watering, water in morning, drip irrigation/soaker hose, moisture meter, organic matter."
+  },
+  {
+    "topic": "garden-soaker-hose-irrigation-setup",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "User already set up soaker hose and irrigation system to make watering easier for garden."
+  },
+  {
+    "topic": "garden-compost-purchase-feb-5",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "User bought compost bag from local nursery Feb 5. Adding 1-2 inch layer to improve soil fertility and water retention."
+  },
+  {
+    "topic": "tomato-nutrient-deficiency-signs",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "Tomato deficiencies: Nitrogen (yellowing), Phosphorus (purplish leaves), Potassium (leaf browning), Magnesium (V-shape yellowing), Calcium (blossom-end rot)."
+  },
+  {
+    "topic": "soil-ph-requirements-tomato-pea",
+    "date": "2023/05/23 (Tue) 06:52",
+    "obs": "Ideal soil pH: Tomatoes 6.0-6.8, Peas 6.0-7.0. Acceptable: Tomatoes 5.5-7.0, Peas 5.5-7.5. pH affects nutrient availability."
+  },
+  {
+    "topic": "commonwealth-games-2002-controversies",
+    "date": "2023/05/23 (Tue) 09:01",
+    "obs": "2002 Commonwealth Games controversies: Michael Rogers drug test (clenbuterol, overturned), medal tally dispute, Indigenous black armband protest, security concerns, ticketing problems."
+  },
+  {
+    "topic": "commonwealth-games-organizer-response",
+    "date": "2023/05/23 (Tue) 09:01",
+    "obs": "Organizers' responses: tightened supplement rules, reviewed medal calculation, acknowledged athletes' protest rights, improved security with law enforcement, centralized ticketing."
+  },
+  {
+    "topic": "jaffna-seafood-dishes",
+    "date": "2023/05/23 (Tue) 21:56",
+    "obs": "Popular Jaffna seafood (Northern Sri Lanka, Tamil cuisine): Jaffna Crab Curry, Fish Puttu, Prawn Masala, Cuttlefish Fry, Fish Curry, Fish Kool, Squid Curry, Fish Pittu, Fish Vadai, Spicy Prawn Fry."
+  },
+  {
+    "topic": "jaffna-restaurants-recommendations",
+    "date": "2023/05/23 (Tue) 21:56",
+    "obs": "Jaffna restaurants: Mangos (Main St, seafood pitu), Theeran Chinnamalai Mess (Nallur, crab curry), Rio Ice Cream Parlor (fish dishes), Royal Garden (near university)."
+  },
+  {
+    "topic": "jaffna-street-food-vendors",
+    "date": "2023/05/23 (Tue) 21:56",
+    "obs": "Jaffna street food stalls: Anna Veedu (prawn fry, crab masala), Sangu Cafe (cuttlefish fry, fish puttu), Jaffna Downtown Crab Market (crab curry), Mamulan Ilees (crab/fish curry)."
+  },
+  {
+    "topic": "model-building-airbrush-learning",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "User started model building again ~6 weeks ago. First airbrush attempt on last project, learning curve. Wants to improve airbrushing skills."
+  },
+  {
+    "topic": "airbrush-basic-techniques",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Airbrushing tips: dual-action airbrush, 10-15 PSI, thin paints 1:1-2 ratio, clean regularly. Techniques: 90° angle 6-8 inches, smooth motions, layering, edge control."
+  },
+  {
+    "topic": "airbrush-learning-resources",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Books: The Airbrush Bible (Tim Gore), Airbrushing for Scale Modelers (Brett Green), Art of Airbrushing (David Doyle), Scale Model Airbrushing (Tony Green)."
+  },
+  {
+    "topic": "scale-modeling-online-communities",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Online forums: Hyperscale, Scalemates, Model Mayhem, Reddit r/ModelBuilding. YouTube: Model Builder's Workshop, Scale Model TV."
+  },
+  {
+    "topic": "airbrush-single-action-vs-dual-action",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Dual-action better for model building: finer control, variable flow, better detail work. Single-action only for general-purpose use."
+  },
+  {
+    "topic": "recommended-airbrush-brands",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Airbrush brands: Badger (Renegade Krome, Patriot), Paasche (H, TG), Harder & Steenbeck (Ultra, Evolution), Iwata (Eclipse)."
+  },
+  {
+    "topic": "air-compressor-model-building",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Model building compressor specs: 10-30 PSI, 0.5-2 CFM flow. Should be quiet, compact, have moisture control, low power consumption."
+  },
+  {
+    "topic": "recommended-air-compressors",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Compressors: Badger (20 PSI, 0.5 CFM, quiet), Paasche (25 PSI, 1.2 CFM), Iwata (25 PSI, 1.5 CFM). All have moisture control."
+  },
+  {
+    "topic": "pancake-compressor-model-building",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Pancake compressors pros: compact, quiet, energy-efficient, low-cost. Cons: limited air storage, lower pressure (10-15 PSI), short duty cycle, light-duty only."
+  },
+  {
+    "topic": "oil-free-compressor-benefits",
+    "date": "2023/05/23 (Tue) 23:24",
+    "obs": "Oil-free compressors: cleaner air, less maintenance, quieter, lighter, increased safety, consistent air supply for better atomization and finish."
+  },
+  {
+    "topic": "back-pain-glutes-exercise",
+    "date": "2023/05/24 (Wed) 01:06",
+    "obs": "Discussed glute activation exercises from book Back Mechanic by Dr. Stuart McGill. Exercise involves ripping paper with feet while squeezing glutes during bridge movement."
+  },
+  {
+    "topic": "glute-activation-troubleshooting",
+    "date": "2023/05/24 (Wed) 01:06",
+    "obs": "Glute activation issues: feet turned forward, knees over toes, weak glute engagement. Needs practice to 'wake up' glutes. Trigger points in glutes can be barrier."
+  },
+  {
+    "topic": "sidon-middle-east-initiatives",
+    "date": "2023/05/24 (Wed) 06:04",
+    "obs": "Successful Middle Eastern initiatives adaptable to Sidon: Dubai Smart City, SEHA healthcare (Abu Dhabi), Bahrain Economic Development Board, Masdar City renewable energy."
+  },
+  {
+    "topic": "sidon-initiative-implementation-steps",
+    "date": "2023/05/24 (Wed) 06:04",
+    "obs": "Implementation steps: conduct research, establish partnerships, create vision/strategy, obtain funding, develop implementation plan, ensure community engagement."
+  },
+  {
+    "topic": "sidon-local-government-buy-in",
+    "date": "2023/05/24 (Wed) 06:04",
+    "obs": "Getting local government buy-in: demonstrate need, establish clear goals, invite stakeholders, highlight benefits (economic growth, health, tourism), address roadblocks."
+  },
+  {
+    "topic": "sidon-initiative-sustainability",
+    "date": "2023/05/24 (Wed) 06:04",
+    "obs": "Ensuring sustainability: institutionalization, community involvement, sustainable financing (public-private partnerships), capacity-building, monitoring/evaluation."
+  },
+  {
+    "topic": "sidon-environmental-impact-assessment",
+    "date": "2023/05/24 (Wed) 06:04",
+    "obs": "Environmental protection: conduct EIA, develop sustainable development plan, promote green practices, develop green spaces, reduce air pollution."
+  },
+  {
+    "topic": "royal-geographical-society-technology",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "Royal Geographical Society (founded 1830) pioneered use of photography, aerial photography, satellite technology, remote sensing, GIS for geographic research."
+  },
+  {
+    "topic": "rgs-crowd-sourced-mapping-2010",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "RGS 2010 project: 'The Great Map' - crowd-sourced UK mapping using smartphone GPS from public. Created detailed up-to-date free map."
+  },
+  {
+    "topic": "rgs-gis-african-heritage-mapping",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "RGS project: 'Mapping Africa's Endangered Cultural Heritage' using GIS to map cultural sites/artifacts, assess damage/destruction vulnerability."
+  },
+  {
+    "topic": "rgs-remote-sensing-amazon-deforestation",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "RGS partnered with European Space Agency to use satellite data monitoring Amazon deforestation and land use change."
+  },
+  {
+    "topic": "artificial-intelligence-geography",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "AI applications in geography: analyze satellite imagery, identify patterns, create accurate maps, predict environmental changes, machine learning for land cover classification."
+  },
+  {
+    "topic": "ai-ethics-geography-research",
+    "date": "2023/05/24 (Wed) 09:30",
+    "obs": "Ethics considerations for AI in geography: establish ethics committees, create guidelines/codes of conduct, ensure algorithm transparency, reduce bias, promote open dialogue."
+  },
+  {
+    "topic": "used-book-trading-app-functional-requirements",
+    "date": "2023/05/24 (Wed) 13:56",
+    "obs": "Used book trading web app functional requirements: user management, book listing, queue management (buyers queue for books), trade management, payment processing with buyer confirmation, rating system."
+  },
+  {
+    "topic": "book-trading-app-additional-features",
+    "date": "2023/05/24 (Wed) 13:56",
+    "obs": "Additional features: search/filter by title/author/ISBN/keyword, messaging between buyers/sellers, notification system, dispute resolution, book recommendations."
+  },
+  {
+    "topic": "book-trading-app-ui-ux-plan",
+    "date": "2023/05/24 (Wed) 13:56",
+    "obs": "UI/UX design: homepage with search bar, signup/login pages, user profile with trade history, book listing and detail pages, queue management, trade management pages."
+  },
+  {
+    "topic": "daily-meal-routine-improvement",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "User establishing better daily routine, especially meal times. Cooking more at home but getting home late from work. Slept till 9am last Sunday, had bigger breakfast."
+  },
+  {
+    "topic": "quick-dinner-recipe-ideas",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Quick dinner ideas: one-pot pasta/chicken-rice (15-25 min), stir-fries (10-15 min), oven meals like quesadillas (10-15 min), slow cooker (6-8 hr), 5-ingredient meals."
+  },
+  {
+    "topic": "make-ahead-breakfast-ideas",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Breakfast prep: overnight oats, breakfast burritos, muffin tin frittatas, cottage cheese parfaits, breakfast casseroles, smoothie packs, quiche."
+  },
+  {
+    "topic": "sunday-indulgent-breakfast-9am",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "User's typical weekly breakfast: scrambled eggs, whole wheat toast, orange juice weekdays. Sundays: sleep till 9am, indulge in pancakes and bacon."
+  },
+  {
+    "topic": "lunch-fruits-vegetables-incorporation",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Lunch ideas with more produce: salads, veggie wraps, fruit-infused water, soup + sandwich, veggie sandwiches, mason jar salads, roasted veggies."
+  },
+  {
+    "topic": "snack-baby-carrots-hummus",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Current snack: baby carrots and hummus. User wanting more variety in snacks."
+  },
+  {
+    "topic": "hydration-throughout-day",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Hydration challenges: busy Fridays with many meetings, forgets to drink water. Solutions: water bottle habit, set reminders, infused water, herbal teas."
+  },
+  {
+    "topic": "friday-meeting-hydration-hacks",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Friday meeting tips: bring water bottle, sip during meetings, schedule water breaks between meetings, make hydration a habit at same time daily."
+  },
+  {
+    "topic": "sugar-cravings-management",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "User has sweet tooth, bought cookies from office bakery. Wants to curb sugar cravings and make healthier choices."
+  },
+  {
+    "topic": "sugar-craving-alternatives",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Healthier alternatives: fresh fruit, dried fruit, dark chocolate (70%+), homemade treats with less sugar. Understand craving triggers."
+  },
+  {
+    "topic": "sugar-craving-prevention-strategies",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "Prevent cravings: stay hydrated, eat regular meals, get enough sleep, exercise, manage stress, gradual sugar reduction."
+  },
+  {
+    "topic": "daily-routine-goals-summary",
+    "date": "2023/05/25 (Thu) 01:05",
+    "obs": "User's main goals: establish better daily routine with meals, cook more at home, add fruits/veggies to lunch, stay hydrated Fridays, reduce sugar cravings."
+  }
+]

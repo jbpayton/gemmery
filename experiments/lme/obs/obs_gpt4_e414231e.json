@@ -1,0 +1,377 @@
+[
+  {
+    "topic": "biking-road-bike-pedals",
+    "date": "2023/03/15 (Wed) 11:17",
+    "obs": "User planning 60-mile bike ride; has experience fixing mountain bike (replaced inner tube); considering road bike upgrade."
+  },
+  {
+    "topic": "biking-road-bike-pedals",
+    "date": "2023/03/15 (Wed) 11:17",
+    "obs": "User's road bike brakes feeling spongy; planning maintenance check at local shop; spongy brakes indicate potential air or pad wear."
+  },
+  {
+    "topic": "biking-road-bike-pedals",
+    "date": "2023/03/15 (Wed) 11:17",
+    "obs": "Assistant recommended upgrading to Shimano Ultegra clipless pedals; advised using correct torque wrench and testing before riding."
+  },
+  {
+    "topic": "biking-road-bike-maintenance",
+    "date": "2023/03/15 (Wed) 11:17",
+    "obs": "User cleaning chain regularly 1-2 weeks using bike-specific cleaner; lubricating with appropriate product for riding conditions."
+  },
+  {
+    "topic": "audition-cold-reading",
+    "date": "2023/03/15 (Wed) 13:40",
+    "obs": "User attending auditions with cold reading component; has improvisation workshop experience from last month."
+  },
+  {
+    "topic": "audition-cold-reading",
+    "date": "2023/03/15 (Wed) 13:40",
+    "obs": "User preparing for audition after missing rehearsals for previous play due to family commitment; concerned about impact on chances."
+  },
+  {
+    "topic": "accent-learning",
+    "date": "2023/03/15 (Wed) 13:40",
+    "obs": "User has accent experience from previous play; concerned about quickly adapting to new dialects/accents for auditions."
+  },
+  {
+    "topic": "sister-engagement-trip",
+    "date": "2023/03/15 (Wed) 22:28",
+    "obs": "User planning weekend getaway to Napa Valley to celebrate sister's engagement; recommended wine tastings and vineyard tours."
+  },
+  {
+    "topic": "sister-engagement-trip",
+    "date": "2023/03/15 (Wed) 22:28",
+    "obs": "User turned 30 on March 15; assistant recommended Conn Creek Winery for private wine blending session for sister and fiancé."
+  },
+  {
+    "topic": "sister-engagement-trip",
+    "date": "2023/03/15 (Wed) 22:28",
+    "obs": "Assistant recommended The Grill at Meadowood for romantic dinner after wine blending session in Napa Valley."
+  },
+  {
+    "topic": "morning-routine-optimization",
+    "date": "2023/03/15 (Wed) 17:46",
+    "obs": "User running 10-15 minutes late each morning; buying coffee on-the-go from café near office instead of making at home."
+  },
+  {
+    "topic": "morning-routine-optimization",
+    "date": "2023/03/15 (Wed) 17:46",
+    "obs": "User prefers not simplifying beauty routine; prefers optimizing commute instead; uses bus Mon/Wed/Fri, walks Tue/Thu."
+  },
+  {
+    "topic": "commute-optimization",
+    "date": "2023/03/15 (Wed) 17:46",
+    "obs": "User taking bus from train station to office Mon/Wed/Fri; walking Tue/Thu; considering getting bike to ride to work."
+  },
+  {
+    "topic": "property-inheritance",
+    "date": "2023/03/15 (Wed) 23:20",
+    "obs": "User inherited countryside land; needs to evaluate overgrown gardens and plan maintenance; identified various tasks (fences, structures, drainage, pests)."
+  },
+  {
+    "topic": "land-sale",
+    "date": "2023/03/15 (Wed) 23:20",
+    "obs": "User thinking of selling adjacent vacant plot of land; planning to hire professional appraiser for land valuation."
+  },
+  {
+    "topic": "land-appraisal",
+    "date": "2023/03/15 (Wed) 23:20",
+    "obs": "Assistant recommended Appraisal Institute, NAR, ASA, and NAHB for finding qualified land appraisers with experience."
+  },
+  {
+    "topic": "recipe-modification",
+    "date": "2023/03/15 (Wed) 07:18",
+    "obs": "User adjusting oatmeal with berries recipe; original 190 calories to target 800 calories; assistant provided multiplier approach."
+  },
+  {
+    "topic": "sales-upselling",
+    "date": "2023/03/16 (Thu) 20:59",
+    "obs": "User seeking upsell strategy; customer willing to pay $13 for product but minimum invoice is $20; needs complementary $13 product."
+  },
+  {
+    "topic": "hackathon-fitness-projects",
+    "date": "2023/03/16 (Thu) 22:10",
+    "obs": "User interested in fitness hackathon projects; assistant suggested community fitness platform with ML/AI recommendations and sentiment analysis."
+  },
+  {
+    "topic": "hair-care-routine",
+    "date": "2023/03/16 (Thu) 06:57",
+    "obs": "User switched to new moisturizing shampoo; hair now feels soft/silky; still experiencing frizz on humid days with wavy hair."
+  },
+  {
+    "topic": "hair-care-routine",
+    "date": "2023/03/16 (Thu) 06:57",
+    "obs": "User using Walmart hair serum; considering switching to leave-in conditioner; assistant recommended Moroccanoil Moisture Repair Leave-In Conditioner."
+  },
+  {
+    "topic": "hair-care-products",
+    "date": "2023/03/16 (Thu) 06:57",
+    "obs": "User considering Moroccanoil Frizz Fight Leave-In Conditioner which is sulfate-free; can use daily for dry hair or 2-3x weekly for normal hair."
+  },
+  {
+    "topic": "marathon-training",
+    "date": "2023/03/17 (Fri) 17:08",
+    "obs": "User has marathon on April 17, 2023; currently running 60 miles/week; needs training plan with Mondays as rest days."
+  },
+  {
+    "topic": "master-thesis",
+    "date": "2023/03/19 (Sun) 06:35",
+    "obs": "User completed Master's thesis on AI in Healthcare; submitted February 10; planning to attend AI Healthcare conference next month."
+  },
+  {
+    "topic": "cancer-research",
+    "date": "2023/03/19 (Sun) 06:35",
+    "obs": "User interested in deep learning for cancer diagnosis; published research paper in Journal of Medical Imaging and Analysis last year."
+  },
+  {
+    "topic": "radiomics-research",
+    "date": "2023/03/19 (Sun) 06:35",
+    "obs": "User exploring radiomics and image-based biomarkers for cancer diagnosis; interested in CNNs and feature extraction techniques."
+  },
+  {
+    "topic": "bedroom-lamp",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "User replacing bedroom table lamp with IKEA floor lamp; noticed harsh light disrupting sleep mid-June; seeking warm 2700-3000K bulbs."
+  },
+  {
+    "topic": "bedroom-lamp",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "Assistant recommended IKEA LEDARE LED bulb (2700K, 800 lumens) for bedroom; also recommended warm-light Philips Soft White LED."
+  },
+  {
+    "topic": "reading-light",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "User replacing wonky-switch living room table lamp; considering floor lamp with USB port for charging phone/tablet while reading."
+  },
+  {
+    "topic": "reading-light",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "Assistant recommended IKEA FYNDIG Floor Lamp with USB (2.4A output) and Lumiy Floor Lamp with Dual USB ports."
+  },
+  {
+    "topic": "smart-bulbs",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "User interested in smart bulbs for home office; wants color temperature adjustment and brightness control for work tasks."
+  },
+  {
+    "topic": "smart-bulbs",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "Assistant recommended Philips Hue, LIFX, Belkin Wemo brands for smart bulbs with user-friendly apps and voice control compatibility."
+  },
+  {
+    "topic": "living-room-lighting",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "User experimenting with warmer-toned bulbs from Home Depot in living room; finds them more cozy than previous lighting."
+  },
+  {
+    "topic": "smart-plugs",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "User considering smart plug for bedroom floor lamp to control remotely; interested in scheduling and voice control features."
+  },
+  {
+    "topic": "smart-plugs",
+    "date": "2023/03/19 (Sun) 00:23",
+    "obs": "Assistant recommended TP-Link Smart Plug, Belkin WeMo Insight, Amazon Smart Plug with remote/voice control and scheduling."
+  },
+  {
+    "topic": "quilling-project",
+    "date": "2023/03/19 (Sun) 08:01",
+    "obs": "User planning quilled border for journal pages using pastel pink quilling paper; wants to match journal cover aesthetic."
+  },
+  {
+    "topic": "quilling-scalloped-border",
+    "date": "2023/03/19 (Sun) 08:01",
+    "obs": "User making scalloped edge border using quilling; assistant provided step-by-step instructions with spacing and spacing methods."
+  },
+  {
+    "topic": "journal-coptic-binding",
+    "date": "2023/03/19 (Sun) 08:01",
+    "obs": "User creating customized journal with Coptic binding; seeking tips on attaching covers using PVA/EVA glue and weights."
+  },
+  {
+    "topic": "crochet-baby-blanket",
+    "date": "2023/03/19 (Sun) 08:01",
+    "obs": "User making baby blanket for niece using crochet; planning to block finished blanket for professional appearance."
+  },
+  {
+    "topic": "bike-maintenance",
+    "date": "2023/03/19 (Sun) 16:29",
+    "obs": "User upgraded road bike pedals to Shimano Ultegra clipless pedals today; planning maintenance check at local bike shop."
+  },
+  {
+    "topic": "bike-maintenance",
+    "date": "2023/03/19 (Sun) 16:29",
+    "obs": "User's road bike brakes spongy; asking mechanic to check brake pads for wear/contamination and provide replacement estimate."
+  },
+  {
+    "topic": "bike-maintenance",
+    "date": "2023/03/19 (Sun) 16:29",
+    "obs": "User noticing skipping/hesitation when shifting gears; asking mechanic to inspect chain for wear, cassette, chainrings, derailleur alignment."
+  },
+  {
+    "topic": "bike-maintenance",
+    "date": "2023/03/19 (Sun) 16:29",
+    "obs": "User asking mechanic to check tire pressure, quick releases, and bolts for security before riding with new pedals."
+  },
+  {
+    "topic": "home-furnishing",
+    "date": "2023/03/17 (Fri) 03:55",
+    "obs": "User shopping for reclaimed wood coffee table similar to West Elm's; interested in rustic/industrial styles with natural materials."
+  },
+  {
+    "topic": "dining-room-rug",
+    "date": "2023/03/17 (Fri) 03:55",
+    "obs": "User considering rug for dining room but needs info on dining table style/colors; prefers neutral or bold statement-making designs."
+  },
+  {
+    "topic": "furniture-assembly",
+    "date": "2023/03/17 (Fri) 03:55",
+    "obs": "User recently assembled bookshelf taking 4 hours; planning to tackle wobbly kitchen island this weekend for tightening and stabilizing."
+  },
+  {
+    "topic": "exercise-bike",
+    "date": "2023/03/17 (Fri) 03:55",
+    "obs": "User using exercise bike 30 minutes 3x weekly; interested in new workout playlists and cycling routes for variety."
+  },
+  {
+    "topic": "garage-organization",
+    "date": "2023/03/17 (Fri) 03:55",
+    "obs": "User got rid of old sofa bed; organizing garage; planning to maximize storage and minimize clutter with shelving/bins."
+  },
+  {
+    "topic": "cybersecurity-personal",
+    "date": "2023/03/19 (Sun) 06:39",
+    "obs": "User concerned about personal device cybersecurity; interested in antivirus software recommendations and smartphone protection steps."
+  },
+  {
+    "topic": "landscaping-beach-home",
+    "date": "2023/03/19 (Sun) 09:47",
+    "obs": "User bought plot of land near beach for vacation home; planning patio/garden combo with coastal aesthetic for entertaining/relaxing."
+  },
+  {
+    "topic": "landscaping-beach-home",
+    "date": "2023/03/19 (Sun) 09:47",
+    "obs": "User prefers coastal color scheme (blue, green, sandy neutrals, coral); planning bluestone/flagstone patio with succulent garden."
+  },
+  {
+    "topic": "water-feature-landscaping",
+    "date": "2023/03/19 (Sun) 09:47",
+    "obs": "User incorporating bubbler/fountain for soothing water sound; planning curved stone wall behind feature to amplify sound."
+  },
+  {
+    "topic": "beach-decor-textiles",
+    "date": "2023/03/19 (Sun) 09:47",
+    "obs": "User adding beach-inspired textiles (linen, canvas, Sunbrella fabrics); prefers stripes/shells/nautical patterns; needs UV and water resistance."
+  },
+  {
+    "topic": "journalism-fake-news",
+    "date": "2023/03/19 (Sun) 08:20",
+    "obs": "User concerned about fake news online; assistant recommended Snopes, PolitiFact, FactCheck.org, Washington Post Fact Checker for verification."
+  },
+  {
+    "topic": "citizenship-application",
+    "date": "2023/03/19 (Sun) 14:24",
+    "obs": "User planning to apply for US citizenship in few years; has green card experience; process takes 6-12 months typically."
+  },
+  {
+    "topic": "citizenship-application",
+    "date": "2023/03/19 (Sun) 14:24",
+    "obs": "User taking US history and government course; completed Module 3 on American Revolution and Constitution; preparing for civics test."
+  },
+  {
+    "topic": "naturalization-english-test",
+    "date": "2023/03/19 (Sun) 14:24",
+    "obs": "English test requires reading, writing, speaking basic English; assistant recommended USCIS materials, Duolingo, and language learning apps."
+  },
+  {
+    "topic": "civics-test-preparation",
+    "date": "2023/03/19 (Sun) 14:24",
+    "obs": "Civics test has 100 possible questions, 10 asked, need 6+ correct; covers American government, history, integrated civics."
+  },
+  {
+    "topic": "constitutionalism-federalism",
+    "date": "2023/03/19 (Sun) 14:24",
+    "obs": "User interested in understanding federalism and Constitution's role in dividing federal-state power; studied separation of powers."
+  },
+  {
+    "topic": "brother-birthday-party",
+    "date": "2023/03/15 (Wed) 21:53",
+    "obs": "User planning sports-themed birthday party for brother; creating kid-friendly zone with games for niece and nephew."
+  },
+  {
+    "topic": "brother-birthday-party",
+    "date": "2023/03/15 (Wed) 21:53",
+    "obs": "User inviting sister-in-law with 7-week-old baby Ethan; confirmed safe age to attend large gathering with accommodations."
+  },
+  {
+    "topic": "brother-birthday-gifts",
+    "date": "2023/03/15 (Wed) 21:53",
+    "obs": "User planning sports-themed gifts for brother; personalized necklace for sister-in-law; plush toy or baby clothes for Ethan."
+  },
+  {
+    "topic": "museum-visit",
+    "date": "2023/03/19 (Sun) 22:52",
+    "obs": "User planning family museum visit; attended Natural History Museum guided tour last Sunday with guide Rachel; saw T-Rex exhibit."
+  },
+  {
+    "topic": "museum-visit",
+    "date": "2023/03/19 (Sun) 22:52",
+    "obs": "User planning dinosaur exhibit visit with niece who loves dinosaurs; prefers self-exploration over guided tour for flexibility."
+  },
+  {
+    "topic": "museum-visit",
+    "date": "2023/03/19 (Sun) 22:52",
+    "obs": "User planning to call museum ahead to ask about exhibits, kid-friendly activities, amenities, and café food options."
+  },
+  {
+    "topic": "daily-routine-schedule",
+    "date": "2023/03/19 (Sun) 14:25",
+    "obs": "User wanting to organize daily routine balancing work and personal activities; wakes 8:30-9:30am weekends; prefers 9:00am work start."
+  },
+  {
+    "topic": "philosophy-identity",
+    "date": "2023/03/19 (Sun) 16:32",
+    "obs": "User exploring philosophical challenges to law of identity (Marxism, Heraclitus, Buddhism, postmodernism); interested in emptiness concept."
+  },
+  {
+    "topic": "buddhist-philosophy",
+    "date": "2023/03/19 (Sun) 16:32",
+    "obs": "User learning about shunyata (emptiness), dependent origination, impermanence in Buddhism; interconnection of causes and conditions."
+  },
+  {
+    "topic": "marxist-philosophy",
+    "date": "2023/03/19 (Sun) 16:32",
+    "obs": "User exploring dialectical materialism vs historical materialism; Engels' approach to contradictions in historical change and development."
+  },
+  {
+    "topic": "truth-relativity",
+    "date": "2023/03/19 (Sun) 16:32",
+    "obs": "User questioning how truth can be both relative and absolute; interested in philosophical frameworks and context-dependent nature of truth."
+  },
+  {
+    "topic": "Laravel-web-development",
+    "date": "2023/03/15 (Wed) 13:38",
+    "obs": "User setting up Laravel project with Vue.js; needs npm installation; assistant provided npm install and dependency management guidance."
+  },
+  {
+    "topic": "Laravel-hosting-DigitalOcean",
+    "date": "2023/03/15 (Wed) 13:38",
+    "obs": "User hosting Laravel project on DigitalOcean; needs to clone from GitHub, install PHP/Apache/MySQL, configure virtual hosts."
+  },
+  {
+    "topic": "Laravel-domain-SSL",
+    "date": "2023/03/15 (Wed) 13:38",
+    "obs": "User bought domain and SSL cert from GoDaddy; needs to configure DNS, update virtual host for SSL certificate on DigitalOcean."
+  },
+  {
+    "topic": "Laravel-optimization",
+    "date": "2023/03/15 (Wed) 13:38",
+    "obs": "User optimizing hosted Laravel project; assistant recommended caching routes/views, PHP opcode cache, Gzip compression, CDN for assets."
+  },
+  {
+    "topic": "art-prompts",
+    "date": "2023/03/17 (Fri) 04:03",
+    "obs": "User creating art prompts for image generation; includes detailed descriptions for paintings, digital art, pixel art, linocut designs."
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "topic": "travel-hawaii-seafood",
+    "date": "2023/06/13 19:33",
+    "obs": "Planning trip to Hawaii; interested in seafood restaurants in Waikiki."
+  },
+  {
+    "topic": "travel-tokyo-recent",
+    "date": "2023/06/13 19:33",
+    "obs": "Visited Tokyo last month; stayed in small hostel in Shibuya; found excellent for city exploration."
+  },
+  {
+    "topic": "asia-trip-plans",
+    "date": "2023/06/13 19:33",
+    "obs": "Considering trips to Seoul or Bangkok; interested in Korean BBQ and street food."
+  },
+  {
+    "topic": "seoul-visit-imminent",
+    "date": "2023/06/13 19:33",
+    "obs": "Planning visit to Seoul soon; excited to try Korean BBQ; restaurants recommended: Hanilkwan, Mapo Jeong Daepo, Saebyuljib, Jinju Hoegwan, Oji."
+  },
+  {
+    "topic": "communication-workshop-attended",
+    "date": "2023/06/13 01:05",
+    "obs": "Attended one-day communication skills workshop; learned effective listening, assertiveness, conflict resolution."
+  },
+  {
+    "topic": "assertiveness-difficulty",
+    "date": "2023/06/13 01:05",
+    "obs": "Difficulty expressing opinions in meetings with strong personalities; practiced assertiveness role-play."
+  },
+  {
+    "topic": "graduation-lunch-planning",
+    "date": "2023/06/14 11:17",
+    "obs": "Planning celebration lunch for colleague's son graduating from middle school; downtown SF; 10 guests; $20/person budget."
+  },
+  {
+    "topic": "niece-graduation",
+    "date": "2023/06/14 11:17",
+    "obs": "Attended niece's high school graduation ceremony at local convention center last weekend."
+  },
+  {
+    "topic": "education-stanford",
+    "date": "2023/06/14 11:17",
+    "obs": "Graduated with master's degree in engineering from Stanford in 2017."
+  },
+  {
+    "topic": "restaurant-selection",
+    "date": "2023/06/14 11:17",
+    "obs": "Chose Gott's Roadside for celebration lunch; Pizzeria Delfina, Super Duper Burgers, Patxi's Pizza, The Plant Cafe recommended."
+  },
+  {
+    "topic": "gift-ideas",
+    "date": "2023/06/14 11:17",
+    "obs": "Seeking gift for middle school graduate; suggested: gift card, personalized item, fun experience, tech accessory, inspirational book, savings bond."
+  },
+  {
+    "topic": "medical-study-thrombosis",
+    "date": "2023/06/20 18:07",
+    "obs": "Studying thrombosis types: arterial, venous, cardiac; structure, symptoms, formation, Virchow's triad factors."
+  },
+  {
+    "topic": "website-analytics",
+    "date": "2023/06/22 09:01",
+    "obs": "Seeking website user engagement tools; recommended: Google Analytics, Hotjar, Crazy Egg, Qualaroo, Mixpanel."
+  },
+  {
+    "topic": "simple-suggestions-preference",
+    "date": "2023/06/22 09:01",
+    "obs": "Prefers simple actionable advice; recommended: optimize page load speed via image compression, minimize HTTP requests, caching."
+  },
+  {
+    "topic": "viral-innovation-goal",
+    "date": "2023/06/22 09:01",
+    "obs": "Seeking never-before-done website features for viral reach; rejected multiple suggestions seeking cutting-edge ideas."
+  },
+  {
+    "topic": "cucumber-garden",
+    "date": "2023/06/25 22:19",
+    "obs": "Growing cucumbers in garden; 3 plants producing abundant harvest; harvesting daily."
+  },
+  {
+    "topic": "cucumber-storage",
+    "date": "2023/06/25 22:19",
+    "obs": "Learned cucumber storage: refrigerate below 40F, breathable container, keep dry, store upright, wash before use."
+  },
+  {
+    "topic": "dill-pickle-making",
+    "date": "2023/06/25 22:19",
+    "obs": "Making dill pickles using lacto-fermentation; 4-6 cucumbers, kosher salt, sugar, water, vinegar, dill, peppercorns; ferment 3-5 days at 70-75F."
+  },
+  {
+    "topic": "lacto-fermentation-science",
+    "date": "2023/06/25 22:19",
+    "obs": "Learned lacto-fermentation: lactic acid bacteria feed on sugars producing lactic acid; acidifies, creates anaerobic conditions, enhances flavor."
+  },
+  {
+    "topic": "community-group-host",
+    "date": "2023/06/26 08:50",
+    "obs": "Hosts community group focused on knowledge, discussions, community building with diverse speakers."
+  },
+  {
+    "topic": "speaker-engagement",
+    "date": "2023/06/26 08:50",
+    "obs": "Next speaker from open source tech company; requested to avoid sales pitch, focus on knowledge and community."
+  },
+  {
+    "topic": "onboarding-policy-research",
+    "date": "2023/06/30 00:17",
+    "obs": "Researched onboarding policy creation; reviewed Greythr templates and SHRM resources on onboarding programs."
+  },
+  {
+    "topic": "sunday-webdev-routine",
+    "date": "2023/07/02 05:25",
+    "obs": "Dedicating 5 hours every Sunday to web development course; planning to finish soon."
+  },
+  {
+    "topic": "nlp-learning-plan",
+    "date": "2023/07/02 05:25",
+    "obs": "Exploring NLP; interested in Stanford NLP with Deep Learning Specialization on Coursera (5 courses, 4-6 weeks each)."
+  },
+  {
+    "topic": "stanford-nlp-interest",
+    "date": "2023/07/02 05:25",
+    "obs": "Background in Python, scikit-learn; interested in NLP applications: chatbots, sentiment analysis, text summarization."
+  },
+  {
+    "topic": "nlp-research-approach",
+    "date": "2023/07/02 05:25",
+    "obs": "Plans to read research papers first, then experiment with AllenNLP and Hugging Face Transformers; interested in language modeling."
+  },
+  {
+    "topic": "data-science-workshop",
+    "date": "2023/07/02 05:25",
+    "obs": "Attended data science workshop couple months ago; explored AI and machine learning."
+  },
+  {
+    "topic": "hawaii-instagram-success",
+    "date": "2023/07/02 23:06",
+    "obs": "Posted Hawaii vacation on Instagram; 127 likes, 23 comments; gained 25 new followers last week."
+  },
+  {
+    "topic": "instagram-reel-plan",
+    "date": "2023/07/02 23:06",
+    "obs": "Planning Instagram Reel about favorite cafe in Hawaii; cafe interior, coffee, personal story; using microphone for audio."
+  },
+  {
+    "topic": "family-gathering-planning",
+    "date": "2023/07/03 03:21",
+    "obs": "Planning family gathering seating; has 8 male cousins; many female cousins; seeking table arrangement suggestions."
+  },
+  {
+    "topic": "design-documentation",
+    "date": "2023/07/03 12:38",
+    "obs": "Writing design system component documentation for accordion component; covering anatomy, placement, content, behaviors, states."
+  },
+  {
+    "topic": "vocabulary-learning",
+    "date": "2023/07/05 10:02",
+    "obs": "Learning vocabulary; studied word definitions: beseech (implore), virtuoso (highly skilled musician)."
+  },
+  {
+    "topic": "music-preference-indie",
+    "date": "2023/07/06 08:43",
+    "obs": "Listening to indie-rock music; interested in similar artists like Arctic Monkeys, The Black Keys, Tame Impala."
+  },
+  {
+    "topic": "festival-experience",
+    "date": "2023/07/06 08:43",
+    "obs": "Attended festival on July 2nd; explored stages and food vendors; discovered vegan 'chick'n' tender."
+  },
+  {
+    "topic": "civic-drag-racing",
+    "date": "2023/07/07 04:17",
+    "obs": "Participated in Turbocharged Tuesday auto event at local racing circuit; personal best: 12.8 seconds quarter-mile drag race."
+  },
+  {
+    "topic": "civic-turbo-upgrade",
+    "date": "2023/07/07 04:17",
+    "obs": "Looking to upgrade turbocharged Honda Civic performance; interested in turbocharger brands: Garrett, BorgWarner (EFR), Precision."
+  },
+  {
+    "topic": "sports-party-planning",
+    "date": "2023/07/09 20:11",
+    "obs": "Planning sports-themed party; seeking decoration and food ideas; interested in Bruins game schedule."
+  },
+  {
+    "topic": "garden-tomato-companions",
+    "date": "2023/07/10 16:11",
+    "obs": "Planning garden with tomatoes; asking about companion plants; basil, marigold, borage, chives, oregano recommended."
+  },
+  {
+    "topic": "laptop-ram-upgrade",
+    "date": "2023/07/10 05:23",
+    "obs": "Considering RAM upgrade from 8GB to 16GB for video editing; interested in SSD technology comparison."
+  },
+  {
+    "topic": "storage-upgrade-done",
+    "date": "2023/07/10 05:23",
+    "obs": "Already installed 1TB hard drive from Amazon for $60; found helpful for storage capacity."
+  },
+  {
+    "topic": "baseball-collection",
+    "date": "2023/07/11 14:38",
+    "obs": "Collecting autographed baseballs; just got signed Mike Trout baseball last week; 15 autographed baseballs since starting 3 months ago."
+  },
+  {
+    "topic": "frontend-api-folder",
+    "date": "2023/07/20 07:36",
+    "obs": "Documenting front-end app folder structure; 'api' folder for API calls; 'auth' folder uses Firebase provider."
+  },
+  {
+    "topic": "nyc-broadway-trip",
+    "date": "2023/07/26 05:35",
+    "obs": "Planning NYC trip next month; seeing 'Wicked' on Broadway at Gershwin Theatre; seeking restaurant recommendations nearby."
+  },
+  {
+    "topic": "parody-legal-cases",
+    "date": "2023/08/29 14:52",
+    "obs": "Studying parody legal cases; copyright, defamation, trademark infringement risks in parody content."
+  },
+  {
+    "topic": "wild-west-history",
+    "date": "2023/09/10 00:21",
+    "obs": "Learning about Wild West era; resource depletion (mining, logging, agriculture) contributed to decline; ghost towns resulted."
+  },
+  {
+    "topic": "geopolitical-central-europe",
+    "date": "2023/09/14 18:08",
+    "obs": "Studying Central European geopolitics; election interference, disinformation campaigns; impact on democratic processes."
+  },
+  {
+    "topic": "grief-prayer",
+    "date": "2023/10/04 08:01",
+    "obs": "Studying grief and spirituality; prayer as support during loss; seeking guidance, building faith, community connection."
+  },
+  {
+    "topic": "commute-optimization",
+    "date": "2023/11/07 19:13",
+    "obs": "Morning commute 30 minutes; exploring audiobooks and podcasts; seeking engaging content to make commute productive."
+  },
+  {
+    "topic": "upc-barcode-programming",
+    "date": "2023/11/16 07:06",
+    "obs": "Learning to create UPC-A barcodes in C# .NET; using BarcodeLib library; NuGet package manager."
+  },
+  {
+    "topic": "craft-fair-preparation",
+    "date": "2023/11/28 09:15",
+    "obs": "Considering applying to annual craft fair at convention center; recently sold at farmers' market; made ~$250 in sales last Saturday."
+  },
+  {
+    "topic": "teaching-portfolio-design",
+    "date": "2023/11/29 18:37",
+    "obs": "Writing teaching portfolio entry; developed design thinking course with hands-on project-based learning; design challenges, sprints, case studies."
+  },
+  {
+    "topic": "book-recommendations-history",
+    "date": "2023/12/09 01:47",
+    "obs": "Just finished 'Sapiens'; interested in history and anthropology; recommended: 'Guns, Germs, and Steel', 'A Short History of Nearly Everything', 'The Sixth Extinction', 'Salt: A World History'."
+  },
+  {
+    "topic": "shakespeare-romeo-juliet",
+    "date": "2023/12/09 07:57",
+    "obs": "Studying Shakespeare's 'Romeo and Juliet'; analyzing Verona setting; themes of fate, destiny, social tradition impact on characters."
+  },
+  {
+    "topic": "powershell-screensaver",
+    "date": "2023/12/22 12:42",
+    "obs": "Learning PowerShell scripting; creating MP4 video screensaver; registry key configuration, system setup."
+  },
+  {
+    "topic": "baseball-collection-growth",
+    "date": "2023/12/30 02:28",
+    "obs": "Collecting autographed baseballs; added 20 new baseballs in past few months; seeking sports memorabilia auction info."
+  },
+  {
+    "topic": "theater-les-miserables",
+    "date": "2023/12/30 17:17",
+    "obs": "Participating in community theater production of Les Mis\u00e9rables; playing \u00c9ponine; seeking line memorization tips."
+  },
+  {
+    "topic": "caring-for-mother",
+    "date": "2023/12/30 19:32",
+    "obs": "Helping mother with errands and cooking meals; seeking grocery delivery options; Instacart, Shipt, Peapod suggested."
+  },
+  {
+    "topic": "living-room-entertaining",
+    "date": "2024/01/01 13:58",
+    "obs": "Recently rearranged living room furniture, mounted new TV on wall; hosting playoffs get-together two weeks ago; seeking cozy atmosphere tips."
+  },
+  {
+    "topic": "creative-writing-brevity",
+    "date": "2024/01/02 20:08",
+    "obs": "Practicing creative writing; condensing phrases about rare worker drone and rare oil hunted; working on 2-word descriptions."
+  },
+  {
+    "topic": "recycled-tote-bag",
+    "date": "2024/01/02 21:24",
+    "obs": "Learning to make tote bag from recycled cotton shirt; gathering materials: scissors, sewing machine, pins, iron."
+  },
+  {
+    "topic": "kayaking-tomales-bay",
+    "date": "2024/01/03 10:08",
+    "obs": "Kayaked Tomales Bay last weekend with friends; rented from Blue Waters Kayaking; paddled to Hog Island; seeking waterproof gear bags."
+  },
+  {
+    "topic": "seinfeld-fiction-writing",
+    "date": "2024/01/04 07:07",
+    "obs": "Writing Seinfeld-inspired fiction; exploring character development (Newman); themes of self-acceptance, personal growth."
+  },
+  {
+    "topic": "breakfast-routine-snacks",
+    "date": "2024/01/04 15:44",
+    "obs": "Established breakfast routine: oatmeal with banana and honey at 7:30 am every morning for 3 weeks; seeking filling snack options until lunch."
+  },
+  {
+    "topic": "eco-platform-incentives",
+    "date": "2024/01/05 17:52",
+    "obs": "Studying incentive programs for Eco ecosystem; carbon offset buyers, drone pilots, forest managers, developers; loyalty, bounty, referral programs."
+  },
+  {
+    "topic": "book-launch-rachel",
+    "date": "2024/01/05 20:41",
+    "obs": "Attended book launch event for friend Rachel's debut novel 'The Art of Falling' on October 22nd; interested in supporting emerging authors."
+  },
+  {
+    "topic": "minimum-wage-economics",
+    "date": "2024/01/05 03:13",
+    "obs": "Analyzing economic impact of raising minimum wage to $18/hour in Idaho; employment elasticity, wage increase, job loss calculations."
+  },
+  {
+    "topic": "stir-fry-grocery",
+    "date": "2024/01/05 05:47",
+    "obs": "Planning stir-fry dinner; placed Instacart online grocery order; spent ~$60 on delivery; seeking stir-fry sauce recipes and suggestions."
+  },
+  {
+    "topic": "meal-prep-lunch",
+    "date": "2024/01/05 08:11",
+    "obs": "Planning weekly meal prep; needs healthy lunch ideas to pack; out of house by 8 am; seeking quick preparation options that won't spoil."
+  },
+  {
+    "topic": "reading-people-psychology",
+    "date": "2024/01/05 11:33",
+    "obs": "Learning to read people; interested in social psychology, emotional intelligence; seeking professional and personal relationship skills; client pitching."
+  },
+  {
+    "topic": "contract-dispute-analysis",
+    "date": "2024/01/06 23:40",
+    "obs": "Analyzing contract termination and dispute case; Builder's claim for invoice 104 balance ($156,113.54); payment dispute, breach of contract."
+  },
+  {
+    "topic": "lichfield-demographics",
+    "date": "2024/01/08 13:17",
+    "obs": "Learning about Lichfield, UK demographics; 2011 census: 73.7% Christian; ethnic: 96.8% White British, diverse cultural events and festivals."
+  }
+]

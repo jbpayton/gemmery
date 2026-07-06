@@ -1,0 +1,552 @@
+[
+  {
+    "topic": "action-had-breakfast-burri",
+    "date": "2023/04/26 00:17",
+    "obs": "User had breakfast burrito from the new cafe last Sunday - amazing."
+  },
+  {
+    "topic": "pref-looking -some-healthy",
+    "date": "2023/04/26 00:17",
+    "obs": "User looking for some healthy breakfast ideas."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 00:17",
+    "obs": "Assistant recommended: Whole Wheat Tortillas, Whole Grain Tortillas, Corn Tortillas, Sprouted Grain Tortillas."
+  },
+  {
+    "topic": "pref-trying-sprouted-gra",
+    "date": "2023/04/26 00:17",
+    "obs": "User trying sprouted grain tortillas for my breakfast burritos."
+  },
+  {
+    "topic": "pref-trying-to-drink-mor",
+    "date": "2023/04/26 00:17",
+    "obs": "User trying to drink more water throughout the day, aiming for at least."
+  },
+  {
+    "topic": "pref-trying-to-get-a-bet",
+    "date": "2023/04/26 00:23",
+    "obs": "User trying to get a better understanding of my online habits."
+  },
+  {
+    "topic": "action-went-through-the-ste",
+    "date": "2023/04/26 00:23",
+    "obs": "User went through the steps - great."
+  },
+  {
+    "topic": "metric-messages-50",
+    "date": "2023/04/26 00:23",
+    "obs": "chat logs, I noticed that I sent around 50 messages per day on average during a 3-day perio."
+  },
+  {
+    "topic": "action-binge-watched-entire-season-o",
+    "date": "2023/04/26 00:45",
+    "obs": "User binge-watched entire season of 'The Crown' today - great."
+  },
+  {
+    "topic": "pref-looking -some-histori",
+    "date": "2023/04/26 00:45",
+    "obs": "User looking for some historical drama recommendations."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 00:45",
+    "obs": "Assistant recommended: Victoria, Downton Abbey, The White Queen, Wolf Hall."
+  },
+  {
+    "topic": "action-received-by-critics",
+    "date": "2023/04/26 00:45",
+    "obs": "User received by critics - excellent."
+  },
+  {
+    "topic": "action-binge-watched-entire-season-o",
+    "date": "2023/04/26 00:45",
+    "obs": "User binge-watched entire season of The Crown today."
+  },
+  {
+    "topic": "pref-want-to-focus-on-",
+    "date": "2023/04/26 01:52",
+    "obs": "User want to focus on building up my endurance for swimming, running."
+  },
+  {
+    "topic": "metric-days-6",
+    "date": "2023/04/26 01:52",
+    "obs": "g, and cycling. I can dedicate around 5-6 days a week for training, with one or two re."
+  },
+  {
+    "topic": "pref-like-to-know-if-y",
+    "date": "2023/04/26 01:52",
+    "obs": "User like to know if you can recommend any local bike shops that offer."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 01:52",
+    "obs": "Assistant recommended: Incorporating Volleyball Sessions:, Local Bike Shops."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 01:52",
+    "obs": "Assistant recommended: The Bike Revolution, RIDE Cyclery, Pacific Beach Bike Shop."
+  },
+  {
+    "topic": "pref-trying-to-increase-",
+    "date": "2023/04/26 04:14",
+    "obs": "User trying to increase my social media engagement."
+  },
+  {
+    "topic": "pref-looking -some-gift-id",
+    "date": "2023/04/26 04:44",
+    "obs": "User looking for some gift ideas for my mom's birthday, which is coming up so."
+  },
+  {
+    "topic": "pref-like-the-idea-of-",
+    "date": "2023/04/26 04:44",
+    "obs": "User like the idea of a personalized vase."
+  },
+  {
+    "topic": "action-bought-some-candles-fr",
+    "date": "2023/04/26 04:44",
+    "obs": "User bought some candles from Bath & Body Works recently for my mom - great."
+  },
+  {
+    "topic": "pref-like-governors-ba",
+    "date": "2023/04/26 05:11",
+    "obs": "User like Governors Ball, but maybe on a smaller scale."
+  },
+  {
+    "topic": "action-bought-pair-of-distres",
+    "date": "2023/04/26 05:50",
+    "obs": "User bought pair of distressed denim jeans - great."
+  },
+  {
+    "topic": "pref-like-a-great-plan",
+    "date": "2023/04/26 05:50",
+    "obs": "User like a great plan."
+  },
+  {
+    "topic": "pref-want-to-explore-m",
+    "date": "2023/04/26 05:50",
+    "obs": "User want to explore more affordable alternatives for my skincare rout."
+  },
+  {
+    "topic": "pref-like-an-engraved-",
+    "date": "2023/04/26 06:52",
+    "obs": "User like an engraved accessory or a customized item for his new job."
+  },
+  {
+    "topic": "pref-like-the-customiz",
+    "date": "2023/04/26 06:52",
+    "obs": "User like the customized briefcase or laptop bag idea."
+  },
+  {
+    "topic": "pref-like-a-backyard-o",
+    "date": "2023/04/26 06:52",
+    "obs": "User like a backyard obstacle course, a water balloon toss, or a badmi."
+  },
+  {
+    "topic": "pref-like-google-keywo",
+    "date": "2023/04/26 06:53",
+    "obs": "User like Google Keyword Planner or Ahrefs."
+  },
+  {
+    "topic": "pref-want-to-ask:-how-",
+    "date": "2023/04/26 06:53",
+    "obs": "User want to ask: how do I prioritize the keywords I find."
+  },
+  {
+    "topic": "pref-want-to-mention-t",
+    "date": "2023/04/26 06:53",
+    "obs": "User want to mention that I recently attended a webinar on SEO strateg."
+  },
+  {
+    "topic": "action-had-such-an-influen",
+    "date": "2023/04/26 07:25",
+    "obs": "User had such an influential role in so many significant events."
+  },
+  {
+    "topic": "pref-looking -some-eco-fri",
+    "date": "2023/04/26 07:26",
+    "obs": "User looking for some eco-friendly car wash soaps."
+  },
+  {
+    "topic": "pref-looking -some-bike-ma",
+    "date": "2023/04/26 07:26",
+    "obs": "User looking for some bike maintenance tips, especially for hybrid bikes like."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 07:26",
+    "obs": "Assistant recommended: Regular Checks, Tire pressure, Quick releases and bolts, Brake pads."
+  },
+  {
+    "topic": "pref-looking -some-good-ga",
+    "date": "2023/04/26 07:26",
+    "obs": "User looking for some good gas stations with rewards programs."
+  },
+  {
+    "topic": "action-watched-spider-man:-no-",
+    "date": "2023/04/26 08:28",
+    "obs": "User watched Spider-Man: No Way Home with my friends at the cinema today."
+  },
+  {
+    "topic": "pref-looking -some-movie-r",
+    "date": "2023/04/26 08:28",
+    "obs": "User looking for some movie recommendations."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 08:28",
+    "obs": "Assistant recommended: The Avengers, Captain America: The Winter Soldier, Guardians of the Galaxy, Doctor Strange."
+  },
+  {
+    "topic": "action-binge-watched-an-entire-seaso",
+    "date": "2023/04/26 08:28",
+    "obs": "User binge-watched an entire season of Emily in Paris with my sister - great."
+  },
+  {
+    "topic": "pref-like-we're-all-in",
+    "date": "2023/04/26 08:28",
+    "obs": "User like we're all in on this secret that we just experienced togethe."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 09:08",
+    "obs": "Assistant recommended: Online Review Sites, Professional Associations, Word of Mouth, Check Credentials."
+  },
+  {
+    "topic": "pref-looking -some-recipes",
+    "date": "2023/04/26 09:08",
+    "obs": "User looking for some recipes for a festive holiday menu."
+  },
+  {
+    "topic": "pref-want-to-avoid-the",
+    "date": "2023/04/26 09:08",
+    "obs": "User want to avoid the peak holiday season and enjoy some decent snow."
+  },
+  {
+    "topic": "pref-like-hang-man,-sc",
+    "date": "2023/04/26 09:34",
+    "obs": "User like Hang Man, Scrabble, Word searchs)."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 10:46",
+    "obs": "Assistant recommended: Location, Your riding style and experience, Your bike's capabilities, Distance and elevation gain."
+  },
+  {
+    "topic": "action-had-it-since-2018,-",
+    "date": "2023/04/26 10:46",
+    "obs": "User had it since 2018, so it's been serving me well for trails."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 10:46",
+    "obs": "Assistant recommended: Colorado:, Monarch Crest Trail, Crested Butte Trails, Buffalo Creek Trail."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 10:46",
+    "obs": "Assistant recommended: Bike-Friendly Accommodations:, The Estes Park Resort, The Historic Stanley Hotel, Estes Park Condos."
+  },
+  {
+    "topic": "action-had-my-mountain-bik",
+    "date": "2023/04/26 10:46",
+    "obs": "User had my mountain bike - great."
+  },
+  {
+    "topic": "pref-like-grant-cardon",
+    "date": "2023/04/26 12:51",
+    "obs": "User like grant cardone."
+  },
+  {
+    "topic": "pref-trying-to-sell-a-de",
+    "date": "2023/04/26 12:51",
+    "obs": "User trying to sell a destressed property."
+  },
+  {
+    "topic": "pref-like-a-great-idea",
+    "date": "2023/04/26 13:16",
+    "obs": "User like a great idea."
+  },
+  {
+    "topic": "pref-looking -some-new-bbq",
+    "date": "2023/04/26 13:38",
+    "obs": "User looking for some new BBQ recipes to try out on my charcoal grill."
+  },
+  {
+    "topic": "pref-looking -something-a-",
+    "date": "2023/04/26 13:38",
+    "obs": "User looking for something a bit different, like grilled vegetables or seafoo."
+  },
+  {
+    "topic": "pref-like-the-grilled-",
+    "date": "2023/04/26 13:38",
+    "obs": "User like the Grilled Portobello Mushroom Burgers and Grilled Shrimp S."
+  },
+  {
+    "topic": "action-tried-out-hickory",
+    "date": "2023/04/26 13:38",
+    "obs": "User tried out hickory - great."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 13:38",
+    "obs": "Assistant recommended: Cherry Wood Chips:, Pork Chops, Beef Brisket, Salmon."
+  },
+  {
+    "topic": "pref-trying-to-create-an",
+    "date": "2023/04/26 13:40",
+    "obs": "User trying to create an inclusive workplace environment for individuals."
+  },
+  {
+    "topic": "pref-like-gender-and-r",
+    "date": "2023/04/26 13:40",
+    "obs": "User like gender and race; reason: should companies bother investing in dis."
+  },
+  {
+    "topic": "pref-looking -some-food-re",
+    "date": "2023/04/26 13:52",
+    "obs": "User looking for some food recommendations in London."
+  },
+  {
+    "topic": "pref-looking -some-unique-",
+    "date": "2023/04/26 13:52",
+    "obs": "User looking for some unique restaurants or cafes in Rome that serve traditio."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 13:52",
+    "obs": "Assistant recommended: Restaurants:, La Rosetta, Carbonara 2.0, Il Pagliaccio."
+  },
+  {
+    "topic": "metric-hours-5",
+    "date": "2023/04/26 13:52",
+    "obs": "** 1. **Pompeii and Naples** (approx. 2.5 hours by train): Visit the ancient Roman city."
+  },
+  {
+    "topic": "pref-looking -some-inspira",
+    "date": "2023/04/26 14:28",
+    "obs": "User looking for some inspiration for redoing my kitchen island countertops."
+  },
+  {
+    "topic": "pref-like-the-warm,-na",
+    "date": "2023/04/26 14:28",
+    "obs": "User like the warm, natural look it gives to the kitchen; reason: I like the warm, natural look it gives t."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 14:28",
+    "obs": "Assistant recommended: Top Picks:, OXO Good Grips Food Scale, KitchenAid Digital Scale, American Weigh Scales GEMINI-20."
+  },
+  {
+    "topic": "metric-hours-9",
+    "date": "2023/04/26 15:24",
+    "obs": "month in Vancouver, with an average of 9 hours of sunshine per day. However, it's not."
+  },
+  {
+    "topic": "pref-like-bedding-and-",
+    "date": "2023/04/26 15:24",
+    "obs": "User like bedding and kitchenware near the campus."
+  },
+  {
+    "topic": "pref-looking -some-advice-",
+    "date": "2023/04/26 15:47",
+    "obs": "User looking for some advice on how to recover from a marathon; reason: work commitments."
+  },
+  {
+    "topic": "metric-weeks-2",
+    "date": "2023/04/26 15:47",
+    "obs": "Allow your body time to recover. Take 1-2 weeks off from running or any high-impact act."
+  },
+  {
+    "topic": "pref-trying-to-stretch-t",
+    "date": "2023/04/26 15:47",
+    "obs": "User trying to stretch them out, but it's still a bit uncomfortable."
+  },
+  {
+    "topic": "pref-trying-the-step-ups",
+    "date": "2023/04/26 15:47",
+    "obs": "User trying the step-ups and lunges to strengthen my hip flexors."
+  },
+  {
+    "topic": "pref-trying-to-get-more-",
+    "date": "2023/04/26 16:12",
+    "obs": "User trying to get more morning sunlight, which is why I've been waking; reason: I've been waking up at 7:30 am lately, b."
+  },
+  {
+    "topic": "metric-hours-9",
+    "date": "2023/04/26 16:12",
+    "obs": "ve the quality of your sleep. Aim for 7-9 hours of sleep each night. 2. **Gradually adj."
+  },
+  {
+    "topic": "pref-like-your-suggest",
+    "date": "2023/04/26 16:12",
+    "obs": "User like your suggestions."
+  },
+  {
+    "topic": "pref-like-to-explore-y",
+    "date": "2023/04/26 16:12",
+    "obs": "User like to explore your current morning routine a bit more."
+  },
+  {
+    "topic": "pref-like-you're-aware",
+    "date": "2023/04/26 16:12",
+    "obs": "User like you're aware of the need to make some changes to your mornin."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 16:21",
+    "obs": "Assistant recommended: Typical cost of a home warranty:, Location, Home size and type, Age of the home."
+  },
+  {
+    "topic": "pref-want-to-make-sure",
+    "date": "2023/04/26 16:21",
+    "obs": "User want to make sure I'm prepared for the final walk-through of the."
+  },
+  {
+    "topic": "pref-like-they-are-bei",
+    "date": "2023/04/26 17:14",
+    "obs": "User like they are being made fun of."
+  },
+  {
+    "topic": "pref-like-there's-so-m",
+    "date": "2023/04/26 17:14",
+    "obs": "User like there's so much to see and learn in Le Havre."
+  },
+  {
+    "topic": "pref-like-amazing-plac",
+    "date": "2023/04/26 17:14",
+    "obs": "User like amazing places to visit."
+  },
+  {
+    "topic": "pref-looking -some-outfit-",
+    "date": "2023/04/26 17:40",
+    "obs": "User looking for some outfit inspiration for an upcoming dinner date."
+  },
+  {
+    "topic": "action-had-just-bought-a-n",
+    "date": "2023/04/26 17:40",
+    "obs": "User had just bought a new pair of black jeans from Levi's - good."
+  },
+  {
+    "topic": "pref-like-the-white-bl",
+    "date": "2023/04/26 17:40",
+    "obs": "User like the White Blouse and Blazer combo."
+  },
+  {
+    "topic": "pref-looking -a-new-pair-o",
+    "date": "2023/04/26 17:40",
+    "obs": "User looking for a new pair of yoga pants."
+  },
+  {
+    "topic": "pref-targetin-for-growth",
+    "date": "2023/04/26 18:05",
+    "obs": "User targeting for growth."
+  },
+  {
+    "topic": "pref-looking -some-new-cof",
+    "date": "2023/04/26 18:16",
+    "obs": "User looking for some new coffee recipes to try out."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 18:16",
+    "obs": "Assistant recommended: Classic Breakfast Blend, French Roast Breakfast, Morning Sunrise, Breakfast Blend with a Twist."
+  },
+  {
+    "topic": "pref-trying-to-get-into-",
+    "date": "2023/04/26 18:16",
+    "obs": "User trying to get into a consistent sleep schedule, and I think it's be."
+  },
+  {
+    "topic": "pref-trying-to-prioritiz",
+    "date": "2023/04/26 18:16",
+    "obs": "User trying to prioritize my tasks better, and I've been using the Pomod."
+  },
+  {
+    "topic": "pref-trying-to-cook-more",
+    "date": "2023/04/26 18:16",
+    "obs": "User trying to cook more meals at home and eat healthier, so I've been e."
+  },
+  {
+    "topic": "pref-looking -some-advice-",
+    "date": "2023/04/26 19:28",
+    "obs": "User looking for some advice on organizing and decluttering my grandma's old."
+  },
+  {
+    "topic": "pref-like-the-idea-of-",
+    "date": "2023/04/26 19:28",
+    "obs": "User like the idea of starting small and sorting items into categories; reason: that's where we spent a lot of time toge."
+  },
+  {
+    "topic": "pref-like-the-idea-of-",
+    "date": "2023/04/26 19:28",
+    "obs": "User like the idea of taking photos of items I'm unsure about and shar."
+  },
+  {
+    "topic": "pref-like-the-idea-of-",
+    "date": "2023/04/26 19:28",
+    "obs": "User like the idea of recording conversations and creating a family ar."
+  },
+  {
+    "topic": "pref-like-you're-makin",
+    "date": "2023/04/26 19:28",
+    "obs": "User like you're making great progress on organizing and preserving yo."
+  },
+  {
+    "topic": "pref-trying-to-decide-if",
+    "date": "2023/04/26 20:40",
+    "obs": "User trying to decide if I want to put that many miles on my car; reason: I started my new job a month ago, and I'."
+  },
+  {
+    "topic": "assist-recommend-brands",
+    "date": "2023/04/26 20:40",
+    "obs": "Assistant recommended: SUV or Crossover, Good ground clearance."
+  },
+  {
+    "topic": "pref-want-to-mention-t",
+    "date": "2023/04/26 20:40",
+    "obs": "User want to mention that I've been driving a lot more lately since I; reason: I started my new job a month ago, and I'."
+  },
+  {
+    "topic": "pref-love-to-learn-wel",
+    "date": "2023/04/26 20:51",
+    "obs": "User love to learn Welsh myself."
+  },
+  {
+    "topic": "pref-love-attending-fe",
+    "date": "2023/04/26 20:51",
+    "obs": "User love attending festivals, so I'll definitely check out Tafwyl and."
+  },
+  {
+    "topic": "pref-trying-to-find-some",
+    "date": "2023/04/26 21:49",
+    "obs": "User trying to find some good deals on household essentials, especially."
+  },
+  {
+    "topic": "pref-like-to-find-a-be",
+    "date": "2023/04/26 21:49",
+    "obs": "User like to find a better deal."
+  },
+  {
+    "topic": "pref-like-to-find-a-be",
+    "date": "2023/04/26 21:49",
+    "obs": "User like to find a better deal."
+  },
+  {
+    "topic": "pref-like-laundry-dete",
+    "date": "2023/04/26 21:49",
+    "obs": "User like laundry detergent and paper products."
+  },
+  {
+    "topic": "pref-like-to-find-some",
+    "date": "2023/04/26 21:49",
+    "obs": "User like to find some additional savings."
+  },
+  {
+    "topic": "pref-love-to-visit-nep",
+    "date": "2023/04/26 23:00",
+    "obs": "User love to visit Nepal one day and see their beautiful traditional c."
+  }
+]

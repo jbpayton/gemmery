@@ -1,0 +1,537 @@
+[
+  {
+    "topic": "guitar-learning-taylor-gs-mini",
+    "date": "2023-05-20 00:05",
+    "obs": "User owns Taylor GS Mini guitar and wants to learn fingerpicking patterns from online tutorials like Justin Guitar, Guitar Tricks."
+  },
+  {
+    "topic": "guitar-strings-elixir",
+    "date": "2023-05-20 00:05",
+    "obs": "User uses Elixir strings on acoustic guitar; finds their warm, balanced tone suitable for fingerpicking."
+  },
+  {
+    "topic": "ukulele-songwriting-beginner",
+    "date": "2023-05-20 00:05",
+    "obs": "User started writing songs on ukulele; wants to write about morning commute feeling with city waking up as central theme."
+  },
+  {
+    "topic": "harmonica-song-incorporation",
+    "date": "2023-05-20 00:05",
+    "obs": "User considering adding harmonica parts to songs; assistant recommended diatonic harmonicas (Hohner Special 20, Lee Oskar) as beginner options."
+  },
+  {
+    "topic": "antique-vase-inheritance-victorian",
+    "date": "2023-05-20 01:31",
+    "obs": "User inherited grandmother's antique vase collection; researching Victorian-era vase makers like Worcester Royal Porcelain, Royal Doulton, Minton."
+  },
+  {
+    "topic": "worcester-celadon-glaze",
+    "date": "2023-05-20 01:31",
+    "obs": "User interested in pale blue celadon glaze used by Worcester Royal Porcelain; crackle pattern combines natural firing process with intentional artisan manipulation."
+  },
+  {
+    "topic": "antique-silver-locket-heirloom",
+    "date": "2023-05-20 01:31",
+    "obs": "User found antique silver locket with diamond center and intricate engravings; passed through family for over 100 years."
+  },
+  {
+    "topic": "succulents-care-root-rot-prevention",
+    "date": "2023-05-20 03:08",
+    "obs": "User has succulents but doesn't care much for them; needs well-draining soil, only water when dry, prevent root rot."
+  },
+  {
+    "topic": "gin-negroni-first-time",
+    "date": "2023-05-20 04:53",
+    "obs": "User tried classic Negroni about a month ago at home; sparked interest in gin-based cocktails exploration."
+  },
+  {
+    "topic": "gin-types-bombay-sapphire-hendricks",
+    "date": "2023-05-20 04:53",
+    "obs": "User owns Bombay Sapphire (London Dry Gin) and Hendrick's (New Western Gin); comparing their juniper-forward vs. complex flavor profiles."
+  },
+  {
+    "topic": "cucumber-gin-fizz-hendricks",
+    "date": "2023-05-20 04:53",
+    "obs": "User made Cucumber Gin Fizz with Hendrick's about two weeks ago; found it refreshing."
+  },
+  {
+    "topic": "fresh-herbs-balcony-cocktails",
+    "date": "2023-05-20 04:53",
+    "obs": "User grows mint and basil on balcony; using them in cocktails like Rosemary Gin Spritz and Basil Gimlet."
+  },
+  {
+    "topic": "bourbon-glazed-salmon-dinner",
+    "date": "2023-05-20 04:53",
+    "obs": "User planning Bourbon-Glazed Salmon dinner tonight; assistant suggested bourbon glaze with brown sugar, honey, Dijon mustard, soy sauce."
+  },
+  {
+    "topic": "the-1975-live-concert",
+    "date": "2023-05-20 10:20",
+    "obs": "User just saw The 1975 live and enjoyed their high-energy, visually stunning show; wants more concerts."
+  },
+  {
+    "topic": "concert-preference-intimate-venues",
+    "date": "2023-05-20 10:20",
+    "obs": "User prefers smaller local venues for intimate experience and closeness to stage; recently attended The 1975 at downtown local music venue."
+  },
+  {
+    "topic": "indie-rock-preference-arctic-monkeys",
+    "date": "2023-05-20 10:20",
+    "obs": "User into indie/alternative rock; listening to Arctic Monkeys and The Neighbourhood on Spotify; values live crowd interaction."
+  },
+  {
+    "topic": "guitar-equipment-upgrade-interest",
+    "date": "2023-05-20 10:20",
+    "obs": "User getting back into playing guitar; interested in turntables/guitar equipment; recommends checking Audio-Technica, Fender, Gibson options."
+  },
+  {
+    "topic": "savory-tart-caramelized-onion-goat-cheese",
+    "date": "2023-05-20 11:21",
+    "obs": "User interested in caramelized onion, goat cheese, and thyme tart; uses sweet Vidalia onions, low heat (275°F), 30-60+ minutes."
+  },
+  {
+    "topic": "stand-mixer-kitchenaid-bread-baking",
+    "date": "2023-05-20 11:21",
+    "obs": "User started bread baking from scratch about 2 months ago; considering KitchenAid Classic Plus for heavy dough handling."
+  },
+  {
+    "topic": "savory-tart-cheese-herbs-experimentation",
+    "date": "2023-05-21 00:12",
+    "obs": "User experimenting with savory tart combinations: goat cheese with chives/parsley, Parmesan/rosemary, caramelized onions/thyme, Mediterranean/Middle Eastern spices."
+  },
+  {
+    "topic": "game-design-attacker-weapons-rarity-system",
+    "date": "2023-05-21 16:42",
+    "obs": "User designing game with attacker weapons (swords, bows, axes, maces) in C/UC/R/UR rarity tiers; R adds elemental damage, UR adds 100% elemental."
+  },
+  {
+    "topic": "game-weapons-special-abilities",
+    "date": "2023-05-21 16:42",
+    "obs": "Weapon abilities: Swords deflect attacks; Bows bonus from AGI; Axes critical strike 1.8x; Maces stun opponent one turn."
+  },
+  {
+    "topic": "great-grandfather-sextant-navigation-tool",
+    "date": "2023-05-22 03:23",
+    "obs": "User inherited great-grandfather's early 20th century navigation tool, likely a sextant with engravings but no labels; seeking identification."
+  },
+  {
+    "topic": "rare-1980s-vinyl-record-appraisal",
+    "date": "2023-05-22 03:23",
+    "obs": "User plans to get rare 1980s vinyl record appraised; considering Discogs, Vinyl Me Please, The Vinyl Factory, MusicStack, local record stores."
+  },
+  {
+    "topic": "vintage-omega-seamaster-watch-service",
+    "date": "2023-05-22 03:23",
+    "obs": "User owns vintage Omega Seamaster watch; seeking refurbishment to maintain value; considering Omega authorized centers, Bob's Watches, WatchRepair.net."
+  },
+  {
+    "topic": "rare-1913-liberty-head-nickel-grading",
+    "date": "2023-05-22 03:23",
+    "obs": "User considering grading rare 1913 Liberty Head nickel; assistant recommended PCGS, NGC, ANACS, ICG as reputable coin grading companies."
+  },
+  {
+    "topic": "las-vegas-hotel-luxury-strip-view",
+    "date": "2023-05-22 06:23",
+    "obs": "User planning Miami trip in April with Delta SkyMiles; recently flew United Airlines in January, impressed with in-flight entertainment."
+  },
+  {
+    "topic": "delta-silver-medallion-status",
+    "date": "2023-05-22 06:23",
+    "obs": "User recently reached Silver Medallion status with Delta SkyMiles; redeeming miles for round-trip San Francisco to Miami domestic flight in April."
+  },
+  {
+    "topic": "las-vegas-cosmopolitan-hotel-choice",
+    "date": "2023-05-22 06:23",
+    "obs": "User chose The Cosmopolitan for Las Vegas stay; prefers 24/7 Vitality fitness center, Strip View room with king-size bed, diverse dining."
+  },
+  {
+    "topic": "british-airways-business-class-lie-flat",
+    "date": "2023-05-22 06:23",
+    "obs": "User flew British Airways business class to London; lie-flat bed was highlight; redeemed miles for luxury experience with personalized service."
+  },
+  {
+    "topic": "philly-concerts-indie-rock-preferences",
+    "date": "2023-05-22 17:55",
+    "obs": "User looking for rock/pop concerts in Philadelphia area next few months; prefers smaller intimate venues, old and new material mix."
+  },
+  {
+    "topic": "waterparks-concert-foundry-fillmore",
+    "date": "2023-05-22 17:55",
+    "obs": "User interested in Waterparks at The Foundry at The Fillmore on September 14th; tickets ~$20-25 GA; band plays high-energy shows."
+  },
+  {
+    "topic": "technology-impact-job-market",
+    "date": "2023-05-23 14:16",
+    "obs": "User discussing automation, skill gaps, remote work, job displacement, economic changes from technology; shifts toward gig economy likely."
+  },
+  {
+    "topic": "access-control-nist-cybersecurity-framework",
+    "date": "2023-05-23 21:02",
+    "obs": "User seeking Access Control policy statement per NIST CSF; multi-factor authentication, least privilege enforcement required."
+  },
+  {
+    "topic": "hawk-population-monitoring-conservation",
+    "date": "2023-05-23 22:13",
+    "obs": "User interested in hawk conservation; assistant recommended HMANA, The Peregrine Fund, Cornell Lab, NABCI, U.S. Fish & Wildlife Service."
+  },
+  {
+    "topic": "hawk-conservation-individual-actions",
+    "date": "2023-05-23 22:13",
+    "obs": "User can help hawk conservation by reducing pesticides, supporting bird-friendly products, citizen science, donations, spreading awareness."
+  },
+  {
+    "topic": "vegetarian-vegan-restaurants-outdoor-seating",
+    "date": "2023-05-24 04:36",
+    "obs": "User looking for vegetarian/vegan dining with outdoor seating; Leaf, Caravan, Sunrise Cafe, ZaZa's, Roy's, Rabbit Hole have patios."
+  },
+  {
+    "topic": "date-night-restaurant-vegan",
+    "date": "2023-05-24 04:36",
+    "obs": "User choosing Leaf Vegetarian Restaurant or ZaZa's Tavola Italiana for next date night; seeking upscale cozy or romantic atmosphere."
+  },
+  {
+    "topic": "gluten-free-vegan-dessert-options",
+    "date": "2023-05-24 04:36",
+    "obs": "User has gluten-free vegan friend; Sweet Spot, Angelina's, Lulu's, Schmucker's, Caravan, Leaf offer gluten-free vegan desserts."
+  },
+  {
+    "topic": "delta-skymiles-miami-april-domestic",
+    "date": "2023-05-24 20:23",
+    "obs": "User planning Miami trip in April with Delta SkyMiles flexibility; best dates April 3-5, 10-12, 17-19, 24-26 for lowest redemption."
+  },
+  {
+    "topic": "united-airlines-in-flight-entertainment",
+    "date": "2023-05-24 20:23",
+    "obs": "User flew United Airlines for first time in January; impressed with their in-flight entertainment system; comparing airline services."
+  },
+  {
+    "topic": "delta-cosmopolitan-las-vegas-trip",
+    "date": "2023-05-24 20:23",
+    "obs": "User booking The Cosmopolitan Strip View room; features 24/7 Vitality fitness center, rainfall shower, Bose sound system, flat-screen TV."
+  },
+  {
+    "topic": "las-vegas-dining-cosmopolitan",
+    "date": "2023-05-24 20:23",
+    "obs": "The Cosmopolitan dining: é by José Andrés (8-seat), Scarpetta (Italian), STK (steakhouse), Estiatorio Milos (Greek), Rose.Rabbit.Lie (supper club)."
+  },
+  {
+    "topic": "art-supplies-paints-brushes",
+    "date": "2023-05-24 20:59",
+    "obs": "User seeking quality art supplies; assistant recommended Golden (acrylics), Winsor & Newton (oils/watercolors), Kolinsky Sable brushes."
+  },
+  {
+    "topic": "impressionist-exhibition-monet",
+    "date": "2023-05-24 20:59",
+    "obs": "User visited Impressionist Exhibition at Modern Art Museum; spent hours admiring Monet's Water Lilies and Impression, Sunrise."
+  },
+  {
+    "topic": "urban-landscapes-photography-exhibition",
+    "date": "2023-05-24 20:59",
+    "obs": "User attended Photography Gallery urban landscapes exhibition last week; bought City Lights print for $50 to display in living room."
+  },
+  {
+    "topic": "california-coast-road-trip-5-6-days",
+    "date": "2023-05-25 02:01",
+    "obs": "User planning 5-6 day California coast road trip; highlights include Big Sur, Julia Pfeiffer Burns State Park, Highway 1, rustic cabin stay."
+  },
+  {
+    "topic": "whale-watching-santa-barbara",
+    "date": "2023-05-25 02:01",
+    "obs": "User choosing whale watching tour in Santa Barbara over kayaking; tour 3-4 hours, see gray/humpback/blue whales depending on season."
+  },
+  {
+    "topic": "santa-barbara-lunch-restaurants",
+    "date": "2023-05-25 02:01",
+    "obs": "User considering The Fishouse or Brophy Bros for lunch after whale watching; both offer seafood and harbor views."
+  },
+  {
+    "topic": "ebook-selling-profitability-advice",
+    "date": "2023-05-25 03:49",
+    "obs": "User interested in making eBooks profitable; keys: write great book, market effectively, price right, use Amazon KDP, build email list."
+  },
+  {
+    "topic": "hp-laptop-black-friday-deal",
+    "date": "2023-05-25 11:11",
+    "obs": "User disappointed with Black Friday sales (November 25, not 27); wanted HP laptop but it was out of stock."
+  },
+  {
+    "topic": "refurbished-laptop-cost-savings",
+    "date": "2023-05-25 11:11",
+    "obs": "Certified refurbished HP laptops offer 10-30% discount vs new; come with warranty but may have minor cosmetic imperfections."
+  },
+  {
+    "topic": "gaming-console-black-friday-deals",
+    "date": "2023-05-25 11:11",
+    "obs": "User got 4K TV at Best Buy with 40% Black Friday discount; also bought discounted games from GameStop; looking for console deals."
+  },
+  {
+    "topic": "brown-thrasher-birding-sighting",
+    "date": "2023-05-25 14:16",
+    "obs": "User spotted Brown Thrasher on Tuesday evening neighborhood walk last week; excited first sighting."
+  },
+  {
+    "topic": "blue-jay-call-mimicking-tips",
+    "date": "2023-05-25 14:16",
+    "obs": "User practicing Blue Jay calls; 'jay-jay-jay' or 'honk-honk-honk' sound; focus on pitch, rhythm, tongue position."
+  },
+  {
+    "topic": "bird-photography-camera-beginner",
+    "date": "2023-05-25 14:16",
+    "obs": "User wanting bird photography camera; recommends DSLR/mirrorless with 200-300mm telephoto lens, APS-C sensor, 16-24MP, fast burst mode."
+  },
+  {
+    "topic": "wildlife-rehab-center-red-winged-blackbird",
+    "date": "2023-05-25 14:16",
+    "obs": "User volunteering at wildlife rehab center; recently cared for wounded Red-winged Blackbird; found experience rewarding."
+  },
+  {
+    "topic": "birding-journal-setup-tips",
+    "date": "2023-05-25 14:16",
+    "obs": "User starting birding journal to record observations/sketches; include date, location, species, appearance, behavior, weather, life list."
+  },
+  {
+    "topic": "clothing-accessories-shopping-list",
+    "date": "2023-05-25 16:20",
+    "obs": "User bought boots, sweater (Macy's Black Friday); moisturizer, eyeshadow palette (Sephora VIB); handbag, sunglasses (garage sale)."
+  },
+  {
+    "topic": "clothing-target-purchase",
+    "date": "2023-05-25 16:20",
+    "obs": "User bought top and leggings from Target two weeks ago; also shoes from Nordstrom Rack online three weeks ago."
+  },
+  {
+    "topic": "banana-republic-friends-family-sale",
+    "date": "2023-05-25 16:20",
+    "obs": "User bought dress and trousers from Banana Republic six weeks ago during friends and family sale."
+  },
+  {
+    "topic": "yoga-vinyasa-yin-videos-youtube",
+    "date": "2023-05-25 19:26",
+    "obs": "User mixing up home yoga practice; recommended channels: Yoga With Adriene, Fightmaster, Dylan Werner, Sarah Beth (Vinyasa); Bernie Clark, Kassandra (Yin)."
+  },
+  {
+    "topic": "warrior-ii-pose-hip-flexibility",
+    "date": "2023-05-25 19:26",
+    "obs": "User practicing yoga 6 months; hip flexibility improved; warrior II challenging; focus on foot alignment, hip opening, knee tracking."
+  },
+  {
+    "topic": "yoga-blocks-straps-customization",
+    "date": "2023-05-25 19:26",
+    "obs": "User using yoga block for deeper stretches; consider foam/cork/bamboo material, size, texture for grip; cotton/nylon straps."
+  },
+  {
+    "topic": "yoga-pranayama-breathing-techniques",
+    "date": "2023-05-25 19:26",
+    "obs": "User exploring alternate nostril breathing and kapalabhati from yoga app; interested in pranayama benefits, practice frequency."
+  },
+  {
+    "topic": "yoga-philosophy-books-resources",
+    "date": "2023-05-25 19:26",
+    "obs": "User deepening yoga practice; recommends The Yoga Sutras, Bhagavad Gita, Upanishads, The Yoga Vasistha, Light on Yoga by Iyengar."
+  },
+  {
+    "topic": "baby-shower-gift-personalized-photo-album",
+    "date": "2023-05-25 21:26",
+    "obs": "User buying baby shower gift ~$25; chose Mixbook over Snapfish/Shutterfly for customizable photo album with college memory photos."
+  },
+  {
+    "topic": "craft-fair-local-artisans-shopping",
+    "date": "2023-05-25 21:26",
+    "obs": "User attending craft fair with mom this weekend; seeking unique, handmade gifts; successful experience at holiday market (scarf, candle, chocolates)."
+  },
+  {
+    "topic": "netflix-recommendations-stranger-things-narcos",
+    "date": "2023-05-26 10:55",
+    "obs": "User watching 6 months Netflix; likes original content; recommendations: Haunting of Hill House, OA, Locke & Key, Witcher, Russian Doll."
+  },
+  {
+    "topic": "netflix-lesser-known-documentaries",
+    "date": "2023-05-26 10:55",
+    "obs": "User interested in environmental documentaries; Before the Flood, Chasing Coral, Ice on Fire, True Cost, Racing Extinction recommended."
+  },
+  {
+    "topic": "wireless-charging-pad-product-flyer",
+    "date": "2023-05-26 11:41",
+    "obs": "User designing flyer for wireless charging pad (successful trade show response); highlights fast charging, universal compatibility."
+  },
+  {
+    "topic": "product-flyer-design-tools",
+    "date": "2023-05-26 11:41",
+    "obs": "User chose Canva for flyer design; features drag-drop, templates, design elements; including QR code linking to product page."
+  },
+  {
+    "topic": "adobe-graphical-ai-testing-application",
+    "date": "2023-05-26 23:43",
+    "obs": "User applied to test Adobe graphical AI; graphic designer with Photoshop/Illustrator/InDesign experience, problem-solving skills."
+  },
+  {
+    "topic": "peniarol-football-social-media-fandom",
+    "date": "2023-05-26 23:43",
+    "obs": "User discussing how social media impacted Peñarol fans; creates content, connects globally, affects players' performance negatively sometimes."
+  },
+  {
+    "topic": "peniarol-facebook-followers-global-reach",
+    "date": "2023-05-26 23:43",
+    "obs": "Peñarol has 1.2M Facebook followers; expanded reach to Asia/Europe; content strategy includes match updates, interviews, polls, merchandise."
+  },
+  {
+    "topic": "conference-feedback-improvement-sessions",
+    "date": "2023-05-27 02:11",
+    "obs": "User discussing feedback collection for improving special sessions; conduct surveys, analyze themes, make changes, plan in advance."
+  },
+  {
+    "topic": "iphone-13-pro-screen-protector",
+    "date": "2023-05-27 06:32",
+    "obs": "User replacing cracked iPhone 13 Pro screen protector; brands: Zagg InvisibleShield, TechArmor, Spigen, BodyGuardz, Belkin, Anker, OtterBox."
+  },
+  {
+    "topic": "iphone-wallet-case-leather",
+    "date": "2023-05-27 06:32",
+    "obs": "User seeking wallet case for iPhone 13 Pro; recommend Nomad (leather), Fossil, Bellroy, Incipio (RFID), Speck, Case-Mate, Tech21."
+  },
+  {
+    "topic": "wireless-charging-power-bank",
+    "date": "2023-05-27 06:32",
+    "obs": "User considering wireless charging power bank; slower than wired but convenient; look for Qi-certified, high capacity, fast charging support."
+  },
+  {
+    "topic": "climate-change-marine-ecosystem-impacts",
+    "date": "2023-05-27 07:28",
+    "obs": "Climate change effects: ocean warming, acidification, sea level rise, precipitation changes, extreme weather harm marine life."
+  },
+  {
+    "topic": "individual-marine-conservation-actions",
+    "date": "2023-05-27 07:28",
+    "obs": "User committed to marine conservation: reduce carbon footprint, energy use, water use, support orgs, reduce/reuse/recycle, reduce seafood."
+  },
+  {
+    "topic": "reusable-bags-water-bottles-plastic",
+    "date": "2023-05-27 07:28",
+    "obs": "User using reusable bags/water bottles to reduce plastic waste reaching ocean; sees impact of daily actions on environment."
+  },
+  {
+    "topic": "vegan-quinoa-bowl-recipe",
+    "date": "2023-05-27 08:53",
+    "obs": "User making vegan quinoa bowl; roasted sweet potato, broccoli, Brussels sprouts at 425°F 25-30 min; tahini lemon garlic drizzle."
+  },
+  {
+    "topic": "vegan-protein-sources-tofu-tempeh",
+    "date": "2023-05-27 08:53",
+    "obs": "Vegan proteins for quinoa bowl: chickpeas, black beans, tofu, tempeh, seitan, lentils, mushrooms, vegan protein powder."
+  },
+  {
+    "topic": "tofu-asian-marinade-sesame-green-onion",
+    "date": "2023-05-27 08:53",
+    "obs": "User marinating tofu for quinoa bowl with Asian-inspired marinade: soy, rice vinegar, ginger, garlic, sesame oil, red pepper flakes."
+  },
+  {
+    "topic": "vegetable-roasting-technique-caramelized",
+    "date": "2023-05-27 08:53",
+    "obs": "Roasting vegetables 425°F: broccoli, cauliflower, carrots, Brussels sprouts, sweet potatoes in single layer 20-30 min until tender/caramelized."
+  },
+  {
+    "topic": "guppy-platy-fry-care-breeding",
+    "date": "2023-05-27 11:28",
+    "obs": "User planning to breed guppies and platies; separated aggressive guppy for fin nipping a month ago to quarantine, now improving."
+  },
+  {
+    "topic": "aquarium-fry-feeding-infusoria",
+    "date": "2023-05-27 11:28",
+    "obs": "Newly hatched guppy/platy fry need infusoria or commercial fry food (API, Tetra, Hikari); feed 3-5 times daily initially."
+  },
+  {
+    "topic": "canister-filter-advantages-hob",
+    "date": "2023-05-27 11:28",
+    "obs": "Canister filters handle larger volumes, better filtration, quieter, more flexible, customizable, better media capacity than hang-on-back filters."
+  },
+  {
+    "topic": "aquarium-heater-wattage-20-gallon",
+    "date": "2023-05-27 11:28",
+    "obs": "50-watt heater undersized for 20-gallon; recommended 75-100W; rule: 1-2W per gallon; maintain 76-82°F for tropical fish."
+  },
+  {
+    "topic": "led-aquarium-lighting-spectrum",
+    "date": "2023-05-27 11:28",
+    "obs": "Fixed spectrum LEDs are affordable, simple; adjustable spectrum LEDs customizable, better for planted tanks but more expensive/complex."
+  },
+  {
+    "topic": "logo-design-composition-elements-table",
+    "date": "2023-05-27 12:44",
+    "obs": "User creating logo design composition breakdown table with 13 columns (composition, contrast, style, shape, etc.) and 10 rows of brand examples."
+  },
+  {
+    "topic": "baby-shower-gift-personalized-frame",
+    "date": "2023-05-28 02:09",
+    "obs": "User making personalized silver picture frame for baby shower with college memory photos of mom-to-be; decorating with baby-themed elements."
+  },
+  {
+    "topic": "gift-journal-tracking-spending",
+    "date": "2023-05-28 02:09",
+    "obs": "User starting gift journal to track gifts given; including cost for budgeting; recent: silver necklace for sister's birthday Feb 15 (~$80)."
+  },
+  {
+    "topic": "hemoglobin-levels-ethnic-groups-variation",
+    "date": "2023-05-28 04:33",
+    "obs": "Hemoglobin varies by ethnicity: African Americans/descent higher, Hispanic/Asian intermediate, Native Americans lower due to genetics/altitude."
+  },
+  {
+    "topic": "hemoglobin-health-maintenance-diet-exercise",
+    "date": "2023-05-28 04:33",
+    "obs": "Maintain balanced hemoglobin: eat iron/B12/folate-rich foods (red meat, seafood, greens, beans), exercise, hydrate, avoid smoking/alcohol, regular blood tests."
+  },
+  {
+    "topic": "mixed-media-art-learning-resources-online",
+    "date": "2023-05-28 08:36",
+    "obs": "User getting into mixed media art; YouTube: Dina Wakley, Lynne Perrella, Tiare Smith, Roben-Marie Smith; websites: Artists Network, Seth Apter."
+  },
+  {
+    "topic": "art-studio-space-organization",
+    "date": "2023-05-28 08:36",
+    "obs": "User organizing home art studio: categorize supplies, assign homes, use vertical space, containers/bins, label everything, keep frequent items accessible."
+  },
+  {
+    "topic": "abstract-painting-aunt-living-room",
+    "date": "2023-05-28 08:36",
+    "obs": "User hung beautiful abstract painting from aunt on east wall of living room; enjoys colors/textures, conversation starter with guests."
+  },
+  {
+    "topic": "living-room-art-arrangement-display",
+    "date": "2023-05-28 08:36",
+    "obs": "Arranging art: create focal point, visual triangle, mix scales, rule of odds, balance heavy/light, unify with theme, leave breathing room."
+  },
+  {
+    "topic": "art-collection-complement-color-style",
+    "date": "2023-05-28 08:36",
+    "obs": "Choose art matching room colors using color wheel, consider style/era, mix textures/mediums, balance warm/cool tones, unify themes."
+  },
+  {
+    "topic": "abstract-art-artists-complementary",
+    "date": "2023-05-28 08:36",
+    "obs": "Artists to complement abstract art: Jackson Pollock, Willem de Kooning, Mark Rothko (Abstract Expressionism); Color Field Painting artists."
+  },
+  {
+    "topic": "eastern-western-medicine-differences",
+    "date": "2023-05-30 21:07",
+    "obs": "Eastern vs Western: Eastern energetic/preventive (acupuncture, herbs), Western evidence-based/treatment-focused (pharmaceuticals, surgery)."
+  },
+  {
+    "topic": "eastern-medicine-unusual-treatments",
+    "date": "2023-05-30 21:07",
+    "obs": "Eastern medicine treatments: bee venom therapy, gua sha, fire cupping, ear acupuncture, auricular seed therapy; efficacy varies."
+  },
+  {
+    "topic": "western-medicine-innovative-treatments",
+    "date": "2023-05-30 21:07",
+    "obs": "Western medicine innovations: immunotherapy, gene therapy, deep brain stimulation, transcranial magnetic stimulation, virtual reality therapy."
+  },
+  {
+    "topic": "integrated-medicine-east-west-benefits",
+    "date": "2023-05-30 21:07",
+    "obs": "Combining Eastern/Western medicine creates holistic approach: acupuncture for pain with Western diagnostics; lifestyle + pharmaceuticals for chronic disease."
+  },
+  {
+    "topic": "garlic-butter-chicken-recipe-quick",
+    "date": "2023-05-30 15:00",
+    "obs": "User wants dinner inspiration; garlic butter chicken: season boneless skinless thighs with paprika/garlic/oregano/thyme, pan-fry 4-5+3 min, top with garlic butter."
+  }
+]

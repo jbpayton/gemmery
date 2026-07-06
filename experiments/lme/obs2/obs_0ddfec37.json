@@ -1,0 +1,312 @@
+[
+  {
+    "topic": "hawaii-seafood-restaurants",
+    "date": "2023/06/13 19:33",
+    "obs": "Planning trip to Hawaii, wants seafood restaurant recommendations in Waikiki. Assistant recommended: The Fish Hopper, Duke's Waikiki, Alan Wong's Honolulu, The Crab Shack, Azure, Nico's Pier 38."
+  },
+  {
+    "topic": "hawaii-previous-visit",
+    "date": "2023/06/13 19:33",
+    "obs": "Has been to Hawaii before with family, had great time. Recently visited Tokyo last month, stayed in small hostel in Shibuya, had amazing experience, solo traveler."
+  },
+  {
+    "topic": "asia-travel-plans",
+    "date": "2023/06/13 19:33",
+    "obs": "Considering trip to Asia, thinking Seoul or Bangkok. Interested in Korean BBQ, considering visiting Seoul soon."
+  },
+  {
+    "topic": "communication-workshop",
+    "date": "2023/06/13 01:05",
+    "obs": "Attended one-day communication skills workshop recently, learned about effective listening, assertiveness, conflict resolution techniques."
+  },
+  {
+    "topic": "assertiveness-practice",
+    "date": "2023/06/13 01:05",
+    "obs": "Practicing assertiveness in meetings. Has difficulty contributing to discussions with strong personalities. Participated in role-play with team lead Rachel about email marketing campaign, successfully asserted 20% ROI vs 10% for social media, offered to take ownership."
+  },
+  {
+    "topic": "middle-school-graduation-lunch",
+    "date": "2023/06/14 11:17",
+    "obs": "Planning celebration lunch for colleague's son graduating middle school next week. Downtown San Francisco, 10 guests including graduate, kids want pizza/burgers, casual quick-service, $20/person budget. Selected Gott's Roadside."
+  },
+  {
+    "topic": "family-graduation-attendance",
+    "date": "2023/06/14 11:17",
+    "obs": "Recently attended niece's high school graduation ceremony at local convention center last weekend."
+  },
+  {
+    "topic": "education-background",
+    "date": "2023/06/14 11:17",
+    "obs": "Has master's degree in engineering from Stanford, graduated 2017. Reflecting on education/career path."
+  },
+  {
+    "topic": "data-science-interest",
+    "date": "2023/06/14 11:17",
+    "obs": "Interested in pursuing data science certification. Assistant recommended: Coursera, edX, DataCamp, General Assembly, Metis, Data Science Dojo, Kaggle."
+  },
+  {
+    "topic": "cucumber-gardening",
+    "date": "2023/06/25 22:19",
+    "obs": "Growing own cucumbers in garden, 3 plants producing lots. Harvesting cucumbers daily."
+  },
+  {
+    "topic": "cucumber-preservation",
+    "date": "2023/06/25 22:19",
+    "obs": "Storing cucumbers in refrigerator below 40°F using breathable container, keeping dry. Planning to pickle cucumbers, interested in dill pickle recipe and lacto-fermentation process. Learned about kosher salt for pickling."
+  },
+  {
+    "topic": "community-group-hosting",
+    "date": "2023/06/26 08:50",
+    "obs": "Hosts community group where people feel safe, learn from each other. Next speaker from company building open source technology. Requested informal message to speaker to avoid sales pitch, focus on knowledge/discussions/community building."
+  },
+  {
+    "topic": "nlp-learning-plan",
+    "date": "2023/07/02 05:25",
+    "obs": "Learning natural language processing. Dedicates 5 hours every Sunday to web development course. Interested in exploring NLP applications: understanding, generation, chatbots, sentiment analysis, text summarization. Has background in Python and scikit-learn from data science workshop couple months ago."
+  },
+  {
+    "topic": "nlp-course-selection",
+    "date": "2023/07/02 05:25",
+    "obs": "Interested in Stanford NLP with Deep Learning Specialization on Coursera. Planning to balance with web development (5 hrs/Sunday) by adding 1.5 hrs Tue/Thu for NLP (3 hrs/week total)."
+  },
+  {
+    "topic": "nlp-research-approach",
+    "date": "2023/07/02 05:25",
+    "obs": "Will approach language modeling/text generation by reading research papers, online resources first, then experiment with AllenNLP and Hugging Face Transformers. Interested in online communities: NLP Subreddit, Kaggle NLP, NLP Discord, Stanford NLP Group."
+  },
+  {
+    "topic": "instagram-engagement-hawaii",
+    "date": "2023/07/02 23:06",
+    "obs": "Recently got back from Hawaii vacation. Last Instagram post about vacation got 127 likes, 23 comments, gained 25 new followers last week."
+  },
+  {
+    "topic": "instagram-reel-content",
+    "date": "2023/07/02 23:06",
+    "obs": "Creating Reel about favorite spot in Hawaii: local cafe with amazing coffee and great atmosphere. Will focus on cafe interior and coffee, personal story, B-roll footage, transitions. Will add shot of cafe's menu board and use microphone for clear audio."
+  },
+  {
+    "topic": "family-gathering-planning",
+    "date": "2023/07/03 03:21",
+    "obs": "Planning family gathering at parents' house. Expecting 25-30 people including kids. Age range wide from young children to elderly grandparents. Large room, flexible layout, using rectangular tables. Elderly members need easier access."
+  },
+  {
+    "topic": "family-cousin-demographics",
+    "date": "2023/07/03 03:21",
+    "obs": "Has 25 cousins total: 17 female, 8 male. At last family reunion, females dominated conversations/decision-making, males more laid-back and less assertive."
+  },
+  {
+    "topic": "family-gathering-activity",
+    "date": "2023/07/03 03:21",
+    "obs": "Chose 'Two Truths and a Lie' game for family gathering. Set ground rules: encourage advance prep, set timer for turns, emphasize fun over competition, consider small prize."
+  },
+  {
+    "topic": "vocabulary-study",
+    "date": "2023/07/05 10:02",
+    "obs": "Studying vocabulary: BESEECH=implore, virtuoso=highly skilled, ENMITY=hatred, VINDICATE=justify, nomadic=roving, De novo=new, prepositions (railway runs across river)."
+  },
+  {
+    "topic": "music-preferences-indie-rock",
+    "date": "2023/07/06 08:43",
+    "obs": "Listening to lots of indie-rock. Interested in witty/clever lyrics. Recently listening lots to The 1975, love catchy and thought-provoking lyrics. Festival July 2nd had amazing vegan 'chick'n' tender."
+  },
+  {
+    "topic": "music-festival-interest",
+    "date": "2023/07/06 08:43",
+    "obs": "Thinking of attending Shaky Knees Music Festival (3 days, early May). Looking for hotels in Atlanta area. Interested in food variety, accommodation options."
+  },
+  {
+    "topic": "shaky-knees-hotels",
+    "date": "2023/07/06 08:43",
+    "obs": "Considering hotels near Shaky Knees: The Highland Inn, Hotel Indigo Atlanta Midtown, Hyatt Centric Midtown, The Georgian Terrace, Renaissance Atlanta Midtown (has rooftop bar)."
+  },
+  {
+    "topic": "drag-racing-hobby",
+    "date": "2023/07/07 04:17",
+    "obs": "Participated in Turbocharged Tuesday auto racking event at local racing circuit. Personal best time: 12.8 seconds in quarter-mile drag race in turbocharged Honda Civic. Looking to shave more seconds."
+  },
+  {
+    "topic": "turbocharger-upgrade-gtx2867r",
+    "date": "2023/07/07 04:17",
+    "obs": "Interested in Garrett GTX2867R turbocharger upgrade. Specs: 54.4mm compressor inducer, 67.7mm exducer, 76 trim; 42.7mm turbine inducer, 52.4mm exducer, 84 trim; ball-bearing; ~24 lbs. Capable 600-700 hp, could shave 1-2 seconds from 12.8s."
+  },
+  {
+    "topic": "dyno-tune-planning",
+    "date": "2023/07/07 04:17",
+    "obs": "Planning dyno tune after GTX2867R installation. Will find reputable tuner with GTX2867R and Honda Civic experience."
+  },
+  {
+    "topic": "sports-party-planning",
+    "date": "2023/07/09 20:11",
+    "obs": "Planning sports-themed party for friends. Considering BBQ for food."
+  },
+  {
+    "topic": "manchester-city-fan",
+    "date": "2023/07/09 20:11",
+    "obs": "Big Manchester City fan, doesn't want to miss games. Interested in watching Premier League matches. Will watch Manchester City game at home with friends invited over."
+  },
+  {
+    "topic": "manchester-city-party-snacks",
+    "date": "2023/07/09 20:11",
+    "obs": "Planning Manchester City-themed snacks: Blue and White Nachos, Manchester Muffins, Citizen's Chicken Wings, Etihad Stadium Sliders, The Kippax Kebabs. Considering themed cocktails: The Blue Moon, The Citizen, The Aguero."
+  },
+  {
+    "topic": "garden-planning",
+    "date": "2023/07/10 16:11",
+    "obs": "Planning new flowers in garden. Already planted marigolds with tomatoes as companion plants. Built new trellis for peas month ago (same time as planting). Started planning garden layout January 15th."
+  },
+  {
+    "topic": "gardening-app-usage",
+    "date": "2023/07/10 16:11",
+    "obs": "Using gardening app to track progress, sends reminders for tasks, takes notes and photos, has weather integration showing weekly forecast to plan pruning/mulching tasks."
+  },
+  {
+    "topic": "laptop-ram-upgrade",
+    "date": "2023/07/10 05:23",
+    "obs": "Considering upgrading laptop RAM from 8GB to 16GB for video editing. Installed 1TB hard drive from Amazon for $60."
+  },
+  {
+    "topic": "ssd-upgrade-plans",
+    "date": "2023/07/10 05:23",
+    "obs": "Interested in SSD upgrade. Will clone hard drive to SSD using software: Acronis True Image, EaseUS Todo Backup, Macrium Reflect, or Clonezilla."
+  },
+  {
+    "topic": "external-backup-storage",
+    "date": "2023/07/10 05:23",
+    "obs": "Considering portable external hard drive Western Digital My Passport 2TB ~$100. Other options: Seagate Backup Plus, LaCie Rugged, G-Technology G-Drive, SSD-based (Samsung T5, SanDisk Extreme)."
+  },
+  {
+    "topic": "laptop-sleeve-purchase",
+    "date": "2023/07/10 05:23",
+    "obs": "Planning to buy laptop sleeve from Etsy for $30 with fun design to protect and personalize laptop."
+  },
+  {
+    "topic": "baseball-collection",
+    "date": "2023/07/11 14:38",
+    "obs": "Has signed Mike Trout baseball, got last week. Collection of 15 autographed baseballs total, started collecting 3 months ago."
+  },
+  {
+    "topic": "error-coin-collecting",
+    "date": "2023/07/11 14:38",
+    "obs": "Interested in error coins, looking for upcoming coin shows. Uses American Numismatic Association website and CoinWeek.com coin show calendar."
+  },
+  {
+    "topic": "vinyl-record-collecting",
+    "date": "2023/07/11 14:38",
+    "obs": "Interested in expanding vinyl record collection with international pressings, especially Japan. Uses Discogs, eBay Japan, Jet Set Records, HMV Japan, Disk Union for Japanese vinyl."
+  },
+  {
+    "topic": "stamp-collecting",
+    "date": "2023/07/11 14:38",
+    "obs": "Thinking of attending stamp show next quarter. Uses American Philatelic Society website for event info."
+  },
+  {
+    "topic": "vintage-camera-selling",
+    "date": "2023/07/11 14:38",
+    "obs": "Selling vintage cameras including Leica to make room for new collection additions. Will list on Fred Miranda and Rangefinder Forum. Including original lens and accessories to increase value."
+  },
+  {
+    "topic": "wicked-broadway-trip",
+    "date": "2023/07/26 05:35",
+    "obs": "Planning trip to NYC next month, seeing Wicked on Broadway at Gershwin Theatre."
+  },
+  {
+    "topic": "pre-theater-restaurants",
+    "date": "2023/07/26 05:35",
+    "obs": "Restaurant options near Gershwin Theatre: Carbone (Italian, 0.2mi, pre-theater 5-6:30pm $59/person, 10% off with ticket), The Lambs Club (American, 0.2mi, pre-theater 5-6:30pm $65/person, Theater Package $150+)."
+  },
+  {
+    "topic": "wicked-musical-knowledge",
+    "date": "2023/07/26 05:35",
+    "obs": "Wicked based on 1995 novel by Gregory Maguire. Broadway premiere 2003, created by Stephen Schwartz and Winnie Holzman. Prequel to Oz about witches Elphaba and Galinda meeting at Shiz University. Popular songs: 'Defying Gravity', 'Popular', 'For Good', 'I'm Not That Girl', 'One Short Day'."
+  },
+  {
+    "topic": "musicals-interest",
+    "date": "2023/07/26 05:35",
+    "obs": "Enjoyed Emmy Rossum's performance in Phantom of the Opera movie. Interested in musicals with strong female leads and complex female characters."
+  },
+  {
+    "topic": "instacart-grocery-shopping",
+    "date": "2024/01/05 05:47",
+    "obs": "Did online grocery order from Instacart, spent ~$60. Bought chicken breasts last Saturday at grocery shopping."
+  },
+  {
+    "topic": "stir-fry-dinner-prep",
+    "date": "2024/01/05 05:47",
+    "obs": "Planning stir-fry for dinner with frozen peas/carrots. Using soy sauce-based sauce with garlic/ginger: 2-3 tbsp soy sauce, 1 tbsp hoisin, 1 tbsp rice vinegar, 1 tsp ginger, 1 clove garlic, 1 tbsp sesame oil, 1 tsp sugar optional, cornstarch optional."
+  },
+  {
+    "topic": "smoothie-recipe",
+    "date": "2024/01/05 05:47",
+    "obs": "Making Frozen Berry Bliss Smoothie for dessert: 1 cup frozen berries, 1/2 cup almond milk, 1 tbsp honey optional, 1/2 tsp vanilla optional, ice cubes. Has leftover almond milk from Instacart."
+  },
+  {
+    "topic": "chicken-salad-lunch",
+    "date": "2024/01/05 05:47",
+    "obs": "Using leftover chicken breasts for chicken salad lunch tomorrow. Classic recipe: cooked chicken, celery, red onion, mayo, Dijon mustard, fresh dill, salt/pepper. Chill 30+ minutes before serving."
+  },
+  {
+    "topic": "daily-breakfast-routine",
+    "date": "2024/01/05 08:11",
+    "obs": "Makes oatmeal with banana and honey for breakfast every morning. Wakes up 7:30am, out of house by 8am. Drinking cup green tea after breakfast for digestion."
+  },
+  {
+    "topic": "green-tea-preference",
+    "date": "2024/01/05 08:11",
+    "obs": "Recommended green tea brands for digestive benefits: Ito En, Mighty Leaf Tea, Harney & Sons, Traditional Medicinals, Sencha Naturals. Selected Ito En's Sencha or Harney & Sons' Green Tea with Ginger for morning routine."
+  },
+  {
+    "topic": "morning-energy-routine",
+    "date": "2024/01/05 08:11",
+    "obs": "Feeling sluggish in morning. Assistant recommended: hydrate, get morning sunlight, stretch/move, cold shower, aromatherapy."
+  },
+  {
+    "topic": "healthy-snack-options",
+    "date": "2024/01/05 08:11",
+    "obs": "Keeping bowl of apples on counter, wanting to mix up snacks. Interested in: nuts/seeds, dried fruits, energy balls, jerky, canned goods, whole grain crackers, trail mix, dark chocolate, popcorn."
+  },
+  {
+    "topic": "energy-balls-making",
+    "date": "2024/01/05 08:11",
+    "obs": "Making energy balls with oats, nuts, dried fruits. Storage: airtight container, refrigerate, can freeze 3-4 months, layer with parchment, cool dry place, consume within 1-2 weeks for freshness."
+  },
+  {
+    "topic": "nut-butter-preference",
+    "date": "2024/01/05 08:11",
+    "obs": "Using nut butter as binding agent for energy balls. Options: peanut butter, almond butter, cashew butter, SunButter, tahini, coconut butter, hazelnut butter. Prefers natural options with minimal additives."
+  },
+  {
+    "topic": "psychology-learning-goals",
+    "date": "2024/01/05 11:33",
+    "obs": "Wants to learn reading people via psychology. Goal: grow personal and professional life, pitch clients, get more business, manage family. Interested in social psychology branch."
+  },
+  {
+    "topic": "psychology-study-plan",
+    "date": "2024/01/05 11:33",
+    "obs": "Plan to: read books on social psychology/communication/emotional intelligence, observe people, practice active listening, take courses/workshops, seek feedback."
+  },
+  {
+    "topic": "lichfield-religion-demographics",
+    "date": "2024/01/08 13:17",
+    "obs": "Lichfield 2011 census: 73.7% Christian, Muslim, Buddhist, Hindu, Jewish in smaller numbers."
+  },
+  {
+    "topic": "lichfield-ethnic-demographics",
+    "date": "2024/01/08 13:17",
+    "obs": "Lichfield 2011 census ethnic makeup: 96.8% White British, 0.6% Asian, 0.4% Black, 0.4% Mixed, 0.1% Chinese, 1.7% others."
+  },
+  {
+    "topic": "lichfield-cultural-events",
+    "date": "2024/01/08 13:17",
+    "obs": "Lichfield hosts: 10-day Lichfield Festival (summer music/arts), 4-day Literary Festival, Food Festival (August weekend), Heritage Weekend (September), Christmas Market (late Nov-early Dec)."
+  },
+  {
+    "topic": "lichfield-landmarks",
+    "date": "2024/01/08 13:17",
+    "obs": "Lichfield landmarks: Cathedral (12th century), Beast Market (medieval), Bishop's Palace (14th century), Samuel Johnson Birthplace Museum (18th century), Erasmus Darwin House (Georgian), Guildhall (16th century)."
+  },
+  {
+    "topic": "phone-app-folders",
+    "date": "2024/01/08 18:36",
+    "obs": "Organizing phone home screen with app folders: Social media, Entertainment, Productivity, Shopping, News, Photography, Travel, Games, Finance, Utilities, Education, Food/Drink, Communication, Art/Design, Sports, Kids/Family, Personalization, Health/Wellness, Reference, Travel Planning."
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "topic": "dog-care-max-collar",
+    "date": "2023/05/21 (Sun) 01:23",
+    "obs": "User owns Golden Retriever named Max. Considering getting Max new nylon collar from Yellow Dog Design with engraved name tag."
+  },
+  {
+    "topic": "dog-care-max-flea-tick",
+    "date": "2023/05/21 (Sun) 01:23",
+    "obs": "Max requires flea and tick prevention medication application every 2 weeks. User considering whether dog walker can administer it."
+  },
+  {
+    "topic": "dog-care-max-toy",
+    "date": "2023/05/21 (Sun) 01:23",
+    "obs": "User selected Kong Toy for Max, knowing Max loves peanut butter. Plans to stuff Kong with peanut butter as special treat."
+  },
+  {
+    "topic": "volunteer-food-bank",
+    "date": "2023/05/21 (Sun) 23:16",
+    "obs": "User volunteers at local food bank, helping sort and package donations for families in need."
+  },
+  {
+    "topic": "meal-prep-donation",
+    "date": "2023/05/21 (Sun) 23:16",
+    "obs": "User cooking pasta with tomato sauce and fresh fruit cups for family in need. Plans individual packaging with reheating instructions."
+  },
+  {
+    "topic": "lead-generation-tech-expo",
+    "date": "2023/05/22 (Mon) 03:29",
+    "obs": "User generated 200 leads at Tech Expo in New York City showcasing AI-powered project management tool."
+  },
+  {
+    "topic": "event-marketing-summit",
+    "date": "2023/05/22 (Mon) 03:29",
+    "obs": "User attended Event Marketing Summit in Las Vegas; planning to incorporate experiential marketing insights into sales process."
+  },
+  {
+    "topic": "silver-necklace-emma-birthday",
+    "date": "2023/05/21 (Sun) 11:38",
+    "obs": "User bought beautiful silver necklace from new store downtown for friend Emma's birthday."
+  },
+  {
+    "topic": "museum-membership-renewal",
+    "date": "2023/05/22 (Mon) 23:17",
+    "obs": "User museum membership expired in December. Considering renewal for Contemporary Photography exhibit at Modern Art Museum."
+  },
+  {
+    "topic": "museum-late-night-science",
+    "date": "2023/05/22 (Mon) 23:17",
+    "obs": "User attended Museum Late Night event at Science Museum last month; event stayed open until midnight."
+  },
+  {
+    "topic": "impressionist-art-exhibition",
+    "date": "2023/05/22 (Mon) 23:17",
+    "obs": "User attended Impressionist Masters exhibition at Modern Art Museum few weeks ago; favorite exhibit type is Impressionist art."
+  },
+  {
+    "topic": "natural-history-museum-dinosaurs",
+    "date": "2023/05/22 (Mon) 23:17",
+    "obs": "User visited Natural History Museum recently; felt childlike wonder seeing dinosaur fossils, appreciating sense of learning and nostalgia."
+  },
+  {
+    "topic": "book-truthspeak-michael-halsey",
+    "date": "2023/05/22 (Mon) 09:31",
+    "obs": "ISBN 978-0979963728: Truthspeak by Michael D. Halsey explores five Christian words: grace, faith, sanctification, righteousness, salvation distorted in modern culture."
+  },
+  {
+    "topic": "audiobook-commute-45-minutes",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User daily commute 45 minutes each way. Listening to audiobooks during commute, particularly enjoys Gone Girl and The Nightingale."
+  },
+  {
+    "topic": "audiobook-retention-notetaking",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User retains more information from audiobooks than e-books. Takes notes while listening, especially for non-fiction with valuable insights."
+  },
+  {
+    "topic": "machine-learning-interest",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User looking for deep learning resources with Python. Recommended Sentdex tutorials, Andrew Ng courses, Machine Learning Mastery."
+  },
+  {
+    "topic": "transfer-learning-interest",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User interested in transfer learning in deep learning; seeks concise easy-to-understand explanations and resources."
+  },
+  {
+    "topic": "feature-extraction-interest",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User exploring feature extraction concept in deep learning; wants concise resources explaining the topic."
+  },
+  {
+    "topic": "reinforcement-learning-interest",
+    "date": "2023/05/22 (Mon) 09:33",
+    "obs": "User exploring reinforcement learning in deep learning; seeks concise easy-to-understand explanations."
+  },
+  {
+    "topic": "education-edinburgh-masters",
+    "date": "2023/05/22 (Mon) 10:35",
+    "obs": "User moving to Edinburgh in September for master's program; recently graduated, choosing accommodation between Marchmont and city center."
+  },
+  {
+    "topic": "accommodation-edinburgh-preference",
+    "date": "2023/05/22 (Mon) 10:35",
+    "obs": "User prefers Edinburgh city center despite higher cost; wants to be close to university and make friends as newcomer."
+  },
+  {
+    "topic": "accommodation-edinburgh-search",
+    "date": "2023/05/22 (Mon) 10:35",
+    "obs": "User focusing apartment search on Old Town and New Town areas in Edinburgh; will contact student union for guidance."
+  },
+  {
+    "topic": "desk-furniture-repositioned",
+    "date": "2023/05/22 (Mon) 11:30",
+    "obs": "User swapped bed and desk positions on February 10; still adjusting to new layout."
+  },
+  {
+    "topic": "office-chair-repair",
+    "date": "2023/05/24 (Wed) 13:31",
+    "obs": "User had office chair repaired for $50; made huge difference in work-from-home comfort. Cost effective maintenance."
+  },
+  {
+    "topic": "coffee-table-mid-century-modern",
+    "date": "2023/05/24 (Wed) 13:31",
+    "obs": "User interested in mid-century modern style coffee table; found deal on Craigslist, evaluating before purchase."
+  },
+  {
+    "topic": "cable-management-medium-box",
+    "date": "2023/05/22 (Mon) 11:30",
+    "obs": "User planning to get medium-sized cable management box for 4-5 devices. Will measure space before final decision."
+  },
+  {
+    "topic": "exercise-routine-monday-wednesday-friday",
+    "date": "2023/05/24 (Wed) 06:28",
+    "obs": "User started new exercise routine last Monday (Feb 12); doing it every Monday, Wednesday, Friday morning."
+  },
+  {
+    "topic": "cooking-thursday-night-meal-prep",
+    "date": "2023/05/24 (Wed) 06:28",
+    "obs": "User cooking at home on Thursdays. Plans to add Thursday dinner planning to Sunday meal-planning routine."
+  },
+  {
+    "topic": "meal-planning-sunday",
+    "date": "2023/05/24 (Wed) 06:28",
+    "obs": "User planning meals for week on Sundays; wants to plan meals including Thursday dinner with theme nights."
+  },
+  {
+    "topic": "habit-tracking-progress",
+    "date": "2023/05/24 (Wed) 06:53",
+    "obs": "User using habit tracker app for exercise routine, meal planning, cooking sessions; setting Sunday reflection reminders for adjustment."
+  },
+  {
+    "topic": "minimalist-music-composer-list",
+    "date": "2023/05/24 (Wed) 07:40",
+    "obs": "Minimalist music composers: Steve Reich (phase shifting), Philip Glass (repetitive structures), Terry Riley, La Monte Young, John Adams."
+  },
+  {
+    "topic": "minimalist-music-skepticism",
+    "date": "2023/05/24 (Wed) 07:40",
+    "obs": "User still not convinced minimalist music is special; perceives it as repetitive and lacking complexity despite explanations."
+  },
+  {
+    "topic": "job-search-mba-business-admin",
+    "date": "2023/05/24 (Wed) 07:40",
+    "obs": "User recently graduated with Master's in Business Administration degree. Confident foundation from education in finance and analytics."
+  },
+  {
+    "topic": "career-interest-fpa",
+    "date": "2023/05/24 (Wed) 07:40",
+    "obs": "User interested in Financial Planning and Analysis (FP&A) role; interested in business analysis, forecasting, reporting."
+  },
+  {
+    "topic": "deliverance-toxic-masculinity",
+    "date": "2023/05/22 (Mon) 17:18",
+    "obs": "Film Deliverance explores toxic masculinity through Lewis character; shows destructive nature and need for balanced masculine values."
+  },
+  {
+    "topic": "museum-memory-highlight",
+    "date": "2023/05/22 (Mon) 23:17",
+    "obs": "User favorite museum memory: Museum Late Night at Science Museum last month with friends; DJ sets, food trucks, won science trivia."
+  },
+  {
+    "topic": "concussion-gender-differences",
+    "date": "2023/05/23 (Tue) 02:21",
+    "obs": "Female athletes higher concussion risk than males in certain sports due to weaker neck muscles, hormonal differences affecting brain function."
+  },
+  {
+    "topic": "dating-app-safety-verification",
+    "date": "2023/05/23 (Tue) 02:59",
+    "obs": "User using dating apps; cautious about catfishing. Strategies: reverse image search, social media check, video chat, trust instincts."
+  },
+  {
+    "topic": "vacation-cabin-inheritance",
+    "date": "2023/05/23 (Tue) 08:57",
+    "obs": "User owns property with abandoned cabin by small pond; peaceful setup. Considering renovation vs. new construction."
+  },
+  {
+    "topic": "home-purchase-equity-condo",
+    "date": "2023/05/23 (Tue) 08:57",
+    "obs": "User considering selling current condo; using equity toward house purchase with more land in suburbs."
+  },
+  {
+    "topic": "cabin-renovation-contractor",
+    "date": "2023/05/23 (Tue) 08:57",
+    "obs": "User planning to get professional assessment of inherited cabin's condition to determine renovation vs. rebuild. Prioritizing experience with historic structures."
+  },
+  {
+    "topic": "sleep-schedule-routine",
+    "date": "2023/05/23 (Tue) 11:41",
+    "obs": "User bedtime 11:30 pm, wake time 7:30 am. Establishing consistent sleep schedule for well-being."
+  },
+  {
+    "topic": "commute-train-30-minutes",
+    "date": "2023/05/23 (Tue) 11:41",
+    "obs": "User morning commute on train 30 minutes. Struggles staying awake; using podcasts, breathing exercises, snacks to stay alert."
+  },
+  {
+    "topic": "power-nap-230pm",
+    "date": "2023/05/23 (Tue) 11:41",
+    "obs": "User takes 15-20 minute power nap around 2:30 pm for post-lunch slump refreshment."
+  },
+  {
+    "topic": "podcast-commute-recommendations",
+    "date": "2023/05/23 (Tue) 11:41",
+    "obs": "User interested in 15-20 minute podcasts for shorter commute days; prefers engagement over eye-strain from screens."
+  },
+  {
+    "topic": "charity-concert-homeless-support",
+    "date": "2023/05/23 (Tue) 19:50",
+    "obs": "User attended charity concert by local musician raising funds for homeless shelter; inspired to help homeless community."
+  },
+  {
+    "topic": "volunteer-mental-health-substance-abuse",
+    "date": "2023/05/23 (Tue) 19:50",
+    "obs": "User interested in volunteering at organization providing mental health and substance abuse services to homeless community; planning to reach out to multiple organizations."
+  },
+  {
+    "topic": "art-supply-store-location",
+    "date": "2023/05/24 (Wed) 17:36",
+    "obs": "User in 10021 zip code Manhattan NYC; interested in art supplies, specifically watercolor paints and brushes from local stores."
+  },
+  {
+    "topic": "watercolor-supplies-jerry-artarama",
+    "date": "2023/05/24 (Wed) 17:36",
+    "obs": "User planning to visit Jerry's Artarama in East Village for watercolor selection. Carries brands: Winsor & Newton, Daniel Smith, Holbein, Schmincke, M. Graham."
+  },
+  {
+    "topic": "opto-mechanical-program-manager-interview",
+    "date": "2023/05/25 (Thu) 01:11",
+    "obs": "User expecting interview questions for opto-mechanical program manager role developing AR goggles; needs technical knowledge and project management experience."
+  },
+  {
+    "topic": "home-office-organization",
+    "date": "2023/05/22 (Mon) 11:30",
+    "obs": "User desk often cluttered with papers, notes, office supplies. Planning file cabinet or shelving investment for better document organization."
+  },
+  {
+    "topic": "camel-gait-adaptation",
+    "date": "2023/05/27 (Sat) 09:33",
+    "obs": "Camels have distinctive rolling walk; move front and back legs on same side together. Adaptations: soft foot pads, elongated legs, fat storage, temperature regulation."
+  },
+  {
+    "topic": "san-francisco-visit-wedding",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User attended best friend's wedding in San Francisco exactly 2 months ago for 5-day trip; had amazing time."
+  },
+  {
+    "topic": "silver-necklace-shopping",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User wore new navy blue suit bought from local tailor for wedding; suit purchased specifically for occasion."
+  },
+  {
+    "topic": "family-road-trip-mountain-camping",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User took 3-day road trip with family week after returning from SF; drove 4 hours to campsite, pitched tent, roasted marshmallows."
+  },
+  {
+    "topic": "scenic-drives-bay-area",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User planning to rent car for SF trip; interested in scenic drives: Pacific Coast Highway, 17-Mile Drive, Muir Woods, Napa Valley."
+  },
+  {
+    "topic": "sister-road-trip-assistance",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User drove to sister's place 2 hours away 6 weeks ago to help move into new apartment; took detour home due to landslide-caused road closure."
+  },
+  {
+    "topic": "family-vacation-beach-teenagers",
+    "date": "2023/05/28 (Sun) 10:11",
+    "obs": "User planning family vacation with teenagers; considering beach destinations: San Diego, Outer Banks, Hilton Head, Orange Beach, Fort Lauderdale."
+  },
+  {
+    "topic": "family-conflict-sister-resolution",
+    "date": "2023/05/28 (Sun) 10:11",
+    "obs": "User had pretty big argument with sister recently; now in good place; parents help mediate conflicts between siblings."
+  },
+  {
+    "topic": "indian-chicken-curry-recipe",
+    "date": "2023/05/28 (Sun) 10:11",
+    "obs": "User's mom teaching how to make traditional Indian chicken curry; wants to try variations: coconut, vindaloo, korma, South Indian, Hyderabadi styles."
+  },
+  {
+    "topic": "grandparent-communication-sunday",
+    "date": "2023/05/28 (Sun) 10:11",
+    "obs": "User calling grandparents every Sunday; having great conversations. Grandparents live far away; using phone calls to stay in touch regularly."
+  },
+  {
+    "topic": "brother-mental-health-therapy",
+    "date": "2023/05/28 (Sun) 10:11",
+    "obs": "User supporting brother with anxiety and depression; suggesting parents increase therapy session frequency; planning to research therapists and counseling services."
+  },
+  {
+    "topic": "social-media-eco-friendly",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User posting about eco-friendly cleaning products on social media; 5 Instagram posts and 3 Facebook posts so far."
+  },
+  {
+    "topic": "eco-cleaning-challenge-hashtag",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User creating social media challenge on eco-friendly cleaning; considering hashtags #CleanGreenChallenge #EcoCleanSquad #GreenCleanMachine #SustainableSparkle."
+  },
+  {
+    "topic": "eco-cleaning-engagement-question",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User asking followers 'What's the one eco-friendly cleaning product you can't live without?' for more engagement than generic questions."
+  },
+  {
+    "topic": "eco-cleaning-brands-featured",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "Featured eco-friendly cleaning brands: Seventh Generation, Method, Ecover, Dr. Bronner's, Mrs. Meyer's Clean Day."
+  },
+  {
+    "topic": "dance-class-rhythm-moves",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User taking dance classes at local studio 'Rhythm and Moves' for about 3 months; looking for challenging songs to dance to."
+  },
+  {
+    "topic": "dance-music-afrobeats-interest",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User attended afrobeats workshop recently; interested in exploring more afrobeats artists: Wizkid, Davido, Tiwa Savage, Mr Eazi, Yemi Alade."
+  },
+  {
+    "topic": "dance-competition-team-audition",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User considering joining dance competition team at Rhythm and Moves; needs to prepare for audition with technique, endurance, flexibility work."
+  },
+  {
+    "topic": "dance-practice-schedule-goals",
+    "date": "2023/05/28 (Sun) 12:10",
+    "obs": "User setting specific practice goals: perfect salsa footwork and master new hip hop routine; using planner to organize and track."
+  },
+  {
+    "topic": "guitar-repair-guitarworks",
+    "date": "2023/05/27 (Sat) 22:51",
+    "obs": "User took guitar to repair shop GuitarWorks on 5th street; did amazing job on repairs; user satisfied with service."
+  },
+  {
+    "topic": "guitar-amp-fender-mustang",
+    "date": "2023/05/27 (Sat) 22:51",
+    "obs": "User in small band, plays small to medium-sized venues; considering Fender Mustang II 40-watt amp for power and versatility."
+  },
+  {
+    "topic": "guitar-amp-marshall-mg30",
+    "date": "2023/05/27 (Sat) 22:51",
+    "obs": "User compared Fender Mustang to Marshall MG30 (30-watt, solid-state); chose Mustang for versatility and 40 watts for venue size."
+  },
+  {
+    "topic": "birthday-gift-wine-cheese",
+    "date": "2023/05/28 (Sun) 17:04",
+    "obs": "User buying gift for friend's birthday in 2 weeks; 28-year-old woman; budget $50-$75; selected wine and cheese gift set."
+  },
+  {
+    "topic": "gift-wine-cheese-pairing",
+    "date": "2023/05/28 (Sun) 17:04",
+    "obs": "User selecting classic combination: Sauvignon Blanc wine, Brie cheese, wine bottle stopper, wine-themed gift bag for friend's birthday."
+  },
+  {
+    "topic": "gift-card-message",
+    "date": "2023/05/28 (Sun) 17:04",
+    "obs": "User adding heartfelt birthday card to wine and cheese gift; options provided emphasizing friendship, gratitude, shared memories."
+  },
+  {
+    "topic": "haight-ashbury-restaurant",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "User planning SF trip next month; wants Haight-Ashbury restaurant recommendations; interested in The Pork Store Cafe for breakfast."
+  },
+  {
+    "topic": "the-pork-store-cafe-hours",
+    "date": "2023/05/28 (Sun) 06:24",
+    "obs": "The Pork Store Cafe serves breakfast all day. Hours: Mon-Fri 8am-3pm, Sat-Sun 8am-4pm. Famous for Pork Store Sandwich."
+  }
+]

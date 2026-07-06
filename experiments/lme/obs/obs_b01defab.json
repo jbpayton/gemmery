@@ -1,0 +1,152 @@
+[
+  {
+    "topic": "recent-event",
+    "date": "2023/05/20 16:58",
+    "obs": "User recently: walls of text and static images."
+  },
+  {
+    "topic": "date-reference",
+    "date": "2023/05/21 00:11",
+    "obs": "User referenced date: April 20th."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/21 05:50",
+    "obs": "User recently: got a new shelving unit from IKEA."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/22 06:03",
+    "obs": "User recently: take it to a professional."
+  },
+  {
+    "topic": "date-reference",
+    "date": "2023/05/22 06:23",
+    "obs": "User referenced date: January 2nd."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/23 14:28",
+    "obs": "User recently: tried using apple wood chips."
+  },
+  {
+    "topic": "hobby-smoking-meat",
+    "date": "2023/05/23 14:28",
+    "obs": "User experimenting with smoking meats and wood pairings."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/24 01:59",
+    "obs": "User recently: attended a book reading event at my local books."
+  },
+  {
+    "topic": "date-reference",
+    "date": "2023/05/24 01:59",
+    "obs": "User referenced date: February 10th."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/24 01:59",
+    "obs": "User recently: attended a book launch party."
+  },
+  {
+    "topic": "legal-name-change",
+    "date": "2023/05/25 06:02",
+    "obs": "User undergoing legal name change."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/25 06:02",
+    "obs": "User recently: changed my name."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/25 06:22",
+    "obs": "User recently: switched from buying high-end."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/25 23:09",
+    "obs": "User recently: putting it into a postgres database."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/26 08:29",
+    "obs": "User recently: use your supposed intelligence."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/26 09:21",
+    "obs": "User recently: and it turned out incredibly tender."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/26 09:21",
+    "obs": "User recently: tried using hickory chips."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/26 17:17",
+    "obs": "User recently: took some great pho."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/27 00:36",
+    "obs": "User recently: upgraded my desk."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/27 00:36",
+    "obs": "User recently: made sure to purchase RAM that was compatible with my desk."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/27 20:12",
+    "obs": "User recently: in case I need a quick breakfast or snack."
+  },
+  {
+    "topic": "faith-church",
+    "date": "2023/05/29 07:04",
+    "obs": "User engaged with faith community."
+  },
+  {
+    "topic": "volunteer-foodbank",
+    "date": "2023/05/29 07:04",
+    "obs": "User volunteering at food bank."
+  },
+  {
+    "topic": "volunteer-st-marys-foodbank",
+    "date": "2023/05/29 07:04",
+    "obs": "User volunteering at food bank near St. Mary's Church."
+  },
+  {
+    "topic": "faith-st-marys",
+    "date": "2023/05/29 07:04",
+    "obs": "User attends St. Mary's Church and engages with faith community."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/29 13:05",
+    "obs": "User recently: collaborated with a friend who is a graphic designer."
+  },
+  {
+    "topic": "career-writing-promotion",
+    "date": "2023/05/29 13:05",
+    "obs": "User promoting freelance writing services on social media."
+  },
+  {
+    "topic": "tool-canva",
+    "date": "2023/05/29 13:05",
+    "obs": "User using Canva for social media graphics."
+  },
+  {
+    "topic": "recent-event",
+    "date": "2023/05/29 13:05",
+    "obs": "User recently: helped me reach a new audience."
+  },
+  {
+    "topic": "career-freelance-writing",
+    "date": "2023/05/29 13:05",
+    "obs": "User pursuing freelance writing services."
+  }
+]
