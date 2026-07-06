@@ -48,3 +48,4 @@ experiments/lme/store/
 experiments/lme/obs/haystack_*.txt
 experiments/lme/store_v3/
 experiments/lme/store_v3_1/
+experiments/multi/store/
