@@ -138,6 +138,8 @@ def main():
                            capture_output=True, text=True, timeout=180)
         n = apply_ops(store, r.stdout.strip())
         log(f"outcomes tagged={tagged}; librarian ops applied={n} (model={MODEL})")
+        subprocess.run(["git", "-C", str(STORE_PATH), "gc", "--auto", "--quiet"],
+                       capture_output=True, timeout=120)
     except Exception as e:
         log(f"outcomes tagged={tagged}; librarian failed: {e}")
 

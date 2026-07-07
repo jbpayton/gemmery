@@ -7,7 +7,9 @@ gems whose declared tests match.
 import json, re, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from prod_store import OUTCOMES, STORE_PATH
+from prod_store import OUTCOMES, STORE_PATH, REPO
+sys.path.insert(0, str(REPO))
+from gemmery.store.redact import redact
 
 def main():
     try:
@@ -30,7 +32,8 @@ def main():
     STORE_PATH.mkdir(exist_ok=True)
     with open(OUTCOMES, "a") as f:
         f.write(json.dumps({"ts": time.strftime("%Y-%m-%d %H:%M"),
-                            "command": cmd[:200], "ok": ok,
+                            "command": redact(cmd[:200].encode())[0].decode(),
+                            "ok": ok,
                             "summary": m.group(0)[:120]}) + "\n")
 
 if __name__ == "__main__":

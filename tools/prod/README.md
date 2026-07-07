@@ -35,3 +35,20 @@ Fail -> the failure mode itself is the next experiment.
 Manual runs: `.venv/bin/python tools/prod/inject.py` (see what sessions see);
 `echo '{}' | .venv/bin/python tools/prod/librarian.py <transcript.jsonl>`.
 Store: `.gemmery-store/` (gitignored; it's git — back up with a remote).
+
+## P2 hardening (complete) — measured at 100K gems
+
+| property | result |
+|---|---|
+| capture latency | **flat 3.0→3.25ms median** across 100K (p99 <=12ms); <25ms invariant holds 8x over |
+| concurrent writers | 4 processes, zero lost commits / zero lost note events (flock on all mutators) |
+| secrets | redacted at the capture boundary (AWS/GitHub/Anthropic/OpenAI/Slack/JWT/PEM/bearer), plus the outcome ledger |
+| history() at 100K | git-log 3,478ms -> **pathlog 137ms (25x)**, exact parity, 1s one-time migration |
+| repo size | 4.2GB loose -> **87MB after gc (48x)**; librarian runs `gc --auto` at session end |
+| point reads | read_gem 0.2ms, ls 0.1ms |
+
+The pathlog sidecar is derived data (git stays the source of truth;
+`rebuild_pathlog()` regenerates it). Non-main branches keep git-log history
+semantics (a frontier's history legitimately includes its branch point's).
+Numbers: `tools/scale_results.json`, harness `tools/scale_torture.py`,
+tests `tests/test_hardening.py`.

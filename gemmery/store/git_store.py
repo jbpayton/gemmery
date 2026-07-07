@@ -21,6 +21,7 @@ ancestry as data), not a working directory (Invariant 8).
 
 from __future__ import annotations
 
+import json
 import subprocess
 import time
 from dataclasses import dataclass
@@ -30,6 +31,7 @@ from typing import Iterable, Optional
 import pygit2
 
 from ..model import Gem, TestSpec
+from .redact import redact as _redact_bytes
 from ..valuation import (
     CREDIT_REF,
     DEPS_REF,
@@ -61,16 +63,48 @@ class CaptureResult:
     sha: str
     branch: str
     capture_ms: float
+    redactions: tuple[str, ...] = ()
+
+
+class _WriteLock:
+    """Cross-process write lock (flock), reentrant within a store instance.
+
+    Every mutating operation takes it, so concurrent sessions writing one
+    store serialize instead of racing on refs and notes. Readers never lock.
+    """
+
+    def __init__(self, path: Path):
+        self._lockfile = path / ".gemmery.lock"
+        self._depth = 0
+        self._fh = None
+
+    def __enter__(self):
+        if self._depth == 0:
+            import fcntl
+            self._fh = open(self._lockfile, "a+")
+            fcntl.flock(self._fh, fcntl.LOCK_EX)
+        self._depth += 1
+        return self
+
+    def __exit__(self, *exc):
+        self._depth -= 1
+        if self._depth == 0 and self._fh is not None:
+            import fcntl
+            fcntl.flock(self._fh, fcntl.LOCK_UN)
+            self._fh.close()
+            self._fh = None
 
 
 class GitStore:
     """The git-backed gem store."""
 
     def __init__(self, path: str | Path, *, actor: str = "gemmery-agent",
-                 email: str = "agent@gemmery.local"):
+                 email: str = "agent@gemmery.local",
+                 redact_secrets: bool = True):
         self.path = Path(path)
         self._actor = actor
         self._email = email
+        self._redact = redact_secrets
         if (self.path / ".git").exists() or (self.path / "HEAD").exists():
             self.repo = pygit2.Repository(str(self.path))
         else:
@@ -79,6 +113,13 @@ class GitStore:
             # touch the working tree on the capture path.
             self.repo = pygit2.init_repository(str(self.path), bare=False,
                                                initial_head=MAIN)
+        self._lock = _WriteLock(self.path)
+        self._pathlog = Path(self.repo.path) / "gemmery-pathlog.jsonl"
+        if not self._pathlog.exists():
+            if self._ref_target(f"refs/heads/{MAIN}") is not None:
+                self.rebuild_pathlog()      # one-time migration for old stores
+            else:
+                self._pathlog.touch()
 
     # ------------------------------------------------------------------ #
     # Capture (the hot path)
@@ -104,7 +145,14 @@ class GitStore:
         t0 = time.perf_counter()
         ref_name = f"refs/heads/{branch}"
 
-        # Resolve parents: explicit > branch tip > orphan.
+        with self._lock:
+            return self._capture_locked(gem, branch, ref_name, parents, path,
+                                        _revise, t0)
+
+    def _capture_locked(self, gem, branch, ref_name, parents, path,
+                        _revise, t0) -> CaptureResult:
+        # Resolve parents: explicit > branch tip > orphan. Tip is read INSIDE
+        # the lock so concurrent writers chain instead of racing the ref.
         if parents is None:
             tip = self._ref_target(ref_name)
             parent_oids = [tip] if tip is not None else []
@@ -129,7 +177,7 @@ class GitStore:
         parts = self._uniquify(base_tree, parts, revise=_revise)
         path = "/".join(parts)
 
-        gem_tree = self._gem_files_tree(gem)
+        gem_tree, redactions = self._gem_files_tree(gem)
         tree_oid = self._insert_subtree(base_tree, parts, gem_tree)
         sig = self._signature(gem)
         message = _commit_message(gem, path)
@@ -140,6 +188,7 @@ class GitStore:
         sha = str(commit_oid)
         gem.id = sha
         gem.parents = [str(p) for p in parent_oids]
+        self._pathlog_append(branch, path, sha)
 
         # One pending success note covering every bound test (single write).
         ts = gem.provenance.timestamp or time.time()
@@ -150,16 +199,21 @@ class GitStore:
             self._write_note(sha, SUCCESS_REF, text, sig)
 
         capture_ms = (time.perf_counter() - t0) * 1000.0
-        return CaptureResult(sha=sha, branch=branch, capture_ms=capture_ms)
+        return CaptureResult(sha=sha, branch=branch, capture_ms=capture_ms,
+                             redactions=redactions)
 
-    def _gem_files_tree(self, gem: Gem) -> pygit2.Oid:
+    def _gem_files_tree(self, gem: Gem) -> tuple[pygit2.Oid, tuple[str, ...]]:
         files = gem.to_files()  # {"gem/<name>": bytes}
         sub = self.repo.TreeBuilder()
+        hits: list[str] = []
         for p, data in files.items():
             name = p.split("/", 1)[1]
+            if self._redact:
+                data, h = _redact_bytes(data)
+                hits += h
             blob = self.repo.create_blob(data)
             sub.insert(name, blob, pygit2.GIT_FILEMODE_BLOB)
-        return sub.write()
+        return sub.write(), tuple(dict.fromkeys(hits))
 
     def _insert_subtree(self, base_tree, parts: list[str],
                         sub_oid: pygit2.Oid) -> pygit2.Oid:
@@ -252,16 +306,18 @@ class GitStore:
     def attach_success(self, sha: str, test_id: str, score: float,
                        *, source: Optional[str] = None) -> None:
         ts = time.time()
-        ev = success_score_event(test_id, score, ts, source=source)
-        cur = self._read_note(sha, SUCCESS_REF)
-        self._write_note(sha, SUCCESS_REF, append_line(cur, ev), self._signature())
+        with self._lock:
+            ev = success_score_event(test_id, score, ts, source=source)
+            cur = self._read_note(sha, SUCCESS_REF)
+            self._write_note(sha, SUCCESS_REF, append_line(cur, ev), self._signature())
 
     def attach_credit(self, sha: str, delta: float, source_sha: Optional[str] = None,
                       *, test: Optional[str] = None) -> None:
         ts = time.time()
-        ev = credit_event(delta, ts, source=source_sha, test=test)
-        cur = self._read_note(sha, CREDIT_REF)
-        self._write_note(sha, CREDIT_REF, append_line(cur, ev), self._signature())
+        with self._lock:
+            ev = credit_event(delta, ts, source=source_sha, test=test)
+            cur = self._read_note(sha, CREDIT_REF)
+            self._write_note(sha, CREDIT_REF, append_line(cur, ev), self._signature())
 
     def add_dependency_edge(self, consumer_sha: str, consumed_sha: str,
                             role: str = "consumed") -> None:
@@ -272,9 +328,10 @@ class GitStore:
         also immutable-append and auditable.
         """
         ts = time.time()
-        ev = dep_event(consumed_sha, role, ts)
-        cur = self._read_note(consumer_sha, DEPS_REF)
-        self._write_note(consumer_sha, DEPS_REF, append_line(cur, ev), self._signature())
+        with self._lock:
+            ev = dep_event(consumed_sha, role, ts)
+            cur = self._read_note(consumer_sha, DEPS_REF)
+            self._write_note(consumer_sha, DEPS_REF, append_line(cur, ev), self._signature())
 
     # ------------------------------------------------------------------ #
     # Branch / selection ops (spec §1.7, §4)
@@ -282,11 +339,12 @@ class GitStore:
     def branch_frontier(self, task: str, *, base: str = MAIN) -> str:
         """Create the next ``frontier/<task>/<n>`` branch off ``base``."""
         task = "/".join(_sanitize_ref_component(p) for p in task.split("/") if p) or "task"
-        n = self._next_frontier_index(task)
-        name = f"frontier/{task}/{n}"
-        base_tip = self._ref_target(f"refs/heads/{base}")
-        if base_tip is not None:
-            self.repo.references.create(f"refs/heads/{name}", base_tip)
+        with self._lock:
+            n = self._next_frontier_index(task)
+            name = f"frontier/{task}/{n}"
+            base_tip = self._ref_target(f"refs/heads/{base}")
+            if base_tip is not None:
+                self.repo.references.create(f"refs/heads/{name}", base_tip)
         # If base is unborn, the branch is created lazily on first capture.
         return name
 
@@ -304,27 +362,30 @@ class GitStore:
         for name in parts:
             sub = self.repo.get(sub[name].id)
 
-        tip = self._ref_target(f"refs/heads/{MAIN}")
-        parents = [tip] if tip is not None else []
-        base_tree = self.repo.get(tip).tree if tip is not None else None
-        parts = self._uniquify(base_tree, parts)
-        new_tree = self._insert_subtree(base_tree, parts, sub.id)
+        with self._lock:
+            tip = self._ref_target(f"refs/heads/{MAIN}")
+            parents = [tip] if tip is not None else []
+            base_tree = self.repo.get(tip).tree if tip is not None else None
+            parts = self._uniquify(base_tree, parts)
+            new_tree = self._insert_subtree(base_tree, parts, sub.id)
 
-        sig = pygit2.Signature(actor or self._actor, self._email, int(time.time()), 0)
-        new_path = "/".join(parts)
-        msg = _replace_gem_path(commit.message.rstrip(), new_path)
-        msg += f"\n\nGem-Selected-From: {sha}\n"
-        new_oid = self.repo.create_commit(
-            f"refs/heads/{MAIN}", sig, sig, msg, new_tree, parents
-        )
-        return str(new_oid)
+            sig = pygit2.Signature(actor or self._actor, self._email, int(time.time()), 0)
+            new_path = "/".join(parts)
+            msg = _replace_gem_path(commit.message.rstrip(), new_path)
+            msg += f"\n\nGem-Selected-From: {sha}\n"
+            new_oid = self.repo.create_commit(
+                f"refs/heads/{MAIN}", sig, sig, msg, new_tree, parents
+            )
+            self._pathlog_append(MAIN, new_path, str(new_oid))
+            return str(new_oid)
 
     def tag_outcome(self, sha: str, test: str, ok: bool) -> str:
         """Tag an outcome: ``ok/<test>/<shortsha>`` or ``fail/<test>/<shortsha>``."""
         kind = "ok" if ok else "fail"
         safe_test = _sanitize_ref_component(test)
         name = f"refs/tags/{kind}/{safe_test}/{sha[:12]}"
-        self.repo.references.create(name, pygit2.Oid(hex=sha), force=True)
+        with self._lock:
+            self.repo.references.create(name, pygit2.Oid(hex=sha), force=True)
         return name
 
     # ------------------------------------------------------------------ #
@@ -396,8 +457,53 @@ class GitStore:
 
     def history(self, path: str, *, branch: str = MAIN) -> list[str]:
         """All commits that touched ``path`` (newest first) — the note's
-        version history, courtesy of real trees (``git log -- <path>``)."""
+        version history.
+
+        For ``main`` this reads the pathlog sidecar (append-only, written
+        under the write lock, rebuildable from git) — O(store) scan instead
+        of O(all commits) ``git log``, which measured ~3s per call at 100K
+        gems. Non-main branches keep ``git log`` because a frontier's history
+        legitimately includes commits inherited from its branch point.
+        """
+        if branch == MAIN and self._pathlog.exists():
+            out = []
+            for line in self._pathlog.read_text().splitlines():
+                if not line.strip():
+                    continue
+                rec = json.loads(line)
+                if rec.get("p") == path:
+                    out.append(rec["s"])
+            return out[::-1]
         return self._git_lines(["log", "--format=%H", branch, "--", path])
+
+    def rebuild_pathlog(self) -> int:
+        """Regenerate the main-branch pathlog from git (migration/repair).
+
+        The pathlog is derived data — git remains the source of truth; this
+        replays main's ``Gem-Path`` trailers oldest-first.
+        """
+        with self._lock:
+            recs = []
+            raw = self._git(["log", "--reverse", "--format=%H%x00%B%x1e", MAIN])
+            for chunk in raw.split("\x1e"):
+                chunk = chunk.strip()
+                if not chunk:
+                    continue
+                sha, _, message = chunk.partition("\x00")
+                p = _gem_path_from_message(message)
+                if p:
+                    recs.append(json.dumps({"p": p, "s": sha.strip()}))
+            tmp = self._pathlog.with_suffix(".tmp")
+            tmp.write_text("\n".join(recs) + ("\n" if recs else ""))
+            tmp.replace(self._pathlog)
+            return len(recs)
+
+    def _pathlog_append(self, branch: str, path: str, sha: str) -> None:
+        # Called only from locked contexts; main-branch writes only.
+        if branch != MAIN:
+            return
+        with open(self._pathlog, "a") as f:
+            f.write(json.dumps({"p": path, "s": sha}) + "\n")
 
     def read_gem_at(self, path: str, *, branch: str = MAIN) -> Gem:
         """Read the CURRENT gem living at ``path`` (its latest version)."""
