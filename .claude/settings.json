@@ -1,0 +1,40 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".venv/bin/python tools/prod/inject.py 2>/dev/null || true",
+            "timeout": 20,
+            "statusMessage": "Loading Gemmery dossiers"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".venv/bin/python tools/prod/librarian.py 2>/dev/null || true",
+            "timeout": 180,
+            "statusMessage": "Gemmery librarian distilling session"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".venv/bin/python tools/prod/outcome_hook.py 2>/dev/null || true",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
