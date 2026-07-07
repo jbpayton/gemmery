@@ -275,6 +275,9 @@ def build_parser() -> argparse.ArgumentParser:
                      help="create the store only; skip .claude/settings.json")
     ini.set_defaults(fn=lambda a: _prod("init", not a.no_hooks))
 
+    st = sub.add_parser("status", help="is the loop working? store, dossiers, hooks, last run")
+    st.set_defaults(fn=lambda a: _prod("status"))
+
     for name, hlp in (("inject", "SessionStart hook: print earned dossiers"),
                       ("outcome-hook", "PostToolUse hook: ledger pytest outcomes"),
                       ("librarian", "SessionEnd hook: fold outcomes + distill session")):
@@ -295,6 +298,8 @@ def _prod(cmd: str, arg=None) -> int:
         H.outcome_hook()
     elif cmd == "librarian":
         H.librarian(arg or [])
+    elif cmd == "status":
+        H.status()
     return 0
 
 

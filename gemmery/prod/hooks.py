@@ -247,3 +247,38 @@ def init(with_hooks: bool = True) -> None:
             added.append(event)
     sf.write_text(json.dumps(cfg, indent=2) + "\n")
     print(f"hooks wired in {sf}: {added or 'already present'}")
+
+
+# ---------------------------------------------------------------- status -- #
+def status() -> None:
+    """Answer 'is it working?' in one command."""
+    root = project_root()
+    sp = store_path()
+    ok = (sp / ".git").exists() or (sp / "HEAD").exists()
+    print(f"store:    {sp}  {'[ok]' if ok else '[MISSING - run: gemmery init]'}")
+    if ok:
+        store = get_store()
+        ds = dossiers(store)
+        print(f"memory:   {store.count_commits()} gems on main, "
+              f"{len(ds)} dossiers in knowledge/")
+        for p, sha, g in ds[:5]:
+            notes = store.notes(sha)
+            vals = [v for v in notes["success"].values()
+                    if isinstance(v, (int, float))]
+            wins = sum(1 for v in vals if v >= 0.5)
+            print(f"            [[{p}]]  v{len(store.history(p))}, "
+                  f"{wins}W/{len(vals)-wins}L, credit "
+                  f"{notes['credit'].get('total', 0):+.2f}")
+    sf = root / ".claude" / "settings.json"
+    if sf.exists():
+        txt = sf.read_text()
+        wired = [e for e in ("inject", "librarian", "outcome-hook")
+                 if f"gemmery {e}" in txt]
+        print(f"hooks:    {len(wired)}/3 wired in {sf.name} ({', '.join(wired) or 'none'})")
+    else:
+        print(f"hooks:    not wired (no {sf}) - run: gemmery init")
+    log = sp / "librarian.log"
+    if log.exists():
+        print(f"last run: {log.read_text().splitlines()[-1]}")
+    else:
+        print("last run: never (the librarian fires when a session ends)")
