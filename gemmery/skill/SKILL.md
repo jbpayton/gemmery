@@ -113,3 +113,39 @@ attaching per-test success to a gem is live now.)
 - `references/browse-patterns.md` — reformulation + topology-walk patterns.
 - `references/credit-and-operators.md` — §7-8 detail; only relevant once the
   Phase-0 gate clears.
+
+## The decision policy (defaults earned by experiment)
+
+Every default below carries a measured result from the falsification program
+(see the repo's experiments/): follow them unless your evidence says otherwise.
+
+1. **Memory only where the model fails cold** (the headroom law). Don't spend
+   capture/retrieval effort on what the model already does at ceiling.
+2. **Distill judgment, retrieve facts.** Dossiers hold rules, rationale, and
+   citations into the raw record (code, commits, transcripts) — never
+   restatements. Question-blind fact-summaries lost to raw-record retrieval
+   0.50 vs 0.92 on LongMemEval; method-rule dossiers won on SWE.
+3. **Revise, don't fork.** Knowledge updates go to the SAME stable path
+   (`revise()`); recency-exact answers under drift require it, and version
+   chains are the falsification record.
+4. **Numbers lead.** Present credit as counts and totals, not prose — agents
+   compute with numeric memory and override prose (60/60 adherence).
+5. **Abstain honestly.** If memory is silent, say so — abstention was perfect
+   (8/8) in every arm, and misses become omissions, not confabulations.
+6. **Never share memory by last-write-wins.** Naive shared slots scored WORSE
+   than no sharing (0.725 vs 0.881). Multi-writer = branch per writer,
+   conflicts SURFACED, earned-credit adjudication `select_to_main` (reaches
+   the known-reliability oracle, 0.984 vs 0.988).
+7. **Simulate only past the horizon, with a validated model.** A miscalibrated
+   world model faithfully simulated is worse than no memory.
+8. **Trust the store's economics**: capture is ~3ms flat to 100K gems;
+   `history()` is pathlog-fast on main; run `git gc --auto` periodically
+   (the librarian does); secrets are redacted at the capture boundary.
+
+## Production loop
+
+`pip install gemmery && gemmery init` wires any project: SessionStart injects
+earned dossiers (cite as [[path]]), Bash pytest outcomes feed the ledger, the
+SessionEnd librarian folds outcomes into credit (failures debit 2x) and
+distills the session into 0-2 dossier ops. Selectivity is the point — the
+decision to record is itself signal (Invariant 5).

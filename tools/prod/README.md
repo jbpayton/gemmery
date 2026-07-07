@@ -2,11 +2,16 @@
 
 Production phase 1, live in this repo via `.claude/settings.json` hooks:
 
-| hook | script | job |
+As of P3 the loop ships WITH the package (`gemmery/prod/`): any project gets
+it via `pip install gemmery && gemmery init` (creates `.gemmery-store/`, wires
+the hooks, idempotent, merge-safe). This repo's hooks call the same packaged
+commands:
+
+| hook | command | job |
 |---|---|---|
-| SessionStart | `inject.py` | inject earned dossiers (versions, W/L, credit lead) + cite-as-[[path]] instruction |
-| PostToolUse (Bash) | `outcome_hook.py` | append pytest pass/fail to `.gemmery-store/outcomes.jsonl` (no LLM) |
-| SessionEnd | `librarian.py` | 1) fold outcomes -> `tag_outcome` + success/credit notes on dossiers with matching declared tests (fail debits 2x); 2) one `claude -p` (haiku, `GEMMERY_LIBRARIAN_MODEL` to override) distills the transcript tail into capture/revise ops |
+| SessionStart | `gemmery inject` | inject earned dossiers (versions, W/L, credit lead) + cite-as-[[path]] instruction |
+| PostToolUse (Bash) | `gemmery outcome-hook` | append pytest pass/fail to `.gemmery-store/outcomes.jsonl` (no LLM, redacted) |
+| SessionEnd | `gemmery librarian` | 1) fold outcomes -> `tag_outcome` + success/credit notes on dossiers with matching declared tests (fail debits 2x); 2) one `claude -p` (haiku, `GEMMERY_LIBRARIAN_MODEL` to override) distills the transcript tail into capture/revise ops; 3) `git gc --auto` |
 
 Design carries the measured laws: **distill judgment, retrieve facts** (dossiers
 hold rules/rationale/citations into code+commits, never restatements — the repo
@@ -32,8 +37,8 @@ Pass -> P2 hardening (multi-writer locks via branch-per-session + adjudication,
 index-as-read-path for history, 100K-gem torture, secrets filtering).
 Fail -> the failure mode itself is the next experiment.
 
-Manual runs: `.venv/bin/python tools/prod/inject.py` (see what sessions see);
-`echo '{}' | .venv/bin/python tools/prod/librarian.py <transcript.jsonl>`.
+Manual runs: `gemmery inject` (see what sessions see);
+`echo '{}' | gemmery librarian <transcript.jsonl>`.
 Store: `.gemmery-store/` (gitignored; it's git — back up with a remote).
 
 ## P2 hardening (complete) — measured at 100K gems

@@ -269,7 +269,33 @@ def build_parser() -> argparse.ArgumentParser:
     z.add_argument("--n-confirmatory", type=int, default=98)
     z.set_defaults(fn=cmd_phase0)
 
+    # ---- production loop (P3): store + hooks for any project ---- #
+    ini = sub.add_parser("init", help="create .gemmery-store and wire Claude Code hooks")
+    ini.add_argument("--no-hooks", action="store_true",
+                     help="create the store only; skip .claude/settings.json")
+    ini.set_defaults(fn=lambda a: _prod("init", not a.no_hooks))
+
+    for name, hlp in (("inject", "SessionStart hook: print earned dossiers"),
+                      ("outcome-hook", "PostToolUse hook: ledger pytest outcomes"),
+                      ("librarian", "SessionEnd hook: fold outcomes + distill session")):
+        h = sub.add_parser(name, help=hlp)
+        h.add_argument("args", nargs="*")
+        h.set_defaults(fn=lambda a, n=name: _prod(n, getattr(a, "args", [])))
+
     return p
+
+
+def _prod(cmd: str, arg=None) -> int:
+    from .prod import hooks as H
+    if cmd == "init":
+        H.init(with_hooks=arg)
+    elif cmd == "inject":
+        H.inject()
+    elif cmd == "outcome-hook":
+        H.outcome_hook()
+    elif cmd == "librarian":
+        H.librarian(arg or [])
+    return 0
 
 
 def main(argv=None) -> int:
