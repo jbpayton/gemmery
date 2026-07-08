@@ -1,14 +1,25 @@
 # Gemmery
 
-**Give your coding agent a memory that earns its keep.**
+<p align="center"><img src="assets/hero.png" alt="Gemmery — memory that earns its keep" width="920"></p>
 
-Gemmery is a memory system for AI coding agents. It stores what an agent
-*learned* while working on your project — decisions, rules-of-thumb,
-falsified assumptions, gotchas — in a plain git repository, and holds that
-memory accountable: every stored item accumulates a track record from real
-outcomes (tests passing or failing), items that keep being wrong lose
-credibility, and items that keep being right are shown to the agent first at
-the start of every new session.
+**Give your agent a memory that earns its keep.**
+
+Gemmery is a memory system for AI agents — coding agents, research agents,
+trading agents, teams of agents. It stores what an agent *learned* —
+decisions, rules-of-thumb, falsified assumptions, track records — in a plain
+git repository, and holds that memory accountable: every stored item
+accumulates a record of real outcomes (tests passing, predictions coming
+true, decisions vindicated), items that keep being wrong lose credibility,
+and items that keep being right are shown to the agent first at the start
+of every new session.
+
+<p align="center"><img src="assets/benchmarks.png" alt="Measured results: LongMemEval, multi-agent adjudication, learning curves, flat capture latency" width="980"></p>
+
+The same machinery has been measured far outside code: reading opponents in
+social-deduction games (1.00 vs 0.36 cold), thirteen years of financial-news
+prediction (the credit edge replicated in 13 of 14 years), and teams of
+agents pooling unreliable observations (reaching the accuracy of a judge who
+knows everyone's true reliability). Details and reproduction scripts below.
 
 > A *gemmery* is where rough stones are kept, cut, and turned into gems.
 > Each captured record here is a **gem**; the ones that survive repeated
@@ -96,9 +107,10 @@ the librarian's first log line, and dossiers appear as they're earned.
 The store itself (`.gemmery-store/`) is gitignored, and it is a normal git
 repository — to back it up or share it, give it a remote and push.
 
-Gemmery is built for Claude Code today; the store, library, and CLI are
-agent-agnostic, but the automatic hook wiring currently targets Claude Code
-only.
+The store, library, and CLI are agent-agnostic — any agent that can run a
+CLI can capture, browse, and earn credit. The one-command automatic wiring
+(`gemmery init`) currently targets Claude Code; wiring another agent
+framework means calling the same three commands from its lifecycle hooks.
 
 ## What the evidence says
 
