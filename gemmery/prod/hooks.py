@@ -26,6 +26,9 @@ def _log(msg):
 
 # ---------------------------------------------------------------- inject -- #
 def inject() -> None:
+    import os
+    if os.environ.get("GEMMERY_NO_HOOKS"):
+        return
     sp = store_path()
     if not (sp / ".git").exists() and not (sp / "HEAD").exists():
         return
@@ -33,24 +36,38 @@ def inject() -> None:
     ds = dossiers(store)
     if not ds:
         return
-    lines = ["# Gemmery memory (earned dossiers for this project)",
-             "Cite any dossier you actually use as [[its-path]]. If one is "
-             "wrong, say so - it will be revised against your session.", ""]
+    TOP_K = 8
+    ranked = []
     for path, sha, g in ds:
         notes = store.notes(sha)
         cr = notes["credit"].get("total", 0)
+        cites = citation_count(store, sha)
         vals = [v for v in notes["success"].values() if isinstance(v, (int, float))]
         wins = sum(1 for v in vals if v >= 0.5)
         nver = len(store.history(path))
-        lines.append(f"## [[{path}]]  (v{nver}, outcomes {wins}W/{len(vals)-wins}L, "
-                     f"credit {cr:+.2f})")
+        # earned standing first, then evidence volume, then citations
+        ranked.append((-(cr), -(wins + cites * 0.25), path, sha, g,
+                       cr, cites, wins, len(vals) - wins, nver))
+    ranked.sort()
+    lines = ["# Gemmery memory (earned dossiers for this project)",
+             "Cite any dossier you actually use as [[its-path]]. If one is "
+             "wrong, say so - it will be revised against your session.", ""]
+    for (_, _, path, sha, g, cr, cites, wins, losses, nver) in ranked[:TOP_K]:
+        lines.append(f"## [[{path}]]  (v{nver}, outcomes {wins}W/{losses}L, "
+                     f"credit {cr:+.2f}, cited {cites}x)")
         lines.append(g.reasoning_text().strip()[:800])
         lines.append("")
+    if len(ranked) > TOP_K:
+        lines.append(f"...and {len(ranked) - TOP_K} more dossiers - "
+                     f"run `gemmery status` to list them all.")
     print("\n".join(lines)[:INJECT_CAP])
 
 
 # ---------------------------------------------------------- outcome hook -- #
 def outcome_hook() -> None:
+    import os
+    if os.environ.get("GEMMERY_NO_HOOKS"):
+        return
     from ..store.redact import redact
     try:
         h = json.load(sys.stdin)
@@ -90,11 +107,20 @@ into the raw record (file paths, commit shas). <=150 words. Optionally
 declare "tests": substrings of pytest commands whose pass/fail should credit
 or debit this dossier.
 
+Additionally: the session CITED the dossiers listed below. For each, judge
+from the transcript whether it actually HELPED (its rule was applied and the
+work went right), MISLED (following it caused a wrong turn or it was called
+out as wrong), or was neutral. Judge only what the transcript shows.
+
 Return ONLY JSON: {"capture": [{"path": "knowledge/<slug>", "content": "...",
 "tests": ["..."]}], "revise": [{"path": "<existing path>", "content": "...",
-"tests": ["..."]}]}
+"tests": ["..."]}], "verdicts": [{"path": "<cited path>",
+"verdict": "helped"|"misled"|"neutral", "why": "<=15 words"}]}
 
 === CURRENT DOSSIERS ===
+%s
+
+=== CITED THIS SESSION ===
 %s
 
 === SESSION TAIL ===
@@ -128,8 +154,11 @@ def _fold_outcomes(store) -> int:
     return tagged
 
 
-def _transcript_tail(path) -> str:
-    msgs = []
+def _transcript_tail(path) -> tuple[str, str]:
+    """(dialogue tail, assistant-only text). Citations are counted ONLY in
+    assistant text - the injected context contains [[paths]] by design and
+    must not credit itself."""
+    msgs, assistant = [], []
     try:
         for line in open(path):
             try:
@@ -140,22 +169,25 @@ def _transcript_tail(path) -> str:
             role, content = m.get("role"), m.get("content")
             if role not in ("user", "assistant") or not content:
                 continue
-            if isinstance(content, str):
-                msgs.append(f"{role}: {content}")
-            else:
-                msgs += [f"{role}: {b['text']}" for b in content
-                         if isinstance(b, dict) and b.get("type") == "text"]
+            parts = [content] if isinstance(content, str) else \
+                    [b["text"] for b in content
+                     if isinstance(b, dict) and b.get("type") == "text"]
+            msgs += [f"{role}: {t}" for t in parts]
+            if role == "assistant":
+                assistant += parts
     except Exception as e:
         _log(f"transcript parse failed: {e}")
-    return "\n\n".join(msgs)[-TAIL:]
+    return "\n\n".join(msgs)[-TAIL:], "\n".join(assistant)[-TAIL:]
 
 
-def _apply_ops(store, raw) -> int:
+def _apply_ops(store, ops) -> int:
     from ..model import Action, Gem, IndexKeys, Kind, KnowledgeBody, Provenance
-    if "```" in raw:
-        raw = raw.split("```")[1].lstrip("json").strip()
-    m = re.search(r"\{.*\}", raw, re.S)
-    ops = json.loads(m.group(0) if m else raw)
+    if isinstance(ops, str):
+        raw = ops
+        if "```" in raw:
+            raw = raw.split("```")[1].lstrip("json").strip()
+        m = re.search(r"\{.*\}", raw, re.S)
+        ops = json.loads(m.group(0) if m else raw)
     n = 0
     existing = {p for p, _, _ in dossiers(store)}
     for verb in ("capture", "revise"):
@@ -179,35 +211,88 @@ def _apply_ops(store, raw) -> int:
     return n
 
 
+def _capture_citations(store, assistant_text) -> dict[str, str]:
+    """Usage is signal: every [[path]] the agent actually cited gets a
+    zero-delta credit event (a usage marker - it counts, it doesn't score).
+    Returns {path: tip_sha} of cited dossiers for the verdict pass."""
+    cited = {}
+    for path in set(re.findall(r"\[\[([A-Za-z0-9_/.\-]+)\]\]", assistant_text)):
+        h = store.history(path)
+        if h:
+            store.attach_credit(h[0], 0.0, test=f"cited@{time.strftime('%Y-%m-%d %H:%M')}")
+            cited[path] = h[0]
+    return cited
+
+
+def citation_count(store, sha) -> int:
+    from ..valuation import CREDIT_REF, parse_log
+    return sum(1 for ev in parse_log(store._read_note(sha, CREDIT_REF))
+               if str(ev.get("test", "")).startswith("cited@"))
+
+
+def _apply_verdicts(store, ops, cited) -> int:
+    """Weak-evidence valuation for cited dossiers: the librarian's judgment,
+    signed as such (source distinguishes it from test outcomes). Failures
+    debit 2x what successes credit; neutral writes nothing."""
+    n = 0
+    ts = time.strftime("%Y-%m-%d %H:%M")
+    for v in ops.get("verdicts", []):
+        sha = cited.get(v.get("path"))
+        verdict = v.get("verdict")
+        if not sha or verdict not in ("helped", "misled"):
+            continue
+        ok = verdict == "helped"
+        store.attach_success(sha, f"session-judgment@{ts}#{time.time_ns() % 10**9}",
+                             1.0 if ok else 0.0, source="librarian-judgment")
+        store.attach_credit(sha, 0.05 if ok else -0.10)
+        n += 1
+    return n
+
+
 def librarian(argv: list[str]) -> None:
     import os
+    if os.environ.get("GEMMERY_NO_HOOKS"):
+        return  # we ARE the librarian's own model call - never recurse
     model = os.environ.get("GEMMERY_LIBRARIAN_MODEL", "haiku")
     try:
         h = json.load(sys.stdin)
     except Exception:
         h = {}
+    trigger = h.get("hook_event_name", "SessionEnd")
     tp = h.get("transcript_path") or (argv[0] if argv else None)
     store = get_store()
     tagged = _fold_outcomes(store)
     if not tp or not Path(tp).exists():
-        _log(f"outcomes tagged={tagged}; no transcript, done")
+        _log(f"[{trigger}] outcomes tagged={tagged}; no transcript, done")
         return
-    tail = _transcript_tail(tp)
+    tail, assistant_text = _transcript_tail(tp)
+    cited = _capture_citations(store, assistant_text)
     if len(tail) < 500:
-        _log(f"outcomes tagged={tagged}; session too small, skipped")
+        _log(f"[{trigger}] outcomes tagged={tagged}; cited={len(cited)}; "
+             f"session too small, skipped")
         return
     idx = "\n".join(f"- [[{p}]] {g.body.belief[:90]}"
                     for p, _, g in dossiers(store)) or "(none yet)"
+    cited_block = "\n".join(f"- [[{p}]]" for p in cited) or "(none)"
     try:
-        r = subprocess.run(["claude", "-p", PROMPT % (idx, tail),
+        r = subprocess.run(["claude", "-p", PROMPT % (idx, cited_block, tail),
                             "--model", model],
-                           capture_output=True, text=True, timeout=180)
-        n = _apply_ops(store, r.stdout.strip())
-        _log(f"outcomes tagged={tagged}; librarian ops applied={n} (model={model})")
+                           capture_output=True, text=True, timeout=180,
+                           env={**os.environ, "GEMMERY_NO_HOOKS": "1"})
+        raw = r.stdout.strip()
+        if "```" in raw:
+            raw = raw.split("```")[1].lstrip("json").strip()
+        m = re.search(r"\{.*\}", raw, re.S)
+        ops = json.loads(m.group(0) if m else raw)
+        n = _apply_ops(store, ops)
+        nv = _apply_verdicts(store, ops, cited)
+        _log(f"[{trigger}] outcomes tagged={tagged}; cited={len(cited)}; "
+             f"ops={n}; verdicts={nv} (model={model})")
         subprocess.run(["git", "-C", str(store_path()), "gc", "--auto",
                         "--quiet"], capture_output=True, timeout=120)
     except Exception as e:
-        _log(f"outcomes tagged={tagged}; librarian failed: {e}")
+        _log(f"[{trigger}] outcomes tagged={tagged}; cited={len(cited)}; "
+             f"librarian failed: {e}")
 
 
 # ------------------------------------------------------------------ init -- #
@@ -220,6 +305,9 @@ HOOKS = {
         "timeout": 180, "statusMessage": "Gemmery librarian distilling session"}]}],
     "PostToolUse": [{"matcher": "Bash", "hooks": [{"type": "command",
         "command": "gemmery outcome-hook 2>/dev/null || true", "timeout": 15}]}],
+    "PreCompact": [{"hooks": [{"type": "command",
+        "command": "gemmery librarian 2>/dev/null || true",
+        "timeout": 180, "statusMessage": "Gemmery librarian distilling chapter"}]}],
 }
 
 
@@ -268,7 +356,8 @@ def status() -> None:
             wins = sum(1 for v in vals if v >= 0.5)
             print(f"            [[{p}]]  v{len(store.history(p))}, "
                   f"{wins}W/{len(vals)-wins}L, credit "
-                  f"{notes['credit'].get('total', 0):+.2f}")
+                  f"{notes['credit'].get('total', 0):+.2f}, "
+                  f"cited {citation_count(store, sha)}x")
     sf = root / ".claude" / "settings.json"
     if sf.exists():
         txt = sf.read_text()

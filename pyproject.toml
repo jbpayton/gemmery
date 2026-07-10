@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gemmery"
-version = "0.2.0"
+version = "0.2.1"
 description = "Versioned agent memory with earned, test-bound credit — stored as an immutable, branchable git DAG."
 requires-python = ">=3.11"
 dependencies = [

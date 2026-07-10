@@ -35,6 +35,18 @@
           }
         ]
       }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".venv/bin/gemmery librarian 2>/dev/null || true",
+            "timeout": 180,
+            "statusMessage": "Gemmery librarian distilling chapter"
+          }
+        ]
+      }
     ]
   }
 }

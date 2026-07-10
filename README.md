@@ -52,16 +52,31 @@ Five terms cover everything below:
 | **librarian** | the automated session-end pass that maintains the store: folds outcomes into credit, captures or revises dossiers, keeps the store packed |
 | **headroom** | the gap between what the model does cold and what the task needs — the only place memory can add value |
 
-## Quickstart
+## Install
 
-**Prerequisites:** Python ≥3.11, and [Claude
-Code](https://docs.anthropic.com/claude-code) installed and logged in (the
-librarian runs one `claude` CLI call per session end, billed like any other
-Claude Code usage — there is no separate API key to configure). Dependencies
-(`pygit2`, `numpy`) install automatically.
+**1. Claude Code** (skip if you already use it) — Gemmery's automatic wiring
+targets [Claude Code](https://docs.anthropic.com/claude-code), Anthropic's
+agentic CLI:
+
+```bash
+npm install -g @anthropic-ai/claude-code   # or the native installer from the docs
+claude                                      # first run walks you through login
+```
+
+There is no separate API key to configure for Gemmery: the librarian's one
+model call per session/chapter runs through your existing Claude Code login
+and is billed like any other Claude Code usage.
+
+**2. Gemmery** — Python ≥3.11; dependencies (`pygit2`, `numpy`) install
+automatically:
 
 ```bash
 pip install git+https://github.com/jbpayton/gemmery
+```
+
+## Quickstart
+
+```bash
 cd your-project
 gemmery init
 ```
@@ -92,13 +107,20 @@ From then on, three things happen around your normal Claude Code sessions:
   (Currently pytest only; other test runners leave the ledger idle — the
   librarian still works, dossiers just don't earn automatic credit.)
   No model calls, no latency.
-- **Session end** — the librarian folds ledgered outcomes into each
-  dossier's credit, then reads the session tail and decides whether anything
-  durable was learned. Typically 0–2 items; "nothing" is a normal answer.
-  If the session contradicted a dossier, it revises rather than adding.
-  It runs on a small fast model by default (set `GEMMERY_LIBRARIAN_MODEL`
-  to change), so the per-session cost is a fraction of a cent to a few
-  cents depending on session length.
+- **Session end — and chapter boundaries** (context compaction in long
+  sessions) — the librarian folds ledgered outcomes into each dossier's
+  credit, records which dossiers the agent actually **cited** this session,
+  judges whether each cited dossier helped or misled (a weak-evidence
+  valuation, signed separately from test outcomes), and distills anything
+  durable the session taught. Typically 0–2 items; "nothing" is a normal
+  answer. If the session contradicted a dossier, it revises rather than
+  adding. It runs on a small fast model by default (set
+  `GEMMERY_LIBRARIAN_MODEL` to change), so the per-run cost is a fraction
+  of a cent to a few cents.
+
+Injection is **earned**: dossiers are ranked by credit and citation record,
+the top handful are shown in full, and the rest wait behind a one-line
+pointer — a dossier that keeps helping rises, one that misleads sinks.
 
 Expect day one to be quiet: the store starts empty, so the first session
 injects nothing. After your first session ends, `gemmery status` will show
